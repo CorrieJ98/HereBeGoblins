@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture2D"
+uid="uid://blsfmu7swf8ft"
+path="res://.godot/imported/GroundTile20.png-1ac1372245961b324c4251588a53490c.res"
+group_file="res://resources/ground_tile_atlas.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/PVGamesAssetPack/RTPTiles/Medieval Ground Tiles and Decals/GroundTile20.png"
+dest_files=["res://.godot/imported/GroundTile20.png-1ac1372245961b324c4251588a53490c.res"]
+
+[params]
+
+atlas_file="res://resources/ground_tile_atlas.png"
+import_mode=0
+crop_to_region=false
+trim_alpha_border_from_region=true

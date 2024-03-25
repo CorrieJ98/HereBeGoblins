@@ -1,0 +1,9 @@
+Panel
+Camera2D
+CanvasLayer
+ResourcePreloader
+CollisionShape2D
+AnimationPlayer
+Sprite2D
+CharacterBody2D
+TileMap
