@@ -1,10 +1,6 @@
-res://scene/beastmaster.tscn
-res://resources/ground_tile_tileset.tres
-res://scripts/unit.gd
-res://scene/global/unit.tscn
-res://profile.gd
 res://scene/main.tscn
+res://resources/ground_tile_tileset.tres
 res://scene/global/profile.tscn
-res://scene/global/ui.tscn
+res://scene/global/unit.tscn
+res://scene/beastmaster.tscn
 res://scene/global/UI/ui.tscn
-res://scene/global/UI/Camera.gd
