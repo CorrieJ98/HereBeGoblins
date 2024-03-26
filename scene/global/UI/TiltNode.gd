@@ -1,10 +1,10 @@
-extends Node3D
+extends Node2D
 
 @export var ang_acc = 1
 @export var MAX_ANG_SPEED = 50
 @export var low = -0.2
 @export var high = 0.8
-@export var MOUSE_SENSITIVITY = 0.0001
+@export var MOUSE_SENSITIVITY = 5.0
 
 var angu = 1
 var angd = -1

@@ -1,27 +1,32 @@
 extends Camera2D
 
-@export var zoom_factor : float = 1
-@export var max_zoom :float = 15
-@export var min_zoom : int = 7
+var zoom_percentage = 15
+var max_zoom = 2.5
+var max_unzoom = 0.4
 
-var dir = Vector3(0,0,0)
-var loc = transform.origin
+var drag_cursor_shape = false
 
-// TODO dir.z == camera.zoom
-
-	
 func _input(event):
-	loc = transform.origin
+	if event is InputEventMouseMotion:
+		if event.button_mask == MOUSE_BUTTON_MASK_MIDDLE:
+			position -= event.relative / zoom
+			drag_cursor_shape = true
+		else:
+			drag_cursor_shape = false
 
 	if event is InputEventMouseButton:
-		dir = Vector3(0,0,0)
 		if event.is_pressed():
 			if event.button_index == MOUSE_BUTTON_WHEEL_UP:
-				if loc.z > min_zoom:
-					dir.z -= 1
-					translate(dir*zoom_factor)
+				zoom += Vector2.ONE * zoom_percentage / 100
+				if zoom.x > max_zoom:
+					zoom = Vector2.ONE * max_zoom
+					return
+				position += get_local_mouse_position() / 10
+			if event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
+				zoom -= Vector2.ONE * zoom_percentage / 100
+				if zoom.x < max_unzoom:
+					zoom = Vector2.ONE * max_unzoom
 
-			elif event.button_index == MOUSE_BUTTON_WHEEL_DOWN:
-				if loc.z < max_zoom:
-					dir.z += 1
-					translate(dir*zoom_factor)
+func _process(delta):
+	if drag_cursor_shape:
+		DisplayServer.cursor_set_shape(DisplayServer.CURSOR_DRAG)

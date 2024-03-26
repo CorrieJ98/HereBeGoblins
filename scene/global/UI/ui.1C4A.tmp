@@ -10,10 +10,4 @@ box = NodePath("Panel")
 [node name="Panel" type="Panel" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="."]
-drag_horizontal_enabled = true
-drag_vertical_enabled = true
-drag_left_margin = 1.0
-drag_top_margin = 1.0
-drag_right_margin = 1.0
-drag_bottom_margin = 1.0
 script = ExtResource("2_cg1u6")

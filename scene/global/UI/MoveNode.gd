@@ -1,4 +1,4 @@
-extends Node3D
+extends Node2D
 
 @export var area_percent : float = 0.1
 @export var acc : int = 10
@@ -7,7 +7,7 @@ extends Node3D
 @export var ang_acc : int = 3
 @export var ang_dec : int  = 8
 @export var MAX_ANG_SPEED : int = 50
-@export var MOUSE_SENSITIVITY = 0.001
+@export var MOUSE_SENSITIVITY = 5
 
 var angl = -1
 var angr = 1
