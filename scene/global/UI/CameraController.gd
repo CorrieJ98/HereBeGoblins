@@ -1,16 +1,18 @@
 extends Camera2D
 
-var zoom_percentage = 15
-var max_zoom = 2.5
-var max_unzoom = 0.4
+@export var zoom_percentage = 15
+@export var max_zoom = 3.0
+@export var max_unzoom = 0.4
 
 var drag_cursor_shape = false
+var mouseV = get_local_mouse_position()
+var mouse = get_global_mouse_position()
 
 func _input(event):
 	if event is InputEventMouseMotion:
 		if event.button_mask == MOUSE_BUTTON_MASK_MIDDLE:
-			position -= event.relative / zoom
 			drag_cursor_shape = true
+			position.move_toward(mouseV,1.0)
 		else:
 			drag_cursor_shape = false
 
