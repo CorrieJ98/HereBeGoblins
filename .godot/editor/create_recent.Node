@@ -1,9 +1,12 @@
+Node3D
+Node
+CollisionShape2D
+CharacterBody2D
+Node2D
 Panel
 Camera2D
 CanvasLayer
 ResourcePreloader
-CollisionShape2D
 AnimationPlayer
 Sprite2D
-CharacterBody2D
 TileMap

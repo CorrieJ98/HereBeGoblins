@@ -16,5 +16,5 @@ dest_files=["res://.godot/imported/GroundTile15.png-723535f20c3738e6fb00aa6034a4
 
 atlas_file="res://resources/ground_tile_atlas.png"
 import_mode=0
-crop_to_region=false
+crop_to_region=true
 trim_alpha_border_from_region=true

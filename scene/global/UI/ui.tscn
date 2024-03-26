@@ -1,14 +1,28 @@
-[gd_scene load_steps=2 format=3 uid="uid://b6xeytpxh7dk3"]
+[gd_scene load_steps=5 format=3 uid="uid://b6xeytpxh7dk3"]
 
-[ext_resource type="Script" path="res://scene/global/UI/Camera.gd" id="1_5fd11"]
+[ext_resource type="Script" path="res://scene/global/UI/UI.gd" id="1_piaqp"]
+[ext_resource type="Script" path="res://scene/global/UI/MoveNode.gd" id="2_6vuks"]
+[ext_resource type="Script" path="res://scene/global/UI/CameraController.gd" id="2_cg1u6"]
+[ext_resource type="Script" path="res://scene/global/UI/TiltNode.gd" id="3_isi0l"]
 
-[node name="UI" type="CanvasLayer"]
-
-[node name="Camera" type="Camera2D" parent="."]
-limit_left = 0
-limit_top = 0
-script = ExtResource("1_5fd11")
+[node name="UI" type="CanvasLayer" node_paths=PackedStringArray("box")]
+script = ExtResource("1_piaqp")
+box = NodePath("Panel")
 
 [node name="Panel" type="Panel" parent="."]
-offset_right = 40.0
-offset_bottom = 40.0
+
+[node name="MoveNode" type="Node3D" parent="."]
+script = ExtResource("2_6vuks")
+
+[node name="TiltNode" type="Node3D" parent="MoveNode"]
+script = ExtResource("3_isi0l")
+
+[node name="Camera2D" type="Camera2D" parent="MoveNode"]
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+script = ExtResource("2_cg1u6")
+zoom_factor = null
+max_zoom = null
+min_zoom = null

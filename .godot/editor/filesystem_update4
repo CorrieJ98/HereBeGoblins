@@ -4,3 +4,9 @@ res://scene/global/profile.tscn
 res://scene/global/unit.tscn
 res://scene/beastmaster.tscn
 res://scene/global/UI/ui.tscn
+res://resources/test_atlas.tres
+res://scene/global/UI/Camera.gd
+res://scene/global/UI/CameraController.gd
+res://scene/global/UI/UI.gd
+res://scene/global/UI/MoveNode.gd
+res://scene/global/UI/TiltNode.gd
