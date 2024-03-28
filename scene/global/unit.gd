@@ -4,50 +4,58 @@ enum SpriteState {IDLE, MOVE, ATTACK}
 enum UnitType {MELEE, RANGED, MECHANICAL}
 enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
 
-# DIRECTIONS ARE TAKEN TO BE POINTING INTO THE FACE
-const FACES = {
-	"SOUTH": Vector2(0, 1),
-	"SOUTHWEST": Vector2(-1, 1),
+# Pointing toward
+const DIRECTION = {
+	"NORTH": Vector2(0, 1),
+	"NORTHWEST": Vector2(-1, 1),
 	"WEST": Vector2(-1, 0),
-	"NORTHWEST": Vector2(-1, -1),
-	"NORTH": Vector2(0, -1),
-	"NORTHEAST": Vector2(1, -1),
+	"SOUTHWEST": Vector2(-1, -1),
+	"SOUTH": Vector2(0, -1),
+	"SOUTHEAST": Vector2(1, -1),
 	"EAST": Vector2(1, 0),
-	"SOUTHEAST": Vector2(1, 1),
+	"NORTHEAST": Vector2(1, 1),
 }
 
-@onready var box = $Panel
-@onready var target = position
-
-var follow_cursor : bool = false
+@onready var anim = $AnimationPlayer
 
 @export var is_selected : bool = false
 @export var sprite : Sprite2D
-@export var anim : AnimationPlayer
 @export var selection_box : CollisionShape2D
 @export var collision_box : CollisionShape2D
 @export var unit_type: UnitType
 @export var unit_team: UnitTeam
 @export var profile : Profile
 
-func _ready():
-	set_selected(is_selected)
+func _input(event) -> void:
+	pass
 
-func set_selected(is_selection : bool):
-	box.visible = is_selection
+func _physics_process(delta) -> void:
+	var _dir = get_direction_of_travel()
+	play_anim_from_lib("beastmaster-anim", SpriteState, _dir)
 
-func _input(event):
-	if event.is_action_just_pressed("RightClick"):
-		follow_cursor = true
-	if event.is_action_released("RightClick"):
-		follow_cursor = false
+var vn : Vector2i = velocity.normalized()
+func get_direction_of_travel() -> Vector2i:
+	match vn:
+		DIRECTION.NORTH:
+			return DIRECTION.NORTH
+		DIRECTION.NORTHEAST:
+			return DIRECTION.NORTHEAST
+		DIRECTION.EAST:
+			return DIRECTION.EAST
+		DIRECTION.SOUTHEAST:
+			return DIRECTION.SOUTHEAST
+		DIRECTION.SOUTH:
+			return DIRECTION.SOUTH
+		DIRECTION.SOUTHWEST:
+			return DIRECTION.SOUTHWEST
+		DIRECTION.WEST:
+			return DIRECTION.WEST
+		DIRECTION.NORTHWEST:
+			return DIRECTION.NORTHWEST
+		_:
+			return vn
 
-func _physics_process(delta):
-	if follow_cursor:
-		if is_selected:
-			target = get_global_mouse_position()
-	velocity = position.direction_to(target) * profile.speed_walk
-	if position.distance_to(target) > 1.0:
-		move_and_slide()
-	else:
-		pass
+func play_anim_from_lib(lib : String, state, dir : Vector2i) -> void:
+	# Create a full library path with str(lib) and add the
+	# cardinal direction with str(dir)
+	anim.play(str(lib) + "-" + str(state) + "/" + str(dir))
