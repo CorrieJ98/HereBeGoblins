@@ -20,6 +20,14 @@ config/icon="res://icon.svg"
 window/size/viewport_width=1600
 window/size/viewport_height=900
 
+[file_customization]
+
+folder_colors={
+"res://resources/": "green",
+"res://scene/": "pink",
+"res://scripts/": "yellow"
+}
+
 [input]
 
 LeftClick={

@@ -4,7 +4,7 @@ importer="texture_atlas"
 type="Texture2D"
 uid="uid://c65hwo3ol5jtt"
 path="res://.godot/imported/GroundTile8.png-7b17ed8fde9ad5ac26c27fce7ecc67d8.res"
-group_file="res://resources/ground_tile_atlas.png"
+group_file="res://resources/ground_tex.png"
 valid=true
 [deps]
 
@@ -14,7 +14,7 @@ dest_files=["res://.godot/imported/GroundTile8.png-7b17ed8fde9ad5ac26c27fce7ecc6
 
 [params]
 
-atlas_file="res://resources/ground_tile_atlas.png"
+atlas_file="res://resources/ground_tex.png"
 import_mode=0
 crop_to_region=true
 trim_alpha_border_from_region=true

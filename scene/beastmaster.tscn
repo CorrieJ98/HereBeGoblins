@@ -1,7 +1,7 @@
 [gd_scene load_steps=17 format=3 uid="uid://cq7kgdky61uue"]
 
 [ext_resource type="Script" path="res://scripts/unit.gd" id="1_vtvei"]
-[ext_resource type="Script" path="res://profile.gd" id="2_41vkq"]
+[ext_resource type="Script" path="res://scripts/profile.gd" id="2_41vkq"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_fhn32"]
 
 [sub_resource type="Resource" id="Resource_qxj7g"]

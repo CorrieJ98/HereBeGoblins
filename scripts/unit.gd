@@ -23,4 +23,3 @@ const FACES = {
 @export var unit_type: UnitType
 @export var unit_team: UnitTeam
 @export var profile : Profile
-
