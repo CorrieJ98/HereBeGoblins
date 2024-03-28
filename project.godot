@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="HereBeGoblins"
-run/main_scene="res://scene/main.tscn"
+run/main_scene="res://scene/levels/debug_environment.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -25,7 +25,7 @@ window/size/viewport_height=900
 folder_colors={
 "res://resources/": "green",
 "res://scene/": "pink",
-"res://scripts/": "yellow"
+"res://scene/global/": "yellow"
 }
 
 [input]

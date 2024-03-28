@@ -1,11 +1,11 @@
 [gd_scene load_steps=6 format=3 uid="uid://deqmu1hpifyyb"]
 
-[ext_resource type="Texture2D" uid="uid://d0564wgpsg2f1" path="res://resources/ground_tex.png" id="1_26d10"]
-[ext_resource type="PackedScene" uid="uid://cq7kgdky61uue" path="res://scene/beastmaster.tscn" id="2_gtfgi"]
-[ext_resource type="PackedScene" uid="uid://b6xeytpxh7dk3" path="res://scene/global/UI/ui.tscn" id="3_6h4tx"]
+[ext_resource type="Texture2D" uid="uid://d0564wgpsg2f1" path="res://resources/ground_tex.png" id="1_1r61n"]
+[ext_resource type="PackedScene" uid="uid://cq7kgdky61uue" path="res://scene/units/beastmaster.tscn" id="2_kiqjy"]
+[ext_resource type="PackedScene" uid="uid://b6xeytpxh7dk3" path="res://scene/global/UI/ui.tscn" id="3_1u5aa"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_xteje"]
-texture = ExtResource("1_26d10")
+texture = ExtResource("1_1r61n")
 margins = Vector2i(4, 4)
 separation = Vector2i(8, 8)
 texture_region_size = Vector2i(512, 512)
@@ -44620,7 +44620,7 @@ use_texture_padding = false
 tile_size = Vector2i(512, 512)
 sources/0 = SubResource("TileSetAtlasSource_xteje")
 
-[node name="DebugEnv" type="Node2D"]
+[node name="DebugEnvironment" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_0fbl2")
@@ -44630,7 +44630,7 @@ layer_0/tile_data = PackedInt32Array(-2, 131072, 1, 65534, 131072, 1, 65535, 131
 layer_1/name = "decals"
 layer_1/tile_data = PackedInt32Array(131071, 0, 9, 131072, 131072, 10, 131073, 65536, 10, 65537, 131072, 9, 65536, 0, 11)
 
-[node name="Unit" parent="." instance=ExtResource("2_gtfgi")]
+[node name="Unit" parent="." instance=ExtResource("2_kiqjy")]
 position = Vector2(157, 96)
 
-[node name="UI" parent="." instance=ExtResource("3_6h4tx")]
+[node name="UI" parent="." instance=ExtResource("3_1u5aa")]

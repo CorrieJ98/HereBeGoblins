@@ -5,6 +5,7 @@ class_name Profile extends Resource
 
 @export_category("Stats")
 @export var max_health : int = 10
+@export var current_health : int = 10
 @export var speed_walk : int = 64
 @export var base_atk_dmg : int = 2
 @export var base_attack_speed : float = 2.0
