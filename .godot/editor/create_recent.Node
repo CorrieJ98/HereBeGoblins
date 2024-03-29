@@ -1,7 +1,7 @@
-Camera2D
 Node2D
-Node3D
 Node
+Camera2D
+Node3D
 CollisionShape2D
 CharacterBody2D
 Panel

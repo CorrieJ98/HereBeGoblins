@@ -1,4 +1,4 @@
-class_name Profile extends Resource
+class_name UnitProfile extends Ability
 
 @export var name: String
 @export var rank := 1
@@ -20,6 +20,12 @@ class_name Profile extends Resource
 @export var library_name_attack: String
 @export var library_name_death: String
 @export var library_names_corpse: Array[String]
+
+# TODO Change to Ability class instead of String
+@export_category("Abilities")
+@export var basic_abilties: Array[Ability.UnitBasicAbilities]
+@export var special_abilities: Array[Ability.UnitSpecialAbilities]
+@export var traits: Array[Ability.UnitTraits]
 
 func get_library_from_state(sprite_state) -> String:
 	match sprite_state:

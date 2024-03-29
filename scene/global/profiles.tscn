@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://bi422evfv5m7y"]
+
+[ext_resource type="Script" path="res://scene/global/profile_unit.gd" id="1_pfvak"]
+[ext_resource type="Script" path="res://scene/global/profile_building.gd" id="2_2bj2h"]
+
+[node name="Profiles" type="ResourcePreloader"]
+
+[node name="Unit" type="Node" parent="."]
+script = ExtResource("1_pfvak")
+
+[node name="Building" type="Node" parent="."]
+script = ExtResource("2_2bj2h")

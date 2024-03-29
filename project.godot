@@ -23,9 +23,12 @@ window/size/viewport_height=900
 [file_customization]
 
 folder_colors={
-"res://resources/": "green",
+"res://resources/": "orange",
 "res://scene/": "pink",
-"res://scene/global/": "yellow"
+"res://scene/global/": "yellow",
+"res://scene/levels/": "green",
+"res://scene/structures/": "green",
+"res://scene/units/": "green"
 }
 
 [input]

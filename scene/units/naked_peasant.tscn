@@ -1,8 +1,8 @@
-[gd_scene load_steps=17 format=3 uid="uid://cq7kgdky61uue"]
+[gd_scene load_steps=17 format=3 uid="uid://bna3ueht5drf5"]
 
-[ext_resource type="Script" path="res://scene/global/unit.gd" id="1_xs53q"]
-[ext_resource type="Resource" uid="uid://c3yvmquh271h2" path="res://resources/profiles/Beastmaster_prof.tres" id="2_qeaiv"]
-[ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_fhn32"]
+[ext_resource type="Script" path="res://scene/global/unit.gd" id="1_ogfph"]
+[ext_resource type="Resource" uid="uid://j20v8b1136d" path="res://resources/profiles/naked_peasant_prof.tres" id="2_f4fnn"]
+[ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_n4ge0"]
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hft8o"]
 
@@ -20,7 +20,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -85,7 +85,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -150,7 +150,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -215,7 +215,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -288,7 +288,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -353,7 +353,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -418,7 +418,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -471,7 +471,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_fhn32")]
+"values": [ExtResource("3_n4ge0")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -536,16 +536,16 @@ size = Vector2(64, 96)
 [sub_resource type="CircleShape2D" id="CircleShape2D_nuqkg"]
 radius = 24.0
 
-[node name="Beastmaster" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "selection_box", "collision_box")]
-script = ExtResource("1_xs53q")
+[node name="NakedPeasant" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "selection_box", "collision_box")]
+script = ExtResource("1_ogfph")
 sprite = NodePath("Sprite2D")
 selection_box = NodePath("SelectionBox")
 collision_box = NodePath("CollisionBox")
 unit_class = 5
-profile = ExtResource("2_qeaiv")
+profile = ExtResource("2_f4fnn")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("3_fhn32")
+texture = ExtResource("3_n4ge0")
 hframes = 24
 vframes = 25
 frame = 136
