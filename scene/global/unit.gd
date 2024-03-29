@@ -21,6 +21,7 @@ const DIRECTION = {
 
 @export var is_selected : bool = false
 @export var sprite : Sprite2D
+@export var portrait : Sprite2D
 @export var selection_box : CollisionShape2D
 @export var collision_box : CollisionShape2D
 @export var unit_type: UnitType
