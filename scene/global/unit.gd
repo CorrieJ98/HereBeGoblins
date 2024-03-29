@@ -29,9 +29,6 @@ const DIRECTION = {
 @export var unit_class: UnitClass
 @export var profile : UnitProfile
 
-func _input(event) -> void:
-	pass
-
 func _physics_process(delta) -> void:
 	var direction : Vector2i = get_direction_of_travel()
 	var animstr := get_anim_string("beastmaster-anim", SpriteState, direction)

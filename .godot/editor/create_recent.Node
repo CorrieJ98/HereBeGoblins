@@ -1,6 +1,6 @@
-Node2D
-Node
 Camera2D
+Node
+Node2D
 Node3D
 CollisionShape2D
 CharacterBody2D

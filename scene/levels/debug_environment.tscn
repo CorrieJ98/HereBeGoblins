@@ -1,17 +1,35 @@
-[gd_scene load_steps=3 format=3 uid="uid://deqmu1hpifyyb"]
+[gd_scene load_steps=5 format=3 uid="uid://deqmu1hpifyyb"]
 
+[ext_resource type="Script" path="res://scene/global/profile_unit.gd" id="2_hqunb"]
 [ext_resource type="PackedScene" uid="uid://cq7kgdky61uue" path="res://scene/units/beastmaster.tscn" id="2_kiqjy"]
 [ext_resource type="PackedScene" uid="uid://b6xeytpxh7dk3" path="res://scene/global/UI/ui.tscn" id="3_1u5aa"]
 
+[sub_resource type="Resource" id="Resource_4silf"]
+resource_local_to_scene = true
+resource_name = "Beastmaster"
+script = ExtResource("2_hqunb")
+name = "Beastmaster"
+rank = 1
+max_health = 15
+current_health = 15
+speed_walk = 64
+base_atk_dmg = 2
+base_attack_speed = 2.0
+line_of_sight = 1024
+agro_range = 128
+library_name_idle = "beastmaster-anim-idle"
+library_name_move = "beastmaster-anim-move"
+library_name_attack = "beastmaster-anim-attack"
+library_name_death = ""
+library_names_corpse = Array[String]([])
+basic_abilties = Array[int]([])
+special_abilities = Array[int]([1])
+traits = Array[int]([0, 2])
+
 [node name="DebugEnvironment" type="Node2D"]
 
-[node name="Unit" parent="." node_paths=PackedStringArray("sprite", "selection_box", "collision_box") instance=ExtResource("2_kiqjy")]
+[node name="Unit" parent="." instance=ExtResource("2_kiqjy")]
 position = Vector2(157, 96)
-is_selected = false
-sprite = NodePath("")
-selection_box = NodePath("")
-collision_box = NodePath("")
-unit_type = 0
-unit_team = 0
+profile = SubResource("Resource_4silf")
 
 [node name="UI" parent="." instance=ExtResource("3_1u5aa")]

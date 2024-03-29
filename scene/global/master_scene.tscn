@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://c1s74p02pwuum"]
+
+[ext_resource type="PackedScene" uid="uid://b6xeytpxh7dk3" path="res://scene/global/UI/ui.tscn" id="1_l5ctn"]
+[ext_resource type="Script" path="res://scene/global/UI/CameraController.gd" id="2_ijcfd"]
+[ext_resource type="PackedScene" uid="uid://deqmu1hpifyyb" path="res://scene/levels/debug_environment.tscn" id="3_njckj"]
+
+[node name="MasterScene" type="Node"]
+
+[node name="UI" parent="." instance=ExtResource("1_l5ctn")]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+script = ExtResource("2_ijcfd")
+
+[node name="DebugEnvironment" parent="." instance=ExtResource("3_njckj")]

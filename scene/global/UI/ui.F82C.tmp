@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://b6xeytpxh7dk3"]
+
+[ext_resource type="Script" path="res://scene/global/UI/UI.gd" id="1_piaqp"]
+[ext_resource type="Script" path="res://scene/global/UI/CameraController.gd" id="2_cg1u6"]
+
+[node name="UI" type="CanvasLayer" node_paths=PackedStringArray("box")]
+script = ExtResource("1_piaqp")
+box = NodePath("Panel")
+
+[node name="Panel" type="Panel" parent="."]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_left_margin = 1.0
+drag_top_margin = 1.0
+drag_right_margin = 1.0
+drag_bottom_margin = 1.0
+script = ExtResource("2_cg1u6")

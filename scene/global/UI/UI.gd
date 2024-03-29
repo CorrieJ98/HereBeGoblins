@@ -16,7 +16,7 @@ func _process(delta) -> void:
 	box_dragging()
 
 func box_dragging() -> void:
-	if Input.is_action_just_pressed("LeftClick"):
+	if Input.is_action_just_pressed("LeftMouseButton"):
 		start = mousePosGlobal
 		startV = mousePos
 		isDragging = true
@@ -24,7 +24,7 @@ func box_dragging() -> void:
 		end = mousePosGlobal
 		endV = mousePos
 		draw_area()
-	if Input.is_action_just_released("LeftClick"):
+	if Input.is_action_just_released("LeftMouseButton"):
 		if startV.distance_to(mousePos) > 20:
 			end = mousePosGlobal
 			endV = mousePos
@@ -35,7 +35,6 @@ func box_dragging() -> void:
 			end = start
 			isDragging = false
 			draw_area(false)
-
 
 func _input(event):
 	if event is InputEventMouse:
