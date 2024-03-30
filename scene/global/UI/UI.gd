@@ -1,4 +1,4 @@
-extends CanvasLayer
+class_name UI extends CanvasLayer
 
 @export var box : Panel
 

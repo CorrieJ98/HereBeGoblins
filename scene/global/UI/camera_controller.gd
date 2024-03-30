@@ -1,4 +1,4 @@
-extends Camera2D
+class_name CamController extends Camera2D
 
 @export var max_zoom = 3.0
 @export var max_unzoom = 0.4

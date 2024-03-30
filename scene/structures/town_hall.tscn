@@ -553,8 +553,13 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0.494118, 0.407843, 1, 1)
 
-[node name="TownHall" type="Node2D"]
+[node name="TownHall" type="Node2D" node_paths=PackedStringArray("sprite", "portrait", "collision_box", "selection_box", "selection_border")]
 script = ExtResource("1_t2bw6")
+sprite = NodePath("Sprite2D")
+portrait = NodePath("Portrait")
+collision_box = NodePath("CollisionBox")
+selection_box = NodePath("SelectionBox")
+selection_border = NodePath("SelectionBorder")
 profile = ExtResource("2_3dw2l")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

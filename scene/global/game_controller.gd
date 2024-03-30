@@ -12,6 +12,17 @@ const DIRECTION = {
 	"NORTHEAST": Vector2(1, 1),
 }
 
+@export_category("Scripts")
+@export var master_profile : MasterProfile
+@export var unit : Unit
+@export var unit_profile : UnitProfile
+@export var building_profile : BuildingProfile
+@export var building : Building
+@export var ability : Ability
+@export var camera_controller : CamController
+@export var ui : UI
+
+
 func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()
 	match v:
