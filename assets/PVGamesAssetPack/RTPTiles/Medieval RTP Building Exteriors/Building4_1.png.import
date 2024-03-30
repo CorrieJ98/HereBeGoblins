@@ -1,0 +1,20 @@
+[remap]
+
+importer="texture_atlas"
+type="Texture2D"
+uid="uid://cg518y3x8eqwd"
+path="res://.godot/imported/Building4_1.png-bff2ebb37c5a37fb69eb964090922b9f.res"
+group_file="res://resources/townhall.png"
+valid=true
+[deps]
+
+
+source_file="res://assets/PVGamesAssetPack/RTPTiles/Medieval RTP Building Exteriors/Building4_1.png"
+dest_files=["res://.godot/imported/Building4_1.png-bff2ebb37c5a37fb69eb964090922b9f.res"]
+
+[params]
+
+atlas_file="res://resources/townhall.png"
+import_mode=0
+crop_to_region=false
+trim_alpha_border_from_region=true

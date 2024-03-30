@@ -1,8 +1,0 @@
-[gd_scene load_steps=3 format=3 uid="uid://bbbkoqwiblovj"]
-
-[ext_resource type="Script" path="res://scene/global/unit.gd" id="1_oh6q1"]
-[ext_resource type="Resource" uid="uid://cac8rtyqkus4v" path="res://resources/profiles/unit_default.tres" id="2_juq4t"]
-
-[node name="UnitPlaceholder" type="CharacterBody2D"]
-script = ExtResource("1_oh6q1")
-profile = ExtResource("2_juq4t")

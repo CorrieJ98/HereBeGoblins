@@ -1,4 +1,4 @@
-class_name UnitProfile extends Ability
+class_name UnitProfile extends MasterProfile
 
 @export var name: String
 @export var rank := 1

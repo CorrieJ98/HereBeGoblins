@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://cq7kgdky61uue"]
+[gd_scene load_steps=18 format=3 uid="uid://cq7kgdky61uue"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_xs53q"]
 [ext_resource type="Resource" uid="uid://c3yvmquh271h2" path="res://resources/profiles/Beastmaster_prof.tres" id="2_qeaiv"]
@@ -536,6 +536,14 @@ size = Vector2(64, 96)
 [sub_resource type="CircleShape2D" id="CircleShape2D_nuqkg"]
 radius = 24.0
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6tx8d"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.494118, 0.407843, 1, 1)
+
 [node name="Beastmaster" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "selection_box", "collision_box")]
 script = ExtResource("1_xs53q")
 sprite = NodePath("Sprite2D")
@@ -565,3 +573,10 @@ shape = SubResource("RectangleShape2D_ga8cx")
 [node name="CollisionBox" type="CollisionShape2D" parent="."]
 position = Vector2(0, 40)
 shape = SubResource("CircleShape2D_nuqkg")
+
+[node name="SelectionBorder" type="Panel" parent="."]
+offset_left = -32.0
+offset_top = -41.0
+offset_right = 32.0
+offset_bottom = 56.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_6tx8d")

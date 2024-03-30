@@ -1,0 +1,39 @@
+[gd_scene load_steps=5 format=3 uid="uid://deqmu1hpifyyb"]
+
+[ext_resource type="PackedScene" uid="uid://bna3ueht5drf5" path="res://scene/units/naked_peasant.tscn" id="1_g5saf"]
+[ext_resource type="PackedScene" uid="uid://cq7kgdky61uue" path="res://scene/units/beastmaster.tscn" id="2_kiqjy"]
+[ext_resource type="Script" path="res://scene/units/profile_unit.gd" id="3_i03k4"]
+
+[sub_resource type="Resource" id="Resource_2ayxy"]
+resource_local_to_scene = true
+resource_name = "Beastmaster"
+script = ExtResource("3_i03k4")
+name = "Beastmaster"
+rank = null
+max_health = 15
+current_health = 15
+speed_walk = null
+base_atk_dmg = null
+base_attack_speed = null
+line_of_sight = null
+agro_range = null
+library_name_idle = "beastmaster-anim-idle"
+library_name_move = "beastmaster-anim-move"
+library_name_attack = "beastmaster-anim-attack"
+library_name_death = null
+library_names_corpse = null
+basic_abilties = null
+special_abilities = Array[int]([1])
+traits = Array[int]([0, 2])
+
+[node name="DebugEnvironment" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="NakedPeasant" parent="." instance=ExtResource("1_g5saf")]
+position = Vector2(75, 68)
+
+[node name="Beastmaster" parent="." instance=ExtResource("2_kiqjy")]
+position = Vector2(358, 210)
+profile = SubResource("Resource_2ayxy")

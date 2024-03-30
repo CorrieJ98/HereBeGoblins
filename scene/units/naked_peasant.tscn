@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://bna3ueht5drf5"]
+[gd_scene load_steps=19 format=3 uid="uid://bna3ueht5drf5"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_ogfph"]
 [ext_resource type="Resource" uid="uid://j20v8b1136d" path="res://resources/profiles/naked_peasant_prof.tres" id="2_f4fnn"]
@@ -537,11 +537,20 @@ size = Vector2(64, 96)
 [sub_resource type="CircleShape2D" id="CircleShape2D_nuqkg"]
 radius = 24.0
 
-[node name="NakedPeasant" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "portrait", "selection_box", "collision_box")]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7m5fq"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.494118, 0.407843, 1, 1)
+
+[node name="NakedPeasant" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "portrait", "selection_box", "selection_border", "collision_box")]
 script = ExtResource("1_ogfph")
 sprite = NodePath("Sprite2D")
 portrait = NodePath("Portrait")
 selection_box = NodePath("SelectionBox")
+selection_border = NodePath("SelectionBorder")
 collision_box = NodePath("CollisionBox")
 unit_class = 5
 profile = ExtResource("2_f4fnn")
@@ -563,13 +572,22 @@ autoplay = "RESET"
 [node name="SelectionBox" type="CollisionShape2D" parent="."]
 position = Vector2(0, 8)
 shape = SubResource("RectangleShape2D_ga8cx")
+debug_color = Color(0.45098, 0.701961, 0.678431, 0.419608)
 
 [node name="CollisionBox" type="CollisionShape2D" parent="."]
 position = Vector2(0, 40)
 shape = SubResource("CircleShape2D_nuqkg")
+debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)
 
 [node name="Portrait" type="Sprite2D" parent="."]
 visible = false
 texture = ExtResource("3_ifqh5")
 hframes = 5
 vframes = 5
+
+[node name="SelectionBorder" type="Panel" parent="."]
+offset_left = -32.0
+offset_top = -41.0
+offset_right = 32.0
+offset_bottom = 56.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_7m5fq")

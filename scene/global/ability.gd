@@ -7,4 +7,3 @@ enum UnitTraits {HERO, WORKER, UNIQUE}
 enum BuildingBasicAbilities {RALLYPOINT, }
 enum BuildingSpecialAbilities {TRUESIGHT,ATTACK,SPAWNUNITS}
 enum BuildingTraits {UNIQUE}
-

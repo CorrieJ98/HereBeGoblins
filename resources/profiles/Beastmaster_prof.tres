@@ -23,3 +23,4 @@ library_names_corpse = Array[String]([])
 basic_abilties = Array[int]([])
 special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
+is_selected = false
