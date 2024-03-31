@@ -1,4 +1,4 @@
-class_name BuildingProfile extends MasterProfile
+class_name BuildingProfile extends Ability
 
 @export var name: String
 @export var tier := 1

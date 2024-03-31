@@ -30,25 +30,24 @@ library_names_corpse = Array[String]([])
 basic_abilties = Array[int]([])
 special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
-is_selected = false
 
 [node name="MasterScene" type="Node"]
 script = ExtResource("1_vye5u")
 
 [node name="Game" type="Node" parent="."]
 
-[node name="Buildings" type="Node" parent="Game" groups=["buildings"]]
+[node name="Buildings" type="Node" parent="Game"]
 
-[node name="TownHall" parent="Game/Buildings" instance=ExtResource("4_mnd0u")]
+[node name="TownHall" parent="Game/Buildings" groups=["buildings"] instance=ExtResource("4_mnd0u")]
 position = Vector2(907, 51)
 
-[node name="Units" type="Node" parent="Game" groups=["units"]]
+[node name="Units" type="Node" parent="Game"]
 
-[node name="Beastmaster" parent="Game/Units" instance=ExtResource("5_givmo")]
+[node name="Beastmaster" parent="Game/Units" groups=["units"] instance=ExtResource("5_givmo")]
 position = Vector2(358, 210)
 profile = SubResource("Resource_vryly")
 
-[node name="NakedPeasant" parent="Game/Units" instance=ExtResource("7_2hlv1")]
+[node name="NakedPeasant" parent="Game/Units" groups=["units"] instance=ExtResource("7_2hlv1")]
 position = Vector2(75, 68)
 
 [node name="DebugEnvironment" parent="Game" instance=ExtResource("3_njckj")]

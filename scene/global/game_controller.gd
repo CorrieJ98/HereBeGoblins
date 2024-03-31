@@ -15,7 +15,6 @@ const DIRECTION = {
 # Script references
 var unit = get("res://scene/global/unit.gd")
 var building = get("res://scene/global/building.gd")
-var master_profile = get("res://scene/global/master_profile.gd")
 var profile_unit = get("res://scene/global/profile_unit.gd")
 var profile_building = get("res://scene/global/profile_building.gd")
 var ability = get("res://scene/global/ability.gd")
@@ -26,9 +25,20 @@ var units = []
 var buildings = []
 
 func _ready():
+	populate_groups()
+	populate_group_arrays()
+
+func populate_group_arrays():
 	# populate arrays with all objects in the scene of the relevant groups
 	units = get_tree().get_nodes_in_group("units")
 	buildings = get_tree().get_nodes_in_group("buildings")
+
+func populate_groups():
+	pass
+	
+	# get.tree for both Units and Buildings nodes, and automatically
+	# fill the corresponding groups 
+	# see https://github.com/CorrieJ98/HereBeGoblins/issues/18 for details
 
 func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()
@@ -52,11 +62,35 @@ func get_direction_string(v : Vector2) -> Vector2i:
 		_:
 			return v
 
-func get_units_in_area(area):
-	pass
+func get_units_in_area(area : Array):
+	# u holds any units within our selected area
+	var u = []
+	
+	# draw the box and check if a unit is present
+	for units in units:
+		if(units.position.x > area[0].y) and (units.position.x < area[1].x):
+			if(units.position.y > area[0].x) and (units.position.y < area[1].x):
+				u.append(unit)
+	
+	return u
 
-func _on_area_selected():
-	print("selected successfully passed")
+# TODO No signal reaching here
+func _on_area_selected(object):
+	var start = object.start
+	var end = object.end
+	var area : Array = []
+	
+	area.append(Vector2(min(start.x,end.x),min(start.y,end.y)))
+	area.append(Vector2(max(start.x,end.x),max(start.y,end.y)))
+	
+	var ut = get_units_in_area(area)
+	
+	for u in units:
+		pass
+	
+	for u in ut:
+		u.set_selected(!u.is_selected)
+		print("is_selected swapped")
 
 func _on_select_unit():
 	pass

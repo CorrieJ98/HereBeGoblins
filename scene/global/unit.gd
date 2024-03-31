@@ -11,6 +11,7 @@ enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
 @export var portrait : Sprite2D
 @export var selection_box : CollisionShape2D
 @export var selection_border : Panel
+@export var is_selected : bool = false
 @export var collision_box : CollisionShape2D
 @export var unit_type: UnitType
 @export var unit_team: UnitTeam
