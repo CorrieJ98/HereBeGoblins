@@ -32,24 +32,17 @@ special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
 is_selected = false
 
-[node name="MasterScene" type="Node" node_paths=PackedStringArray("camera_controller", "ui")]
+[node name="MasterScene" type="Node"]
 script = ExtResource("1_vye5u")
-camera_controller = NodePath("Camera2D")
-ui = NodePath("UI")
 
-[node name="UI" parent="." instance=ExtResource("1_l5ctn")]
+[node name="Game" type="Node" parent="."]
 
-[node name="Camera2D" type="Camera2D" parent="."]
-script = ExtResource("2_ijcfd")
-
-[node name="Game" type="Node" parent="." groups=["Selectables"]]
-
-[node name="Buildings" type="Node" parent="Game"]
+[node name="Buildings" type="Node" parent="Game" groups=["buildings"]]
 
 [node name="TownHall" parent="Game/Buildings" instance=ExtResource("4_mnd0u")]
 position = Vector2(907, 51)
 
-[node name="Units" type="Node" parent="Game"]
+[node name="Units" type="Node" parent="Game" groups=["units"]]
 
 [node name="Beastmaster" parent="Game/Units" instance=ExtResource("5_givmo")]
 position = Vector2(358, 210)
@@ -59,3 +52,13 @@ profile = SubResource("Resource_vryly")
 position = Vector2(75, 68)
 
 [node name="DebugEnvironment" parent="Game" instance=ExtResource("3_njckj")]
+
+[node name="Global" type="Node" parent="."]
+
+[node name="UI" parent="Global" instance=ExtResource("1_l5ctn")]
+
+[node name="Camera2D" type="Camera2D" parent="Global"]
+script = ExtResource("2_ijcfd")
+
+[connection signal="area_selected_passthrough" from="Global/UI" to="." method="_on_area_selected"]
+[connection signal="select_unit_passthrough" from="Global/UI" to="." method="_on_select_unit"]

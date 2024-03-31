@@ -12,16 +12,23 @@ const DIRECTION = {
 	"NORTHEAST": Vector2(1, 1),
 }
 
-@export_category("Scripts")
-@export var master_profile : MasterProfile
-@export var unit : Unit
-@export var unit_profile : UnitProfile
-@export var building_profile : BuildingProfile
-@export var building : Building
-@export var ability : Ability
-@export var camera_controller : CamController
-@export var ui : UI
+# Script references
+var unit = get("res://scene/global/unit.gd")
+var building = get("res://scene/global/building.gd")
+var master_profile = get("res://scene/global/master_profile.gd")
+var profile_unit = get("res://scene/global/profile_unit.gd")
+var profile_building = get("res://scene/global/profile_building.gd")
+var ability = get("res://scene/global/ability.gd")
+var camera_controller = get("res://scene/global/UI/camera_controller.gd")
+var ui = get("res://scene/global/UI/ui.gd")
 
+var units = []
+var buildings = []
+
+func _ready():
+	# populate arrays with all objects in the scene of the relevant groups
+	units = get_tree().get_nodes_in_group("units")
+	buildings = get_tree().get_nodes_in_group("buildings")
 
 func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()
@@ -45,3 +52,11 @@ func get_direction_string(v : Vector2) -> Vector2i:
 		_:
 			return v
 
+func get_units_in_area(area):
+	pass
+
+func _on_area_selected():
+	print("selected successfully passed")
+
+func _on_select_unit():
+	pass
