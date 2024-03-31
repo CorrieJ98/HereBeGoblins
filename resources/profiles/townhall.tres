@@ -21,4 +21,3 @@ library_names_destroyed = Array[String]([])
 basic_abilties = Array[int]([0])
 special_abilities = Array[int]([2, 0])
 traits = Array[int]([0])
-is_selected = false
