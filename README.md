@@ -8,3 +8,5 @@ Instead, you and a group of followers must make do and create a life for yoursel
 Here be dragons? No. 
 
 Here be goblins.
+
+![cover](https://github.com/CorrieJ98/HereBeGoblins/assets/94648401/94671c38-9850-495e-a834-49ed7b7bf9ca)
