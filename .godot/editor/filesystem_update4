@@ -1,9 +1,12 @@
-res://scene/global/master_scene.tscn
+res://scene/global/UI/ui.tscn
 res://resources/profiles/Beastmaster_prof.tres
 res://resources/profiles/naked_peasant_prof.tres
 res://resources/profiles/townhall.tres
-res://scene/global/UI/ui.tscn
 res://scene/levels/debug_environment.tscn
 res://scene/units/beastmaster.tscn
 res://scene/units/naked_peasant.tscn
+res://scene/global/master_scene.tscn
 res://scene/structures/town_hall.tscn
+res://scene/global/UI/selection_box.gd
+res://scene/global/UI/ui.gd
+res://scene/global/game_controller.gd

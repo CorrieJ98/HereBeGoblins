@@ -74,8 +74,8 @@ func get_units_in_area(area : Array):
 	
 	return u
 
-# TODO No signal reaching here
-func _on_area_selected(object):
+# don't fuck with the names on these
+func _on_ui_gc_area_selected(object):
 	var start = object.start
 	var end = object.end
 	var area : Array = []
@@ -92,5 +92,5 @@ func _on_area_selected(object):
 		u.set_selected(!u.is_selected)
 		print("is_selected swapped")
 
-func _on_select_unit():
-	pass
+func _on_ui_gc_unit_selected(object):
+	pass # Replace with function body.

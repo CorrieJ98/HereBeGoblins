@@ -8,11 +8,15 @@ var end = Vector2()
 var endV = Vector2()
 var is_dragging : bool = false
 
-signal area_selected
-signal select_unit
+signal area_selected(object)
+signal select_unit(object)
+
+# debug vars
+var ms
 
 func _ready() -> void:
-	connect("area_selected",Callable(get_parent(), "on_area_selected_passthrough"))
+	ms = get_node(".")
+	connect("area_selected",Callable(ms,"_on_area_selected"), 2)
 
 func box_dragging() -> void:
 	if Input.is_action_just_pressed("LeftMouseButton"):
@@ -29,7 +33,7 @@ func box_dragging() -> void:
 			endV = mousePos
 			is_dragging = false
 			draw_area(false)
-			emit_signal("area_selected")
+			emit_signal("area_selected",self)
 		else:
 			end = start
 			is_dragging = false

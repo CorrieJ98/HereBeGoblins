@@ -9,5 +9,5 @@ script = ExtResource("1_piaqp")
 [node name="SelectionBox" type="Panel" parent="."]
 script = ExtResource("2_fyci3")
 
-[connection signal="area_selected" from="SelectionBox" to="." method="_on_area_selected"]
-[connection signal="select_unit" from="SelectionBox" to="." method="_on_select_unit"]
+[connection signal="area_selected" from="SelectionBox" to="." method="selection_box_area_selected"]
+[connection signal="select_unit" from="SelectionBox" to="." method="selection_box_unit_selected"]

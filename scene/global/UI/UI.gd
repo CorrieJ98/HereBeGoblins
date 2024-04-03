@@ -1,14 +1,15 @@
 class_name UI extends CanvasLayer
 
-@onready var selection_box = get_node("SelectionBox")
+@onready var sb = get_node("SelectionBox")
 
-signal area_selected_passthrough
-signal select_unit_passthrough
+# THIS IS FINE
+@onready var gc = get_parent().get_parent()
 
+signal gc_area_selected(object)
+signal gc_unit_selected(object)
 
-# pass emit signals from SelectionBox to master_scene
-func _on_area_selected():
-	emit_signal("area_selected_passthrough",selection_box)
+func selection_box_area_selected(object):
+	emit_signal("gc_area_selected",sb)
 
-func _on_select_unit():
-	emit_signal("select_unit_passthrough", selection_box)
+func selection_box_unit_selected(object):
+	emit_signal("gc_unit_selected",sb)
