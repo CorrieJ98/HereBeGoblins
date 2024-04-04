@@ -1,7 +1,7 @@
 [gd_scene load_steps=18 format=3 uid="uid://cq7kgdky61uue"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_xs53q"]
-[ext_resource type="Resource" uid="uid://c3yvmquh271h2" path="res://resources/profiles/Beastmaster_prof.tres" id="2_qeaiv"]
+[ext_resource type="Texture2D" uid="uid://dq7kf2gxvaisf" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png" id="3_ale8t"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_fhn32"]
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hft8o"]
@@ -544,13 +544,8 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0.494118, 0.407843, 1, 1)
 
-[node name="Beastmaster" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "selection_box", "collision_box")]
+[node name="Beastmaster" type="CharacterBody2D"]
 script = ExtResource("1_xs53q")
-sprite = NodePath("Sprite2D")
-selection_box = NodePath("SelectionBox")
-collision_box = NodePath("CollisionBox")
-unit_class = 5
-profile = ExtResource("2_qeaiv")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("3_fhn32")
@@ -580,3 +575,9 @@ offset_top = -41.0
 offset_right = 32.0
 offset_bottom = 56.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_6tx8d")
+
+[node name="Portrait" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("3_ale8t")
+hframes = 5
+vframes = 5

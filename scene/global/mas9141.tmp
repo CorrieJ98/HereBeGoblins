@@ -25,6 +25,8 @@ position = Vector2(358, 210)
 
 [node name="NakedPeasant" parent="Game/Units" groups=["unit_group_"] instance=ExtResource("7_2hlv1")]
 position = Vector2(75, 68)
+unit_class = 0
+profile = null
 
 [node name="DebugEnvironment" parent="Game" instance=ExtResource("3_njckj")]
 

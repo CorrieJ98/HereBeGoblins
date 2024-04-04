@@ -12,11 +12,15 @@ signal area_selected(object)
 signal select_unit(object)
 
 # debug vars
-var ms
+var gc
 
 func _ready() -> void:
-	ms = get_node(".")
-	connect("area_selected",Callable(ms,"_on_area_selected"), 2)
+	gc = get_node(".")
+	
+	# TODO 99% sure this will be problematic
+	# "_on_area_selected" and "_on_selected_unit" do not exist
+	connect("area_selected",Callable(gc,"_on_area_selected"), 2)
+	connect("select_unit",Callable(gc, "_on_selected_unit"), 2)
 
 func box_dragging() -> void:
 	if Input.is_action_just_pressed("LeftMouseButton"):

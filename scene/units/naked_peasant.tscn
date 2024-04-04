@@ -1,7 +1,6 @@
-[gd_scene load_steps=19 format=3 uid="uid://bna3ueht5drf5"]
+[gd_scene load_steps=18 format=3 uid="uid://bna3ueht5drf5"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_ogfph"]
-[ext_resource type="Resource" uid="uid://j20v8b1136d" path="res://resources/profiles/naked_peasant_prof.tres" id="2_f4fnn"]
 [ext_resource type="Texture2D" uid="uid://dq7kf2gxvaisf" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png" id="3_ifqh5"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_n4ge0"]
 
@@ -545,15 +544,9 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0.494118, 0.407843, 1, 1)
 
-[node name="NakedPeasant" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "portrait", "selection_box", "selection_border", "collision_box")]
+[node name="NakedPeasant" type="CharacterBody2D" node_paths=PackedStringArray("selection_border")]
 script = ExtResource("1_ogfph")
-sprite = NodePath("Sprite2D")
-portrait = NodePath("Portrait")
-selection_box = NodePath("SelectionBox")
 selection_border = NodePath("SelectionBorder")
-collision_box = NodePath("CollisionBox")
-unit_class = 5
-profile = ExtResource("2_f4fnn")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("3_n4ge0")

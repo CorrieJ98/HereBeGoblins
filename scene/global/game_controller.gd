@@ -21,8 +21,8 @@ var ability = get("res://scene/global/ability.gd")
 var camera_controller = get("res://scene/global/UI/camera_controller.gd")
 var ui = get("res://scene/global/UI/ui.gd")
 
-var units = []
-var buildings = []
+var grouped_units = []
+var grouped_buildings = []
 
 func _ready():
 	populate_groups()
@@ -30,8 +30,8 @@ func _ready():
 
 func populate_group_arrays():
 	# populate arrays with all objects in the scene of the relevant groups
-	units = get_tree().get_nodes_in_group("units")
-	buildings = get_tree().get_nodes_in_group("buildings")
+	grouped_units = get_tree().get_nodes_in_group("unit_group_")
+	grouped_buildings = get_tree().get_nodes_in_group("building_group_")
 
 func populate_groups():
 	pass
@@ -40,7 +40,7 @@ func populate_groups():
 	# fill the corresponding groups 
 	# see https://github.com/CorrieJ98/HereBeGoblins/issues/18 for details
 
-func get_direction_string(v : Vector2) -> Vector2i:
+static func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()
 	match v:
 		DIRECTION.NORTH:
@@ -67,11 +67,10 @@ func get_units_in_area(area : Array):
 	var u = []
 	
 	# draw the box and check if a unit is present
-	for units in units:
-		if(units.position.x > area[0].y) and (units.position.x < area[1].x):
-			if(units.position.y > area[0].x) and (units.position.y < area[1].x):
+	for unit in grouped_units:
+		if grouped_units.position.x > area[0].y and grouped_units.position.x < area[1].x:
+			if grouped_units.position.y > area[0].x and grouped_units.position.y < area[1].x:
 				u.append(unit)
-	
 	return u
 
 # don't fuck with the names on these
@@ -85,12 +84,11 @@ func _on_ui_gc_area_selected(object):
 	
 	var ut = get_units_in_area(area)
 	
-	for u in units:
+	for u in grouped_units:
 		pass
 	
 	for u in ut:
 		u.set_selected(!u.is_selected)
-		print("is_selected swapped")
 
 func _on_ui_gc_unit_selected(object):
 	pass # Replace with function body.
