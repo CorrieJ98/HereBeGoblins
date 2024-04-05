@@ -62,33 +62,41 @@ static func get_direction_string(v : Vector2) -> Vector2i:
 		_:
 			return v
 
-func get_units_in_area(area : Array):
+func get_units_in_area(area : Array) -> Array:
 	# u holds any units within our selected area
 	var u = []
 	
 	# draw the box and check if a unit is present
-	for unit in grouped_units:
-		if grouped_units.position.x > area[0].y and grouped_units.position.x < area[1].x:
-			if grouped_units.position.y > area[0].x and grouped_units.position.y < area[1].x:
-				u.append(unit)
+	for each_unit in grouped_units:
+		if each_unit.position.x > area[0].y and each_unit.position.x < area[1].x:
+			if each_unit.position.y > area[0].x and each_unit.position.y < area[1].x:
+				u.append(each_unit)
 	return u
 
 # don't fuck with the names on these
 func _on_ui_gc_area_selected(object):
+	
+	
+	
 	var start = object.start
 	var end = object.end
-	var area : Array = []
+	var area = []
+	
+	print(start)
+	print(end)
+	print("_____")
 	
 	area.append(Vector2(min(start.x,end.x),min(start.y,end.y)))
 	area.append(Vector2(max(start.x,end.x),max(start.y,end.y)))
+	var boxed_units = get_units_in_area(area)
 	
-	var ut = get_units_in_area(area)
+	print(boxed_units)
 	
 	for u in grouped_units:
-		pass
-	
-	for u in ut:
 		u.set_selected(!u.is_selected)
+	
+	for u in boxed_units:
+		u.set_selected(false)
 
 func _on_ui_gc_unit_selected(object):
 	pass # Replace with function body.

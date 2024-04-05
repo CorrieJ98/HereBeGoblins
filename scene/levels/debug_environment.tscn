@@ -1,11 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://deqmu1hpifyyb"]
-
-[sub_resource type="TileSet" id="TileSet_rkwji"]
-tile_shape = 1
-tile_size = Vector2i(512, 256)
+[gd_scene format=3 uid="uid://deqmu1hpifyyb"]
 
 [node name="DebugEnvironment" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
-tile_set = SubResource("TileSet_rkwji")
 format = 2

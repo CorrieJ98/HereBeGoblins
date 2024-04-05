@@ -1,6 +1,7 @@
-[gd_scene load_steps=18 format=3 uid="uid://cq7kgdky61uue"]
+[gd_scene load_steps=19 format=3 uid="uid://cq7kgdky61uue"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_xs53q"]
+[ext_resource type="Resource" uid="uid://c3yvmquh271h2" path="res://resources/profiles/Beastmaster_prof.tres" id="2_mstp2"]
 [ext_resource type="Texture2D" uid="uid://dq7kf2gxvaisf" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png" id="3_ale8t"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_fhn32"]
 
@@ -544,8 +545,10 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0.494118, 0.407843, 1, 1)
 
-[node name="Beastmaster" type="CharacterBody2D"]
+[node name="Beastmaster" type="CharacterBody2D" node_paths=PackedStringArray("selection_border")]
 script = ExtResource("1_xs53q")
+selection_border = NodePath("SelectionBorder")
+profile = ExtResource("2_mstp2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("3_fhn32")
