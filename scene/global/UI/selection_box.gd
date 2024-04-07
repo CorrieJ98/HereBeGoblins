@@ -11,10 +11,8 @@ var is_dragging : bool = false
 signal area_selected(object)
 signal select_unit(object)
 
-# debug vars
-var gc
-
 func _ready() -> void:
+	var gc
 	gc = get_node(".")
 	
 	# TODO 99% sure this will be problematic

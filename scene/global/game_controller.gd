@@ -21,10 +21,15 @@ var ability = get("res://scene/global/ability.gd")
 var camera_controller = get("res://scene/global/UI/camera_controller.gd")
 var ui = get("res://scene/global/UI/ui.gd")
 
+
+@onready var t_unit = Unit.new()
 var grouped_units = []
 var grouped_buildings = []
+var selection_box : SelectionBox
+var selection_border : Panel = null
 
 func _ready():
+	t_unit.get_selection_objects(selection_box,selection_border)
 	populate_groups()
 	populate_group_arrays()
 
@@ -76,10 +81,8 @@ func get_units_in_area(area : Array) -> Array:
 # don't fuck with the names on these
 func _on_ui_gc_area_selected(object):
 	
-	
-	
-	var start = object.start
-	var end = object.end
+	var start = selection_box.start
+	var end = selection_box.end
 	var area = []
 	
 	print(start)
@@ -93,10 +96,19 @@ func _on_ui_gc_area_selected(object):
 	print(boxed_units)
 	
 	for u in grouped_units:
-		u.set_selected(!u.is_selected)
+		u.set_selected(false)
 	
 	for u in boxed_units:
-		u.set_selected(false)
+		u.set_selected(!u.is_selected)
 
 func _on_ui_gc_unit_selected(object):
 	pass # Replace with function body.
+
+
+# TODO
+# I reckon i need to explicitly pass the SelectionBox into the game_controller.gd
+# script in order to access the necessary variables. 
+
+# POTENTIAL FIX
+# lay out the entire UI scene inside the master scene. That way, its very easy to access
+# the selection box
