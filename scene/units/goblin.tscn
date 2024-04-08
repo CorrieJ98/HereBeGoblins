@@ -1,9 +1,10 @@
-[gd_scene load_steps=18 format=3 uid="uid://bbbkoqwiblovj"]
+[gd_scene load_steps=20 format=3 uid="uid://btjdrk2e273lo"]
 
-[ext_resource type="Script" path="res://scene/global/unit.gd" id="1_gvyus"]
-[ext_resource type="Resource" uid="uid://cac8rtyqkus4v" path="res://resources/profiles/unit_default.tres" id="2_o1ujb"]
-[ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_s6dya"]
-[ext_resource type="Texture2D" uid="uid://bkojkvoo2f2v4" path="res://resources/RTP_Goblin/Portrait.png" id="4_pmasv"]
+[ext_resource type="Script" path="res://scene/global/unit.gd" id="1_kp0ke"]
+[ext_resource type="Resource" uid="uid://bf4mefuyo6tjw" path="res://resources/profiles/goblin_prof.tres" id="2_0reqg"]
+[ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_ckmxq"]
+[ext_resource type="Texture2D" uid="uid://bkojkvoo2f2v4" path="res://resources/RTP_Goblin/Portrait.png" id="4_lydrk"]
+[ext_resource type="Texture2D" uid="uid://dairmvxsiygdh" path="res://resources/RTP_Goblin/Spritesheet.png" id="5_s6kiu"]
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hft8o"]
 
@@ -21,7 +22,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -86,7 +87,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -151,7 +152,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -216,7 +217,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -289,7 +290,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -354,7 +355,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -419,7 +420,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -472,7 +473,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 1,
-"values": [ExtResource("3_s6dya")]
+"values": [ExtResource("3_ckmxq")]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
@@ -532,19 +533,25 @@ _data = {
 }
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_map6d"]
-size = Vector2(64, 96)
+size = Vector2(64, 78)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_3ejo0"]
 radius = 24.0
 
-[node name="Goblin" type="CharacterBody2D"]
-script = ExtResource("1_gvyus")
-profile = ExtResource("2_o1ujb")
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dlets"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.870588, 0, 0.105882, 1)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-hframes = 24
-vframes = 25
-frame = 136
+[node name="Goblin" type="CharacterBody2D" node_paths=PackedStringArray("selection_border")]
+script = ExtResource("1_kp0ke")
+selection_border = NodePath("SelectionBorder")
+unit_team = 2
+unit_class = 3
+profile = ExtResource("2_0reqg")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -555,7 +562,7 @@ libraries = {
 autoplay = "RESET"
 
 [node name="SelectionBox" type="CollisionShape2D" parent="."]
-position = Vector2(0, 8)
+position = Vector2(0, 17)
 shape = SubResource("RectangleShape2D_map6d")
 debug_color = Color(0.45098, 0.701961, 0.678431, 0.419608)
 
@@ -565,6 +572,20 @@ shape = SubResource("CircleShape2D_3ejo0")
 debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)
 
 [node name="Portrait" type="Sprite2D" parent="."]
-texture = ExtResource("4_pmasv")
-hframes = 5
-vframes = 5
+visible = false
+position = Vector2(0, 300)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("4_lydrk")
+
+[node name="SelectionBorder" type="Panel" parent="."]
+offset_left = -32.0
+offset_top = -22.0
+offset_right = 32.0
+offset_bottom = 56.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_dlets")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("5_s6kiu")
+hframes = 21
+vframes = 21
+frame = 128

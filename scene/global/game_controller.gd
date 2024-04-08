@@ -12,17 +12,8 @@ const DIRECTION = {
 	"NORTHEAST": Vector2(1, 1),
 }
 
-# Script references
-var unit = get("res://scene/global/unit.gd")
-var building = get("res://scene/global/building.gd")
-var profile_unit = get("res://scene/global/profile_unit.gd")
-var profile_building = get("res://scene/global/profile_building.gd")
-var ability = get("res://scene/global/ability.gd")
-var camera_controller = get("res://scene/global/UI/camera_controller.gd")
-var ui = get("res://scene/global/UI/ui.gd")
-
-
 @onready var t_unit = Unit.new()
+@onready var camera := get_node("Global/Camera2D")
 var grouped_units = []
 var grouped_buildings = []
 var selection_box : SelectionBox
@@ -43,7 +34,7 @@ func populate_groups():
 	
 	# get.tree for both Units and Buildings nodes, and automatically
 	# fill the corresponding groups 
-	# see https://github.com/CorrieJ98/HereBeGoblins/issues/18 for details
+	# see issue #18 for details
 
 static func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()
@@ -78,22 +69,20 @@ func get_units_in_area(area : Array) -> Array:
 				u.append(each_unit)
 	return u
 
-# don't fuck with the names on these
-func _on_ui_gc_area_selected(object):
-	
-	var start = selection_box.start
-	var end = selection_box.end
+func _on_area_selected(box):
+	var start : Vector2i = box.startV
+	var end : Vector2i = box.endV
 	var area = []
 	
-	print(start)
-	print(end)
-	print("_____")
+	print("startV: ", start)
+	print("endV: ", end)
 	
 	area.append(Vector2(min(start.x,end.x),min(start.y,end.y)))
 	area.append(Vector2(max(start.x,end.x),max(start.y,end.y)))
 	var boxed_units = get_units_in_area(area)
 	
-	print(boxed_units)
+	print(boxed_units, "
+	--------------")
 	
 	for u in grouped_units:
 		u.set_selected(false)
@@ -101,14 +90,14 @@ func _on_ui_gc_area_selected(object):
 	for u in boxed_units:
 		u.set_selected(!u.is_selected)
 
-func _on_ui_gc_unit_selected(object):
+func _on_unit_selected(box):
 	pass # Replace with function body.
 
 
 # TODO
 # I reckon i need to explicitly pass the SelectionBox into the game_controller.gd
 # script in order to access the necessary variables. 
-
+#
 # POTENTIAL FIX
 # lay out the entire UI scene inside the master scene. That way, its very easy to access
 # the selection box

@@ -1,6 +1,7 @@
+Panel
+CanvasLayer
 Node
 Sprite2D
-Panel
 PanelContainer
 ColorRect
 AnimationPlayer
@@ -10,5 +11,4 @@ Node2D
 Node3D
 CollisionShape2D
 CharacterBody2D
-CanvasLayer
 ResourcePreloader

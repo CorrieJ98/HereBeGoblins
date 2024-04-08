@@ -1,15 +1,18 @@
 class_name UI extends CanvasLayer
 
-@onready var sb = get_node("SelectionBox")
+func _on_select(profile):
+	# pass selected unit profile
+	pass
 
-# THIS IS FINE
-@onready var gc = get_parent().get_parent()
+class HUD extends UI:
+	enum SelectedObjectType {BUILDING, UNIT}
+	
+	var profile = null     # not typed as to take either UnitProfile or BuildingProfile
+	
+	
+	# on selection, get the objects profile and import that data
+	# to here and display it
+	
+	# on deselect, wipe the hud back to its barebones
 
-signal gc_area_selected(object)
-signal gc_unit_selected(object)
 
-func selection_box_area_selected(object):
-	emit_signal("gc_area_selected",sb)
-
-func selection_box_unit_selected(object):
-	emit_signal("gc_unit_selected",sb)

@@ -8,17 +8,20 @@ var end = Vector2()
 var endV = Vector2()
 var is_dragging : bool = false
 
-signal area_selected(object)
-signal select_unit(object)
+
+signal area_selected(box)
+signal select_unit(profile)
 
 func _ready() -> void:
-	var gc
-	gc = get_node(".")
-	
-	# TODO 99% sure this will be problematic
-	# "_on_area_selected" and "_on_selected_unit" do not exist
-	connect("area_selected",Callable(gc,"_on_area_selected"), 2)
-	connect("select_unit",Callable(gc, "_on_selected_unit"), 2)
+	pass
+
+func draw_area(isSelecting : bool = true):
+	size = Vector2(abs(startV.x - endV.x), abs(startV.y - endV.y))
+	var pos = Vector2()
+	pos.x = min(startV.x,endV.x)
+	pos.y = min(startV.y, endV.y)
+	position = pos
+	size *= int(isSelecting)
 
 func box_dragging() -> void:
 	if Input.is_action_just_pressed("LeftMouseButton"):
@@ -40,14 +43,6 @@ func box_dragging() -> void:
 			end = start
 			is_dragging = false
 			draw_area(false)
-
-func draw_area(s : bool = true):
-	size = Vector2(abs(startV.x - endV.x), abs(startV.y - endV.y))
-	var pos = Vector2()
-	pos.x = min(startV.x,endV.x)
-	pos.y = min(startV.y, endV.y)
-	position = pos
-	size *= int(s)
 
 func _input(event) -> void:
 	if event is InputEventMouse:
