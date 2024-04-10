@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://c1s74p02pwuum"]
+[gd_scene load_steps=13 format=3 uid="uid://c1s74p02pwuum"]
 
 [ext_resource type="Script" path="res://scene/global/game_controller.gd" id="1_vye5u"]
 [ext_resource type="Script" path="res://scene/global/UI/camera_controller.gd" id="2_ijcfd"]
@@ -33,10 +33,15 @@ basic_abilties = Array[int]([])
 special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2mon6"]
+
 [node name="GameController" type="Node"]
 script = ExtResource("1_vye5u")
 
 [node name="Level" type="Node" parent="."]
+
+[node name="DebugEnvironment" parent="Level" instance=ExtResource("3_njckj")]
+position = Vector2(-10, -2)
 
 [node name="Buildings" type="Node" parent="Level"]
 
@@ -55,36 +60,18 @@ position = Vector2(75, 68)
 [node name="Goblin" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("6_u1tw2")]
 position = Vector2(560, 384)
 
-[node name="DebugEnvironment" parent="Level" instance=ExtResource("3_njckj")]
-position = Vector2(-10, -2)
-
 [node name="Global" type="Node" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="Global"]
 limit_left = 0
 limit_top = 0
-position_smoothing_enabled = true
-drag_horizontal_enabled = true
-drag_vertical_enabled = true
 script = ExtResource("2_ijcfd")
 
 [node name="UI" type="CanvasLayer" parent="Global"]
 script = ExtResource("8_jcynk")
 
-[node name="SelectionBox" type="Panel" parent="Global/UI"]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -800.0
-offset_top = -450.0
-offset_right = -800.0
-offset_bottom = -450.0
-grow_horizontal = 2
-grow_vertical = 2
+[node name="SelectionBox" type="Area2D" parent="Global/UI"]
 script = ExtResource("9_0flij")
 
-[connection signal="area_selected" from="Global/UI/SelectionBox" to="." method="_on_area_selected"]
-[connection signal="select_unit" from="Global/UI/SelectionBox" to="." method="_on_unit_selected"]
-[connection signal="select_unit" from="Global/UI/SelectionBox" to="Global/UI" method="_on_select" unbinds=1]
+[node name="SelectionDetectionArea" type="CollisionShape2D" parent="Global/UI/SelectionBox"]
+shape = SubResource("RectangleShape2D_2mon6")
