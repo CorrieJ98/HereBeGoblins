@@ -38,6 +38,9 @@ script = ExtResource("1_vye5u")
 
 [node name="Level" type="Node" parent="."]
 
+[node name="DebugEnvironment" parent="Level" instance=ExtResource("3_njckj")]
+position = Vector2(-10, -2)
+
 [node name="Buildings" type="Node" parent="Level"]
 
 [node name="TownHall" parent="Level/Buildings" groups=["building_group_"] instance=ExtResource("4_mnd0u")]
@@ -55,17 +58,11 @@ position = Vector2(75, 68)
 [node name="Goblin" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("6_u1tw2")]
 position = Vector2(560, 384)
 
-[node name="DebugEnvironment" parent="Level" instance=ExtResource("3_njckj")]
-position = Vector2(-10, -2)
-
 [node name="Global" type="Node" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="Global"]
 limit_left = 0
 limit_top = 0
-position_smoothing_enabled = true
-drag_horizontal_enabled = true
-drag_vertical_enabled = true
 script = ExtResource("2_ijcfd")
 
 [node name="UI" type="CanvasLayer" parent="Global"]

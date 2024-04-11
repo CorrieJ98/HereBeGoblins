@@ -1,5 +1,4 @@
-res://scene/units/goblin.tscn
+res://scene/levels/debug_environment.tscn
 res://resources/profiles/townhall.tres
 res://resources/profiles/Beastmaster_prof.tres
 res://scene/global/master_scene.tscn
-res://scene/units/beastmaster.tscn
