@@ -1,7 +1,14 @@
 class_name UnitProfile extends Ability
 
+enum UnitType {MELEE, RANGED}
+enum UnitSubtype {MECHANICAL, INFANTRY}
+
+@export_category("Basic")
 @export var name: String
 @export var rank := 1
+@export var unit_type : UnitType
+@export var unit_subtype : UnitSubtype
+
 
 @export_category("Stats")
 @export var max_health : int = 10
@@ -11,8 +18,8 @@ class_name UnitProfile extends Ability
 @export var base_attack_speed : float = 2.0
 
 @export_category("Behaviour")
-@export var line_of_sight : int = 1024
-@export var agro_range : int = 128
+@export var line_of_sight : int = 1000
+@export var agro_range : int = 150
 
 @export_category("Animations")
 @export var library_name_idle: String

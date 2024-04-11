@@ -14,12 +14,15 @@ const DIRECTION = {
 
 @onready var t_unit = Unit.new()
 @onready var camera := get_node("Global/Camera2D")
+@onready var nBuildings : Node = get_node("Level/Buildings")
+@onready var nUnits : Node = get_node("Level/Units")
 var grouped_units = []
 var grouped_buildings = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
 
 func _ready():
+	# t_unit is just an empty class, this needs reworked
 	t_unit.get_selection_objects(selection_box,selection_border)
 	populate_groups()
 	populate_group_arrays()
@@ -30,11 +33,27 @@ func populate_group_arrays():
 	grouped_buildings = get_tree().get_nodes_in_group("building_group_")
 
 func populate_groups():
-	pass
 	
-	# get.tree for both Units and Buildings nodes, and automatically
-	# fill the corresponding groups 
-	# see issue #18 for details
+	# children of building/unit respectively
+	var cob := [] 
+	var cou := []
+	
+	cob = nBuildings.get_children(false)
+	cou = nUnits.get_children(false)
+	for item in cob:
+		cob[item].add_to_group("building_group_", true)
+	for item in cou:
+		cou[item].add_to_group("unit_group_", true)
+	
+	make_array_unique(cob)
+
+func make_array_unique(arr: Array) -> Array:
+	var unique: Array = []
+	
+	for item in arr:
+		if not unique.has(item):
+			unique.append(item)
+	return unique
 
 static func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()

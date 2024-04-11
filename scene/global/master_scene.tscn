@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://c1s74p02pwuum"]
+[gd_scene load_steps=13 format=3 uid="uid://c1s74p02pwuum"]
 
 [ext_resource type="Script" path="res://scene/global/game_controller.gd" id="1_vye5u"]
 [ext_resource type="Script" path="res://scene/global/UI/camera_controller.gd" id="2_ijcfd"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://cq7kgdky61uue" path="res://scene/units/beastmaster.tscn" id="5_givmo"]
 [ext_resource type="PackedScene" uid="uid://btjdrk2e273lo" path="res://scene/units/goblin.tscn" id="6_u1tw2"]
 [ext_resource type="PackedScene" uid="uid://bna3ueht5drf5" path="res://scene/units/naked_peasant.tscn" id="7_2hlv1"]
+[ext_resource type="Resource" uid="uid://j20v8b1136d" path="res://resources/profiles/naked_peasant_prof.tres" id="7_hsryn"]
 [ext_resource type="Script" path="res://scene/global/UI/ui.gd" id="8_jcynk"]
 [ext_resource type="Script" path="res://scene/global/UI/selection_box.gd" id="9_0flij"]
 
@@ -17,13 +18,15 @@ resource_name = "Beastmaster"
 script = ExtResource("4_4seaa")
 name = "Beastmaster"
 rank = 1
+unit_type = 0
+unit_subtype = 1
 max_health = 15
 current_health = 15
 speed_walk = 64
 base_atk_dmg = 2
 base_attack_speed = 2.0
-line_of_sight = 1024
-agro_range = 128
+line_of_sight = 1000
+agro_range = 150
 library_name_idle = "beastmaster-anim-idle"
 library_name_move = "beastmaster-anim-move"
 library_name_attack = "beastmaster-anim-attack"
@@ -54,6 +57,7 @@ profile = SubResource("Resource_fpqho")
 
 [node name="NakedPeasant" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("7_2hlv1")]
 position = Vector2(75, 68)
+profile = ExtResource("7_hsryn")
 
 [node name="Goblin" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("6_u1tw2")]
 position = Vector2(560, 384)
