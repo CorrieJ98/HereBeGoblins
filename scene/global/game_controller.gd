@@ -34,21 +34,24 @@ func populate_group_arrays():
 
 func populate_groups():
 	
-	# children of building/unit respectively
-	var cob := [] 
-	var cou := []
+	# children of building/unit nodes respectively
+	var cob : Array = get_node("Level/Buildings").get_children(false)
+	var cou : Array = get_node("Level/Units").get_children(false)
 	
+	# false to ensure we're only looking 1 node deep
 	cob = nBuildings.get_children(false)
 	cou = nUnits.get_children(false)
+	
+	# TODO Currently working on issue #18 trying to loop through
+	# the above array to populate groups - also check and ensure there
+	# are no duplicate entries
 	for item in cob:
 		cob[item].add_to_group("building_group_", true)
 	for item in cou:
 		cou[item].add_to_group("unit_group_", true)
-	
-	make_array_unique(cob)
 
 func make_array_unique(arr: Array) -> Array:
-	var unique: Array = []
+	var unique : Array = []
 	
 	for item in arr:
 		if not unique.has(item):

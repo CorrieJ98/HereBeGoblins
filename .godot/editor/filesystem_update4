@@ -2,9 +2,5 @@ res://scene/global/master_scene.tscn
 res://resources/tileset/base_ground.tres
 res://resources/profiles/townhall.tres
 res://resources/profiles/Beastmaster_prof.tres
-res://scene/global/game_controller.gd
-res://scene/global/profile_unit.gd
-res://scene/global/unit.gd
-res://scene/global/ability.gd
-res://resources/profiles/goblin_prof.tres
 res://resources/profiles/naked_peasant_prof.tres
+res://scene/global/game_controller.gd
