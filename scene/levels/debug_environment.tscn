@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://deqmu1hpifyyb"]
 
-[ext_resource type="TileSet" path="res://resources/tileset/base_ground.tres" id="1_cwaug"]
+[ext_resource type="TileSet" uid="uid://dw3ckl16ve4cf" path="res://resources/tileset/base_ground.tres" id="1_cwaug"]
 
 [node name="DebugEnvironment" type="Node2D"]
 
