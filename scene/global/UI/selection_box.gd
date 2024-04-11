@@ -1,7 +1,10 @@
 #class_name SelectionBox extends Panel
+
+# See issue #28
+
 class_name SelectionBox extends Area2D
 
-@onready var detection_collider = $SelectionDetectionArea
+@onready var detection_collider := get_node("SelectionDetectionArea")
 
 var mousePos = Vector2()
 var mousePosGlobal = Vector2()

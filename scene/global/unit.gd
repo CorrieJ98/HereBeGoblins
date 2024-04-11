@@ -33,7 +33,7 @@ func get_anim_string(lib : String, state, dir : Vector2i) -> String:
 func set_selected(selection : bool):
 	selection_border.visible = selection
 
-func get_selection_objects(box : Panel, border : Panel) -> void:
+func get_selection_objects(box, border : Panel) -> void:
 	box = selection_box
 	border = selection_border
 	

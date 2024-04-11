@@ -5,3 +5,4 @@ res://scene/global/master_scene.tscn
 res://scene/units/beastmaster.tscn
 res://scene/units/goblin.tscn
 res://scene/global/UI/selection_box.gd
+res://scene/global/unit.gd
