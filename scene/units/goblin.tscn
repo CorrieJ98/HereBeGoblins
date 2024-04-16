@@ -550,7 +550,6 @@ border_color = Color(0.870588, 0, 0.105882, 1)
 script = ExtResource("1_kp0ke")
 selection_border = NodePath("SelectionBorder")
 unit_team = 2
-unit_class = 3
 profile = ExtResource("2_0reqg")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]

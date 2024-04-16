@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_jke7e")
-name = "goblin scout"
+name = "Goblin Scout"
 rank = 1
 unit_type = 0
 unit_subtype = 0

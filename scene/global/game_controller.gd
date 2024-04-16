@@ -97,8 +97,8 @@ func get_units_in_area(area : Array) -> Array:
 	return u
 
 func _on_area_selected(box):
-	var start : Vector2i = box.startV
-	var end : Vector2i = box.endV
+	var start = box.startV
+	var end = box.endV
 	var area = []
 	
 	print("startV: ", start)
@@ -119,12 +119,3 @@ func _on_area_selected(box):
 
 func _on_unit_selected(box):
 	pass # Replace with function body.
-
-
-# TODO
-# I reckon i need to explicitly pass the SelectionBox into the game_controller.gd
-# script in order to access the necessary variables. 
-#
-# POTENTIAL FIX
-# lay out the entire UI scene inside the master scene. That way, its very easy to access
-# the selection box

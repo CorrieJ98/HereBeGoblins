@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://c1s74p02pwuum"]
+[gd_scene load_steps=13 format=3 uid="uid://c1s74p02pwuum"]
 
 [ext_resource type="Script" path="res://scene/global/game_controller.gd" id="1_vye5u"]
 [ext_resource type="Script" path="res://scene/global/UI/camera_controller.gd" id="2_ijcfd"]
@@ -36,37 +36,12 @@ basic_abilties = Array[int]([])
 special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
 
-[sub_resource type="Resource" id="Resource_657nc"]
-resource_local_to_scene = true
-resource_name = "Beastmaster"
-script = ExtResource("4_4seaa")
-name = "Beastmaster"
-rank = 1
-unit_type = 0
-unit_subtype = 1
-max_health = 15
-current_health = 15
-speed_walk = 64
-base_atk_dmg = 2
-base_attack_speed = 2.0
-line_of_sight = 1000
-agro_range = 150
-library_name_idle = "beastmaster-anim-idle"
-library_name_move = "beastmaster-anim-move"
-library_name_attack = "beastmaster-anim-attack"
-library_name_death = ""
-library_names_corpse = Array[String]([])
-basic_abilties = Array[int]([])
-special_abilities = Array[int]([1])
-traits = Array[int]([0, 2])
-
 [node name="GameController" type="Node"]
 script = ExtResource("1_vye5u")
 
 [node name="Level" type="Node" parent="."]
 
 [node name="DebugEnvironment" parent="Level" instance=ExtResource("3_njckj")]
-position = Vector2(-10, -2)
 
 [node name="Buildings" type="Node" parent="Level"]
 
@@ -79,13 +54,8 @@ position = Vector2(907, 51)
 position = Vector2(231, 83)
 profile = SubResource("Resource_fpqho")
 
-[node name="Beastmaster2" parent="Level/Units" node_paths=PackedStringArray("selection_border") groups=["unit_group_"] instance=ExtResource("5_givmo")]
-position = Vector2(212, 269)
-selection_border = NodePath("../Beastmaster/SelectionBorder")
-profile = SubResource("Resource_657nc")
-
 [node name="NakedPeasant" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("7_2hlv1")]
-position = Vector2(75, 68)
+position = Vector2(1385, 168)
 profile = ExtResource("7_hsryn")
 
 [node name="Goblin" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("6_u1tw2")]
@@ -94,12 +64,17 @@ position = Vector2(560, 384)
 [node name="Global" type="Node" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="Global"]
-limit_left = 0
-limit_top = 0
+drag_left_margin = 1.0
+drag_top_margin = 1.0
+drag_right_margin = 1.0
+drag_bottom_margin = 1.0
+editor_draw_limits = true
 script = ExtResource("2_ijcfd")
 
 [node name="UI" type="CanvasLayer" parent="Global"]
 script = ExtResource("8_jcynk")
+
+[node name="SelectionArea" type="Node2D" parent="Global/UI"]
 
 [node name="SelectionBox" type="Panel" parent="Global/UI"]
 offset_right = 40.0

@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource("1_drp0q")
-name = "naked peasant"
+name = "Naked Peasant"
 rank = 1
 unit_type = 0
 unit_subtype = 1
