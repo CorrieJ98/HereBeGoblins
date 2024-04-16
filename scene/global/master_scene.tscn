@@ -55,6 +55,11 @@ position = Vector2(907, 51)
 position = Vector2(231, 83)
 profile = SubResource("Resource_fpqho")
 
+[node name="Beastmaster2" parent="Level/Units" node_paths=PackedStringArray("selection_border") groups=["unit_group_"] instance=ExtResource("5_givmo")]
+position = Vector2(212, 269)
+selection_border = NodePath("../Beastmaster/SelectionBorder")
+profile = SubResource("Resource_fpqho")
+
 [node name="NakedPeasant" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("7_2hlv1")]
 position = Vector2(75, 68)
 profile = ExtResource("7_hsryn")

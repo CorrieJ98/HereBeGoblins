@@ -31,6 +31,9 @@ func populate_group_arrays():
 	# populate arrays with all objects in the scene of the relevant groups
 	grouped_units = get_tree().get_nodes_in_group("unit_group_")
 	grouped_buildings = get_tree().get_nodes_in_group("building_group_")
+	
+	print(grouped_units, " --units")
+	print(grouped_buildings, " --buildings")
 
 func populate_groups():
 	
@@ -46,9 +49,11 @@ func populate_groups():
 	# the above array to populate groups - also check and ensure there
 	# are no duplicate entries
 	for item in cob:
-		cob[item].add_to_group("building_group_", true)
+		if !is_in_group:
+			add_to_group("building_group_", true)
 	for item in cou:
-		cou[item].add_to_group("unit_group_", true)
+		if !is_in_group:
+			add_to_group("unit_group_", true)
 
 func make_array_unique(arr: Array) -> Array:
 	var unique : Array = []
