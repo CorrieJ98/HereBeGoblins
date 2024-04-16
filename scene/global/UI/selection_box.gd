@@ -1,10 +1,4 @@
-#class_name SelectionBox extends Panel
-
-# See issue #28
-
-class_name SelectionBox extends Area2D
-
-@onready var detection_collider := get_node("SelectionDetectionArea")
+class_name SelectionBox extends Panel
 
 var mousePos = Vector2()
 var mousePosGlobal = Vector2()
@@ -21,12 +15,12 @@ func _ready() -> void:
 	pass
 
 func draw_area(isSelecting : bool = true):
-	detection_collider.size = Vector2(abs(startV.x - endV.x), abs(startV.y - endV.y))
+	size = Vector2(abs(startV.x - endV.x), abs(startV.y - endV.y))
 	var pos = Vector2()
 	pos.x = min(startV.x,endV.x)
 	pos.y = min(startV.y, endV.y)
 	position = pos
-	detection_collider.size *= int(isSelecting)
+	size *= int(isSelecting)
 
 func box_dragging() -> void:
 	if Input.is_action_just_pressed("LeftMouseButton"):

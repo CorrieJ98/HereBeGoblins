@@ -1,6 +1,6 @@
+Panel
 Area2D
 CollisionShape2D
-Panel
 CanvasLayer
 Node
 Sprite2D
@@ -12,4 +12,3 @@ Camera2D
 Node2D
 Node3D
 CharacterBody2D
-ResourcePreloader

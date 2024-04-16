@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://c1s74p02pwuum"]
+[gd_scene load_steps=12 format=3 uid="uid://c1s74p02pwuum"]
 
 [ext_resource type="Script" path="res://scene/global/game_controller.gd" id="1_vye5u"]
 [ext_resource type="Script" path="res://scene/global/UI/camera_controller.gd" id="2_ijcfd"]
@@ -32,8 +32,6 @@ library_names_corpse = Array[String]([])
 basic_abilties = Array[int]([])
 special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_2mon6"]
 
 [node name="GameController" type="Node"]
 script = ExtResource("1_vye5u")
@@ -70,8 +68,7 @@ script = ExtResource("2_ijcfd")
 [node name="UI" type="CanvasLayer" parent="Global"]
 script = ExtResource("8_jcynk")
 
-[node name="SelectionBox" type="Area2D" parent="Global/UI"]
+[node name="SelectionBox" type="Panel" parent="Global/UI"]
+offset_right = 40.0
+offset_bottom = 40.0
 script = ExtResource("9_0flij")
-
-[node name="SelectionDetectionArea" type="CollisionShape2D" parent="Global/UI/SelectionBox"]
-shape = SubResource("RectangleShape2D_2mon6")
