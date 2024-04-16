@@ -5,3 +5,5 @@ res://resources/profiles/Beastmaster_prof.tres
 res://resources/profiles/naked_peasant_prof.tres
 res://scene/units/beastmaster.tscn
 res://scene/units/goblin.tscn
+res://resources/profiles/goblin_prof.tres
+res://scene/global/UI/camera_controller.gd
