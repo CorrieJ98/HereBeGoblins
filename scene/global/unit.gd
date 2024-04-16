@@ -1,8 +1,6 @@
 class_name Unit extends CharacterBody2D
 
 enum SpriteState {IDLE, MOVE, ATTACK}
-enum UnitType {MELEE, RANGED, MECHANICAL}
-enum UnitClass {WORKER, SCOUT, SUPPORT, LIGHT, HEAVY, HERO}
 enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
 
 @onready var anim = $AnimationPlayer
@@ -12,10 +10,9 @@ enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
 @onready var collision_box = $CollisionBox
 
 @export var selection_border : Panel
-@export var unit_type: UnitType
-@export var unit_team: UnitTeam
-@export var unit_class: UnitClass
 @export var is_selected : bool = false
+
+@export var unit_team : UnitTeam
 @export var profile : UnitProfile
 
 func _ready():

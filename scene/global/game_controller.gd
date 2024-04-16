@@ -14,12 +14,15 @@ const DIRECTION = {
 
 @onready var t_unit = Unit.new()
 @onready var camera := get_node("Global/Camera2D")
+@onready var nBuildings : Node = get_node("Level/Buildings")
+@onready var nUnits : Node = get_node("Level/Units")
 var grouped_units = []
 var grouped_buildings = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
 
 func _ready():
+	# t_unit is just an empty class, this needs reworked
 	t_unit.get_selection_objects(selection_box,selection_border)
 	populate_groups()
 	populate_group_arrays()
@@ -28,13 +31,37 @@ func populate_group_arrays():
 	# populate arrays with all objects in the scene of the relevant groups
 	grouped_units = get_tree().get_nodes_in_group("unit_group_")
 	grouped_buildings = get_tree().get_nodes_in_group("building_group_")
+	
+	print(grouped_units, " --units")
+	print(grouped_buildings, " --buildings")
 
 func populate_groups():
-	pass
 	
-	# get.tree for both Units and Buildings nodes, and automatically
-	# fill the corresponding groups 
-	# see issue #18 for details
+	# children of building/unit nodes respectively
+	var cob : Array = get_node("Level/Buildings").get_children(false)
+	var cou : Array = get_node("Level/Units").get_children(false)
+	
+	# false to ensure we're only looking 1 node deep
+	cob = nBuildings.get_children(false)
+	cou = nUnits.get_children(false)
+	
+	# TODO Currently working on issue #18 trying to loop through
+	# the above array to populate groups - also check and ensure there
+	# are no duplicate entries
+	for item in cob:
+		if !is_in_group:
+			add_to_group("building_group_", true)
+	for item in cou:
+		if !is_in_group:
+			add_to_group("unit_group_", true)
+
+func make_array_unique(arr: Array) -> Array:
+	var unique : Array = []
+	
+	for item in arr:
+		if not unique.has(item):
+			unique.append(item)
+	return unique
 
 static func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()

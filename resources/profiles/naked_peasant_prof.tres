@@ -4,15 +4,17 @@
 
 [resource]
 script = ExtResource("1_drp0q")
-name = "Naked Peasant"
+name = "naked peasant"
 rank = 1
+unit_type = 0
+unit_subtype = 1
 max_health = 5
 current_health = 5
-speed_walk = 64
+speed_walk = 60
 base_atk_dmg = 1
 base_attack_speed = 2.0
-line_of_sight = 1024
-agro_range = 128
+line_of_sight = 1000
+agro_range = 100
 library_name_idle = "beastmaster-anim-idle"
 library_name_move = "beastmaster-anim-move"
 library_name_attack = "beastmaster-anim-attack"

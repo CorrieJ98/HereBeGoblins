@@ -24,17 +24,17 @@ func draw_area(isSelecting : bool = true):
 
 func box_dragging() -> void:
 	if Input.is_action_just_pressed("LeftMouseButton"):
-		start = mousePosGlobal
-		startV = mousePos
+		start = get_global_mouse_position()
+		startV = get_local_mouse_position()
 		is_dragging = true
 	if is_dragging:
-		end = mousePosGlobal
-		endV = mousePos
+		end = get_global_mouse_position()
+		endV = get_local_mouse_position()
 		draw_area()
 	if Input.is_action_just_released("LeftMouseButton"):
 		if startV.distance_to(mousePos) > 20:
-			end = mousePosGlobal
-			endV = mousePos
+			end = get_global_mouse_position()
+			endV = get_local_mouse_position()
 			is_dragging = false
 			draw_area(false)
 			emit_signal("area_selected",self)
