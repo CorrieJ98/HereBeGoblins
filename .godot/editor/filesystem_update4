@@ -3,3 +3,5 @@ res://resources/tileset/base_ground.tres
 res://resources/profiles/townhall.tres
 res://resources/profiles/Beastmaster_prof.tres
 res://resources/profiles/naked_peasant_prof.tres
+res://scene/units/beastmaster.tscn
+res://scene/units/goblin.tscn
