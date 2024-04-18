@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://37ey3tfm5syb"]
+[gd_scene load_steps=20 format=3 uid="uid://37ey3tfm5syb"]
 
 [ext_resource type="Script" path="res://scene/global/building.gd" id="1_t2bw6"]
 [ext_resource type="Resource" uid="uid://bfip0xwt1hvoh" path="res://resources/profiles/townhall.tres" id="2_3dw2l"]
@@ -539,12 +539,6 @@ _data = {
 "townhall": SubResource("Animation_dwo1v")
 }
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_fg5qd"]
-size = Vector2(64, 96)
-
-[sub_resource type="CircleShape2D" id="CircleShape2D_g333v"]
-radius = 24.0
-
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_y62yn"]
 bg_color = Color(0.6, 0.6, 0.6, 0)
 border_width_left = 1
@@ -553,16 +547,20 @@ border_width_right = 1
 border_width_bottom = 1
 border_color = Color(0.494118, 0.407843, 1, 1)
 
-[node name="TownHall" type="Node2D" node_paths=PackedStringArray("sprite", "portrait", "collision_box", "selection_box", "selection_border")]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ed86l"]
+size = Vector2(557.288, 309.682)
+
+[node name="TownHall" type="Area2D" node_paths=PackedStringArray("sprite", "portrait", "collision_box", "selection_box", "selection_border")]
 script = ExtResource("1_t2bw6")
 sprite = NodePath("Sprite2D")
 portrait = NodePath("Portrait")
 collision_box = NodePath("CollisionBox")
-selection_box = NodePath("SelectionBox")
+selection_box = NodePath("SelectionArea/SelectionBox")
 selection_border = NodePath("SelectionBorder")
 profile = ExtResource("2_3dw2l")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(27, -81)
 texture = ExtResource("3_m2th8")
 
 [node name="Portrait" type="Sprite2D" parent="."]
@@ -578,16 +576,6 @@ libraries = {
 }
 autoplay = "RESET"
 
-[node name="SelectionBox" type="CollisionShape2D" parent="."]
-position = Vector2(0, 8)
-shape = SubResource("RectangleShape2D_fg5qd")
-debug_color = Color(0.45098, 0.701961, 0.678431, 0.419608)
-
-[node name="CollisionBox" type="CollisionShape2D" parent="."]
-position = Vector2(0, 40)
-shape = SubResource("CircleShape2D_g333v")
-debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)
-
 [node name="SelectionBorder" type="Panel" parent="."]
 visible = false
 offset_left = -32.0
@@ -595,3 +583,20 @@ offset_top = -41.0
 offset_right = 32.0
 offset_bottom = 56.0
 theme_override_styles/panel = SubResource("StyleBoxFlat_y62yn")
+
+[node name="SelectionArea" type="Area2D" parent="."]
+position = Vector2(27, -81)
+
+[node name="SelectionBox" type="CollisionShape2D" parent="SelectionArea"]
+position = Vector2(-26.5866, 80.637)
+rotation = 0.610865
+skew = 0.349066
+shape = SubResource("RectangleShape2D_ed86l")
+debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)
+
+[node name="CollisionBox" type="CollisionShape2D" parent="."]
+position = Vector2(0.413355, -0.363037)
+rotation = 0.610865
+skew = 0.349066
+shape = SubResource("RectangleShape2D_ed86l")
+debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)

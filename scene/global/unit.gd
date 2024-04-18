@@ -15,11 +15,19 @@ enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
 @export var unit_team : UnitTeam
 @export var profile : UnitProfile
 
+var is_mouse_over : bool
+
 func _ready():
 	set_selected(is_selected)
 
+# TODO Clicking to move
 func _physics_process(delta) -> void:
-	pass
+	move_and_slide()
+	
+	if Input.is_action_just_pressed("RightMouseButton"):
+		self.velocity.direction_to(get_global_mouse_position())
+		print("vel: ", velocity, "mouse_pos: ", get_global_mouse_position())
+
 
 func get_anim_string(lib : String, state, dir : Vector2i) -> String:
 	# Create a full library path with str(lib) and add the
@@ -33,4 +41,24 @@ func set_selected(selection : bool):
 func get_selection_objects(box : Panel, border : Panel) -> void:
 	box = selection_box
 	border = selection_border
-	
+
+func move_command():
+	if is_selected == true:
+		var move_target = get_global_mouse_position()
+		velocity.direction_to(move_target)
+
+func attack_command():
+	pass
+
+func labour_command():
+	pass
+
+
+func on_mouse_hover() -> bool:
+	is_mouse_over = true
+	return is_mouse_over
+
+
+func on_mouse_exited():
+	is_mouse_over = false
+	return is_mouse_over

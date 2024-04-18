@@ -15,6 +15,12 @@ signal select_unit(profile)
 func _ready() -> void:
 	pass
 
+
+# TODO Rework selection entirely: This should be a rect, it should pass a signal
+# to all relevant objects (units and buildings) on the screen that, if they are
+# within the borders of the selectionbox, their is_selected bool shall be truthy
+# Issue #28
+
 func draw_area(isSelecting : bool = true):
 	size = Vector2(abs(startV.x - endV.x), abs(startV.y - endV.y))
 	var pos = Vector2()

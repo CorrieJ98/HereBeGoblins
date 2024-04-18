@@ -57,3 +57,4 @@ func edge_panning():
 
 func update_window_scaling() -> Vector2i:
 	return get_viewport().size
+	

@@ -12,7 +12,7 @@ const DIRECTION = {
 	"NORTHEAST": Vector2(1, 1),
 }
 
-@onready var t_unit = Unit.new()
+#@onready var t_unit = Unit.new()
 @onready var camera := get_node("Global/Camera2D")
 @onready var nBuildings : Node = get_node("Level/Buildings")
 @onready var nUnits : Node = get_node("Level/Units")
@@ -23,7 +23,7 @@ var selection_border : Panel = null
 
 func _ready():
 	# t_unit is just an empty class, this needs reworked
-	t_unit.get_selection_objects(selection_box,selection_border)
+#	t_unit.get_selection_objects(selection_box,selection_border)
 	populate_groups()
 	populate_group_arrays()
 
@@ -37,31 +37,9 @@ func populate_group_arrays():
 
 func populate_groups():
 	
-	# children of building/unit nodes respectively
-	var cob : Array = get_node("Level/Buildings").get_children(false)
-	var cou : Array = get_node("Level/Units").get_children(false)
+	#TODO Issue #18 - Populate groups automatically on unit spawn
 	
-	# false to ensure we're only looking 1 node deep
-	cob = nBuildings.get_children(false)
-	cou = nUnits.get_children(false)
-	
-	# TODO Currently working on issue #18 trying to loop through
-	# the above array to populate groups - also check and ensure there
-	# are no duplicate entries
-	for item in cob:
-		if !is_in_group:
-			add_to_group("building_group_", true)
-	for item in cou:
-		if !is_in_group:
-			add_to_group("unit_group_", true)
-
-func make_array_unique(arr: Array) -> Array:
-	var unique : Array = []
-	
-	for item in arr:
-		if not unique.has(item):
-			unique.append(item)
-	return unique
+	pass
 
 static func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()
@@ -119,12 +97,3 @@ func _on_area_selected(box):
 
 func _on_unit_selected(box):
 	pass # Replace with function body.
-
-
-# TODO
-# I reckon i need to explicitly pass the SelectionBox into the game_controller.gd
-# script in order to access the necessary variables. 
-#
-# POTENTIAL FIX
-# lay out the entire UI scene inside the master scene. That way, its very easy to access
-# the selection box
