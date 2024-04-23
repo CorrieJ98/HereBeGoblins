@@ -12,7 +12,7 @@ const DIRECTION = {
 	"NORTHEAST": Vector2(1, 1),
 }
 
-#@onready var t_unit = Unit.new()
+@onready var t_unit = Unit.new()
 @onready var camera := get_node("Global/Camera2D")
 @onready var nBuildings : Node = get_node("Level/Buildings")
 @onready var nUnits : Node = get_node("Level/Units")
@@ -23,7 +23,7 @@ var selection_border : Panel = null
 
 func _ready():
 	# t_unit is just an empty class, this needs reworked
-#	t_unit.get_selection_objects(selection_box,selection_border)
+	t_unit.get_selection_objects(selection_box,selection_border)
 	populate_groups()
 	populate_group_arrays()
 

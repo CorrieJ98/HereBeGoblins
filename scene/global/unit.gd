@@ -22,12 +22,8 @@ func _ready():
 
 # TODO Clicking to move
 func _physics_process(delta) -> void:
+	move_command(delta)
 	move_and_slide()
-	
-	if Input.is_action_just_pressed("RightMouseButton"):
-		self.velocity.direction_to(get_global_mouse_position())
-		print("vel: ", velocity, "mouse_pos: ", get_global_mouse_position())
-
 
 func get_anim_string(lib : String, state, dir : Vector2i) -> String:
 	# Create a full library path with str(lib) and add the
@@ -42,10 +38,8 @@ func get_selection_objects(box : Panel, border : Panel) -> void:
 	box = selection_box
 	border = selection_border
 
-func move_command():
-	if is_selected == true:
-		var move_target = get_global_mouse_position()
-		velocity.direction_to(move_target)
+func move_command(dt):
+	pass
 
 func attack_command():
 	pass
@@ -53,11 +47,9 @@ func attack_command():
 func labour_command():
 	pass
 
-
 func on_mouse_hover() -> bool:
 	is_mouse_over = true
 	return is_mouse_over
-
 
 func on_mouse_exited():
 	is_mouse_over = false
