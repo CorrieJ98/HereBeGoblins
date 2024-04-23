@@ -1,22 +1,15 @@
 class_name Building extends Node
 
-enum SpriteState {IDLE, WORKING}
-enum BuildingType {TOWNHALL,BARRACKS, STABLES, FORGE, WORKSHOP, WATCHTOWER}
-enum BuildingTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
+# All the below references are now found inside the relative profile
 
-@onready var anim = $AnimationPlayer
-
+@export_category("Node References")
 @export var sprite : Sprite2D
 @export var portrait : Sprite2D
 @export var collision_box : CollisionShape2D
-@export_category("Selection")
 @export var selection_box : CollisionShape2D
 @export var selection_border : Panel
 @export var is_selected : bool = false
-@export_category("Gameplay")
-@export var building_type: BuildingType
-@export var building_team : BuildingTeam
-@export var profile : BuildingProfile
+@export var profile : Resource
 
 func _ready():
 	update_selection_border()
@@ -28,4 +21,4 @@ func get_anim_lib_string(lib : String, state, dir : Vector2i) -> String:
 	return (str(lib) + "-" + str(state) + "/" + str(dir))
 
 func update_selection_border() -> void:
-	selection_border.visible = is_selected
+	profile.selection_border.visible = is_selected

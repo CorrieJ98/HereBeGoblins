@@ -1,7 +1,8 @@
-[gd_scene load_steps=17 format=3 uid="uid://galembb0kwh3"]
+[gd_scene load_steps=18 format=3 uid="uid://galembb0kwh3"]
 
 [ext_resource type="Script" path="res://scene/global/building.gd" id="1_ceghs"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="2_5dsk3"]
+[ext_resource type="Resource" uid="uid://c6gvixrw5eyim" path="res://resources/profiles/global/building.tres" id="2_ea4lx"]
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hft8o"]
 
@@ -545,8 +546,10 @@ border_color = Color(0.494118, 0.407843, 1, 1)
 
 [node name="DEFAULTBUILDING" type="Node2D"]
 script = ExtResource("1_ceghs")
+profile = ExtResource("2_ea4lx")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_5dsk3")
 hframes = 24
 vframes = 25
 frame = 136

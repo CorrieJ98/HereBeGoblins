@@ -97,3 +97,7 @@ func _on_area_selected(box):
 
 func _on_unit_selected(box):
 	pass # Replace with function body.
+
+func move_selected_units(selected_units : Array):
+	for unit in selected_units:
+		pass

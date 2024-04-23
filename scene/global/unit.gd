@@ -1,7 +1,6 @@
 class_name Unit extends CharacterBody2D
 
-enum SpriteState {IDLE, MOVE, ATTACK}
-enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
+
 
 @onready var anim = $AnimationPlayer
 @onready var sprite = $Sprite2D
@@ -11,8 +10,6 @@ enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
 
 @export var selection_border : Panel
 @export var is_selected : bool = false
-
-@export var unit_team : UnitTeam
 @export var profile : UnitProfile
 
 var is_mouse_over : bool

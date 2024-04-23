@@ -1,9 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://c1s74p02pwuum"]
+[gd_scene load_steps=14 format=3 uid="uid://c1s74p02pwuum"]
 
 [ext_resource type="Script" path="res://scene/global/game_controller.gd" id="1_vye5u"]
 [ext_resource type="Script" path="res://scene/global/UI/camera_controller.gd" id="2_ijcfd"]
 [ext_resource type="PackedScene" uid="uid://deqmu1hpifyyb" path="res://scene/levels/debug_environment.tscn" id="3_njckj"]
 [ext_resource type="Script" path="res://scene/global/profile_unit.gd" id="4_4seaa"]
+[ext_resource type="PackedScene" uid="uid://galembb0kwh3" path="res://scene/structures/default_building.tscn" id="4_at7oi"]
 [ext_resource type="PackedScene" uid="uid://37ey3tfm5syb" path="res://scene/structures/town_hall.tscn" id="4_mnd0u"]
 [ext_resource type="PackedScene" uid="uid://cq7kgdky61uue" path="res://scene/units/beastmaster.tscn" id="5_givmo"]
 [ext_resource type="PackedScene" uid="uid://btjdrk2e273lo" path="res://scene/units/goblin.tscn" id="6_u1tw2"]
@@ -19,7 +20,6 @@ script = ExtResource("4_4seaa")
 name = "Beastmaster"
 rank = 1
 unit_type = 0
-unit_subtype = 1
 max_health = 15
 current_health = 15
 speed_walk = 64
@@ -32,9 +32,7 @@ library_name_move = "beastmaster-anim-move"
 library_name_attack = "beastmaster-anim-attack"
 library_name_death = ""
 library_names_corpse = Array[String]([])
-basic_abilties = Array[int]([])
-special_abilities = Array[int]([1])
-traits = Array[int]([0, 2])
+tags = Array[int]([])
 
 [node name="GameController" type="Node"]
 script = ExtResource("1_vye5u")
@@ -48,6 +46,8 @@ position = Vector2(-10, -2)
 
 [node name="TownHall" parent="Level/Buildings" groups=["building_group_"] instance=ExtResource("4_mnd0u")]
 position = Vector2(1015, 19)
+
+[node name="DEFAULTBUILDING" parent="Level/Buildings" instance=ExtResource("4_at7oi")]
 
 [node name="Units" type="Node" parent="Level"]
 

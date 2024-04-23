@@ -1,0 +1,26 @@
+[gd_scene load_steps=9 format=3 uid="uid://cw58kvergrlfk"]
+
+[ext_resource type="Script" path="res://scene/global/unit_constructor.gd" id="1_e1gh4"]
+[ext_resource type="Script" path="res://appearance.gd" id="2_pifw3"]
+[ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="2_rrvi0"]
+[ext_resource type="Texture2D" uid="uid://cpvxc4fdsbt3i" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_2.png" id="3_q45vf"]
+[ext_resource type="Texture2D" uid="uid://bs5jd8sba7k6k" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_3.png" id="4_08qjl"]
+[ext_resource type="Texture2D" uid="uid://3ych7yy7c40c" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_4.png" id="5_jnvsx"]
+[ext_resource type="Texture2D" uid="uid://dq7kf2gxvaisf" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png" id="6_rb1lw"]
+
+[sub_resource type="Resource" id="Resource_bqy7c"]
+script = ExtResource("2_pifw3")
+name = ""
+description = ""
+body_spritesheets = Array[CompressedTexture2D]([ExtResource("2_rrvi0"), ExtResource("3_q45vf"), ExtResource("4_08qjl"), ExtResource("5_jnvsx")])
+body_spritesheets_frame_data = Array[Vector2i]([Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 12)])
+portrait = ExtResource("6_rb1lw")
+portrait_frame_data = Vector2i(0, 0)
+armour_spritesheets = Array[CompressedTexture2D]([])
+armour_spritesheets_frame_data = Array[Vector2i]([])
+weapon_spritesheets = Array[CompressedTexture2D]([])
+weapon_spritesheets_frame_data = Array[Vector2i]([])
+
+[node name="Unit" type="CharacterBody2D"]
+script = ExtResource("1_e1gh4")
+appearance = SubResource("Resource_bqy7c")

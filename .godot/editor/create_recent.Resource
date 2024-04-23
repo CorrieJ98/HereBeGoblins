@@ -1,2 +1,4 @@
+UnitProfile
+BuildingProfile
 TileSet
 AtlasTexture

@@ -1,3 +1,5 @@
+CharacterBody2D
+Building
 Area2D
 Panel
 CanvasLayer
@@ -11,4 +13,3 @@ Camera2D
 Node2D
 Node3D
 CollisionShape2D
-CharacterBody2D

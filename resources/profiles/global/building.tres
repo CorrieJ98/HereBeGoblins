@@ -1,0 +1,25 @@
+[gd_resource type="Resource" script_class="BuildingProfile" load_steps=2 format=3 uid="uid://c6gvixrw5eyim"]
+
+[ext_resource type="Script" path="res://scene/global/profile_building.gd" id="1_02t7w"]
+
+[resource]
+script = ExtResource("1_02t7w")
+name = ""
+team = 3
+tier = 1
+building_type = 0
+max_health = 1000
+current_health = 1000
+base_atk_dmg = 7
+base_attack_speed = 0.5
+line_of_sight = 2048
+agro_range = 0
+max_embarked_units = 0
+embarked_units = 0
+library_name_attack = ""
+library_name_damage = ""
+library_name_death = ""
+library_name_working = ""
+library_names_idle = Array[String]([])
+library_names_destroyed = Array[String]([])
+building_tags = Array[int]([])

@@ -1,7 +1,33 @@
 class_name BuildingProfile extends Ability
 
+enum SpriteState {IDLE, WORKING}
+enum BuildingTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
+
+enum BuildingType {
+TOWNHALL,		# Unique; Spawns LABOURER type;
+BARRACKS, 		# Spawns LIGHTINFANTRY & HEAVYINFANTRY;
+STABLES, 		# Spawns mounted units
+FORGE,			# Upgrades units
+WORKSHOP,		# Spawns flying & siege units
+WATCHTOWER		# Truesight, can attack
+}
+
+@export var spritesheet : Sprite2D
+var portrait : Sprite2D
+var anim_player : AnimationPlayer
+var selection_box : CollisionShape2D
+var collision_box : CollisionShape2D
+var selection_border : Panel
+
+func _ready():
+	spritesheet = Sprite2D.new()
+
+@export_category("Basic")
 @export var name: String
-@export var tier := 1
+@export var team : BuildingTeam
+@export var tier : int = 1
+@export var building_type : BuildingType
+
 
 @export_category("Stats")
 @export var max_health : int = 1000
@@ -12,6 +38,8 @@ class_name BuildingProfile extends Ability
 @export_category("Behaviour")
 @export var line_of_sight : int = 2048
 @export var agro_range : int = 0
+@export var max_embarked_units : int
+@export var embarked_units : int
 
 @export_category("Animations")
 @export var library_name_attack: String
@@ -22,6 +50,4 @@ class_name BuildingProfile extends Ability
 @export var library_names_destroyed: Array[String]
 
 @export_category("Abilities")
-@export var basic_abilties: Array[Ability.BuildingBasicAbilities]
-@export var special_abilities: Array[Ability.BuildingSpecialAbilities]
-@export var traits: Array[Ability.BuildingTraits]
+@export var building_tags : Array[Ability.BuildingTags]

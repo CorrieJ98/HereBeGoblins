@@ -1,13 +1,21 @@
 class_name UnitProfile extends Ability
 
-enum UnitType {MELEE, RANGED}
-enum UnitSubtype {MECHANICAL, INFANTRY}
+enum SpriteState {IDLE, MOVE, ATTACK}
+enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
+enum UnitType {
+LABOURER,		# Can gather resources, build or work in buildings
+SCOUT,			# Truesight, fast movespeed
+ARCHER,			# standard ranged unit
+INFANTRY,		# standard melee unit
+MOUNTED,		# unit on horseback
+MECHANICAL,		# vehicles requiring manpower to operate
+HERO			# Unique; Hero character with special abilities
+}
 
 @export_category("Basic")
 @export var name: String
 @export var rank := 1
 @export var unit_type : UnitType
-@export var unit_subtype : UnitSubtype
 
 
 @export_category("Stats")
@@ -30,16 +38,14 @@ enum UnitSubtype {MECHANICAL, INFANTRY}
 
 # TODO Change to Ability class instead of String
 @export_category("Abilities")
-@export var basic_abilties: Array[Ability.UnitBasicAbilities]
-@export var special_abilities: Array[Ability.UnitSpecialAbilities]
-@export var traits: Array[Ability.UnitTraits]
+@export var tags: Array[Ability.UnitTags]
 
 func get_library_from_state(sprite_state) -> String:
 	match sprite_state:
-		Unit.SpriteState.IDLE:
+		SpriteState.IDLE:
 			return library_name_idle
-		Unit.SpriteState.MOVE:
+		SpriteState.MOVE:
 			return library_name_move
-		Unit.SpriteState.ATTACK:
+		SpriteState.ATTACK:
 			return library_name_attack
 	return "library name error"
