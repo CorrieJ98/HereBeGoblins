@@ -1,4 +1,4 @@
-class_name UnitConstructor extends CharacterBody2D
+class_name UnitConstructor extends Unit
 
 @export var appearance : Appearance
 @export var profile : UnitProfile

@@ -10,6 +10,13 @@ class_name Appearance extends Resource
 @export var portrait : CompressedTexture2D
 @export var portrait_frame_data : Vector2i
 
+
+# TODO need more armour types - currently this only covers a
+# single armour segment (ie Beastmaster_Back) when there are several
+# that need a category. Array[Array[CompressedTexture2D]] is not
+# supported so i need another method. Maybe an exported int to
+# instantiate new arrays as per how many clothing slots are needed.
+
 @export_category("Armour and clothing spritesheets")
 @export var armour_spritesheets : Array[CompressedTexture2D]
 @export var armour_spritesheets_frame_data : Array[Vector2i]
@@ -19,15 +26,15 @@ class_name Appearance extends Resource
 @export var weapon_spritesheets_frame_data : Array[Vector2i]
 
 func _ready():
-	populate_asc(null,body_spritesheets,
+	populate_arh(null,body_spritesheets,
 	body_spritesheets_frame_data,
 	armour_spritesheets,
 	armour_spritesheets_frame_data,
 	weapon_spritesheets,weapon_spritesheets_frame_data)
 
 
-# This is just silly
-func populate_asc(asc : AppearanceSpritesheetContainer, base_spritesheet : Array[CompressedTexture2D], base_spritesheet_frame_data : Array[Vector2i],armour_spritesheets : Array[CompressedTexture2D], armour_spritesheet_frame_data : Array[Vector2i], weapon_spritesheets : Array[CompressedTexture2D], weapon_spritesheets_frame_data : Array[Vector2i]):
+# This is just silly, late night code. Theres a future issue here.
+func populate_arh(arh : AppearanceResourceHandler, base_spritesheet : Array[CompressedTexture2D], base_spritesheet_frame_data : Array[Vector2i],armour_spritesheets : Array[CompressedTexture2D], armour_spritesheet_frame_data : Array[Vector2i], weapon_spritesheets : Array[CompressedTexture2D], weapon_spritesheets_frame_data : Array[Vector2i]):
 	
 	# aliases to make this absolute mess easier to read
 	var bss = base_spritesheet
@@ -37,12 +44,30 @@ func populate_asc(asc : AppearanceSpritesheetContainer, base_spritesheet : Array
 	var wss = weapon_spritesheets
 	var wss_fd = weapon_spritesheets_frame_data
 	
-	if asc == null:
-		asc = AppearanceSpritesheetContainer.new()
+	# Ensure there is a resource handler, otherwise create one
+	# zero every array, and populate it with what is passed in
+	if arh == null:
+		arh = AppearanceResourceHandler.new()
 	else:
-		pass
+		arh.base_spritesheets.clear()
+		arh.base_spritesheets.append_array(bss)
+		
+		arh.base_spritesheets_frame_data.clear()
+		arh.base_spritesheets_frame_data.append_array(bss_fd)
+		
+		arh.clothing_spritesheets.clear()
+		arh.clothing_spritesheets.append_array(ass)
+		
+		arh.clothing_spritesheets_frame_data.clear()
+		arh.clothing_spritesheets_frame_data.append_array(ass_fd)
+		
+		arh.equippable_spritesheets.clear()
+		arh.equippable_spritesheets.append_array(wss)
+		
+		arh.equippable_spritesheets_frame_data.clear()
+		arh.equippable_spritesheets_frame_data.append_array(wss_fd)
 
-class AppearanceSpritesheetContainer extends Appearance:
+class AppearanceResourceHandler extends Appearance:
 	
 	var base_spritesheets : Array[CompressedTexture2D]
 	var base_spritesheets_frame_data : Array[Vector2i]

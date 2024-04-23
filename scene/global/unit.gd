@@ -1,7 +1,5 @@
 class_name Unit extends CharacterBody2D
 
-
-
 @onready var anim = $AnimationPlayer
 @onready var sprite = $Sprite2D
 @onready var portrait = $Portrait
