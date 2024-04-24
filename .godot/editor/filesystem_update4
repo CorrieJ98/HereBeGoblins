@@ -1,10 +1,7 @@
-res://scene/structures/default_building.tscn
-res://resources/tileset/base_ground.tres
-res://resources/profiles/townhall.tres
-res://resources/profiles/Beastmaster_prof.tres
-res://resources/profiles/naked_peasant_prof.tres
+res://scene/units/banished/beastmaster_appearance.tres
+res://scene/global/unit.tscn
+res://scene/global/character.gd
+res://scene/units/game_character.tscn
+res://scene/global/game_character.gd
 res://appearance.gd
 res://scene/global/unit_constructor.gd
-res://scene/global/unit.gd
-res://scene/global/unit.tscn
-res://scene/units/banished/beastmaster_appearance.tres

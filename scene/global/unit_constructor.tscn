@@ -3,6 +3,6 @@
 [ext_resource type="Script" path="res://scene/global/unit_constructor.gd" id="1_e1gh4"]
 [ext_resource type="Resource" uid="uid://nlnahlpkp8pc" path="res://scene/units/banished/beastmaster_appearance.tres" id="2_kv44v"]
 
-[node name="Unit" type="CharacterBody2D"]
+[node name="DefaultUnitConstructor" type="CharacterBody2D"]
 script = ExtResource("1_e1gh4")
-appearance = ExtResource("2_kv44v")
+appearance_resource = ExtResource("2_kv44v")

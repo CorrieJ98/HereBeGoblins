@@ -1,0 +1,30 @@
+[gd_scene load_steps=5 format=3 uid="uid://blw6gnpi5xly5"]
+
+[ext_resource type="Script" path="res://scene/global/game_character.gd" id="1_cnfwj"]
+[ext_resource type="PackedScene" uid="uid://cw58kvergrlfk" path="res://scene/global/unit_constructor.tscn" id="2_hwbdw"]
+[ext_resource type="Resource" uid="uid://nlnahlpkp8pc" path="res://scene/units/banished/beastmaster_appearance.tres" id="3_2wlru"]
+[ext_resource type="Resource" uid="uid://cht3mym868wc7" path="res://scene/units/denizens/beastmaster_prof.tres" id="4_3qo3y"]
+
+[node name="GameCharacter" type="CharacterBody2D"]
+script = ExtResource("1_cnfwj")
+unit_scene_import = ExtResource("2_hwbdw")
+appearance_resource = ExtResource("3_2wlru")
+profile_resource = ExtResource("4_3qo3y")
+
+[node name="----- Spritesheets -----" type="Node" parent="."]
+
+[node name="Portrait" type="Sprite2D" parent="----- Spritesheets -----"]
+
+[node name="----- Dynamic -----" type="Node" parent="----- Spritesheets -----"]
+
+[node name="Spritesheet0" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SelectionBox" type="CollisionShape2D" parent="."]
+
+[node name="CollisionBox" type="CollisionShape2D" parent="."]

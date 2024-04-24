@@ -18,6 +18,7 @@ class_name Appearance extends Resource
 # instantiate new arrays as per how many clothing slots are needed.
 
 @export_category("Armour and clothing spritesheets")
+@export var armour_slots : Array[String]
 @export var armour_spritesheets : Array[CompressedTexture2D]
 @export var armour_spritesheets_frame_data : Array[Vector2i]
 
@@ -75,3 +76,14 @@ class AppearanceResourceHandler extends Appearance:
 	var clothing_spritesheets_frame_data : Array[Vector2i]
 	var equippable_spritesheets : Array[CompressedTexture2D]
 	var equippable_spritesheets_frame_data : Array[Vector2i]
+	
+	func _get_array_size(arr : Array) -> int:
+		return arr.size()
+	
+	func vector_to_frame_data(v2in : Vector2i, vframe : int, hframe : int) -> void:
+		if v2in != null:
+			vframe = v2in.y
+			hframe = v2in.x
+		else:
+			vframe = 1
+			hframe = 1

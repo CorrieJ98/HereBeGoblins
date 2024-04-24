@@ -8,7 +8,7 @@ class_name Unit extends CharacterBody2D
 
 @export var selection_border : Panel
 @export var is_selected : bool = false
-@export var profile : UnitProfile
+#@export var profile : UnitProfile
 
 var is_mouse_over : bool
 

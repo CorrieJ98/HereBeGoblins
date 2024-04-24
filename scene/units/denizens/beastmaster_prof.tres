@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="UnitProfile" load_steps=2 format=3 uid="uid://cht3mym868wc7"]
+
+[ext_resource type="Script" path="res://scene/global/profile_unit.gd" id="1_ld0pa"]
+
+[resource]
+script = ExtResource("1_ld0pa")
+name = "Beastmaster"
+rank = 1
+unit_type = 3
+max_health = 10
+current_health = 10
+speed_walk = 64
+base_atk_dmg = 2
+base_attack_speed = 2.0
+line_of_sight = 1000
+agro_range = 150
+library_name_idle = ""
+library_name_move = ""
+library_name_attack = ""
+library_name_death = ""
+library_names_corpse = Array[String]([])
+tags = Array[int]([5, 3, 6])

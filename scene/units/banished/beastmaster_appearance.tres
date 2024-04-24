@@ -23,6 +23,7 @@ body_spritesheets = Array[CompressedTexture2D]([ExtResource("1_40jol"), ExtResou
 body_spritesheets_frame_data = Array[Vector2i]([Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 12)])
 portrait = ExtResource("5_rt50k")
 portrait_frame_data = Vector2i(5, 5)
+armour_slots = Array[String](["Back", "Bottom", "Head", "Top", "FacialHair"])
 armour_spritesheets = Array[CompressedTexture2D]([null, null])
 armour_spritesheets_frame_data = Array[Vector2i]([])
 weapon_spritesheets = Array[CompressedTexture2D]([])

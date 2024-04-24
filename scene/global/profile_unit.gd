@@ -8,8 +8,6 @@ SCOUT,			# Truesight, fast movespeed
 ARCHER,			# standard ranged unit
 INFANTRY,		# standard melee unit
 MOUNTED,		# unit on horseback
-MECHANICAL,		# vehicles requiring manpower to operate
-HERO			# Unique; Hero character with special abilities
 }
 
 @export_category("Basic")
