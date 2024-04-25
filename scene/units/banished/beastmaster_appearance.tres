@@ -16,6 +16,7 @@
 [resource]
 script = ExtResource("6_m2ohb")
 name = "Beastmaster"
+is_building = false
 description = "bla bla bla, description of beastmaster
 
 over several lines

@@ -1,11 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714056470
-appearance.gd::GDScript::-1::1714051633::0::1::::Appearance<>Resource<>::
+::res://::1714070280
+appearance.gd::GDScript::-1::1714057227::0::1::::Appearance<>Resource<>::
 README.md::TextFile::-1::1713266024::0::1::::<><>::
 ::res://assets/::1713266060
 cover.png::CompressedTexture2D::5907438696070454450::1713266024::1713266060::1::::<><>::
 icon.png::CompressedTexture2D::7204378351693521553::1713266024::1713266060::1::::<><>::
-::res://assets/PVGamesAssetPack/::1714056470
+::res://assets/PVGamesAssetPack/::1714056476
 townhall.png::CompressedTexture2D::4696986462499117663::1714056473::1714056476::1::::<><>::
 ::res://assets/PVGamesAssetPack/Male_BeastMaster/::1714055369
 ::res://assets/PVGamesAssetPack/Male_BeastMaster/Beastmaster_Back/::1713911389
@@ -161,7 +161,7 @@ RiverBank_22.png::Texture2D::495467292072847130::1711370095::1711631411::1::res:
 WaterTile1.png::Texture2D::5716241019830529728::1711370095::1711631411::1::res://resources/ground_texture_atlas.png::<><>::
 WaterTile2.png::Texture2D::7871191333370263616::1711370095::1711631411::1::res://resources/ground_texture_atlas.png::<><>::
 WaterTile3.png::Texture2D::8049991052570584662::1711370095::1711631411::1::res://resources/ground_texture_atlas.png::<><>::
-::res://assets/PVGamesAssetPack/RTPTiles/Medieval RTP Building Exteriors/::1714056470
+::res://assets/PVGamesAssetPack/RTPTiles/Medieval RTP Building Exteriors/::1714056473
 Building4_1.png::Texture2D::5257544639751196735::1711764450::1714056473::1::res://assets/PVGamesAssetPack/townhall.png::<><>::uid://b76ixfaejq472::::res://assets/PVGamesAssetPack/townhall.png
 Building4_2.png::Texture2D::279452691625043461::1711764450::1714056473::1::res://assets/PVGamesAssetPack/townhall.png::<><>::uid://b76ixfaejq472::::res://assets/PVGamesAssetPack/townhall.png
 Building4_3.png::Texture2D::5706606072566644310::1711764450::1714056473::1::res://assets/PVGamesAssetPack/townhall.png::<><>::uid://b76ixfaejq472::::res://assets/PVGamesAssetPack/townhall.png
@@ -193,12 +193,12 @@ Spritesheet_Shadow.png::CompressedTexture2D::3271160638569796397::1712581256::17
 ::res://resources/::1714056470
 ::res://resources/clothing/::1714054193
 ::res://resources/clothing/beastmaster/::1714055775
-axe.tres::Resource/ClothingSlot::8990630344102144589::1714055775::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://b48gbb5lj3sje::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_1.png<>uid://deq7uq5i0p18h::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_2.png<>uid://d2nu21n5lyljw::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_3.png<>uid://b8obk6on1x3jn::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_4.png
+axe.tres::Resource/ClothingSlot::8990630344102144589::1714070352::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://b48gbb5lj3sje::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_1.png<>uid://deq7uq5i0p18h::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_2.png<>uid://d2nu21n5lyljw::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_3.png<>uid://b8obk6on1x3jn::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_4.png
 back.tres::Resource/ClothingSlot::3478385018281700270::1714055553::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://du4ubfsso4l4t::::res://assets/PVGamesAssetPack/Male_BeastMaster/Beastmaster_Back/Sprite_1.png<>uid://baia2exeedikr::::res://assets/PVGamesAssetPack/Male_BeastMaster/Beastmaster_Back/Sprite_2.png<>uid://c8upw4rslkbde::::res://assets/PVGamesAssetPack/Male_BeastMaster/Beastmaster_Back/Sprite_3.png<>uid://c5isqkss61rc2::::res://assets/PVGamesAssetPack/Male_BeastMaster/Beastmaster_Back/Sprite_4.png
 bottom.tres::Resource/ClothingSlot::200077915964544809::1714055468::0::1::::<><>::res://scene/global/clothing_slot.gd
-hair.tres::Resource/ClothingSlot::1704367936336603517::1714055468::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://3q8b838mdtxe::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_1.png<>uid://8c0jyelbax5o::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_2.png<>uid://uevqcxispito::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_3.png<>uid://c0entei4ktwnx::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_4.png
-head.tres::Resource/ClothingSlot::1956974622676672232::1714055553::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://b33j3jubeyxgd::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_1.png<>uid://cq3570da0mt7::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_2.png<>uid://bww8vrk0vx4om::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_3.png<>uid://d4fkqr33u8udo::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_4.png
-torso.tres::Resource/ClothingSlot::6199493041481470683::1714055627::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://ci810wmofidnv::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_1.png<>uid://ca5y7as4lorcj::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_2.png<>uid://c48b3btxuk7po::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_3.png<>uid://cwwyyqyub7bc2::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_4.png
+hair.tres::Resource/ClothingSlot::1704367936336603517::1714070352::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://3q8b838mdtxe::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_1.png<>uid://8c0jyelbax5o::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_2.png<>uid://uevqcxispito::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_3.png<>uid://c0entei4ktwnx::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Hair/Sprite_4.png
+head.tres::Resource/ClothingSlot::1956974622676672232::1714070352::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://b33j3jubeyxgd::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_1.png<>uid://cq3570da0mt7::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_2.png<>uid://bww8vrk0vx4om::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_3.png<>uid://d4fkqr33u8udo::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Head/Sprite_4.png
+torso.tres::Resource/ClothingSlot::6199493041481470683::1714070352::0::1::::<><>::res://scene/global/clothing_slot.gd<>uid://ci810wmofidnv::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_1.png<>uid://ca5y7as4lorcj::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_2.png<>uid://c48b3btxuk7po::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_3.png<>uid://cwwyyqyub7bc2::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Top/Sprite_4.png
 ::res://resources/profiles/::1713948239
 ::res://resources/profiles/global/::1713895720
 building.tres::Resource/Resource::6962372365227482620::1713883061::0::1::::<><>::res://scene/global/profile_building.gd
@@ -208,19 +208,21 @@ unit_profile.tres::Resource/Resource::8961603285965661453::1713871351::0::1::::<
 base_ground.tres::TileSet::8761359099512789645::1713945158::0::1::::<><>::uid://d0564wgpsg2f1::::res://resources/tileset/ground_tex.png
 ground_tex.png::CompressedTexture2D::8977849654939290720::1712832348::1712832348::1::::<><>::
 ::res://scene/::1711760215
-::res://scene/global/::1714056418
+::res://scene/global/::1714058284
 ability.gd::GDScript::-1::1713945574::0::1::::Ability<>Resource<>::
 ability.tscn::PackedScene::8598173524420305218::1713868248::0::1::::<><>::res://scene/global/ability.gd
 building.gd::GDScript::-1::1713895659::0::1::::Building<>Node<>::
+building_constructor.gd::GDScript::-1::1714070352::0::1::::BuildingConstructor<>Building<>::
+building_constructor.tscn::PackedScene::6381974272742861348::1714070352::0::1::::<><>::res://scene/global/building_constructor.gd
 clothing_slot.gd::GDScript::-1::1714047048::0::1::::ClothingSlot<>Resource<>::
-game_character.gd::GDScript::-1::1714056418::0::1::::GameCharacter<>UnitConstructor<>::
+game_character.gd::GDScript::-1::1714070352::0::1::::GameCharacter<>UnitConstructor<>::
 game_controller.gd::GDScript::-1::1713882475::0::1::::GameController<>Node<>::
-master_scene.tscn::PackedScene::6636905661057941444::1714052518::0::1::::<><>::res://scene/global/game_controller.gd<>res://scene/global/UI/camera_controller.gd<>uid://deqmu1hpifyyb::::res://scene/levels/debug_environment.tscn<>uid://37ey3tfm5syb::::res://scene/structures/town_hall.tscn<>res://scene/units/beastmaster.tscn<>uid://btjdrk2e273lo::::res://scene/units/denizens/goblin.tscn<>uid://bna3ueht5drf5::::res://scene/units/naked_peasant.tscn<>res://scene/global/UI/ui.gd<>res://scene/global/UI/selection_box.gd
+master_scene.tscn::PackedScene::6636905661057941444::1714056798::0::1::::<><>::res://scene/global/game_controller.gd<>res://scene/global/UI/camera_controller.gd<>uid://deqmu1hpifyyb::::res://scene/levels/debug_environment.tscn<>uid://37ey3tfm5syb::::res://scene/structures/town_hall.tscn<>uid://blw6gnpi5xly5::::res://scene/units/game_character.tscn<>uid://btjdrk2e273lo::::res://scene/units/denizens/goblin.tscn<>uid://bna3ueht5drf5::::res://scene/units/naked_peasant.tscn<>res://scene/global/UI/ui.gd<>res://scene/global/UI/selection_box.gd
 profile_building.gd::GDScript::-1::1714045147::0::1::::BuildingProfile<>Ability<>::
 profile_unit.gd::GDScript::-1::1713945326::0::1::::UnitProfile<>Ability<>::
 unit.gd::GDScript::-1::1713945210::0::1::::Unit<>CharacterBody2D<>::
-unit_constructor.gd::GDScript::-1::1714050014::0::1::::UnitConstructor<>Unit<>::
-unit_constructor.tscn::PackedScene::6380949888695722088::1714051633::0::1::::<><>::res://scene/global/unit_constructor.gd<>uid://nlnahlpkp8pc::::res://scene/units/banished/beastmaster_appearance.tres
+unit_constructor.gd::GDScript::-1::1714057240::0::1::::UnitConstructor<>Unit<>::
+unit_constructor.tscn::PackedScene::6380949888695722088::1714057581::0::1::::<><>::res://scene/global/unit_constructor.gd<>uid://nlnahlpkp8pc::::res://scene/units/banished/beastmaster_appearance.tres
 ::res://scene/global/UI/::1713440312
 camera_controller.gd::GDScript::-1::1713284367::0::1::::CamController<>Camera2D<>::
 selection_box.gd::GDScript::-1::1713440312::0::1::::SelectionBox<>Panel<>::
@@ -230,11 +232,12 @@ debug_environment.tscn::PackedScene::7473813166600866393::1712832395::0::1::::<>
 ::res://scene/structures/::1713911115
 default_building.tscn::PackedScene::421808723828513698::1713911115::0::1::::<><>::res://scene/global/building.gd<>uid://c0sjv55nqbcal::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png<>uid://c6gvixrw5eyim::::res://resources/profiles/global/building.tres
 town_hall.tscn::PackedScene::2031634937269104777::1713868248::0::1::::<><>::res://scene/global/building.gd<>uid://bfip0xwt1hvoh::::res://resources/profiles/townhall.tres<>uid://c0sjv55nqbcal::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png<>uid://dqn44lpfh6dm7::::res://assets/PVGamesAssetPack/RTPTiles/Medieval RTP Building Exteriors/Building4_8.png
-::res://scene/units/::1714056417
-game_character.tscn::PackedScene::3205807922220071250::1714056417::0::1::::<><>::res://scene/global/game_character.gd<>uid://cw58kvergrlfk::::res://scene/global/unit_constructor.tscn<>uid://nlnahlpkp8pc::::res://scene/units/banished/beastmaster_appearance.tres<>uid://cht3mym868wc7::::res://scene/units/denizens/beastmaster_prof.tres
+::res://scene/units/::1714057227
+game_character.tscn::PackedScene::3205807922220071250::1714057227::0::1::::<><>::res://scene/global/game_character.gd<>uid://cw58kvergrlfk::::res://scene/global/unit_constructor.tscn<>uid://nlnahlpkp8pc::::res://scene/units/banished/beastmaster_appearance.tres<>uid://cht3mym868wc7::::res://scene/units/denizens/beastmaster_prof.tres
 naked_peasant.tscn::PackedScene::3300611664473613348::1712528126::0::1::::<><>::res://scene/global/unit.gd<>uid://dq7kf2gxvaisf::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png<>uid://c0sjv55nqbcal::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png
+game_building.tscn::PackedScene::6757767684862186381::1714070403::0::1::::<><>::res://scene/global/game_character.gd<>uid://cw58kvergrlfk::::res://scene/global/unit_constructor.tscn<>uid://nlnahlpkp8pc::::res://scene/units/banished/beastmaster_appearance.tres<>uid://cht3mym868wc7::::res://scene/units/denizens/beastmaster_prof.tres
 ::res://scene/units/banished/::1714055754
-beastmaster_appearance.tres::Resource/Appearance::935952828846865084::1714055754::0::1::::<><>::uid://c0sjv55nqbcal::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png<>uid://cpvxc4fdsbt3i::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_2.png<>uid://bs5jd8sba7k6k::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_3.png<>uid://3ych7yy7c40c::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_4.png<>uid://bps7q077b7ipa::::res://resources/clothing/beastmaster/back.tres<>uid://dq7kf2gxvaisf::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png<>uid://c36ivw7nlp3n::::res://resources/clothing/beastmaster/bottom.tres<>res://appearance.gd<>uid://248c6s1p7dbk::::res://resources/clothing/beastmaster/head.tres<>uid://yjuxqxe2fuen::::res://resources/clothing/beastmaster/hair.tres<>uid://culc0k2f2im0j::::res://resources/clothing/beastmaster/torso.tres<>uid://d1demrwrodo1j::::res://resources/clothing/beastmaster/axe.tres
+beastmaster_appearance.tres::Resource/Appearance::935952828846865084::1714070352::0::1::::<><>::uid://c0sjv55nqbcal::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png<>uid://cpvxc4fdsbt3i::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_2.png<>uid://bs5jd8sba7k6k::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_3.png<>uid://3ych7yy7c40c::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_4.png<>uid://bps7q077b7ipa::::res://resources/clothing/beastmaster/back.tres<>uid://dq7kf2gxvaisf::::res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png<>uid://c36ivw7nlp3n::::res://resources/clothing/beastmaster/bottom.tres<>res://appearance.gd<>uid://248c6s1p7dbk::::res://resources/clothing/beastmaster/head.tres<>uid://yjuxqxe2fuen::::res://resources/clothing/beastmaster/hair.tres<>uid://culc0k2f2im0j::::res://resources/clothing/beastmaster/torso.tres<>uid://d1demrwrodo1j::::res://resources/clothing/beastmaster/axe.tres
 ::res://scene/units/default/::1713911216
 ::res://scene/units/denizens/::1714056442
 beastmaster_prof.tres::Resource/Resource::5305109236144058708::1713948289::0::1::::<><>::res://scene/global/profile_unit.gd

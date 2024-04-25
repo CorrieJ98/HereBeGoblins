@@ -1,9 +1,11 @@
-[gd_scene load_steps=5 format=3 uid="uid://blw6gnpi5xly5"]
+[gd_scene load_steps=7 format=3 uid="uid://blw6gnpi5xly5"]
 
 [ext_resource type="Script" path="res://scene/global/game_character.gd" id="1_cnfwj"]
 [ext_resource type="PackedScene" uid="uid://cw58kvergrlfk" path="res://scene/global/unit_constructor.tscn" id="2_hwbdw"]
 [ext_resource type="Resource" uid="uid://nlnahlpkp8pc" path="res://scene/units/banished/beastmaster_appearance.tres" id="3_2wlru"]
 [ext_resource type="Resource" uid="uid://cht3mym868wc7" path="res://scene/units/denizens/beastmaster_prof.tres" id="4_3qo3y"]
+[ext_resource type="Script" path="res://scene/units/sprite_logic.gd" id="5_kbiwr"]
+[ext_resource type="Script" path="res://scene/units/SpriteLogicSignalConnector.gd" id="6_1ku1w"]
 
 [node name="GameCharacter" type="CharacterBody2D" node_paths=PackedStringArray("selection_border")]
 position = Vector2(1, 0)
@@ -19,7 +21,21 @@ selection_border = NodePath("Panel")
 
 [node name="----- Dynamic -----" type="Node" parent="----- Spritesheets -----"]
 
-[node name="Spritesheet0" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----"]
+[node name="Base" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----"]
+script = ExtResource("5_kbiwr")
+
+[node name="Hair" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----/Base"]
+script = ExtResource("6_1ku1w")
+
+[node name="Head" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----/Base"]
+
+[node name="Back" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----/Base"]
+
+[node name="Torso" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----/Base"]
+
+[node name="Bottom" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----/Base"]
+
+[node name="Weapon" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----/Base"]
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 
@@ -30,3 +46,7 @@ offset_bottom = 40.0
 [node name="SelectionBox" type="CollisionShape2D" parent="."]
 
 [node name="CollisionBox" type="CollisionShape2D" parent="."]
+
+[connection signal="frame_changed" from="----- Spritesheets -----/----- Dynamic -----/Base" to="." method="_on_base_frame_changed"]
+[connection signal="frame_changed" from="----- Spritesheets -----/----- Dynamic -----/Base" to="----- Spritesheets -----/----- Dynamic -----/Base/Hair" method="_on_base_frame_changed"]
+[connection signal="texture_changed" from="----- Spritesheets -----/----- Dynamic -----/Base" to="." method="_on_base_texture_changed"]

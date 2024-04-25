@@ -22,6 +22,7 @@ Here be goblins.
 config/version="0.0.1"
 run/main_scene="res://scene/global/master_scene.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
+run/max_fps=240
 boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)
 boot_splash/image="res://assets/cover.png"
 config/icon="res://assets/icon.png"

@@ -1,6 +1,9 @@
-Area2D
-Node
 Sprite2D
+Node
+SelectionBox
+CamController
+GameController
+Area2D
 CollisionShape2D
 Panel
 AnimationPlayer
@@ -9,6 +12,3 @@ Building
 CanvasLayer
 PanelContainer
 ColorRect
-TileMap
-Camera2D
-Node2D

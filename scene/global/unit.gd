@@ -1,10 +1,10 @@
 class_name Unit extends CharacterBody2D
-
-@onready var anim = $AnimationPlayer
-@onready var sprite = $Sprite2D
-@onready var portrait = $Portrait
-@onready var selection_box = $SelectionBorder
-@onready var collision_box = $CollisionBox
+#
+#@onready var anim = $AnimationPlayer
+#@onready var sprite = $Sprite2D
+#@onready var portrait = $Portrait
+#@onready var selection_box = $SelectionBorder
+#@onready var collision_box = $CollisionBox
 
 @export var selection_border : Panel
 @export var is_selected : bool = false
@@ -29,9 +29,9 @@ func get_anim_string(lib : String, state, dir : Vector2i) -> String:
 func set_selected(selection : bool):
 	selection_border.visible = selection
 
-func get_selection_objects(box : Panel, border : Panel) -> void:
-	box = selection_box
-	border = selection_border
+#func get_selection_objects(box : Panel, border : Panel) -> void:
+	#box = selection_box
+	#border = selection_border
 
 func move_command(dt):
 	pass

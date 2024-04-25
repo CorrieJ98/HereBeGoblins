@@ -1,0 +1,63 @@
+[gd_scene load_steps=7 format=3 uid="uid://c3jrpgdf24u3n"]
+
+[ext_resource type="Script" path="res://scene/units/game_building.gd" id="1_xw05n"]
+[ext_resource type="PackedScene" uid="uid://cw6qgisgw3g1y" path="res://scene/global/building_constructor.tscn" id="2_06y08"]
+[ext_resource type="Script" path="res://appearance.gd" id="3_y7v3s"]
+[ext_resource type="Script" path="res://scene/global/profile_building.gd" id="4_qtbwm"]
+
+[sub_resource type="Resource" id="Resource_24lxm"]
+script = ExtResource("3_y7v3s")
+name = ""
+is_building = false
+description = ""
+body_spritesheets = Array[CompressedTexture2D]([])
+body_spritesheets_frame_data = Array[Vector2i]([])
+portrait_frame_data = Vector2i(0, 0)
+clothing_slots = Array[Resource("res://scene/global/clothing_slot.gd")]([])
+
+[sub_resource type="Resource" id="Resource_phbr3"]
+script = ExtResource("4_qtbwm")
+name = ""
+team = 0
+tier = 1
+building_type = 0
+max_health = 1000
+current_health = 1000
+base_atk_dmg = 7
+base_attack_speed = 0.5
+line_of_sight = 2048
+agro_range = 0
+max_embarked_units = 0
+embarked_units = 0
+library_name_attack = ""
+library_name_damage = ""
+library_name_death = ""
+library_name_working = ""
+library_names_idle = Array[String]([])
+library_names_destroyed = Array[String]([])
+building_tags = Array[int]([])
+
+[node name="GameBuilding" type="Area2D"]
+position = Vector2(1, 0)
+script = ExtResource("1_xw05n")
+building_scene_import = ExtResource("2_06y08")
+appearance_resource = SubResource("Resource_24lxm")
+profile_resource = SubResource("Resource_phbr3")
+
+[node name="----- Spritesheets -----" type="Node" parent="."]
+
+[node name="Portrait" type="Sprite2D" parent="----- Spritesheets -----"]
+
+[node name="----- Dynamic -----" type="Node" parent="----- Spritesheets -----"]
+
+[node name="Spritesheet0" type="Sprite2D" parent="----- Spritesheets -----/----- Dynamic -----"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SelectionBox" type="CollisionShape2D" parent="."]
+
+[node name="CollisionBox" type="CollisionShape2D" parent="."]
