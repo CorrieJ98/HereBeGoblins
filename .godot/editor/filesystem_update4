@@ -13,3 +13,6 @@ res://resources/clothing/beastmaster/hair.tres
 res://resources/clothing/beastmaster/back.tres
 res://resources/clothing/beastmaster/torso.tres
 res://resources/clothing/beastmaster/axe.tres
+res://scene/global/master_scene.tscn
+res://scene/global/building_constructor.gd
+res://scene/global/building_constructor.tscn

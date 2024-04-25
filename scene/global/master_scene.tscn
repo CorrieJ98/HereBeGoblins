@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://scene/global/UI/camera_controller.gd" id="2_ijcfd"]
 [ext_resource type="PackedScene" uid="uid://deqmu1hpifyyb" path="res://scene/levels/debug_environment.tscn" id="3_njckj"]
 [ext_resource type="PackedScene" uid="uid://37ey3tfm5syb" path="res://scene/structures/town_hall.tscn" id="4_mnd0u"]
-[ext_resource type="PackedScene" path="res://scene/units/beastmaster.tscn" id="5_givmo"]
+[ext_resource type="PackedScene" uid="uid://blw6gnpi5xly5" path="res://scene/units/game_character.tscn" id="5_givmo"]
 [ext_resource type="PackedScene" uid="uid://btjdrk2e273lo" path="res://scene/units/denizens/goblin.tscn" id="6_u1tw2"]
 [ext_resource type="PackedScene" uid="uid://bna3ueht5drf5" path="res://scene/units/naked_peasant.tscn" id="7_2hlv1"]
 [ext_resource type="Script" path="res://scene/global/UI/ui.gd" id="8_jcynk"]

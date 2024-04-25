@@ -1,7 +1,8 @@
 class_name Appearance extends Resource
 
-@export_category("Unit Details")
+@export_category("Details")
 @export var name : String
+@export var is_building : bool
 @export_multiline var description : String
 
 @export_category("Base model spritesheet")

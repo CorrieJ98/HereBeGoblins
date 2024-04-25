@@ -1,3 +1,4 @@
+Area2D
 Node
 Sprite2D
 CollisionShape2D
@@ -5,7 +6,6 @@ Panel
 AnimationPlayer
 CharacterBody2D
 Building
-Area2D
 CanvasLayer
 PanelContainer
 ColorRect
