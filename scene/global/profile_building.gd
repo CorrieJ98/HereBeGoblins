@@ -12,7 +12,7 @@ WORKSHOP,		# Spawns flying & siege units
 WATCHTOWER		# Truesight, can attack
 }
 
-@export var spritesheet : Sprite2D
+var spritesheet : Sprite2D
 var portrait : Sprite2D
 var anim_player : AnimationPlayer
 var selection_box : CollisionShape2D

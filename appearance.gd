@@ -10,14 +10,16 @@ class_name Appearance extends Resource
 @export var portrait : CompressedTexture2D
 @export var portrait_frame_data : Vector2i
 
-
 # TODO need more armour types - currently this only covers a
 # single armour segment (ie Beastmaster_Back) when there are several
 # that need a category. Array[Array[CompressedTexture2D]] is not
 # supported so i need another method. Maybe an exported int to
 # instantiate new arrays as per how many clothing slots are needed.
 
-@export_category("Armour and clothing spritesheets")
+@export_category("Clothing slots")
+@export var clothing_slot : Array[ClothingSlot]
+
+@export_category("OBSOLETE!!!! Armour and clothing spritesheets") 
 @export var armour_slots : Array[String]
 @export var armour_spritesheets : Array[CompressedTexture2D]
 @export var armour_spritesheets_frame_data : Array[Vector2i]
