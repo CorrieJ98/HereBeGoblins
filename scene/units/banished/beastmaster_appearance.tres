@@ -1,11 +1,17 @@
-[gd_resource type="Resource" script_class="Appearance" load_steps=7 format=3 uid="uid://nlnahlpkp8pc"]
+[gd_resource type="Resource" script_class="Appearance" load_steps=13 format=3 uid="uid://nlnahlpkp8pc"]
 
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="1_40jol"]
 [ext_resource type="Texture2D" uid="uid://cpvxc4fdsbt3i" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_2.png" id="2_acthp"]
 [ext_resource type="Texture2D" uid="uid://bs5jd8sba7k6k" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_3.png" id="3_2jlwa"]
 [ext_resource type="Texture2D" uid="uid://3ych7yy7c40c" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_4.png" id="4_b1k62"]
+[ext_resource type="Resource" uid="uid://bps7q077b7ipa" path="res://resources/clothing/beastmaster/back.tres" id="5_2iv46"]
 [ext_resource type="Texture2D" uid="uid://dq7kf2gxvaisf" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png" id="5_rt50k"]
+[ext_resource type="Resource" uid="uid://c36ivw7nlp3n" path="res://resources/clothing/beastmaster/bottom.tres" id="6_a017c"]
 [ext_resource type="Script" path="res://appearance.gd" id="6_m2ohb"]
+[ext_resource type="Resource" uid="uid://248c6s1p7dbk" path="res://resources/clothing/beastmaster/head.tres" id="7_4pm05"]
+[ext_resource type="Resource" uid="uid://yjuxqxe2fuen" path="res://resources/clothing/beastmaster/hair.tres" id="8_iokxf"]
+[ext_resource type="Resource" uid="uid://culc0k2f2im0j" path="res://resources/clothing/beastmaster/torso.tres" id="9_ntsu7"]
+[ext_resource type="Resource" uid="uid://d1demrwrodo1j" path="res://resources/clothing/beastmaster/axe.tres" id="10_umyq7"]
 
 [resource]
 script = ExtResource("6_m2ohb")
@@ -23,9 +29,4 @@ body_spritesheets = Array[CompressedTexture2D]([ExtResource("1_40jol"), ExtResou
 body_spritesheets_frame_data = Array[Vector2i]([Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 12)])
 portrait = ExtResource("5_rt50k")
 portrait_frame_data = Vector2i(5, 5)
-clothing_slot = Array[Resource("res://scene/global/clothing_slot.gd")]([])
-armour_slots = Array[String](["Back", "Bottom", "Head", "Top", "FacialHair"])
-armour_spritesheets = Array[CompressedTexture2D]([null, null])
-armour_spritesheets_frame_data = Array[Vector2i]([])
-weapon_spritesheets = Array[CompressedTexture2D]([])
-weapon_spritesheets_frame_data = Array[Vector2i]([])
+clothing_slots = Array[Resource("res://scene/global/clothing_slot.gd")]([ExtResource("5_2iv46"), ExtResource("6_a017c"), ExtResource("7_4pm05"), ExtResource("8_iokxf"), ExtResource("9_ntsu7"), ExtResource("10_umyq7")])

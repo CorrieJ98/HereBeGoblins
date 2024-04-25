@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ClothingSlot" load_steps=6 format=3 uid="uid://d1demrwrodo1j"]
+
+[ext_resource type="Script" path="res://scene/global/clothing_slot.gd" id="1_4aagw"]
+[ext_resource type="Texture2D" uid="uid://b48gbb5lj3sje" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_1.png" id="2_is4y8"]
+[ext_resource type="Texture2D" uid="uid://deq7uq5i0p18h" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_2.png" id="3_ybmvy"]
+[ext_resource type="Texture2D" uid="uid://d2nu21n5lyljw" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_3.png" id="4_h3lcx"]
+[ext_resource type="Texture2D" uid="uid://b8obk6on1x3jn" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_WarAxe/Sprite_4.png" id="5_2u8jc"]
+
+[resource]
+script = ExtResource("1_4aagw")
+slot_name = 7
+spritesheets = Array[CompressedTexture2D]([ExtResource("2_is4y8"), ExtResource("3_ybmvy"), ExtResource("4_h3lcx"), ExtResource("5_2u8jc")])
+spritesheet_frames_data = Array[Vector2i]([Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 12)])

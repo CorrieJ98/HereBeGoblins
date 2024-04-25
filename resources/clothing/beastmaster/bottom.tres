@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="ClothingSlot" load_steps=2 format=3 uid="uid://c36ivw7nlp3n"]
+
+[ext_resource type="Script" path="res://scene/global/clothing_slot.gd" id="1_egrwu"]
+
+[resource]
+script = ExtResource("1_egrwu")
+slot_name = 5
+spritesheets = Array[CompressedTexture2D]([])
+spritesheet_frames_data = Array[Vector2i]([])

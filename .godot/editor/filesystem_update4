@@ -5,3 +5,11 @@ res://appearance.gd
 res://scene/global/unit_constructor.tscn
 res://scene/global/clothing_slot.gd
 res://scene/global/profile_building.gd
+res://scene/global/game_character.gd
+res://resources/clothing/beastmaster/beastmaster_back.tres
+res://resources/clothing/beastmaster/bottom.tres
+res://resources/clothing/beastmaster/head.tres
+res://resources/clothing/beastmaster/hair.tres
+res://resources/clothing/beastmaster/back.tres
+res://resources/clothing/beastmaster/torso.tres
+res://resources/clothing/beastmaster/axe.tres

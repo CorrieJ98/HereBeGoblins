@@ -4,7 +4,7 @@ importer="texture_atlas"
 type="Texture2D"
 uid="uid://bk76n6h55k282"
 path="res://.godot/imported/Building5_7.png-631d57921dce83a52540c1e1b4b0bba5.res"
-group_file="res://resources/townhall.png"
+group_file="res://assets/PVGamesAssetPack/townhall.png"
 valid=true
 [deps]
 
@@ -14,7 +14,7 @@ dest_files=["res://.godot/imported/Building5_7.png-631d57921dce83a52540c1e1b4b0b
 
 [params]
 
-atlas_file="res://resources/townhall.png"
+atlas_file="res://assets/PVGamesAssetPack/townhall.png"
 import_mode=0
 crop_to_region=false
 trim_alpha_border_from_region=true

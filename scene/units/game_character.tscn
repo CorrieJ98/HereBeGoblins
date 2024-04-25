@@ -5,11 +5,13 @@
 [ext_resource type="Resource" uid="uid://nlnahlpkp8pc" path="res://scene/units/banished/beastmaster_appearance.tres" id="3_2wlru"]
 [ext_resource type="Resource" uid="uid://cht3mym868wc7" path="res://scene/units/denizens/beastmaster_prof.tres" id="4_3qo3y"]
 
-[node name="GameCharacter" type="CharacterBody2D"]
+[node name="GameCharacter" type="CharacterBody2D" node_paths=PackedStringArray("selection_border")]
+position = Vector2(1, 0)
 script = ExtResource("1_cnfwj")
 unit_scene_import = ExtResource("2_hwbdw")
 appearance_resource = ExtResource("3_2wlru")
 profile_resource = ExtResource("4_3qo3y")
+selection_border = NodePath("Panel")
 
 [node name="----- Spritesheets -----" type="Node" parent="."]
 
