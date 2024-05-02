@@ -22,8 +22,8 @@ func _ready():
 
 # TODO Clicking to move
 func _physics_process(delta) -> void:
-	move_command(delta)
 	move_and_slide()
+
 
 func get_anim_string(lib : String, state, dir : Vector2i) -> String:
 	# Create a full library path with str(lib) and add the
@@ -38,19 +38,8 @@ func get_selection_objects(box : Panel, border : Panel) -> void:
 	box = selection_box
 	border = selection_border
 
-func move_command(dt):
-	pass
-
-func attack_command():
-	pass
-
-func labour_command():
-	pass
-
-func on_mouse_hover() -> bool:
-	is_mouse_over = true
-	return is_mouse_over
-
-func on_mouse_exited():
-	is_mouse_over = false
-	return is_mouse_over
+func get_is_controllable() -> bool:
+	if unit_team == UnitTeam.PLAYER:
+		return true
+	else:
+		return false

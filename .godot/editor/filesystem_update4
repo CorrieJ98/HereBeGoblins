@@ -1,11 +1,13 @@
-res://scene/units/beastmaster.tscn
+res://scene/global/master_scene.tscn
 res://resources/tileset/base_ground.tres
 res://resources/profiles/townhall.tres
 res://resources/profiles/Beastmaster_prof.tres
 res://resources/profiles/naked_peasant_prof.tres
-res://scene/global/unit.gd
-res://scene/global/master_scene.tscn
+res://scene/units/beastmaster.tscn
 res://scene/units/goblin.tscn
 res://scene/structures/town_hall.tscn
 res://scene/global/ability.tscn
 res://scene/units/default_unit.tscn
+res://scene/global/game_controller.gd
+res://scene/global/unit.gd
+res://scene/global/UI/camera_controller.gd

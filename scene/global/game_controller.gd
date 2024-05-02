@@ -12,34 +12,17 @@ const DIRECTION = {
 	"NORTHEAST": Vector2(1, 1),
 }
 
-@onready var t_unit = Unit.new()
+enum UnitCommand {MOVE,ATTACK,WORK}
+enum BuildingCommand {SETRALLY, ATTACK}
+
+#@onready var t_unit = Unit.new()
 @onready var camera := get_node("Global/Camera2D")
-@onready var nBuildings : Node = get_node("Level/Buildings")
-@onready var nUnits : Node = get_node("Level/Units")
-var grouped_units = []
-var grouped_buildings = []
+
+var grouped_units : Array[Node]= []
+var grouped_buildings : Array[Node] = []
+var boxed_units : Array[Unit] = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
-
-func _ready():
-	# t_unit is just an empty class, this needs reworked
-	t_unit.get_selection_objects(selection_box,selection_border)
-	populate_groups()
-	populate_group_arrays()
-
-func populate_group_arrays():
-	# populate arrays with all objects in the scene of the relevant groups
-	grouped_units = get_tree().get_nodes_in_group("unit_group_")
-	grouped_buildings = get_tree().get_nodes_in_group("building_group_")
-	
-	print(grouped_units, " --units")
-	print(grouped_buildings, " --buildings")
-
-func populate_groups():
-	
-	#TODO Issue #18 - Populate groups automatically on unit spawn
-	
-	pass
 
 static func get_direction_string(v : Vector2) -> Vector2i:
 	v.normalized()
@@ -63,9 +46,33 @@ static func get_direction_string(v : Vector2) -> Vector2i:
 		_:
 			return v
 
+func _ready():
+	# t_unit is just an empty class, this needs reworked
+#	t_unit.get_selection_objects(selection_box,selection_border)
+	populate_groups()
+	populate_group_arrays()
+
+func _input(event):
+	if Input.is_action_just_pressed("RightMouseButton"):
+		command_move_unit_selection(boxed_units)
+
+func populate_group_arrays():
+	# populate arrays with all objects in the scene of the relevant groups
+	grouped_units = get_tree().get_nodes_in_group("unit_group_")
+	grouped_buildings = get_tree().get_nodes_in_group("building_group_")
+	
+	print(grouped_units, " --units")
+	print(grouped_buildings, " --buildings")
+
+func populate_groups():
+	
+	#TODO Issue #18 - Populate groups automatically on unit spawn
+	
+	pass
+
 func get_units_in_area(area : Array) -> Array:
 	# u holds any units within our selected area
-	var u = []
+	var u : Array[Unit] = []
 	
 	# draw the box and check if a unit is present
 	for each_unit in grouped_units:
@@ -84,7 +91,7 @@ func _on_area_selected(box):
 	
 	area.append(Vector2(min(start.x,end.x),min(start.y,end.y)))
 	area.append(Vector2(max(start.x,end.x),max(start.y,end.y)))
-	var boxed_units = get_units_in_area(area)
+	boxed_units = get_units_in_area(area)
 	
 	print(boxed_units, "
 	--------------")
@@ -96,4 +103,18 @@ func _on_area_selected(box):
 		u.set_selected(!u.is_selected)
 
 func _on_unit_selected(box):
-	pass # Replace with function body.
+	pass
+
+
+# TODO New function for command unit selection, taking a callable value of
+# each possible UnitCommand enum
+func command_move_unit_selection(selection : Array[Unit]) -> void:
+	var is_player : bool = false
+	
+	for each in selection:
+		is_player = each.get_is_controllable()
+		if is_player == false:
+			selection.clear()
+			break
+		
+		each.velocity.angle_to_point(camera.mouse)
