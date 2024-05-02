@@ -20,9 +20,10 @@ const dss_dir = String("./----- Spritesheets -----/----- Dynamic -----")
 # within the imported GameCharacter PackedScene. 
 
 func _ready():
+	t_appearance = get_appearance_resource()
 	packed_scene_import_debug_check()
 	draw_portrait()
-	t_appearance = get_appearance_resource()
+	draw_base_sprite(spritesheet_number)
 
 func packed_scene_import_debug_check() -> void:
 	if unit_scene_import != PackedScene:

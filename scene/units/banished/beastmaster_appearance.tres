@@ -17,15 +17,7 @@
 script = ExtResource("6_m2ohb")
 name = "Beastmaster"
 is_building = false
-description = "bla bla bla, description of beastmaster
-
-over several lines
-
-covering various topics
-
-etc
-
-etc"
+description = "Beastmaster hero!"
 body_spritesheets = Array[CompressedTexture2D]([ExtResource("1_40jol"), ExtResource("2_acthp"), ExtResource("3_2jlwa"), ExtResource("4_b1k62")])
 body_spritesheets_frame_data = Array[Vector2i]([Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 25), Vector2i(24, 12)])
 portrait = ExtResource("5_rt50k")
