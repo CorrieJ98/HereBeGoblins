@@ -16,19 +16,20 @@ var step = 10
 
 func cam_pan(dt):
 	if Input.is_action_pressed("CamPanNorth"):
-		position.y -= cam_speed * dt
+		offset.y -= cam_speed * dt
 		
 	if Input.is_action_pressed("CamPanEast"):
-		position.x += cam_speed * dt
+		offset.x += cam_speed * dt
 		
 	if Input.is_action_pressed("CamPanSouth"):
-		position.y += cam_speed * dt
+		offset.y += cam_speed * dt
 		
 	if Input.is_action_pressed("CamPanWest"):
-		position.x -= cam_speed * dt
+		offset.x -= cam_speed * dt
 
 func _process(delta):
 	update_window_scaling()
+	edge_panning()
 
 func _physics_process(delta):
 	cam_pan(delta)

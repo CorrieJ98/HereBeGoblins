@@ -11,3 +11,4 @@ res://scene/units/default_unit.tscn
 res://scene/global/game_controller.gd
 res://scene/global/unit.gd
 res://scene/global/UI/camera_controller.gd
+res://scene/global/UI/selection_box.gd

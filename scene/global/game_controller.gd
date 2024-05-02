@@ -110,11 +110,18 @@ func _on_unit_selected(box):
 # each possible UnitCommand enum
 func command_move_unit_selection(selection : Array[Unit]) -> void:
 	var is_player : bool = false
+	var vel : Vector2
 	
 	for each in selection:
 		is_player = each.get_is_controllable()
 		if is_player == false:
 			selection.clear()
 			break
-		
-		each.velocity.angle_to_point(camera.mouse)
+		else:
+			
+			each.velocity.angle_to_point(get_viewport().get_mouse_position())
+			vel = get_viewport().get_mouse_position() * each.profile.speed_walk * get_process_delta_time()
+			each.velocity = vel
+			each.move_and_slide()
+			print(each.velocity, " vel")
+			print(get_viewport().get_mouse_position(), " mouse")
