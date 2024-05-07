@@ -568,3 +568,6 @@ debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)
 texture = ExtResource("4_pmasv")
 hframes = 5
 vframes = 5
+
+[connection signal="mouse_entered" from="." to="." method="on_mouse_hover"]
+[connection signal="mouse_exited" from="." to="." method="on_mouse_exited"]

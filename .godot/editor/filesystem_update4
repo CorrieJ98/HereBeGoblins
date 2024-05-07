@@ -6,10 +6,11 @@ res://resources/profiles/naked_peasant_prof.tres
 res://scene/global/game_controller.gd
 res://scene/units/beastmaster.tscn
 res://scene/units/goblin.tscn
-<<<<<<< Updated upstream
-res://resources/profiles/goblin_prof.tres
-=======
 res://scene/structures/town_hall.tscn
 res://scene/global/ability.tscn
 res://scene/units/default_unit.tscn
->>>>>>> Stashed changes
+res://scene/global/UI/camera_controller.gd
+res://new_script.gd
+res://scene/global/UI/selection_box.gd
+res://scene/global/unit.gd
+res://resources/profiles/goblin_prof.tres

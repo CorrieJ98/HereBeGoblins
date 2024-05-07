@@ -42,11 +42,12 @@ script = ExtResource("1_vye5u")
 [node name="Level" type="Node" parent="."]
 
 [node name="DebugEnvironment" parent="Level" instance=ExtResource("3_njckj")]
+position = Vector2(-10, -2)
 
 [node name="Buildings" type="Node" parent="Level"]
 
 [node name="TownHall" parent="Level/Buildings" groups=["building_group_"] instance=ExtResource("4_mnd0u")]
-position = Vector2(907, 51)
+position = Vector2(1015, 19)
 
 [node name="Units" type="Node" parent="Level"]
 
@@ -55,7 +56,7 @@ position = Vector2(231, 83)
 profile = SubResource("Resource_fpqho")
 
 [node name="NakedPeasant" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("7_2hlv1")]
-position = Vector2(1385, 168)
+position = Vector2(75, 68)
 profile = ExtResource("7_hsryn")
 
 [node name="Goblin" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("6_u1tw2")]
@@ -64,19 +65,27 @@ position = Vector2(560, 384)
 [node name="Global" type="Node" parent="."]
 
 [node name="Camera2D" type="Camera2D" parent="Global"]
-drag_left_margin = 1.0
-drag_top_margin = 1.0
-drag_right_margin = 1.0
-drag_bottom_margin = 1.0
-editor_draw_limits = true
+limit_left = 0
+limit_top = 0
 script = ExtResource("2_ijcfd")
 
 [node name="UI" type="CanvasLayer" parent="Global"]
 script = ExtResource("8_jcynk")
 
-[node name="SelectionArea" type="Node2D" parent="Global/UI"]
-
 [node name="SelectionBox" type="Panel" parent="Global/UI"]
-offset_right = 40.0
-offset_bottom = 40.0
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -800.0
+offset_top = -450.0
+offset_right = -800.0
+offset_bottom = -450.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("9_0flij")
+
+[connection signal="area_selected" from="Global/UI/SelectionBox" to="." method="_on_area_selected"]
+[connection signal="select_unit" from="Global/UI/SelectionBox" to="." method="_on_unit_selected"]
+[connection signal="select_unit" from="Global/UI/SelectionBox" to="Global/UI" method="_on_select" unbinds=1]
