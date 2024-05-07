@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://cq7kgdky61uue"]
+[gd_scene load_steps=18 format=3 uid="uid://cq7kgdky61uue"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_xs53q"]
 [ext_resource type="Resource" uid="uid://c3yvmquh271h2" path="res://resources/profiles/Beastmaster_prof.tres" id="2_e4dsd"]
@@ -531,9 +531,6 @@ _data = {
 "WEST": SubResource("Animation_s1cmf")
 }
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_ga8cx"]
-size = Vector2(64, 96)
-
 [sub_resource type="CircleShape2D" id="CircleShape2D_nuqkg"]
 radius = 24.0
 
@@ -564,10 +561,6 @@ libraries = {
 }
 autoplay = "RESET"
 
-[node name="SelectionBox" type="CollisionShape2D" parent="."]
-position = Vector2(0, 8)
-shape = SubResource("RectangleShape2D_ga8cx")
-
 [node name="CollisionBox" type="CollisionShape2D" parent="."]
 position = Vector2(0, 40)
 shape = SubResource("CircleShape2D_nuqkg")
@@ -584,3 +577,5 @@ visible = false
 texture = ExtResource("3_ale8t")
 hframes = 5
 vframes = 5
+
+[node name="SelectionBox" type="MeshInstance2D" parent="."]

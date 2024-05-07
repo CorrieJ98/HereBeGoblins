@@ -1,6 +1,7 @@
+Node
+MeshInstance2D
 Panel
 Node2D
-Node
 CollisionShape2D
 Area2D
 CanvasLayer
@@ -11,4 +12,3 @@ AnimationPlayer
 TileMap
 Camera2D
 Node3D
-CharacterBody2D

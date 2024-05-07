@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://bna3ueht5drf5" path="res://scene/units/naked_peasant.tscn" id="7_2hlv1"]
 [ext_resource type="Resource" uid="uid://j20v8b1136d" path="res://resources/profiles/naked_peasant_prof.tres" id="7_hsryn"]
 [ext_resource type="Script" path="res://scene/global/UI/ui.gd" id="8_jcynk"]
+[ext_resource type="Script" path="res://scene/global/UI/selection_box.gd" id="9_0flij"]
 
 [sub_resource type="Resource" id="Resource_fpqho"]
 resource_local_to_scene = true
@@ -33,65 +34,6 @@ library_names_corpse = Array[String]([])
 basic_abilties = Array[int]([])
 special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
-
-[sub_resource type="GDScript" id="GDScript_olaer"]
-script/source = "class_name _SelectionBox extends Panel
-
-var mousePos = Vector2()
-var mousePosGlobal = Vector2()
-var start = Vector2()
-var startV = Vector2()
-var end = Vector2()
-var endV = Vector2()
-var is_dragging : bool = false
-
-signal area_selected(box)
-signal select_unit(profile)
-
-func _ready() -> void:
-	pass
-
-# TODO Rework selection entirely: This should be a rect, it should pass a signal
-# to all relevant objects (units and buildings) on the screen that, if they are
-# within the borders of the selectionbox, their is_selected bool shall be truthy
-# Issue #28
-
-func draw_area(isSelecting : bool = true):
-	size = Vector2(abs(startV.x - endV.x), abs(startV.y - endV.y))
-	var pos = Vector2()
-	pos.x = min(startV.x,endV.x)
-	pos.y = min(startV.y, endV.y)
-	position = pos
-	size *= int(isSelecting)
-
-func box_dragging() -> void:
-	if Input.is_action_just_pressed(\"LeftMouseButton\"):
-		start = get_viewport().get_mouse_position()
-		startV = get_viewport().get_mouse_position()
-		is_dragging = true
-	if is_dragging:
-		end = get_viewport().get_mouse_position()
-		endV = get_viewport().get_mouse_position()
-		draw_area()
-	if Input.is_action_just_released(\"LeftMouseButton\"):
-		if startV.distance_to(mousePos) > 20:
-			end = get_viewport().get_mouse_position()
-			endV = get_viewport().get_mouse_position()
-			is_dragging = false
-			draw_area(false)
-			emit_signal(\"area_selected\",self)
-		else:
-			end = start
-			is_dragging = false
-			draw_area(false)
-
-func _input(event) -> void:
-	if event is InputEventMouse:
-		mousePos = event.position
-
-func _process(delta) -> void:
-	box_dragging()
-"
 
 [node name="MainScene" type="Node"]
 script = ExtResource("1_vye5u")
@@ -146,7 +88,7 @@ offset_right = -800.0
 offset_bottom = -450.0
 grow_horizontal = 2
 grow_vertical = 2
-script = SubResource("GDScript_olaer")
+script = ExtResource("9_0flij")
 
 [connection signal="area_selected" from="RTS/UI/SelectionBox" to="." method="_on_area_selected"]
 [connection signal="select_unit" from="RTS/UI/SelectionBox" to="." method="_on_unit_selected"]

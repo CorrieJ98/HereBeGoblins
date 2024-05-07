@@ -35,7 +35,7 @@ special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
 
 [sub_resource type="GDScript" id="GDScript_olaer"]
-script/source = "class_name _SelectionBox extends Panel
+script/source = "class_name SelectionBox extends Panel
 
 var mousePos = Vector2()
 var mousePosGlobal = Vector2()

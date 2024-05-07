@@ -14,5 +14,3 @@ class HUD extends UI:
 	# to here and display it
 	
 	# on deselect, wipe the hud back to its barebones
-
-

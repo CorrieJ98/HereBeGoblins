@@ -26,6 +26,12 @@ boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)
 boot_splash/image="res://assets/cover.png"
 config/icon="res://assets/icon.png"
 
+[autoload]
+
+_RTS_CAMCONTROL="*res://autoload/RTSCameraController.gd"
+_SPRITEHANDLER="*res://autoload/SpriteHandler.gd"
+_ABILITY="*res://autoload/Ability.gd"
+
 [display]
 
 window/size/viewport_width=1600
@@ -35,6 +41,7 @@ window/size/viewport_height=900
 
 folder_colors={
 "res://assets/": "yellow",
+"res://autoload/": "green",
 "res://resources/": "orange",
 "res://scene/": "pink",
 "res://scene/global/": "pink",

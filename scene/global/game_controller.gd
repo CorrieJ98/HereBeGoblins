@@ -1,22 +1,7 @@
 class_name GameController extends Node
 
-# Pointing toward
-const DIRECTION = {
-	"NORTH": Vector2(0, 1),
-	"NORTHWEST": Vector2(-1, 1),
-	"WEST": Vector2(-1, 0),
-	"SOUTHWEST": Vector2(-1, -1),
-	"SOUTH": Vector2(0, -1),
-	"SOUTHEAST": Vector2(1, -1),
-	"EAST": Vector2(1, 0),
-	"NORTHEAST": Vector2(1, 1),
-}
-
 enum UnitCommand {MOVE,ATTACK,WORK}
 enum BuildingCommand {SETRALLY, ATTACK}
-
-#@onready var t_unit = Unit.new()
-@onready var camera := get_node("Global/Camera2D")
 
 var grouped_units : Array[Node]= []
 var grouped_buildings : Array[Node] = []
@@ -24,37 +9,30 @@ var boxed_units : Array[Unit] = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
 
-static func get_direction_string(v : Vector2) -> Vector2i:
-	v.normalized()
-	match v:
-		DIRECTION.NORTH:
-			return DIRECTION.NORTH
-		DIRECTION.NORTHEAST:
-			return DIRECTION.NORTHEAST
-		DIRECTION.EAST:
-			return DIRECTION.EAST
-		DIRECTION.SOUTHEAST:
-			return DIRECTION.SOUTHEAST
-		DIRECTION.SOUTH:
-			return DIRECTION.SOUTH
-		DIRECTION.SOUTHWEST:
-			return DIRECTION.SOUTHWEST
-		DIRECTION.WEST:
-			return DIRECTION.WEST
-		DIRECTION.NORTHWEST:
-			return DIRECTION.NORTHWEST
-		_:
-			return v
+
+
+func _process(delta):
+	_RTS_CAMCONTROL._init()
+	_RTS_CAMCONTROL.camera_movement(get_vp_mouse_position(), delta)
+	_RTS_CAMCONTROL.debug_print(_RTS_CAMCONTROL.mouse_pos,null,null)
 
 func _ready():
 	# t_unit is just an empty class, this needs reworked
 #	t_unit.get_selection_objects(selection_box,selection_border)
+	Input.mouse_mode = Input.MOUSE_MODE_CONFINED
+	_RTS_CAMCONTROL.attach_cam($RTS/Camera2D)
 	populate_groups()
 	populate_group_arrays()
+	
+	var rts_ref
 
 func _input(event):
 	if Input.is_action_just_pressed("RightMouseButton"):
 		command_move_unit_selection(boxed_units)
+
+func get_vp_mouse_position() -> Vector2:
+	var mp = get_viewport().get_mouse_position()
+	return mp
 
 func populate_group_arrays():
 	# populate arrays with all objects in the scene of the relevant groups
@@ -104,7 +82,6 @@ func _on_area_selected(box):
 
 func _on_unit_selected(box):
 	pass
-
 
 
 # TODO New function for command unit selection, taking a callable value of
