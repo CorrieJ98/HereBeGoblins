@@ -21,5 +21,5 @@ library_name_attack = ""
 library_name_death = ""
 library_names_corpse = Array[String]([])
 basic_abilties = Array[int]([])
-special_abilities = Array[int]([1])
+special_abilities = Array[int]([])
 traits = Array[int]([])

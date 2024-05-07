@@ -3,6 +3,13 @@ res://resources/tileset/base_ground.tres
 res://resources/profiles/townhall.tres
 res://resources/profiles/Beastmaster_prof.tres
 res://resources/profiles/naked_peasant_prof.tres
+res://scene/global/game_controller.gd
 res://scene/units/beastmaster.tscn
 res://scene/units/goblin.tscn
+<<<<<<< Updated upstream
 res://resources/profiles/goblin_prof.tres
+=======
+res://scene/structures/town_hall.tscn
+res://scene/global/ability.tscn
+res://scene/units/default_unit.tscn
+>>>>>>> Stashed changes
