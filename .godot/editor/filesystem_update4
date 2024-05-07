@@ -10,3 +10,7 @@ res://scene/structures/town_hall.tscn
 res://scene/global/ability.tscn
 res://scene/units/default_unit.tscn
 res://autoload/RTSCameraController.gd
+res://autoload/Ability.gd
+res://autoload/SpriteHandler.gd
+res://scene/global/unit.gd
+res://resources/profiles/goblin_prof.tres

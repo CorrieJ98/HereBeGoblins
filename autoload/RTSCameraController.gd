@@ -1,8 +1,8 @@
 class_name RTSCameraController extends GameController
 
 @onready var cam : Camera2D = get_node("RTS/Camera2D")
-const MOVE_SPEED : int = 15
-const MARGIN : int = 5
+const MOVE_SPEED : float = 2.5
+const MARGIN : int = 4
 var mouse_pos : Vector2
 
 func _init() -> void:
@@ -24,19 +24,33 @@ func camera_movement(m_pos, dt):
 	# ----- Edge panning
 	# Left Edge
 	if mouse_pos.x < MARGIN:
-		move_vec.x -= 1
+		move_vec.x -= MOVE_SPEED
 	
 	# Right Edge
 	if mouse_pos.x > vp_size.x - MARGIN:
-		move_vec.x += 1
+		move_vec.x += MOVE_SPEED
 	
 	# Top Edge
 	if mouse_pos.y <  MARGIN:
-		move_vec.y -= 1
+		move_vec.y -= MOVE_SPEED
 	
 	# Bottom Edge
 	if mouse_pos.y > vp_size.y - MARGIN:
-		move_vec.y += 1
+		move_vec.y += MOVE_SPEED
+	
+	
+	# ----- WASD Panning
+	if Input.is_action_pressed("CamPanNorth"):
+		move_vec.y -= MOVE_SPEED
+	
+	if Input.is_action_pressed("CamPanEast"):
+		move_vec.x += MOVE_SPEED
+		
+	if Input.is_action_pressed("CamPanSouth"):
+		move_vec.y += MOVE_SPEED
+		
+	if Input.is_action_pressed("CamPanWest"):
+		move_vec.x -= MOVE_SPEED
 	
 	cam.position += move_vec
 	

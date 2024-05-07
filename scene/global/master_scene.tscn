@@ -123,12 +123,6 @@ position = Vector2(560, 384)
 script = ExtResource("1_vye5u")
 
 [node name="Camera2D" type="Camera2D" parent="RTS"]
-drag_horizontal_enabled = true
-drag_vertical_enabled = true
-drag_left_margin = 0.95
-drag_top_margin = 0.95
-drag_right_margin = 0.95
-drag_bottom_margin = 0.95
 editor_draw_drag_margin = true
 
 [node name="UI" type="CanvasLayer" parent="RTS"]

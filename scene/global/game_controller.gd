@@ -23,12 +23,13 @@ func _ready():
 	_RTS_CAMCONTROL.attach_cam($RTS/Camera2D)
 	populate_groups()
 	populate_group_arrays()
-	
-	var rts_ref
 
 func _input(event):
 	if Input.is_action_just_pressed("RightMouseButton"):
 		command_move_unit_selection(boxed_units)
+	
+	if Input.is_key_pressed(KEY_ESCAPE):
+		get_tree().quit()
 
 func get_vp_mouse_position() -> Vector2:
 	var mp = get_viewport().get_mouse_position()
