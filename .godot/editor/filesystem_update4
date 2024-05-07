@@ -14,3 +14,5 @@ res://autoload/Ability.gd
 res://autoload/SpriteHandler.gd
 res://scene/global/unit.gd
 res://resources/profiles/goblin_prof.tres
+res://scene/units/pawn_mesh.tres
+res://scene/units/naked_peasant.tscn

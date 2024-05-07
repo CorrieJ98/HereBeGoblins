@@ -9,12 +9,9 @@ var boxed_units : Array[Unit] = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
 
-
-
 func _process(delta):
 	_RTS_CAMCONTROL._init()
 	_RTS_CAMCONTROL.camera_movement(get_vp_mouse_position(), delta)
-	_RTS_CAMCONTROL.debug_print(_RTS_CAMCONTROL.mouse_pos,null,null)
 
 func _ready():
 	# t_unit is just an empty class, this needs reworked

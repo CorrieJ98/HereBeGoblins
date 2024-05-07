@@ -1,9 +1,19 @@
-[gd_scene load_steps=18 format=3 uid="uid://cq7kgdky61uue"]
+[gd_scene load_steps=20 format=3 uid="uid://cq7kgdky61uue"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_xs53q"]
 [ext_resource type="Resource" uid="uid://c3yvmquh271h2" path="res://resources/profiles/Beastmaster_prof.tres" id="2_e4dsd"]
 [ext_resource type="Texture2D" uid="uid://dq7kf2gxvaisf" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Face_1.png" id="3_ale8t"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_fhn32"]
+[ext_resource type="PlaneMesh" uid="uid://k4x6810jkuxn" path="res://scene/units/pawn_mesh_base.tres" id="3_l03qx"]
+[ext_resource type="PlaneMesh" uid="uid://ue4mg2n7gva7" path="res://scene/units/pawn_mesh.tres" id="4_i1xvo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6tx8d"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.494118, 0.407843, 1, 1)
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hft8o"]
 
@@ -534,24 +544,37 @@ _data = {
 [sub_resource type="CircleShape2D" id="CircleShape2D_nuqkg"]
 radius = 24.0
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6tx8d"]
-bg_color = Color(0.6, 0.6, 0.6, 0)
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color(0.494118, 0.407843, 1, 1)
-
 [node name="Beastmaster" type="CharacterBody2D" node_paths=PackedStringArray("selection_border")]
 script = ExtResource("1_xs53q")
 selection_border = NodePath("SelectionBorder")
 profile = ExtResource("2_e4dsd")
 
+[node name="SelectionBorder" type="Panel" parent="."]
+offset_left = -32.0
+offset_top = -41.0
+offset_right = 32.0
+offset_bottom = 56.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_6tx8d")
+metadata/_edit_use_anchors_ = true
+
+[node name="SelectionBase" type="MeshInstance2D" parent="SelectionBorder"]
+modulate = Color(1, 1, 1, 0.266667)
+self_modulate = Color(0.32549, 0.568627, 1, 1)
+position = Vector2(32, 83)
+rotation = 0.305433
+skew = 0.959931
+mesh = ExtResource("3_l03qx")
+
+[node name="SelectionTower" type="MeshInstance2D" parent="SelectionBorder"]
+visible = false
+modulate = Color(1, 1, 1, 0.266667)
+position = Vector2(32, 48.5)
+mesh = ExtResource("4_i1xvo")
+
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("3_fhn32")
 hframes = 24
 vframes = 25
-frame = 136
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
@@ -565,17 +588,8 @@ autoplay = "RESET"
 position = Vector2(0, 40)
 shape = SubResource("CircleShape2D_nuqkg")
 
-[node name="SelectionBorder" type="Panel" parent="."]
-offset_left = -32.0
-offset_top = -41.0
-offset_right = 32.0
-offset_bottom = 56.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_6tx8d")
-
 [node name="Portrait" type="Sprite2D" parent="."]
 visible = false
 texture = ExtResource("3_ale8t")
 hframes = 5
 vframes = 5
-
-[node name="SelectionBox" type="MeshInstance2D" parent="."]

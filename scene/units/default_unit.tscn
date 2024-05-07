@@ -1,9 +1,11 @@
-[gd_scene load_steps=18 format=3 uid="uid://bbbkoqwiblovj"]
+[gd_scene load_steps=21 format=3 uid="uid://bbbkoqwiblovj"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_gvyus"]
 [ext_resource type="Resource" uid="uid://cac8rtyqkus4v" path="res://resources/profiles/unit_default.tres" id="2_o1ujb"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_s6dya"]
 [ext_resource type="Texture2D" uid="uid://bkojkvoo2f2v4" path="res://resources/RTP_Goblin/Portrait.png" id="4_pmasv"]
+[ext_resource type="PlaneMesh" uid="uid://k4x6810jkuxn" path="res://scene/units/pawn_mesh_base.tres" id="5_lc1da"]
+[ext_resource type="PlaneMesh" uid="uid://ue4mg2n7gva7" path="res://scene/units/pawn_mesh.tres" id="6_m5glg"]
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hft8o"]
 
@@ -537,6 +539,14 @@ size = Vector2(64, 96)
 [sub_resource type="CircleShape2D" id="CircleShape2D_3ejo0"]
 radius = 24.0
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_yf3gb"]
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.494118, 0.407843, 1, 1)
+
 [node name="Goblin" type="CharacterBody2D"]
 script = ExtResource("1_gvyus")
 profile = ExtResource("2_o1ujb")
@@ -568,6 +578,27 @@ debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)
 texture = ExtResource("4_pmasv")
 hframes = 5
 vframes = 5
+
+[node name="SelectionBorder" type="Panel" parent="."]
+offset_left = -32.0
+offset_top = -41.0
+offset_right = 32.0
+offset_bottom = 56.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_yf3gb")
+metadata/_edit_use_anchors_ = true
+
+[node name="SelectionBase" type="MeshInstance2D" parent="SelectionBorder"]
+modulate = Color(1, 1, 1, 0.266667)
+position = Vector2(32, 83)
+rotation = 0.305433
+skew = 0.959931
+mesh = ExtResource("5_lc1da")
+
+[node name="SelectionTower" type="MeshInstance2D" parent="SelectionBorder"]
+visible = false
+modulate = Color(1, 1, 1, 0.266667)
+position = Vector2(32, 48.5)
+mesh = ExtResource("6_m5glg")
 
 [connection signal="mouse_entered" from="." to="." method="on_mouse_hover"]
 [connection signal="mouse_exited" from="." to="." method="on_mouse_exited"]

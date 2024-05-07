@@ -15,6 +15,8 @@ enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
 @export var unit_team : UnitTeam
 @export var profile : UnitProfile
 
+# TODO Colour list relevant to each team
+
 var is_mouse_over : bool
 
 func _ready():
