@@ -12,16 +12,18 @@ var selection_border : Panel = null
 func _process(delta):
 	_RTS_CAMCONTROL._init()
 	_RTS_CAMCONTROL.camera_movement(get_vp_mouse_position(), delta)
+	_SELECTIONHANDLER._draw()
+	
 
 func _ready():
-	# t_unit is just an empty class, this needs reworked
-#	t_unit.get_selection_objects(selection_box,selection_border)
-	Input.mouse_mode = Input.MOUSE_MODE_CONFINED
+	#Input.mouse_mode = Input.MOUSE_MODE_CONFINED
 	_RTS_CAMCONTROL.attach_cam($RTS/Camera2D)
 	populate_groups()
 	populate_group_arrays()
 
 func _input(event):
+	_SELECTIONHANDLER._unhandled_input(event)
+	
 	if Input.is_action_just_pressed("RightMouseButton"):
 		command_move_unit_selection(boxed_units)
 	
@@ -46,6 +48,10 @@ func populate_groups():
 	
 	pass
 
+func get_units_under_mouse(mousepos : Vector2, grouped_units : Array[Unit]):
+	for each in grouped_units:
+		pass
+
 func get_units_in_area(area : Array) -> Array:
 	# u holds any units within our selected area
 	var u : Array[Unit] = []
@@ -56,6 +62,18 @@ func get_units_in_area(area : Array) -> Array:
 			if each_unit.position.y > area[0].x and each_unit.position.y < area[1].x:
 				u.append(each_unit)
 	return u
+
+
+func get_unit_mesh_in_area(area : Rect2) -> Array:
+	var u : Array[Unit] = []
+	
+	# draw the box and check if there is a unit_mesh present
+	for each in grouped_units:
+		pass
+		# if each mesh has collision event:
+	
+	return u
+	pass
 
 func _on_area_selected(box):
 	var start : Vector2i = box.startV

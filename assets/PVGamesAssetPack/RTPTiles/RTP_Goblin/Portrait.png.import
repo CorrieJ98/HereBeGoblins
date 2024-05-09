@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmutsjxqn7jdt"
-path="res://.godot/imported/Spritesheet_Shadow.png-3a266357cc0fe4da282f958ef83a6d73.ctex"
+uid="uid://bkojkvoo2f2v4"
+path="res://.godot/imported/Portrait.png-a54e6f3b5e02a80d288bcd4b7d334fae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/RTP_Goblin/Spritesheet_Shadow.png"
-dest_files=["res://.godot/imported/Spritesheet_Shadow.png-3a266357cc0fe4da282f958ef83a6d73.ctex"]
+source_file="res://assets/PVGamesAssetPack/RTPTiles/RTP_Goblin/Portrait.png"
+dest_files=["res://.godot/imported/Portrait.png-a54e6f3b5e02a80d288bcd4b7d334fae.ctex"]
 
 [params]
 

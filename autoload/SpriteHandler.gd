@@ -1,4 +1,4 @@
-class_name SpriteHandler extends GameController
+extends GameController
 # Pointing toward
 const DIRECTION = {
 	"NORTH": Vector2(0, 1),

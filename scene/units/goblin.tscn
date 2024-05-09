@@ -1,14 +1,93 @@
-[gd_scene load_steps=22 format=3 uid="uid://btjdrk2e273lo"]
+[gd_scene load_steps=37 format=3 uid="uid://btjdrk2e273lo"]
 
-[ext_resource type="Script" path="res://scene/global/unit.gd" id="1_kp0ke"]
-[ext_resource type="Resource" uid="uid://bf4mefuyo6tjw" path="res://resources/profiles/goblin_prof.tres" id="2_0reqg"]
+[ext_resource type="PackedScene" uid="uid://bbbkoqwiblovj" path="res://scene/units/default_unit.tscn" id="1_3kmek"]
+[ext_resource type="Texture2D" uid="uid://bkojkvoo2f2v4" path="res://assets/PVGamesAssetPack/RTPTiles/RTP_Goblin/Portrait.png" id="2_b67wa"]
+[ext_resource type="Texture2D" uid="uid://dairmvxsiygdh" path="res://assets/PVGamesAssetPack/RTPTiles/RTP_Goblin/Spritesheet.png" id="2_rsl5y"]
 [ext_resource type="Texture2D" uid="uid://c0sjv55nqbcal" path="res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base/Sprite_1.png" id="3_ckmxq"]
-[ext_resource type="Texture2D" uid="uid://bkojkvoo2f2v4" path="res://resources/RTP_Goblin/Portrait.png" id="4_lydrk"]
-[ext_resource type="PlaneMesh" uid="uid://k4x6810jkuxn" path="res://scene/units/pawn_mesh_base.tres" id="5_r21tt"]
-[ext_resource type="Texture2D" uid="uid://dairmvxsiygdh" path="res://resources/RTP_Goblin/Spritesheet.png" id="5_s6kiu"]
-[ext_resource type="PlaneMesh" uid="uid://ue4mg2n7gva7" path="res://scene/units/pawn_mesh.tres" id="6_me34g"]
+
+[sub_resource type="Animation" id="Animation_ubqnd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_rsl5y")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [132]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:hframes")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [21]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sprite2D:vframes")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [21]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Sprite2D:frame_coords")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2i(6, 6)]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_hft8o"]
+_data = {
+"RESET": SubResource("Animation_ubqnd")
+}
+
+[sub_resource type="Animation" id="Animation_hdi18"]
+
+[sub_resource type="Animation" id="Animation_m5ysy"]
+
+[sub_resource type="Animation" id="Animation_lvx2t"]
+
+[sub_resource type="Animation" id="Animation_wswf3"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_l48iv"]
+_data = {
+"EAST": SubResource("Animation_hdi18"),
+"NORTH": SubResource("Animation_m5ysy"),
+"SOUTH": SubResource("Animation_lvx2t"),
+"WEST": SubResource("Animation_wswf3")
+}
 
 [sub_resource type="Animation" id="Animation_d7r8v"]
 resource_name = "idle-EAST"
@@ -534,73 +613,130 @@ _data = {
 "WEST": SubResource("Animation_s1cmf")
 }
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_map6d"]
-size = Vector2(64, 78)
+[sub_resource type="Animation" id="Animation_e10po"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_3ejo0"]
-radius = 24.0
+[sub_resource type="Animation" id="Animation_qw080"]
 
-[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dlets"]
-bg_color = Color(0.6, 0.6, 0.6, 0)
-border_width_left = 1
-border_width_top = 1
-border_width_right = 1
-border_width_bottom = 1
-border_color = Color(0.870588, 0, 0.105882, 1)
+[sub_resource type="Animation" id="Animation_d28c2"]
 
-[node name="Goblin" type="CharacterBody2D" node_paths=PackedStringArray("selection_border")]
-script = ExtResource("1_kp0ke")
-selection_border = NodePath("SelectionBorder")
-unit_team = 2
-profile = ExtResource("2_0reqg")
+[sub_resource type="Animation" id="Animation_xghop"]
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_lpa61"]
+_data = {
+"EAST": SubResource("Animation_e10po"),
+"NORTH": SubResource("Animation_qw080"),
+"SOUTH": SubResource("Animation_d28c2"),
+"WEST": SubResource("Animation_xghop")
+}
+
+[sub_resource type="Animation" id="Animation_b6k43"]
+
+[sub_resource type="Animation" id="Animation_8rkw0"]
+
+[sub_resource type="Animation" id="Animation_sqc4o"]
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [ExtResource("2_rsl5y")]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Sprite2D:frame")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 0.2, 0.3, 0.4, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"update": 1,
+"values": [128, 129, 130, 131, 132]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Sprite2D:hframes")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.6),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [21]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("Sprite2D:vframes")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0.6),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [21]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("Sprite2D:frame_coords")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.6),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [Vector2i(6, 6)]
+}
+
+[sub_resource type="Animation" id="Animation_6rofm"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1ixuj"]
+_data = {
+"EAST": SubResource("Animation_b6k43"),
+"NORTH": SubResource("Animation_8rkw0"),
+"SOUTH": SubResource("Animation_sqc4o"),
+"WEST": SubResource("Animation_6rofm")
+}
+
+[sub_resource type="Animation" id="Animation_60m6s"]
+
+[sub_resource type="Animation" id="Animation_6mk0m"]
+
+[sub_resource type="Animation" id="Animation_dqou0"]
+
+[sub_resource type="Animation" id="Animation_oqese"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_78jne"]
+_data = {
+"EAST": SubResource("Animation_60m6s"),
+"NORTH": SubResource("Animation_6mk0m"),
+"SOUTH": SubResource("Animation_dqou0"),
+"WEST": SubResource("Animation_oqese")
+}
+
+[node name="Unit" instance=ExtResource("1_3kmek")]
+
+[node name="AnimationPlayer" parent="." index="1"]
 libraries = {
 "": SubResource("AnimationLibrary_hft8o"),
+"beastmaster-anim-attack": SubResource("AnimationLibrary_l48iv"),
 "beastmaster-anim-idle": SubResource("AnimationLibrary_ujlts"),
-"beastmaster-anim-walk": SubResource("AnimationLibrary_jg5jr")
+"beastmaster-anim-walk": SubResource("AnimationLibrary_jg5jr"),
+"goblin-anim-attack": SubResource("AnimationLibrary_lpa61"),
+"goblin-anim-idle": SubResource("AnimationLibrary_1ixuj"),
+"goblin-anim-walk": SubResource("AnimationLibrary_78jne")
 }
-autoplay = "RESET"
 
-[node name="SelectionBox" type="CollisionShape2D" parent="."]
-position = Vector2(0, 17)
-shape = SubResource("RectangleShape2D_map6d")
-debug_color = Color(0.45098, 0.701961, 0.678431, 0.419608)
-
-[node name="CollisionBox" type="CollisionShape2D" parent="."]
-position = Vector2(0, 40)
-shape = SubResource("CircleShape2D_3ejo0")
-debug_color = Color(0.792157, 0.364706, 0.576471, 0.419608)
-
-[node name="Portrait" type="Sprite2D" parent="."]
+[node name="Portrait" parent="." index="4"]
 visible = false
-position = Vector2(0, 300)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("4_lydrk")
-
-[node name="SelectionBorder" type="Panel" parent="."]
-offset_left = -32.0
-offset_top = -22.0
-offset_right = 32.0
-offset_bottom = 56.0
-theme_override_styles/panel = SubResource("StyleBoxFlat_dlets")
-
-[node name="SelectionBase" type="MeshInstance2D" parent="SelectionBorder"]
-modulate = Color(1, 1, 1, 0.113725)
-self_modulate = Color(1, 0, 0, 1)
-position = Vector2(32, 61)
-rotation = 0.305433
-skew = 0.959931
-mesh = ExtResource("5_r21tt")
-
-[node name="SelectionTower" type="MeshInstance2D" parent="SelectionBorder"]
-visible = false
-modulate = Color(1, 1, 1, 0.266667)
-position = Vector2(32, 48.5)
-mesh = ExtResource("6_me34g")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("5_s6kiu")
-hframes = 21
-vframes = 21
-frame = 128
+texture = ExtResource("2_b67wa")
+hframes = 1
+vframes = 1

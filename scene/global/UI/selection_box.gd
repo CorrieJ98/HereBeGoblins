@@ -10,6 +10,7 @@ var is_dragging : bool = false
 
 signal area_selected(box)
 signal select_unit(profile)
+signal units_selected(units : Array[Unit])
 
 func _ready() -> void:
 	pass
@@ -29,16 +30,16 @@ func draw_area(isSelecting : bool = true):
 
 func box_dragging() -> void:
 	if Input.is_action_just_pressed("LeftMouseButton"):
-		start = get_viewport().get_mouse_position()
+		start = get_viewport().get_global_mouse_position()
 		startV = get_viewport().get_mouse_position()
 		is_dragging = true
 	if is_dragging:
-		end = get_viewport().get_mouse_position()
+		end = get_viewport().get_global_mouse_position()
 		endV = get_viewport().get_mouse_position()
 		draw_area()
 	if Input.is_action_just_released("LeftMouseButton"):
 		if startV.distance_to(mousePos) > 20:
-			end = get_viewport().get_mouse_position()
+			end = get_viewport().get_global_mouse_position()
 			endV = get_viewport().get_mouse_position()
 			is_dragging = false
 			draw_area(false)
