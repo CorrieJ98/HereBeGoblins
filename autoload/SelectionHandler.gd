@@ -2,8 +2,10 @@ class_name SelectionHandler extends Node2D
 
 var dragging = false  # are we currently dragging?
 var selected = []  # array of selected units
-var drag_start = Vector2.ZERO  # location where the drag begian
+var drag_start = Vector2.ZERO  # location where the drag begins
+var drag_end = Vector2.ZERO # location where the drag ends
 var select_rect = RectangleShape2D.new()
+var vp_mouse_pos = _RTS_CAMCONTROL.mouse_pos
 
 func _unhandled_input(event):
 	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
@@ -22,13 +24,13 @@ func _unhandled_input(event):
 		elif dragging:
 			dragging = false
 			queue_redraw()
-			var drag_end = event.position
-			select_rect.extents = abs(drag_end - drag_start) / 2
+			drag_end = event.position
+			select_rect.extents = abs(drag_end - drag_start) * 0.5
 			var space = get_world_2d().direct_space_state
 			var q = PhysicsShapeQueryParameters2D.new()
 			q.shape = select_rect
 			q.collision_mask = 2
-			q.transform = Transform2D(0, (drag_end + drag_start) / 2)
+			q.transform = Transform2D(0, (drag_end - drag_start) * 0.5)
 			selected = space.intersect_shape(q)
 			for item in selected:
 				item.collider.selected = true
@@ -37,5 +39,9 @@ func _unhandled_input(event):
 		
 func _draw():
 	if dragging:
-		draw_rect(Rect2(abs(get_global_mouse_position()), abs(get_local_mouse_position()-drag_start)), Color.YELLOW, false, -1.0)
+		draw_rect(Rect2(), Color.DARK_RED, false, -1.0)
+		draw_rect(Rect2(drag_start, get_viewport().get_mouse_position() - drag_start), Color.YELLOW, false, -1.0)
 		move_to_front()
+
+func debug_print(a,b,c):
+	print(a,b,c)

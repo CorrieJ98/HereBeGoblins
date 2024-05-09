@@ -8,6 +8,10 @@ var grouped_buildings : Array[Node] = []
 var boxed_units : Array[Unit] = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
+@onready var mouse_node = get_node("RTS/UI/MouseSelection")
+
+func update_mouse():
+	mouse_node.position = get_viewport().get_mouse_position()
 
 func _process(delta):
 	_RTS_CAMCONTROL._init()
@@ -39,8 +43,8 @@ func populate_group_arrays():
 	grouped_units = get_tree().get_nodes_in_group("unit_group_")
 	grouped_buildings = get_tree().get_nodes_in_group("building_group_")
 	
-	print(grouped_units, " --units")
-	print(grouped_buildings, " --buildings")
+	#print(grouped_units, " --units")
+	#print(grouped_buildings, " --buildings")
 
 func populate_groups():
 	

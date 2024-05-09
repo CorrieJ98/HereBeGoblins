@@ -16,3 +16,4 @@ res://scene/levels/debug_environment.tscn
 res://scene/global/UI/selection_box.gd
 res://scene/global/UI/mousehandler.tscn
 res://scene/global/UI/selection_area.gd
+res://autoload/RTSCameraController.gd

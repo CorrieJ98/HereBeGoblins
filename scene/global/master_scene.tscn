@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://c1s74p02pwuum"]
+[gd_scene load_steps=10 format=3 uid="uid://c1s74p02pwuum"]
 
 [ext_resource type="Script" path="res://scene/global/game_controller.gd" id="1_vye5u"]
 [ext_resource type="PackedScene" uid="uid://deqmu1hpifyyb" path="res://scene/levels/debug_environment.tscn" id="3_njckj"]
@@ -32,6 +32,9 @@ basic_abilties = Array[int]([])
 special_abilities = Array[int]([1])
 traits = Array[int]([0, 2])
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gx43u"]
+size = Vector2(1, 1)
+
 [node name="MainScene" type="Node"]
 script = ExtResource("1_vye5u")
 
@@ -64,3 +67,9 @@ visible = false
 editor_draw_drag_margin = true
 
 [node name="UI" type="CanvasLayer" parent="RTS"]
+
+[node name="MouseSelection" type="Area2D" parent="RTS/UI"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="RTS/UI/MouseSelection"]
+shape = SubResource("RectangleShape2D_gx43u")
+debug_color = Color(0.933333, 0.152941, 0, 0.419608)
