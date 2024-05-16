@@ -41,7 +41,8 @@ func _unhandled_input(event):
 			drag_start = Vector2.ZERO
 	if event is InputEventMouseMotion and dragging:
 		queue_redraw()
-		
+
+# PLEASE OH GOD DONT FUCKING TOUCH THIS ITS HELD TOGETHER WITH PRAYERS
 func _draw():
 	if dragging:
 		if (cam.offset != Vector2.ZERO):
@@ -49,9 +50,6 @@ func _draw():
 		else:
 			draw_rect(Rect2(drag_start, get_viewport().get_mouse_position() - drag_start + cam.offset), Color.YELLOW, false, -1.0)
 		move_to_front()
-
-func _process(delta):
-	debug_print(drag_start, cam.offset, drag_start + cam.offset)
 
 func debug_print(a,b,c):
 	print(a,b,c)
