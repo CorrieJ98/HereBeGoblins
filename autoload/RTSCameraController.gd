@@ -52,7 +52,7 @@ func camera_movement(m_pos, dt):
 	if Input.is_action_pressed("CamPanWest"):
 		move_vec.x -= MOVE_SPEED
 	
-	cam.position += move_vec
+	cam.offset += move_vec
 	
 func debug_print(a, b, c):
 	print(a, b, c)

@@ -12,3 +12,4 @@ res://scene/global/UI/mousehandler.tscn
 res://autoload/SelectionHandler.gd
 res://scene/global/game_controller.gd
 res://scene/global/MouseSelection.gd
+res://autoload/RTSCameraController.gd

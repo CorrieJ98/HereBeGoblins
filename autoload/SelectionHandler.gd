@@ -38,17 +38,20 @@ func _unhandled_input(event):
 			selected = space.intersect_shape(q)
 			for item in selected:
 				item.collider.selected = true
+			drag_start = Vector2.ZERO
 	if event is InputEventMouseMotion and dragging:
 		queue_redraw()
 		
 func _draw():
-	#var size = Vector2(abs(startV.x - endV.x), abs(startV.y - endV.y))
 	if dragging:
-		draw_rect(Rect2(), Color.DARK_RED, false, -1.0)
-		draw_rect(Rect2(drag_start, get_viewport().get_mouse_position() - drag_start), Color.YELLOW, false, -1.0)
+		if (cam.offset != Vector2.ZERO):
+			draw_rect(Rect2(drag_start + cam.offset, get_viewport().get_mouse_position() - drag_start), Color.YELLOW, false, -1.0)
+		else:
+			draw_rect(Rect2(drag_start, get_viewport().get_mouse_position() - drag_start + cam.offset), Color.YELLOW, false, -1.0)
 		move_to_front()
 
-
+func _process(delta):
+	debug_print(drag_start, cam.offset, drag_start + cam.offset)
 
 func debug_print(a,b,c):
 	print(a,b,c)
