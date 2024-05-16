@@ -22,6 +22,7 @@ func _process(delta):
 func _ready():
 	#Input.mouse_mode = Input.MOUSE_MODE_CONFINED
 	_RTS_CAMCONTROL.attach_cam($RTS/Camera2D)
+	_SELECTIONHANDLER.attach_cam($RTS/Camera2D)
 	populate_groups()
 	populate_group_arrays()
 
@@ -111,7 +112,6 @@ func command_move_unit_selection(selection : Array[Unit]) -> void:
 	var vel : Vector2
 	
 	for each in selection:
-		
 		# Firstly, ensure the selected unit does belong to the player
 		# otherwise, deselect all units
 		is_player = each.get_is_controllable()

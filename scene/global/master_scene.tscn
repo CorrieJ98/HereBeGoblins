@@ -64,6 +64,8 @@ script = ExtResource("1_vye5u")
 
 [node name="Camera2D" type="Camera2D" parent="RTS"]
 visible = false
+anchor_mode = 0
+ignore_rotation = false
 editor_draw_drag_margin = true
 
 [node name="UI" type="CanvasLayer" parent="RTS"]
