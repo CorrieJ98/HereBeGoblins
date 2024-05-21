@@ -24,6 +24,7 @@ func _ready():
 	#Input.mouse_mode = Input.MOUSE_MODE_CONFINED
 	_RTS_CAMCONTROL.attach_cam($RTS/Camera2D)
 	_SELECTIONHANDLER.attach_cam($RTS/Camera2D)
+	_SELECTIONHANDLER.area_selected.connect(_on_area_selected)
 	populate_groups()
 	populate_group_arrays()
 
@@ -78,27 +79,13 @@ func get_units_in_area(area : Array[Vector2]) -> Array:
 			#draw_rect(Rect2(drag_start, get_viewport().get_mouse_position() - drag_start + cam.offset), Color.YELLOW, false, -1.0)
 		#move_to_front()
 
-func get_unit_mesh_in_area(area : Rect2) -> Array:
-	var u : Array[Unit] = []
-	
-	# draw the box and check if there is a unit_mesh present
-	for each in grouped_units:
-		pass
-		# if each mesh has collision event:
-	
-	return u
-	pass
-
-func _on_area_selected(box):
-	var start : Vector2i = box.startV
-	var end : Vector2i = box.endV
+func _on_area_selected(box : Array[Vector2]):
+	var start : Vector2 = box[0]
+	var end : Vector2 = box[1]
 	var area = []
 	
 	print("startV: ", start)
 	print("endV: ", end)
-	
-	area.append(Vector2(min(start.x,end.x),min(start.y,end.y)))
-	area.append(Vector2(max(start.x,end.x),max(start.y,end.y)))
 	#boxed_units = get_units_in_area(area)
 	boxed_units = get_units_in_area(_SELECTIONHANDLER.get_selection_area_as_vec_arr())
 	
