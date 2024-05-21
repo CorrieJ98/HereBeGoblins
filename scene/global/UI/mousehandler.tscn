@@ -1,12 +1,17 @@
-[gd_scene load_steps=3 format=3 uid="uid://du1yckdhbf0qy"]
+[gd_scene load_steps=3 format=3 uid="uid://fmv7eab5nv2x"]
 
-[ext_resource type="Script" path="res://scene/global/UI/mouse_handler.gd" id="1_1xjc3"]
+[sub_resource type="GDScript" id="GDScript_77ohd"]
+script/source = "class_name MouseHandler extends Area2D 
+
+func update_position_to_hw_mouse(hwmouse_pos : Vector2):
+	position = hwmouse_pos
+"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_7enk6"]
 size = Vector2(1, 1)
 
 [node name="Mouse" type="Area2D"]
-script = ExtResource("1_1xjc3")
+script = SubResource("GDScript_77ohd")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_7enk6")

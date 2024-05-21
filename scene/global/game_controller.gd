@@ -1,13 +1,14 @@
 class_name GameController extends Node
 
 enum UnitCommand {MOVE,ATTACK,WORK}
-enum BuildingCommand {SETRALLY, ATTACK}
+enum BuildingCommand {SETRALLYPOINT, ATTACK}
 
 var grouped_units : Array[Node]= []
 var grouped_buildings : Array[Node] = []
 var boxed_units : Array[Unit] = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
+var selection_area : Array[Vector2]
 @onready var mouse_node = get_node("RTS/UI/MouseSelection")
 
 func update_mouse():
@@ -57,7 +58,7 @@ func get_units_under_mouse(mousepos : Vector2, grouped_units : Array[Unit]):
 	for each in grouped_units:
 		pass
 
-func get_units_in_area(area : Array) -> Array:
+func get_units_in_area(area : Array[Vector2]) -> Array:
 	# u holds any units within our selected area
 	var u : Array[Unit] = []
 	
@@ -68,6 +69,14 @@ func get_units_in_area(area : Array) -> Array:
 				u.append(each_unit)
 	return u
 
+#func _draw():
+	## PLEASE DONT TOUCH IT
+	#if dragging:
+		#if cam.offset != Vector2.ZERO:
+			#draw_rect(Rect2(drag_start + cam.offset, get_viewport().get_mouse_position() - drag_start), Color.YELLOW, false, -1.0)
+		#else:
+			#draw_rect(Rect2(drag_start, get_viewport().get_mouse_position() - drag_start + cam.offset), Color.YELLOW, false, -1.0)
+		#move_to_front()
 
 func get_unit_mesh_in_area(area : Rect2) -> Array:
 	var u : Array[Unit] = []
@@ -90,7 +99,8 @@ func _on_area_selected(box):
 	
 	area.append(Vector2(min(start.x,end.x),min(start.y,end.y)))
 	area.append(Vector2(max(start.x,end.x),max(start.y,end.y)))
-	boxed_units = get_units_in_area(area)
+	#boxed_units = get_units_in_area(area)
+	boxed_units = get_units_in_area(_SELECTIONHANDLER.get_selection_area_as_vec_arr())
 	
 	print(boxed_units, "
 	--------------")
