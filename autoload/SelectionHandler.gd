@@ -11,6 +11,7 @@ var grouped_buildings : Array[Node]
 var grouped_units : Array[Node]
 
 signal area_selected(box)
+signal point_selected(v2 : Vector2)
 
 
 func attach_cam(c : Camera2D):
@@ -23,19 +24,16 @@ func _unhandled_input(event):
 			if selected.size() == 0:
 				dragging = true
 				drag_start = event.position
+				print("selected: ", selected)
 			# Otherwise a click tells the selected units to move
-			else:
-				for item in selected:
-					print("item ", item)
-					item.collider.target = event.position
-					item.collider.selected = false
-				selected = []
+			elif event.is_released() && drag_end == drag_start:
+				emit_signal("point_selected", drag_start + cam.offset)
 		# If the mouse is released and is dragging, stop dragging and select the units
 		elif dragging:
 			dragging = false
 			queue_redraw()
 			drag_end = event.position
-			select_rect.extents = abs(drag_end - drag_start) * 0.6
+			select_rect.extents = abs(drag_end - drag_start) * 0.5
 			
 			# I would explain this section in greater detail if I had any understanding of it.
 			var space = get_world_2d().direct_space_state
@@ -65,6 +63,9 @@ func _draw():
 		move_to_front()
 
 func get_selection_area_as_vec_arr() -> Array[Vector2]:
+	
+	# take selection coords as 4 points of a rect rather than drag start and end maybe???
+	
 	var a : Array[Vector2]
 	if a.size() > 2:
 		a.clear()

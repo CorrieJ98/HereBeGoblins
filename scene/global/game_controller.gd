@@ -3,20 +3,17 @@ class_name GameController extends Node
 enum UnitCommand {MOVE,ATTACK,WORK}
 enum BuildingCommand {SETRALLYPOINT, ATTACK}
 
+@onready var mouse_chaser = $RTS/MouseChaser
 var grouped_units : Array[Node]= []
 var grouped_buildings : Array[Node] = []
 var boxed_units : Array[Unit] = []
 var selection_box : SelectionBox
 var selection_border : Panel = null
 var selection_area : Array[Vector2]
-@onready var mouse_node = get_node("RTS/UI/MouseSelection")
-
-func update_mouse():
-	mouse_node.position = get_viewport().get_mouse_position()
 
 func _process(delta):
 	_RTS_CAMCONTROL._init()
-	_RTS_CAMCONTROL.camera_movement(get_vp_mouse_position(), delta)
+	_RTS_CAMCONTROL.camera_movement(get_viewport().get_mouse_position(), delta)
 	_SELECTIONHANDLER._draw()
 	
 
@@ -25,6 +22,7 @@ func _ready():
 	_RTS_CAMCONTROL.attach_cam($RTS/Camera2D)
 	_SELECTIONHANDLER.attach_cam($RTS/Camera2D)
 	_SELECTIONHANDLER.area_selected.connect(_on_area_selected)
+	_SELECTIONHANDLER.point_selected.connect(_on_point_selected)
 	populate_groups()
 	populate_group_arrays()
 
@@ -37,8 +35,8 @@ func _input(event):
 	if Input.is_key_pressed(KEY_ESCAPE):
 		get_tree().quit()
 
-func get_vp_mouse_position() -> Vector2:
-	var mp = get_viewport().get_mouse_position()
+func get_world_mouse_pos() -> Vector2:
+	var mp = get_viewport().get_mouse_position() + _RTS_CAMCONTROL.cam.offset
 	return mp
 
 func populate_group_arrays():
@@ -82,12 +80,11 @@ func get_units_in_area(area : Array[Vector2]) -> Array:
 func _on_area_selected(box : Array[Vector2]):
 	var start : Vector2 = box[0]
 	var end : Vector2 = box[1]
-	var area = []
 	
 	print("startV: ", start)
 	print("endV: ", end)
 	#boxed_units = get_units_in_area(area)
-	boxed_units = get_units_in_area(_SELECTIONHANDLER.get_selection_area_as_vec_arr())
+	boxed_units = get_units_in_area(box)
 	
 	print(boxed_units, "
 	--------------")
@@ -98,8 +95,12 @@ func _on_area_selected(box : Array[Vector2]):
 	for u in boxed_units:
 		u.set_selected(!u.is_selected)
 
-func _on_unit_selected(box):
-	pass
+func _on_point_selected(v2):
+	# Vector2 array requires 2 parameters
+	var a = [v2, v2]
+	var u = get_units_in_area(a)
+	
+	u[0].set_selected(!u.is_selected)
 
 
 # TODO New function for command unit selection, taking a callable value of

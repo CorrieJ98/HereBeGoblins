@@ -10,5 +10,3 @@ res://scene/units/goblin.tscn
 res://scene/levels/debug_environment.tscn
 res://scene/global/UI/mousehandler.tscn
 res://scene/units/default_unit.tscn
-res://autoload/SelectionHandler.gd
-res://scene/global/game_controller.gd
