@@ -1,8 +1,12 @@
-res://resources/profiles
+res://resources/sky
+res://resources/mats
+res://resources/shapes
+res://autoloads
+res://resources
+res://scene/units/default
+res://scene/global
 res://scene/units
 res://
-res://scene/global
 res://scene/structures
-res://resources
 res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base
 res://scene

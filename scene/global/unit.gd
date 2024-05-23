@@ -1,45 +1,15 @@
-class_name Unit extends CharacterBody2D
+class_name Unit extends Node
 
-enum SpriteState {IDLE, MOVE, ATTACK}
-enum UnitTeam {PLAYER, ALLY, ENEMY, NEUTRAL}
+enum UnitType{BUILDING, PAWN, CAIRN}
+enum UnitTeam{PLAYER,ALLY,NEUTRAL,HOSTILE}
 
-@onready var anim = $AnimationPlayer
-@onready var sprite = $Sprite2D
-@onready var portrait = $Portrait
-@onready var selection_box = $SelectionBorder
-@onready var collision_box = $CollisionBox
-
-@export var selection_border : Panel
-@export var is_selected : bool = false
-
+@export var unit_type : UnitType
 @export var unit_team : UnitTeam
-@export var profile : UnitProfile
+@export var unit_resource : UnitResourceAutoLoad
+@export var is_selected : bool = false
+@export var sight_radius : float = 500
 
-var is_mouse_over : bool
+# Create unit resources, with different types for buildings, units
+# and subtypes for infantry, archers and workers/town hall, barracks etc
 
-func _ready():
-	set_selected(is_selected)
-
-# TODO Clicking to move
-func _physics_process(delta) -> void:
-	move_and_slide()
-
-
-func get_anim_string(lib : String, state, dir : Vector2i) -> String:
-	# Create a full library path with str(lib) and add the
-	# cardinal direction with str(dir)
-	# example "beastmaster-anim-idle/NORTH"
-	return (str(lib) + "-" + str(state) + "/" + str(dir))
-
-func set_selected(selection : bool):
-	selection_border.visible = selection
-
-func get_selection_objects(box : Panel, border : Panel) -> void:
-	box = selection_box
-	border = selection_border
-
-func get_is_controllable() -> bool:
-	if unit_team == UnitTeam.PLAYER:
-		return true
-	else:
-		return false
+# KISS!!!!

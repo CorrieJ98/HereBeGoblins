@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cdub467u6jp8p"]
+
+[ext_resource type="ArrayMesh" path="res://assets/mesh/cairn.tres" id="1_j5sqk"]
+[ext_resource type="Shape3D" uid="uid://c5xfyqevbt2av" path="res://resources/shapes/cairn_cap_range.tres" id="2_xq7k6"]
+
+[node name="Building" type="Area3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0.25, 0)
+mesh = ExtResource("1_j5sqk")
+
+[node name="CaptureRange" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+shape = ExtResource("2_xq7k6")

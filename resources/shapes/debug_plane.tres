@@ -1,0 +1,7 @@
+[gd_resource type="PlaneMesh" load_steps=2 format=3 uid="uid://bh7bxv2euomog"]
+
+[ext_resource type="Material" uid="uid://230214ox82iv" path="res://resources/mats/hex_tile.tres" id="1_ibni6"]
+
+[resource]
+material = ExtResource("1_ibni6")
+size = Vector2(500, 500)

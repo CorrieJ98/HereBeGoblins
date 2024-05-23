@@ -1,91 +1,38 @@
-[gd_scene load_steps=13 format=3 uid="uid://c1s74p02pwuum"]
+[gd_scene load_steps=7 format=3 uid="uid://ed86xpfpm8jy"]
 
-[ext_resource type="Script" path="res://scene/global/game_controller.gd" id="1_vye5u"]
-[ext_resource type="Script" path="res://scene/global/UI/camera_controller.gd" id="2_ijcfd"]
-[ext_resource type="PackedScene" uid="uid://deqmu1hpifyyb" path="res://scene/levels/debug_environment.tscn" id="3_njckj"]
-[ext_resource type="Script" path="res://scene/global/profile_unit.gd" id="4_4seaa"]
-[ext_resource type="PackedScene" uid="uid://37ey3tfm5syb" path="res://scene/structures/town_hall.tscn" id="4_mnd0u"]
-[ext_resource type="PackedScene" uid="uid://cq7kgdky61uue" path="res://scene/units/beastmaster.tscn" id="5_givmo"]
-[ext_resource type="PackedScene" uid="uid://btjdrk2e273lo" path="res://scene/units/goblin.tscn" id="6_u1tw2"]
-[ext_resource type="PackedScene" uid="uid://bna3ueht5drf5" path="res://scene/units/naked_peasant.tscn" id="7_2hlv1"]
-[ext_resource type="Resource" uid="uid://j20v8b1136d" path="res://resources/profiles/naked_peasant_prof.tres" id="7_hsryn"]
-[ext_resource type="Script" path="res://scene/global/UI/ui.gd" id="8_jcynk"]
-[ext_resource type="Script" path="res://scene/global/UI/selection_box.gd" id="9_0flij"]
+[ext_resource type="PackedScene" uid="uid://bgd3mltv7o5iw" path="res://scene/levels/debug_level.tscn" id="1_dyde8"]
+[ext_resource type="PackedScene" uid="uid://dlfswvkit5otc" path="res://scene/units/default/basic_building.tscn" id="2_iij0q"]
+[ext_resource type="PackedScene" uid="uid://cdub467u6jp8p" path="res://scene/units/default/basic_cairn.tscn" id="3_mepba"]
+[ext_resource type="PackedScene" uid="uid://bbmi03ai3aim3" path="res://scene/units/default/watchtower.tscn" id="4_6uv08"]
+[ext_resource type="PackedScene" uid="uid://bmf2kh4v805ul" path="res://scene/units/default/basic_pawn.tscn" id="5_cv672"]
+[ext_resource type="Script" path="res://scene/global/RTSController.gd" id="6_kh11v"]
 
-[sub_resource type="Resource" id="Resource_fpqho"]
-resource_local_to_scene = true
-resource_name = "Beastmaster"
-script = ExtResource("4_4seaa")
-name = "Beastmaster"
-rank = 1
-unit_type = 0
-unit_subtype = 1
-max_health = 15
-current_health = 15
-speed_walk = 64
-base_atk_dmg = 2
-base_attack_speed = 2.0
-line_of_sight = 1000
-agro_range = 150
-library_name_idle = "beastmaster-anim-idle"
-library_name_move = "beastmaster-anim-move"
-library_name_attack = "beastmaster-anim-attack"
-library_name_death = ""
-library_names_corpse = Array[String]([])
-basic_abilties = Array[int]([])
-special_abilities = Array[int]([1])
-traits = Array[int]([0, 2])
+[node name="MasterScene" type="Node3D"]
 
-[node name="GameController" type="Node"]
-script = ExtResource("1_vye5u")
+[node name="Map" type="Node" parent="."]
 
-[node name="Level" type="Node" parent="."]
+[node name="DebugMap" parent="Map" instance=ExtResource("1_dyde8")]
 
-[node name="DebugEnvironment" parent="Level" instance=ExtResource("3_njckj")]
-position = Vector2(-10, -2)
+[node name="Units" type="Node" parent="."]
 
-[node name="Buildings" type="Node" parent="Level"]
+[node name="BasicBuilding" parent="Units" instance=ExtResource("2_iij0q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 111, 0, 0)
 
-[node name="TownHall" parent="Level/Buildings" groups=["building_group_"] instance=ExtResource("4_mnd0u")]
-position = Vector2(1015, 19)
+[node name="Cairn" parent="Units" instance=ExtResource("3_mepba")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 152.242, 5.03655, 139.86)
 
-[node name="Units" type="Node" parent="Level"]
+[node name="Watchtower" parent="Units" instance=ExtResource("4_6uv08")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 176.379, 0, -181.65)
 
-[node name="Beastmaster" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("5_givmo")]
-position = Vector2(231, 83)
-profile = SubResource("Resource_fpqho")
+[node name="Pawn" parent="Units" instance=ExtResource("5_cv672")]
 
-[node name="NakedPeasant" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("7_2hlv1")]
-position = Vector2(75, 68)
-profile = ExtResource("7_hsryn")
+[node name="Logic" type="Node" parent="."]
 
-[node name="Goblin" parent="Level/Units" groups=["unit_group_"] instance=ExtResource("6_u1tw2")]
-position = Vector2(560, 384)
+[node name="RTSController" type="Node3D" parent="Logic"]
+transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 50, 0)
+script = ExtResource("6_kh11v")
 
-[node name="Global" type="Node" parent="."]
-
-[node name="Camera2D" type="Camera2D" parent="Global"]
-limit_left = 0
-limit_top = 0
-script = ExtResource("2_ijcfd")
-
-[node name="UI" type="CanvasLayer" parent="Global"]
-script = ExtResource("8_jcynk")
-
-[node name="SelectionBox" type="Panel" parent="Global/UI"]
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -800.0
-offset_top = -450.0
-offset_right = -800.0
-offset_bottom = -450.0
-grow_horizontal = 2
-grow_vertical = 2
-script = ExtResource("9_0flij")
-
-[connection signal="area_selected" from="Global/UI/SelectionBox" to="." method="_on_area_selected"]
-[connection signal="select_unit" from="Global/UI/SelectionBox" to="." method="_on_unit_selected"]
-[connection signal="select_unit" from="Global/UI/SelectionBox" to="Global/UI" method="_on_select" unbinds=1]
+[node name="Camera3D" type="Camera3D" parent="Logic/RTSController"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 17)
+current = true
+near = 0.001
