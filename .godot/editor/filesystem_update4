@@ -8,3 +8,9 @@ res://scene/units/default/watchtower.tscn
 res://resources/shapes/watchtower-hitbox.tres
 res://assets/Personal/mesh/watchtower.tres
 res://scene/global/RTSController.gd
+res://scene/global/unit.gd
+res://scene/units/worker_pawn.gd
+res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
+res://autoloads/UnitResourceAutoLoad.gd
+res://resources/shapes/selecftion_ring_pawn.tres
+res://scene/global/main.gd
