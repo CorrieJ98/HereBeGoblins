@@ -26,8 +26,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 152.242, 5.03655, 139.86)
 [node name="Watchtower" parent="Units" instance=ExtResource("4_6uv08")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 176.379, 0, -181.65)
 
-[node name="StoneUnit" parent="Units" instance=ExtResource("5_cv672")]
-unit_team = 2
+[node name="StoneUnit" parent="Units" groups=["units"] instance=ExtResource("5_cv672")]
+
+[node name="StoneUnit2" parent="Units" groups=["units"] instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.5628, 0, 0)
 
 [node name="Logic" type="Node" parent="."]
 
