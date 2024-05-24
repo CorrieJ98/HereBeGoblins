@@ -116,3 +116,11 @@ func clean_new_selection(new_units : Array) -> void:
 		unit.deselect()
 	for unit in new_units:
 		unit.select()
+
+func move_selected_units():
+	# 0b10111   ->   Allows tracking on layers 1, 2, 3 and 6
+	var result = draw_ray_to_mouse(0b100111)
+	if selected_units.size() != 0:
+		var first_unit = selected_units[0]
+		if result.collider.is_in_group("surface"):
+			first_unit.move_to(result.position)

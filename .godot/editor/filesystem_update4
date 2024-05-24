@@ -11,3 +11,5 @@ res://scene/units/default/basic_cairn.tscn
 res://scene/units/default/watchtower.tscn
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres
+res://scene/global/unit.gd
+res://resources/PawnResource.gd

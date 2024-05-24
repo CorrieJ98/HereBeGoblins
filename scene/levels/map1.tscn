@@ -21,6 +21,7 @@ volumetric_fog_detail_spread = 4.28709
 volumetric_fog_temporal_reprojection_amount = 0.99
 
 [node name="Map" type="Node3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
 navigation_mesh = SubResource("NavigationMesh_qo511")

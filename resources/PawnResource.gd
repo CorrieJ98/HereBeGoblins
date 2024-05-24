@@ -1,6 +1,7 @@
 class_name PawnResource extends UnitResourceAutoLoad
 
 enum PawnSubtypes {INFANTRY, ARCHER, WORKER}
+enum States {IDLE, WALKING, MINING, BUILDING, ATTACKING}
 
 @export_category("Basic Pawn Properties")
 @export var name : String
@@ -9,12 +10,12 @@ enum PawnSubtypes {INFANTRY, ARCHER, WORKER}
 @export var subtype : PawnSubtypes
 
 @export_category("Pawn Stats")
-@export var move_speed : float
+@export var base_move_speed : float
 @export var atk_dmg : int
 @export var atk_spd : float
-@export var is_melee : bool
-
-@export_category("Pawn Advanced Stats")
-@export var agro_radius : float
 @export var atk_rng : float
-@export var mesh : PackedScene
+
+var vel : Vector3
+var state_machine
+var current_state = States.IDLE
+var current_move_speed : float = base_move_speed
