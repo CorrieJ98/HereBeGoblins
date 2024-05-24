@@ -1,16 +1,13 @@
-res://scene/units/stone_unit.tscn
+res://scene/global/master_scene.tscn
+res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
+res://assets/Personal/mesh/cairn.tres
+res://assets/Personal/mesh/watchtower.tres
+res://resources/shapes/watchtower-hitbox.tres
+res://scene/global/RTSController.gd
 res://scene/units/default/basic_building.tscn
 res://scene/levels/map1.tscn
-res://scene/global/master_scene.tscn
+res://scene/units/stone_unit.tscn
 res://scene/units/default/basic_cairn.tscn
-res://assets/Personal/mesh/cairn.tres
 res://scene/units/default/watchtower.tscn
-res://resources/shapes/watchtower-hitbox.tres
-res://assets/Personal/mesh/watchtower.tres
-res://scene/global/RTSController.gd
-res://scene/global/unit.gd
-res://scene/units/worker_pawn.gd
-res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
-res://autoloads/UnitResourceAutoLoad.gd
-res://resources/shapes/selecftion_ring_pawn.tres
-res://scene/global/main.gd
+res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres
+res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres

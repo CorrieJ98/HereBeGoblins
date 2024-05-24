@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1716541282
+::res://::1716569089
 README.md::TextFile::-1::1713266024::0::1::::<><>::
 ::res://assets/::1716482981
 ::res://assets/Personal/::1716483011
@@ -187,15 +187,15 @@ transperent_tex.png::CompressedTexture2D::6164760770025649524::1662373617::17164
 UnitBuildingImg.jpg::CompressedTexture2D::90784691576478066::1662373617::1716483011::1::::<><>::
 WarriorImg.jpg::CompressedTexture2D::117065010625729009::1662373617::1716483011::1::::<><>::
 WorkerImg.jpg::CompressedTexture2D::2525837223547752712::1662373617::1716483011::1::::<><>::
-::res://assets/Udemy-AvivDavid/Project Assets/Materials/::1669812259
+::res://assets/Udemy-AvivDavid/Project Assets/Materials/::1716544544
 FloorMat.tres::StandardMaterial3D::8932228456046385180::1669812259::0::1::::<><>::uid://do14cibjk15w6::::res://Project Assets/Floor/Floor-Tex/PavingStones080_2K_Color.jpg<>uid://ctyg6s4gjukaj::::res://Project Assets/Floor/Floor-Tex/PavingStones080_2K_AmbientOcclusion.jpg<>uid://baikmidkiim3m::::res://Project Assets/Floor/Floor-Tex/PavingStones080_2K_Displacement.jpg<>uid://bsb2rjwcnyiq4::::res://Project Assets/Floor/Floor-Tex/PavingStones080_2K_NormalGL.jpg<>uid://5br54yeqp7c::::res://Project Assets/Floor/Floor-Tex/PavingStones080_2K_Roughness.jpg
 GreenStracture.tres::StandardMaterial3D::7378027845473958050::1662373617::0::1::::<><>::
 new_fog_material.tres::FogMaterial::3122176560897980692::1668989727::0::1::::<><>::
 new_fog_material_visible.tres::FogMaterial::3469681391798981706::1668987334::0::1::::<><>::
 RedStracture.tres::StandardMaterial3D::470577243973876351::1662373617::0::1::::<><>::
-TeamNeutMat.tres::StandardMaterial3D::5250203194159951102::1716544427::0::1::::<><>::
 SeeThroughStracture.tres::StandardMaterial3D::7938596584375133796::1662373617::0::1::::<><>::
 TeamBlueMat.tres::StandardMaterial3D::5012186928874825299::1669812259::0::1::::<><>::
+TeamNeutMat.tres::StandardMaterial3D::5250203194159951102::1716544544::0::1::::<><>::
 TeamRedMat.tres::StandardMaterial3D::4149178806181604075::1669812259::0::1::::<><>::
 ::res://assets/Udemy-AvivDavid/Project Assets/Rock/::1716483018
 Rocks.glb::PackedScene::3098867185670016050::1656763427::1716483011::1::::<><>::
@@ -214,8 +214,8 @@ Tree_1.png::CompressedTexture2D::906783331065830847::1716483012::1716483018::1::
 weapon.gltf::PackedScene::8729350360566159236::1668368891::1716483013::1::::<><>::
 ::res://assets/Udemy-AvivDavid/Project Assets/UnitRing/::1716483013
 UnitRing.glb::PackedScene::3756403499013779328::1656763427::1716483013::1::::<><>::
-::res://autoloads/::1716480114
-UnitResourceAutoLoad.gd::GDScript::-1::1716480114::0::1::::UnitResourceAutoLoad<>Resource<>::
+::res://autoloads/::1716545025
+UnitResourceAutoLoad.gd::GDScript::-1::1716545025::0::1::::UnitResourceAutoLoad<>Resource<>::
 ::res://resources/::1716485276
 BuildingResource.gd::GDScript::-1::1716480077::0::1::::BuildingResource<>UnitResourceAutoLoad<>::
 CairnResource.gd::GDScript::-1::1716480073::0::1::::CairnResource<>UnitResourceAutoLoad<>::
@@ -223,29 +223,30 @@ PawnResource.gd::GDScript::-1::1716480238::0::1::::PawnResource<>UnitResourceAut
 ::res://resources/mats/::1716484690
 debug_tile.tres::StandardMaterial3D::7248952228543148380::1716484690::0::1::::<><>::uid://d13je5132y8e8::::res://assets/Personal/1200px-Checkerboard_pattern.svg.png
 hex_tile.tres::StandardMaterial3D::1954468907669733897::1716484654::0::1::::<><>::uid://5br54yeqp7c::::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/PavingStones080_2K_Roughness.jpg
-::res://resources/shapes/::1716542131
+::res://resources/shapes/::1716545390
 cairn_cap_range.tres::SphereShape3D::6926334656397176521::1716481066::0::1::::<><>::
 debug_plane.tres::PlaneMesh::2943905612450924930::1716485237::0::1::::<><>::uid://230214ox82iv::::res://resources/mats/hex_tile.tres
-selecftion_ring_pawn.tres::TorusMesh::1433950172702166900::1716542131::0::1::::<><>::
+selecftion_ring_pawn.tres::TorusMesh::1433950172702166900::1716545390::0::1::::<><>::
 watchtower-hitbox.tres::BoxShape3D::7457568318832830323::1716541949::0::1::::<><>::
 watchtower-visual-range.tres::SphereShape3D::4884127134397342056::1716480885::0::1::::<><>::
 ::res://resources/sky/::1716485277
 map1.tres::Sky::1946862458760291763::1716485277::0::1::::<><>::
 ::res://scene/::1711760215
-::res://scene/global/::1716544079
-master_scene.tscn::PackedScene::289008759643505790::1716544079::0::1::::<><>::uid://b04k0k45enq3i::::res://scene/levels/map1.tscn<>uid://dlfswvkit5otc::::res://scene/units/default/basic_building.tscn<>uid://cdub467u6jp8p::::res://scene/units/default/basic_cairn.tscn<>uid://bbmi03ai3aim3::::res://scene/units/default/watchtower.tscn<>uid://d34og3yo41io::::res://scene/units/stone_unit.tscn<>res://scene/global/RTSController.gd
-RTSController.gd::GDScript::-1::1716544051::0::1::::<>Node3D<>::
-unit.gd::GDScript::-1::1716544301::0::1::::Unit<>Node<>::
+::res://scene/global/::1716555556
+main.gd::GDScript::-1::1716552337::0::1::::<>Node3D<>::
+master_scene.tscn::PackedScene::289008759643505790::1716555556::0::1::::<><>::res://scene/global/main.gd<>uid://b04k0k45enq3i::::res://scene/levels/map1.tscn<>uid://dlfswvkit5otc::::res://scene/units/default/basic_building.tscn<>uid://cdub467u6jp8p::::res://scene/units/default/basic_cairn.tscn<>uid://bbmi03ai3aim3::::res://scene/units/default/watchtower.tscn<>uid://d34og3yo41io::::res://scene/units/stone_unit.tscn<>res://scene/global/RTSController.gd
+RTSController.gd::GDScript::-1::1716552618::0::1::::<>Node3D<>::
+unit.gd::GDScript::-1::1716552315::0::1::::Unit<>PhysicsBody3D<>::
 ::res://scene/global/UI/::1716378040
-::res://scene/levels/::1716544070
+::res://scene/levels/::1716552572
 debug_level.tscn::PackedScene::2815468992213421806::1716485175::0::1::::<><>::uid://bh7bxv2euomog::::res://resources/shapes/debug_plane.tres
-map1.tscn::PackedScene::4201661115688699176::1716544070::0::1::::<><>::uid://bh7bxv2euomog::::res://resources/shapes/debug_plane.tres<>uid://20csmshba6rf::::res://resources/sky/map1.tres
+map1.tscn::PackedScene::4201661115688699176::1716552572::0::1::::<><>::uid://bh7bxv2euomog::::res://resources/shapes/debug_plane.tres<>uid://20csmshba6rf::::res://resources/sky/map1.tres
 ::res://scene/structures/::1716378055
-::res://scene/units/::1716544117
+::res://scene/units/::1716552573
+stone_unit.tscn::PackedScene::270155261437620430::1716552573::0::1::::<><>::res://scene/global/unit.gd<>res://resources/PawnResource.gd<>uid://dsuriq88onl2w::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Animations.res<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres
 worker_pawn.gd::GDScript::-1::1716544194::0::1::::<>RigidBody3D<>::
-stone_unit.tscn::PackedScene::270155261437620430::1716544301::0::1::::<><>::res://scene/units/worker_pawn.gd<>uid://dsuriq88onl2w::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Animations.res<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres
-::res://scene/units/default/::1716544071
-basic_building.tscn::PackedScene::7942794532032129248::1716544070::0::1::::<><>::res://scene/global/unit.gd
-basic_cairn.tscn::PackedScene::5024809637005606117::1716544071::0::1::::<><>::uid://cmaqmhrufme8s::::res://assets/Personal/mesh/cairn.tres<>uid://c5xfyqevbt2av::::res://resources/shapes/cairn_cap_range.tres
+::res://scene/units/default/::1716552573
+basic_building.tscn::PackedScene::7942794532032129248::1716552572::0::1::::<><>::
+basic_cairn.tscn::PackedScene::5024809637005606117::1716552573::0::1::::<><>::uid://cmaqmhrufme8s::::res://assets/Personal/mesh/cairn.tres<>uid://c5xfyqevbt2av::::res://resources/shapes/cairn_cap_range.tres
 basic_pawn.tscn::PackedScene::3240666326325572067::1716486033::0::1::::<><>::res://scene/global/unit.gd<>res://resources/PawnResource.gd<>res://assets/mesh/monkeypod.tres
-watchtower.tscn::PackedScene::2481913912224319380::1716544071::0::1::::<><>::res://scene/global/unit.gd<>uid://wsqlcykh47oe::::res://assets/Personal/mesh/watchtower.tres<>uid://deirccdwrra4b::::res://resources/shapes/watchtower-hitbox.tres<>uid://cbt54isfooquq::::res://resources/shapes/watchtower-visual-range.tres
+watchtower.tscn::PackedScene::2481913912224319380::1716552573::0::1::::<><>::uid://wsqlcykh47oe::::res://assets/Personal/mesh/watchtower.tres<>uid://deirccdwrra4b::::res://resources/shapes/watchtower-hitbox.tres<>uid://cbt54isfooquq::::res://resources/shapes/watchtower-visual-range.tres

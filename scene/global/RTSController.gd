@@ -93,8 +93,8 @@ func draw_ray_to_mouse(collision_mask : int) -> Dictionary:
 
 func get_unit_under_mouse():
 	var result_unit = draw_ray_to_mouse(2)
-	if k_player_team and result_unit.collider and result_unit.collider.unit_team == k_player_team:
-		var selected_unit = result_unit.collider
+	if result_unit and "unit_team" in result_unit.collider and result_unit.collider.unit_team == k_player_team:
+		var selected_unit = result_unit.collider	
 		return selected_unit
 
 func select_units():
