@@ -1,10 +1,10 @@
 [gd_scene load_steps=7 format=3 uid="uid://ed86xpfpm8jy"]
 
-[ext_resource type="PackedScene" uid="uid://bgd3mltv7o5iw" path="res://scene/levels/debug_level.tscn" id="1_dyde8"]
+[ext_resource type="PackedScene" uid="uid://b04k0k45enq3i" path="res://scene/levels/map1.tscn" id="1_dyde8"]
 [ext_resource type="PackedScene" uid="uid://dlfswvkit5otc" path="res://scene/units/default/basic_building.tscn" id="2_iij0q"]
 [ext_resource type="PackedScene" uid="uid://cdub467u6jp8p" path="res://scene/units/default/basic_cairn.tscn" id="3_mepba"]
 [ext_resource type="PackedScene" uid="uid://bbmi03ai3aim3" path="res://scene/units/default/watchtower.tscn" id="4_6uv08"]
-[ext_resource type="PackedScene" uid="uid://bmf2kh4v805ul" path="res://scene/units/default/basic_pawn.tscn" id="5_cv672"]
+[ext_resource type="PackedScene" uid="uid://d34og3yo41io" path="res://scene/units/stone_unit.tscn" id="5_cv672"]
 [ext_resource type="Script" path="res://scene/global/RTSController.gd" id="6_kh11v"]
 
 [node name="MasterScene" type="Node3D"]
@@ -24,13 +24,15 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 152.242, 5.03655, 139.86)
 [node name="Watchtower" parent="Units" instance=ExtResource("4_6uv08")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 176.379, 0, -181.65)
 
-[node name="Pawn" parent="Units" instance=ExtResource("5_cv672")]
+[node name="StoneUnit" parent="Units" instance=ExtResource("5_cv672")]
 
 [node name="Logic" type="Node" parent="."]
 
 [node name="RTSController" type="Node3D" parent="Logic"]
 transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 50, 0)
 script = ExtResource("6_kh11v")
+edge_pan_speed = 170
+zoom_speed = 0.25
 
 [node name="Camera3D" type="Camera3D" parent="Logic/RTSController"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 17)

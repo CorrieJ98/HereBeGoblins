@@ -1,11 +1,13 @@
-res://resources/sky
-res://resources/mats
 res://resources/shapes
-res://autoloads
-res://resources
 res://scene/units/default
 res://scene/global
 res://scene/units
+res://scene/levels
+res://assets/Udemy-AvivDavid/Project Assets/Animations
+res://resources/sky
+res://resources/mats
+res://autoloads
+res://resources
 res://
 res://scene/structures
 res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base

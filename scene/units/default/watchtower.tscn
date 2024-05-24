@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bbmi03ai3aim3"]
 
 [ext_resource type="Script" path="res://scene/global/unit.gd" id="1_n4atl"]
-[ext_resource type="ArrayMesh" path="res://assets/mesh/watchtower.tres" id="2_pltlx"]
+[ext_resource type="ArrayMesh" uid="uid://wsqlcykh47oe" path="res://assets/Personal/mesh/watchtower.tres" id="2_dxh0t"]
 [ext_resource type="Shape3D" uid="uid://deirccdwrra4b" path="res://resources/shapes/watchtower-hitbox.tres" id="3_dxkov"]
 [ext_resource type="Shape3D" uid="uid://cbt54isfooquq" path="res://resources/shapes/watchtower-visual-range.tres" id="4_juq8a"]
 
@@ -10,7 +10,7 @@ script = ExtResource("1_n4atl")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
-mesh = ExtResource("2_pltlx")
+mesh = ExtResource("2_dxh0t")
 
 [node name="Hitbox" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 18, 0)
