@@ -9,20 +9,31 @@ const k_team_colours : Dictionary = {
 enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
 
 @onready var selection_ring : MeshInstance3D = $SelectionRing
-
+@onready var animation_tree : AnimationTree = $AnimationTree
+@onready var nav_agent : NavigationAgent3D = $NavigationAgent3D
 @export var unit_team : UnitTeam
 @export var unit_resource : PawnResource
+var state_machine
 
-#  NOTE TO SELF
-# EP10 @ 8:29 Udemy - Unit Movement tutorial
-# Add raycast to the worker - everything before he changes scripts is done and squared away. Happy coding <3
 
 func _ready():
 	set_unit_colour()
+	state_machine = animation_tree.get("parameters/playback")
 
 func _process(delta):
-	var target = $NavigationAgent3D.get_next_location()
+	var target = nav_agent.get_next_path_position()
 	var pos = get_global_transform().origin
+	
+	var normal = $RayCast3D.get_collision_normal()
+	if normal.length_squared() < 0.001:
+		normal = Vector3(0,1,0)
+	
+	# Rotate to move direction
+	unit_resource.vel = (target - pos).slide(normal).normalized() * unit_resource.base_move_speed
+	$Armature.rotation.y = lerp_angle($Armature.rotation.y, atan2(unit_resource.vel.x, unit_resource.vel.z), delta * 10)
+	
+	$NavigationAgent3D.set_velocity(unit_resource.vel)
+
 
 func set_unit_colour() -> void:
 	if unit_team in k_team_colours:
@@ -39,11 +50,11 @@ func change_state(state):
 		"idle":
 			unit_resource.current_state = unit_resource.States.IDLE
 			unit_resource.move_speed = 0.00001
-			unit_resource.state_machine.travel("idle")
+			unit_resource.state_machine.travel("Idle")
 		"walking":
 			unit_resource.current_state = unit_resource.States.IDLE
 			unit_resource.current_move_speed = unit_resource.base_move_speed
-			unit_resource.state_machine.travel("walk")
+			unit_resource.state_machine.travel("Walk")
 
 func move_to(target_pos : Vector3):
 	change_state("walking")

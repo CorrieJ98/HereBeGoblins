@@ -23,6 +23,8 @@ func _process(delta) -> void:
 	if Input.is_action_just_released("LeftMouseButton"):
 		select_units()
 	
+	if Input.is_action_just_pressed("RightMouseButton"):
+		move_selected_units()
 
 func _input(event) -> void:
 	# Cam Zoom
@@ -30,6 +32,7 @@ func _input(event) -> void:
 		cam.fov = lerp(cam.fov , 75.0, zoom_speed)
 	if event.is_action_pressed("MWheelUp"):
 		cam.fov = lerp(cam.fov , 30.0, zoom_speed)
+	
 
 
 func camera_movement(dt : float) -> void:
@@ -72,11 +75,10 @@ func camera_movement(dt : float) -> void:
 	move_vec = move_vec.rotated(Vector3(0,1,0), rad_to_deg(rotation.y))
 	global_translate(move_vec * dt * edge_pan_speed)
 
-func draw_ray_to_mouse(collision_mask : int) -> Dictionary:
+func draw_ray_to_mouse(collision_mask : int):
 	var ray_start : Vector3 = cam.project_ray_origin(mouse_pos)
 	var ray_end : Vector3 = ray_start + cam.project_ray_normal(mouse_pos) * k_ray_length
 	var space_state = get_world_3d().direct_space_state
-	@warning_ignore("inferred_declaration")
 	var qp := PhysicsRayQueryParameters3D.new()
 	
 	qp.from = ray_start
@@ -119,7 +121,10 @@ func clean_new_selection(new_units : Array) -> void:
 
 func move_selected_units():
 	# 0b10111   ->   Allows tracking on layers 1, 2, 3 and 6
+	# NOTE
+	# This is crazy - not sure why its not working rn but this is a fair contender
 	var result = draw_ray_to_mouse(0b100111)
+	print(0b100111)
 	if selected_units.size() != 0:
 		var first_unit = selected_units[0]
 		if result.collider.is_in_group("surface"):

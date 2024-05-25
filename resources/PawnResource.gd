@@ -16,6 +16,5 @@ enum States {IDLE, WALKING, MINING, BUILDING, ATTACKING}
 @export var atk_rng : float
 
 var vel : Vector3
-var state_machine
 var current_state = States.IDLE
 var current_move_speed : float = base_move_speed
