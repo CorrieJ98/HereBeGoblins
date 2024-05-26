@@ -18,11 +18,13 @@ func _process(delta) -> void:
 	mouse_pos = get_viewport().get_mouse_position()
 	camera_movement(delta)
 	
+	# Selection
 	if Input.is_action_just_pressed("LeftMouseButton"):
 		start_select_position = mouse_pos
 	if Input.is_action_just_released("LeftMouseButton"):
 		select_units()
 	
+	# Commands
 	if Input.is_action_just_pressed("RightMouseButton"):
 		move_selected_units()
 
@@ -121,10 +123,7 @@ func clean_new_selection(new_units : Array) -> void:
 
 func move_selected_units():
 	# 0b10111   ->   Allows tracking on layers 1, 2, 3 and 6
-	# NOTE
-	# This is crazy - not sure why its not working rn but this is a fair contender
 	var result = draw_ray_to_mouse(0b100111)
-	print(0b100111)
 	if selected_units.size() != 0:
 		var first_unit = selected_units[0]
 		if result.collider.is_in_group("surface"):

@@ -6,33 +6,45 @@ const k_team_colours : Dictionary = {
 	UnitTeam.NEUTRAL : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres")
 }
 
-enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
+
+enum States {IDLE, WALKING, ATTACKING, MINING, BUILDING}
+var current_state = States.IDLE
+var state_machine
 
 @onready var selection_ring : MeshInstance3D = $SelectionRing
 @onready var animation_tree : AnimationTree = $AnimationTree
 @onready var nav_agent : NavigationAgent3D = $NavigationAgent3D
-@export var unit_team : UnitTeam
-@export var unit_resource : PawnResource
-var state_machine
 
+enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
+@export_category("Pawn Stats")
+@export var unit_team : UnitTeam
+@export var health : int
+@export var atk_dmg : int
+@export var atk_spd : float
+@export var atk_rng : float
+@export var move_speed : float = 100.0
+@onready var base_move_speed : float = move_speed
+var vel : Vector3
+var normal
 
 func _ready():
 	set_unit_colour()
 	state_machine = animation_tree.get("parameters/playback")
+	move_speed = 0.0
 
-func _process(delta):
-	var target = nav_agent.get_next_path_position()
+func _physics_process(delta):
+	var nav_target = nav_agent.get_next_path_position()
 	var pos = get_global_transform().origin
+	normal = $RayCast3D.get_collision_normal()
 	
-	var normal = $RayCast3D.get_collision_normal()
+	# If the unit is in the air
 	if normal.length_squared() < 0.001:
 		normal = Vector3(0,1,0)
 	
-	# Rotate to move direction
-	unit_resource.vel = (target - pos).slide(normal).normalized() * unit_resource.base_move_speed
-	$Armature.rotation.y = lerp_angle($Armature.rotation.y, atan2(unit_resource.vel.x, unit_resource.vel.z), delta * 10)
-	
-	$NavigationAgent3D.set_velocity(unit_resource.vel)
+	# Rotate towards nav_target position
+	vel = (pos - nav_target).slide(normal).normalized() * base_move_speed
+	$Armature.rotation.y = lerp_angle($Armature.rotation.y, atan2(vel.x, vel.z),  10.0)
+	nav_agent.set_velocity(Vector3(1,0,0))
 
 
 func set_unit_colour() -> void:
@@ -48,20 +60,27 @@ func deselect():
 func change_state(state):
 	match state:
 		"idle":
-			unit_resource.current_state = unit_resource.States.IDLE
-			unit_resource.move_speed = 0.00001
-			unit_resource.state_machine.travel("Idle")
+			current_state = States.IDLE
+			move_speed = 0.000001
+			state_machine.travel("Idle", true)
 		"walking":
-			unit_resource.current_state = unit_resource.States.IDLE
-			unit_resource.current_move_speed = unit_resource.base_move_speed
-			unit_resource.state_machine.travel("Walk")
+			current_state = States.WALKING
+			move_speed = base_move_speed
+			state_machine.travel("Walk", true)
 
 func move_to(target_pos : Vector3):
 	change_state("walking")
 	
 	# get the closest available point on the navmesh to the point that was clicked
+	
+	# BROKEN HERE - always returning (0,0,0)
 	var closest_pos = NavigationServer3D.map_get_closest_point(get_world_3d().get_navigation_map(), target_pos)
-	$NavigationAgent3D.set_target_location(closest_pos)
+	#var closest_pos = NavigationServer3D.map_get_closest_point(get_world_3d().navigation_map, target_pos)
+	nav_agent.set_target_position(closest_pos)
+	
+	print(nav_agent.get_next_path_position(), closest_pos)
+	
+	#nav_agent.set_velocity_forced(velocity)
 
 func _on_navigation_agent_3d_target_reached():
 	change_state("idle")
