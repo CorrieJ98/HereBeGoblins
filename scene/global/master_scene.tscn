@@ -28,77 +28,51 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 152.242, 5.03655, 139.86)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 176.379, 0, -181.65)
 
 [node name="StoneUnit" parent="Units" instance=ExtResource("5_cv672")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.3619, 0, 25.2262)
-
-[node name="Skeleton3D" parent="Units/StoneUnit/Armature" index="0"]
-bones/0/position = Vector3(5.7843, 1.20017, -293.734)
-bones/0/rotation = Quaternion(-0.727669, -0.0514256, 0.0157107, 0.683817)
-bones/1/rotation = Quaternion(0.0414213, 0.0122708, 0.0176668, 0.99891)
-bones/2/rotation = Quaternion(0.00992466, 0.00285777, 0.0134083, 0.999857)
-bones/3/rotation = Quaternion(0.00968843, 0.00302743, 0.0134254, 0.999858)
-bones/4/position = Vector3(3.68782e-06, 66.6759, 2.41324e-06)
-bones/4/rotation = Quaternion(0.0361883, -0.000852179, 0.00408695, 0.999336)
-bones/5/position = Vector3(3.11441e-07, 29.6188, -1.12992)
-bones/5/rotation = Quaternion(-0.0658687, 0.0116398, -0.00142888, 0.997759)
-bones/6/position = Vector3(-3.39735e-06, 125.144, -4.77414)
-bones/7/rotation = Quaternion(0.666661, 0.341837, -0.477613, 0.458908)
-bones/8/position = Vector3(1.00691e-06, 132.365, 3.49542e-05)
-bones/8/rotation = Quaternion(0.506947, 0.137349, 0.126698, 0.841479)
-bones/9/position = Vector3(1.52268e-05, 118.308, -1.08346e-05)
-bones/9/rotation = Quaternion(-0.000392906, 0.004402, 0.0124275, 0.999913)
-bones/11/rotation = Quaternion(0.667324, -0.340873, 0.496805, 0.4378)
-bones/12/position = Vector3(4.35705e-06, 132.365, 2.30887e-05)
-bones/12/rotation = Quaternion(0.432945, -0.224427, -0.147909, 0.860415)
-bones/13/rotation = Quaternion(-0.00173571, -0.00316811, -0.0578851, 0.998317)
-bones/15/position = Vector3(75.0789, -24.662, -1.15372)
-bones/15/rotation = Quaternion(0.135007, 0.102874, 0.980256, -0.101428)
-bones/16/rotation = Quaternion(-0.240139, -0.00238463, 0.00547942, 0.97072)
-bones/17/rotation = Quaternion(0.659013, 0.430585, -0.440595, 0.431479)
-bones/18/rotation = Quaternion(-0.0838983, 0.0409728, 0.0100725, 0.995581)
-bones/20/position = Vector3(-75.0789, -24.662, -0.821855)
-bones/20/rotation = Quaternion(-0.0892754, -0.0743767, 0.993215, -0.00472739)
-bones/21/rotation = Quaternion(-0.0385606, 0.0797356, 0.000956992, 0.996069)
-bones/22/rotation = Quaternion(0.650326, -0.419784, 0.416521, 0.476831)
-bones/23/rotation = Quaternion(-0.073, -0.0574868, -0.0302642, 0.995214)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 17.6046, 0, -31.5662)
 
 [node name="StoneUnit2" parent="Units" instance=ExtResource("5_cv672")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.3239, 0, 33.636)
-
-[node name="Skeleton3D" parent="Units/StoneUnit2/Armature" index="0"]
-bones/0/position = Vector3(5.7843, 1.20017, -293.734)
-bones/0/rotation = Quaternion(-0.727669, -0.0514256, 0.0157107, 0.683817)
-bones/1/rotation = Quaternion(0.0414213, 0.0122708, 0.0176668, 0.99891)
-bones/2/rotation = Quaternion(0.00992466, 0.00285777, 0.0134083, 0.999857)
-bones/3/rotation = Quaternion(0.00968843, 0.00302743, 0.0134254, 0.999858)
-bones/4/position = Vector3(3.68782e-06, 66.6759, 2.41324e-06)
-bones/4/rotation = Quaternion(0.0361883, -0.000852179, 0.00408695, 0.999336)
-bones/5/position = Vector3(3.11441e-07, 29.6188, -1.12992)
-bones/5/rotation = Quaternion(-0.0658687, 0.0116398, -0.00142888, 0.997759)
-bones/6/position = Vector3(-3.39735e-06, 125.144, -4.77414)
-bones/7/rotation = Quaternion(0.666661, 0.341837, -0.477613, 0.458908)
-bones/8/position = Vector3(1.00691e-06, 132.365, 3.49542e-05)
-bones/8/rotation = Quaternion(0.506947, 0.137349, 0.126698, 0.841479)
-bones/9/position = Vector3(1.52268e-05, 118.308, -1.08346e-05)
-bones/9/rotation = Quaternion(-0.000392906, 0.004402, 0.0124275, 0.999913)
-bones/11/rotation = Quaternion(0.667324, -0.340873, 0.496805, 0.4378)
-bones/12/position = Vector3(4.35705e-06, 132.365, 2.30887e-05)
-bones/12/rotation = Quaternion(0.432945, -0.224427, -0.147909, 0.860415)
-bones/13/rotation = Quaternion(-0.00173571, -0.00316811, -0.0578851, 0.998317)
-bones/15/position = Vector3(75.0789, -24.662, -1.15372)
-bones/15/rotation = Quaternion(0.135007, 0.102874, 0.980256, -0.101428)
-bones/16/rotation = Quaternion(-0.240139, -0.00238463, 0.00547942, 0.97072)
-bones/17/rotation = Quaternion(0.659013, 0.430585, -0.440595, 0.431479)
-bones/18/rotation = Quaternion(-0.0838983, 0.0409728, 0.0100725, 0.995581)
-bones/20/position = Vector3(-75.0789, -24.662, -0.821855)
-bones/20/rotation = Quaternion(-0.0892754, -0.0743767, 0.993215, -0.00472739)
-bones/21/rotation = Quaternion(-0.0385606, 0.0797356, 0.000956992, 0.996069)
-bones/22/rotation = Quaternion(0.650326, -0.419784, 0.416521, 0.476831)
-bones/23/rotation = Quaternion(-0.073, -0.0574868, -0.0302642, 0.995214)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.55724, -7.62939e-06, 71.682)
 
 [node name="StoneUnit3" parent="Units" instance=ExtResource("5_cv672")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.3239, 0, 33.636)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.2899, 0, 69.0497)
 
 [node name="StoneUnit4" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 79.062, 0, -1.75173)
+
+[node name="StoneUnit5" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.09089, 0, 17.5379)
+
+[node name="StoneUnit6" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.6205, 7.62939e-06, 58.9861)
+
+[node name="StoneUnit7" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.0232, 0, 30.9178)
+
+[node name="StoneUnit8" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -32.8301, 0, 40.4094)
+
+[node name="StoneUnit9" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.91823, 0, 29.9915)
+
+[node name="StoneUnit10" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 82.6066, -7.62939e-06, 32.1568)
+
+[node name="StoneUnit11" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.1063, 0, -8.59207)
+
+[node name="StoneUnit12" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.6082, 0, -12.417)
+
+[node name="StoneUnit13" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.6268, 0, 10.8494)
+
+[node name="StoneUnit14" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.3239, 0, 33.636)
+
+[node name="StoneUnit15" parent="Units" instance=ExtResource("5_cv672")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.3239, 0, 33.636)
+
+[node name="StoneUnit16" parent="Units" instance=ExtResource("5_cv672")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.3239, 0, 33.636)
 
 [node name="RTSController" type="Node3D" parent="."]
@@ -106,6 +80,8 @@ transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 
 script = ExtResource("6_kh11v")
 edge_pan_speed = 170
 zoom_speed = 0.25
+units_in_circle = 6
+formation_radius = 15.0
 
 [node name="UnitSelector" type="Control" parent="RTSController"]
 show_behind_parent = true
@@ -119,9 +95,6 @@ grow_vertical = 2
 script = ExtResource("8_57yx1")
 
 [node name="Camera3D" type="Camera3D" parent="RTSController"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 17)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 50)
 current = true
 near = 0.001
-
-[editable path="Units/StoneUnit"]
-[editable path="Units/StoneUnit2"]

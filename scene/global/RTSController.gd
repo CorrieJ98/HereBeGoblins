@@ -6,6 +6,8 @@ extends Node3D
 @export_range(10,250,5) var edge_pan_speed : int = 100
 @export_range(50,300,5) var wasd_speed_scalar : int = 100
 @export_range(0.01,0.5,0.01) var zoom_speed : float = 0.05
+@export var units_in_circle : int = 4
+@export var formation_radius : float = 20
 const k_move_margin : int = 20
 const k_ray_length : int = 1000
 const k_player_team : int = Unit.UnitTeam.PLAYER
@@ -13,6 +15,8 @@ var mouse_pos := Vector2()
 var selected_units := []
 var old_selected_units := []
 var start_select_position = Vector2()
+var target_positions_list : Array[Vector3] = []
+var unit_pos_index : int
 
 func _process(delta) -> void:
 	mouse_pos = get_viewport().get_mouse_position()
@@ -146,11 +150,12 @@ func move_selected_units() -> void:
 	# This was some crazy, Udemy logic which I would never be able to
 	# take credit for. It works though! :D
 	var result = draw_ray_to_mouse(0b100111)
+	unit_pos_index = 0
 	if selected_units.size() != 0:
 		var first_unit = selected_units[0]
 		if result.collider.is_in_group("surface"):
 			for unit in selected_units:
-				unit.move_to(result.position)
+				position_units_in_formation(unit, result)
 
 func get_units_in_box(topleft,botright) -> Array:
 	if topleft.x > botright.x:
@@ -170,3 +175,32 @@ func get_units_in_box(topleft,botright) -> Array:
 			if boxed_units.size() <= 24:
 				boxed_units.append(unit)
 	return boxed_units
+
+func set_formation_circle(target_pos : Vector3, units_count : int):
+	var positions : Array[Vector3] = []
+	var origin = Vector2(target_pos.x,target_pos.z)
+	var max_units_in_circle = units_in_circle
+	var angle_step = PI * 2 / max_units_in_circle
+	var angle = 0
+	var units = 0
+	var radius = formation_radius
+	
+	for i in range(0,units_count):
+		if(units == max_units_in_circle):
+			radius += 10
+			units = 0
+			angle = 0
+			max_units_in_circle *= 2
+			angle_step = PI * 2 / max_units_in_circle
+		var dir = Vector2(cos(angle),sin(angle))
+		var pos = origin + dir * radius
+		var pos3d = Vector3(pos.x,0,pos.y)
+		positions.append(pos3d)
+		units += 1
+		angle += angle_step
+	return positions
+
+func position_units_in_formation(unit, result):
+	target_positions_list = set_formation_circle(result.position, len(selected_units))
+	unit.move_to(target_positions_list[unit_pos_index])
+	unit_pos_index += 1

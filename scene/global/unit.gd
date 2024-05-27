@@ -72,8 +72,6 @@ func move_to(target_pos : Vector3):
 	change_state("walking")
 	
 	# get the closest available point on the navmesh to the point that was clicked
-	
-	# BROKEN HERE - always returning (0,0,0)
 	var closest_pos = NavigationServer3D.map_get_closest_point(get_world_3d().get_navigation_map(), target_pos)
 	nav_agent.set_target_position(closest_pos)
 
