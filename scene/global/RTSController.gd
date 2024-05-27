@@ -1,7 +1,7 @@
 extends Node3D
 
 @onready var cam : Camera3D = $Camera3D
-
+@onready var selection_box = $UnitSelector
 
 @export_range(10,250,5) var edge_pan_speed : int = 100
 @export_range(50,300,5) var wasd_speed_scalar : int = 100
@@ -18,15 +18,29 @@ func _process(delta) -> void:
 	mouse_pos = get_viewport().get_mouse_position()
 	camera_movement(delta)
 	
-	# Selection
+	# ===== Left Mouse Button Bindings =====
+	# -- select point / begin drag
 	if Input.is_action_just_pressed("LeftMouseButton"):
+		selection_box.start_position = mouse_pos
 		start_select_position = mouse_pos
+	
+	# -- confirm selection
 	if Input.is_action_just_released("LeftMouseButton"):
 		select_units()
 	
-	# Commands
+	# -- hold to drag select
+	if Input.is_action_pressed("LeftMouseButton"):
+		selection_box.mouse_pos = mouse_pos
+		selection_box.is_visible = true
+	else:
+		selection_box.is_visible = false
+	
+	
+	# ===== Right Mouse Button Bindings ===== 
+	# -- move command
 	if Input.is_action_just_pressed("RightMouseButton"):
 		move_selected_units()
+		
 
 func _input(event) -> void:
 	# Cam Zoom
@@ -101,14 +115,19 @@ func get_unit_under_mouse():
 		var selected_unit = result_unit.collider	
 		return selected_unit
 
-func select_units():
+func select_units() -> void:
 	var main_unit = get_unit_under_mouse()
 	if selected_units.size() != 0:
 		old_selected_units = selected_units
 	selected_units = []
+	
+	# Check if the box dragging takes place on a tiny area, if it does, treat it as a single point click.
 	if mouse_pos.distance_squared_to(start_select_position) < 16:
 		if main_unit != null:
 			selected_units.append(main_unit)
+	else:
+		# Otherwise, drag a box with these parameters
+		selected_units = get_units_in_box(start_select_position, mouse_pos)
 			
 	if selected_units.size() != 0:
 		clean_new_selection(selected_units)
@@ -121,10 +140,29 @@ func clean_new_selection(new_units : Array) -> void:
 	for unit in new_units:
 		unit.select()
 
-func move_selected_units():
+func move_selected_units() -> void:
 	# 0b10111   ->   Allows tracking on layers 1, 2, 3 and 6
 	var result = draw_ray_to_mouse(0b100111)
 	if selected_units.size() != 0:
 		var first_unit = selected_units[0]
 		if result.collider.is_in_group("surface"):
 			first_unit.move_to(result.position)
+
+func get_units_in_box(topleft,botright) -> Array:
+	if topleft.x > botright.x:
+		var temp = topleft.x
+		topleft.x = botright.x
+		botright.x = temp
+	if topleft.y > botright.y:
+		var temp = topleft.y
+		topleft.y = botright.y
+		botright.y = temp
+	
+	var box = Rect2(topleft,botright - topleft)
+	var boxed_units = []
+	
+	for unit in get_tree().get_nodes_in_group("units"):
+		if unit.unit_team == k_player_team and box.has_point(cam.unproject_position(unit.global_transform.origin)):
+			if boxed_units.size() <= 24:
+				boxed_units.append(unit)
+	return boxed_units

@@ -1,3 +1,4 @@
+Control
 RayCast3D
 CollisionShape3D
 NavigationAgent3D
@@ -12,4 +13,3 @@ Node3D
 NavigationRegion3D
 Area3D
 Unit
-Area2D
