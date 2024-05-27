@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://ed86xpfpm8jy"]
+[gd_scene load_steps=14 format=3 uid="uid://ed86xpfpm8jy"]
 
 [ext_resource type="Script" path="res://scene/global/main.gd" id="1_621uy"]
 [ext_resource type="PackedScene" uid="uid://b04k0k45enq3i" path="res://scene/levels/map1.tscn" id="1_dyde8"]
@@ -8,6 +8,11 @@
 [ext_resource type="PackedScene" uid="uid://d34og3yo41io" path="res://scene/units/stone_unit.tscn" id="5_cv672"]
 [ext_resource type="Script" path="res://scene/global/RTSController.gd" id="6_kh11v"]
 [ext_resource type="Script" path="res://scene/global/UI/UnitSelector.gd" id="8_57yx1"]
+[ext_resource type="Texture2D" uid="uid://k7fnbofhk0c2" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/DetailBar.png" id="9_npafh"]
+[ext_resource type="Script" path="res://scene/global/GUIController.gd" id="9_oghl7"]
+[ext_resource type="Texture2D" uid="uid://d2p1j6ypo4vf5" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/MiniMap_Portrait.png" id="10_til6a"]
+[ext_resource type="Texture2D" uid="uid://cligqukgffx0t" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/SelectionBar.png" id="11_fvf2k"]
+[ext_resource type="Texture2D" uid="uid://bb8sf1tl1kjka" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg" id="12_i675p"]
 
 [node name="MasterScene" type="Node3D"]
 script = ExtResource("1_621uy")
@@ -98,3 +103,86 @@ script = ExtResource("8_57yx1")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5, 50)
 current = true
 near = 0.001
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="GUIController" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("9_oghl7")
+
+[node name="InfoBar" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -500.0
+offset_top = -180.0
+offset_right = 500.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("9_npafh")
+expand_mode = 1
+
+[node name="MinimapContainer" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -314.0
+offset_right = 315.0
+offset_bottom = 1.0
+grow_vertical = 0
+texture = ExtResource("10_til6a")
+expand_mode = 1
+
+[node name="SelectionBar" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -369.0
+offset_top = -222.0
+offset_right = 2.0
+offset_bottom = 2.0
+grow_horizontal = 0
+grow_vertical = 0
+texture = ExtResource("11_fvf2k")
+expand_mode = 1
+
+[node name="UnitPortrait" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 327.0
+offset_top = -160.0
+offset_right = 469.0
+offset_bottom = -18.0
+grow_vertical = 0
+texture = ExtResource("10_til6a")
+expand_mode = 1
+
+[node name="MainUnitImage" type="TextureRect" parent="CanvasLayer/GUIController/UnitPortrait"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.042
+anchor_top = 0.056
+anchor_right = 0.958
+anchor_bottom = 0.942
+offset_left = 0.0359998
+offset_top = 0.0479999
+offset_right = -0.0360107
+offset_bottom = 0.235992
+grow_vertical = 0
+texture = ExtResource("12_i675p")
+expand_mode = 1

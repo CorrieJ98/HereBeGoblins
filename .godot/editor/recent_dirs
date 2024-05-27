@@ -1,5 +1,5 @@
-res://scene/global/UI
 res://scene/global
+res://scene/global/UI
 res://scene/levels
 res://resources/shapes
 res://scene/units/default
@@ -7,9 +7,6 @@ res://scene/units
 res://assets/Udemy-AvivDavid/Project Assets/Animations
 res://resources/sky
 res://resources/mats
-res://autoloads
 res://resources
 res://
-res://scene/structures
-res://assets/PVGamesAssetPack/Male_BeastMaster/BeastMaster_Base
 res://scene

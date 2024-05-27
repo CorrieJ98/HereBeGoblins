@@ -1,4 +1,6 @@
+TextureRect
 Control
+CanvasLayer
 RayCast3D
 CollisionShape3D
 NavigationAgent3D
@@ -10,6 +12,3 @@ WorldEnvironment
 DirectionalLight3D
 Camera3D
 Node3D
-NavigationRegion3D
-Area3D
-Unit

@@ -25,3 +25,4 @@ res://assets/Udemy-AvivDavid/Project Assets/Animations/Animations.res
 res://resources/shapes/selecftion_ring_pawn.tres
 res://resources/shapes/cairn_cap_range.tres
 res://resources/shapes/watchtower-visual-range.tres
+res://scene/global/GUIController.gd
