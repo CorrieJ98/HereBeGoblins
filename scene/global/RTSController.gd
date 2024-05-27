@@ -35,7 +35,6 @@ func _process(delta) -> void:
 	else:
 		selection_box.is_visible = false
 	
-	
 	# ===== Right Mouse Button Bindings ===== 
 	# -- move command
 	if Input.is_action_just_pressed("RightMouseButton"):
@@ -142,11 +141,16 @@ func clean_new_selection(new_units : Array) -> void:
 
 func move_selected_units() -> void:
 	# 0b10111   ->   Allows tracking on layers 1, 2, 3 and 6
+	# 1 = Map layer     2 = Pawns    3 = Buildings    6 = Resources
+	#
+	# This was some crazy, Udemy logic which I would never be able to
+	# take credit for. It works though! :D
 	var result = draw_ray_to_mouse(0b100111)
 	if selected_units.size() != 0:
 		var first_unit = selected_units[0]
 		if result.collider.is_in_group("surface"):
-			first_unit.move_to(result.position)
+			for unit in selected_units:
+				unit.move_to(result.position)
 
 func get_units_in_box(topleft,botright) -> Array:
 	if topleft.x > botright.x:
