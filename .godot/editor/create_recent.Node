@@ -1,3 +1,4 @@
+BoneAttachment3D
 StaticBody3D
 CollisionShape3D
 Area3D
@@ -12,4 +13,3 @@ RayCast3D
 NavigationAgent3D
 NavigationAgent2D
 RigidBody3D
-AnimationTree

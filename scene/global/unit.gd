@@ -7,6 +7,7 @@ const k_team_colours : Dictionary = {
 }
 
 enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
+enum UnitType{WORKER, WARRIOR}
 
 enum States {IDLE, WALKING, ATTACKING, MINING, BUILDING}
 var current_state = States.IDLE
@@ -16,15 +17,17 @@ var state_machine
 @onready var selection_ring : MeshInstance3D = $SelectionRing
 @onready var animation_tree : AnimationTree = $AnimationTree
 @onready var nav_agent : NavigationAgent3D = $NavigationAgent3D
+@onready var base_move_speed : float = move_speed
+var unit_img = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg")
 
 @export_category("Pawn Stats")
 @export var unit_team : UnitTeam
+@export var unit_type : UnitType
 @export var health : int
 @export var atk_dmg : int
-@export var atk_spd : float
-@export var atk_rng : float
+@export var cost : int = 50
+@export var force_accel = 5
 @export var move_speed : float = 100.0
-@onready var base_move_speed : float = move_speed
 var vel : Vector3
 var normal
 

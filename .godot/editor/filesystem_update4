@@ -15,3 +15,7 @@ res://resources/shapes/selecftion_ring_pawn.tres
 res://scene/buildings/building.gd
 res://scene/global/unit.gd
 res://scene/global/main.gd
+res://scene/units/warrior.gd
+res://scene/units/worker.tscn
+res://scene/units/worker.gd
+res://scene/units/warrior.tscn

@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://ed86xpfpm8jy"]
+[gd_scene load_steps=21 format=3 uid="uid://ed86xpfpm8jy"]
 
 [ext_resource type="Script" path="res://scene/global/main.gd" id="1_621uy"]
 [ext_resource type="PlaneMesh" uid="uid://bh7bxv2euomog" path="res://resources/shapes/debug_plane.tres" id="2_fh0yc"]
@@ -7,9 +7,10 @@
 [ext_resource type="PackedScene" uid="uid://cdub467u6jp8p" path="res://scene/units/default/basic_cairn.tscn" id="3_mepba"]
 [ext_resource type="Sky" uid="uid://20csmshba6rf" path="res://resources/sky/map1.tres" id="3_t72pv"]
 [ext_resource type="PackedScene" uid="uid://bbmi03ai3aim3" path="res://scene/units/default/watchtower.tscn" id="4_6uv08"]
-[ext_resource type="PackedScene" uid="uid://d34og3yo41io" path="res://scene/units/stone_unit.tscn" id="5_cv672"]
+[ext_resource type="PackedScene" uid="uid://d34og3yo41io" path="res://scene/units/warrior.tscn" id="5_cv672"]
 [ext_resource type="Script" path="res://scene/global/RTSController.gd" id="6_kh11v"]
 [ext_resource type="Script" path="res://scene/global/UI/UnitSelector.gd" id="8_57yx1"]
+[ext_resource type="PackedScene" uid="uid://8ruw45y4rmfg" path="res://scene/units/worker.tscn" id="9_2bloi"]
 [ext_resource type="Texture2D" uid="uid://k7fnbofhk0c2" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/DetailBar.png" id="9_npafh"]
 [ext_resource type="Script" path="res://scene/global/GUIController.gd" id="9_oghl7"]
 [ext_resource type="Texture2D" uid="uid://d2p1j6ypo4vf5" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/MiniMap_Portrait.png" id="10_til6a"]
@@ -123,6 +124,27 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.3239, 0, 33.636)
 
 [node name="StoneUnit16" parent="Units" instance=ExtResource("5_cv672")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.3239, 0, 33.636)
+
+[node name="Worker" parent="Units" instance=ExtResource("9_2bloi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 137.832, 0, 0)
+
+[node name="Worker2" parent="Units" instance=ExtResource("9_2bloi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 137.832, 0, 49.7234)
+
+[node name="Worker3" parent="Units" instance=ExtResource("9_2bloi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 158.158, 0, 49.7234)
+
+[node name="Worker4" parent="Units" instance=ExtResource("9_2bloi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 107.158, 0, 49.7234)
+
+[node name="Worker5" parent="Units" instance=ExtResource("9_2bloi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.209, 0, 49.7234)
+
+[node name="Worker6" parent="Units" instance=ExtResource("9_2bloi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 125.209, 0, 84.7234)
+
+[node name="Worker7" parent="Units" instance=ExtResource("9_2bloi")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 83.2335, 0, 84.7234)
 
 [node name="RTSController" type="Node3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 50, 0)
