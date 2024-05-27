@@ -19,7 +19,7 @@ Here be dragons? No.
 
 Here be goblins. 
 "
-config/version="0.0.1"
+config/version="0.0.2"
 run/main_scene="res://scene/global/master_scene.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)

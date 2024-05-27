@@ -4,7 +4,9 @@
 [ext_resource type="Sky" uid="uid://20csmshba6rf" path="res://resources/sky/map1.tres" id="2_h20bg"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_qo511"]
-geometry_parsed_geometry_type = 1
+vertices = PackedVector3Array(-249.5, 0.5, -249.5, -249.5, 0.5, 249.5, 249.5, 0.5, 249.5, 249.5, 0.5, -249.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_parsed_geometry_type = 2
 geometry_collision_mask = 4294967285
 
 [sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_nrdod"]
@@ -20,18 +22,19 @@ volumetric_fog_density = 0.025
 volumetric_fog_detail_spread = 4.28709
 volumetric_fog_temporal_reprojection_amount = 0.99
 
-[node name="Map" type="Node3D"]
+[node name="World" type="Node3D"]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
 navigation_mesh = SubResource("NavigationMesh_qo511")
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D"]
 mesh = ExtResource("1_yatxl")
+skeleton = NodePath("../..")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D" groups=["surface"]]
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/MeshInstance3D" groups=["surface"]]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/MeshInstance3D/StaticBody3D"]
 shape = SubResource("ConcavePolygonShape3D_nrdod")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]

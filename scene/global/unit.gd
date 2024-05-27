@@ -42,9 +42,9 @@ func _physics_process(delta):
 		normal = Vector3(0,1,0)
 	
 	# Rotate towards nav_target position
-	vel = (pos - nav_target).slide(normal).normalized() * base_move_speed
-	$Armature.rotation.y = lerp_angle($Armature.rotation.y, atan2(vel.x, vel.z),  10.0)
-	nav_agent.set_velocity(Vector3(1,0,0))
+	vel = (nav_target - pos).slide(normal).normalized() * base_move_speed
+	$Armature.rotation.y = lerp_angle($Armature.rotation.y, atan2(vel.x, vel.z),  delta * 10.0)
+	nav_agent.set_velocity(vel)
 
 
 func set_unit_colour() -> void:
@@ -62,11 +62,11 @@ func change_state(state):
 		"idle":
 			current_state = States.IDLE
 			move_speed = 0.000001
-			state_machine.travel("Idle", true)
+			state_machine.travel("Idle")
 		"walking":
 			current_state = States.WALKING
 			move_speed = base_move_speed
-			state_machine.travel("Walk", true)
+			state_machine.travel("Walk")
 
 func move_to(target_pos : Vector3):
 	change_state("walking")
@@ -75,15 +75,15 @@ func move_to(target_pos : Vector3):
 	
 	# BROKEN HERE - always returning (0,0,0)
 	var closest_pos = NavigationServer3D.map_get_closest_point(get_world_3d().get_navigation_map(), target_pos)
-	#var closest_pos = NavigationServer3D.map_get_closest_point(get_world_3d().navigation_map, target_pos)
 	nav_agent.set_target_position(closest_pos)
 	
-	print(nav_agent.get_next_path_position(), closest_pos)
 	
-	#nav_agent.set_velocity_forced(velocity)
+	if NavigationServer3D.map_is_active(get_world_3d().get_navigation_map()):
+		print("active")
 
 func _on_navigation_agent_3d_target_reached():
 	change_state("idle")
 
 func _on_navigation_agent_3d_velocity_computed(safe_velocity):
+	nav_agent.velocity = vel
 	set_linear_velocity(safe_velocity)

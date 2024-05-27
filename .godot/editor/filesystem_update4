@@ -5,11 +5,9 @@ res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
 res://assets/Personal/mesh/cairn.tres
 res://assets/Personal/mesh/watchtower.tres
 res://resources/shapes/watchtower-hitbox.tres
-res://scene/global/RTSController.gd
 res://scene/units/default/basic_building.tscn
 res://scene/units/stone_unit.tscn
 res://scene/units/default/basic_cairn.tscn
 res://scene/units/default/watchtower.tscn
 res://scene/global/master_scene.tscn
 res://scene/global/unit.gd
-res://scene/global/main.gd
