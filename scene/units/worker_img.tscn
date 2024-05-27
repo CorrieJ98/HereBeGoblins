@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhmd2ebp84tyf"]
+
+[ext_resource type="Texture2D" uid="uid://bb8sf1tl1kjka" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg" id="1_a228b"]
+
+[node name="WorkerImg" type="TextureButton"]
+custom_minimum_size = Vector2(80, 60)
+texture_normal = ExtResource("1_a228b")
+ignore_texture_size = true
+stretch_mode = 0

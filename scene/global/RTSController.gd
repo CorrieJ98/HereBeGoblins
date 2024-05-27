@@ -11,15 +11,19 @@ extends Node3D
 @export var formation_radius : float = 20
 @export var units_per_line : int = 6
 
+const k_max_selectable_units : int = 24
 const k_move_margin : int = 20
 const k_ray_length : int = 1000
 const k_player_team : int = Unit.UnitTeam.PLAYER
+
 var mouse_pos := Vector2()
 var selected_units := []
 var old_selected_units := []
 var start_select_position = Vector2()
 var target_positions_list : Array[Vector3] = []
 var unit_pos_index : int
+
+signal units_selected(units : Array)
 
 func _process(delta) -> void:
 	mouse_pos = get_viewport().get_mouse_position()
@@ -110,13 +114,8 @@ func draw_ray_to_mouse(collision_mask : int):
 	return space_state.intersect_ray(qp)
 
 
-# This can go into a single function
-# func get_unit_under_mouse()
-
-#if the team in rtscontroller and the selected unit are the same then continue
-
 func get_unit_under_mouse():
-	var result_unit = draw_ray_to_mouse(2)
+	var result_unit = draw_ray_to_mouse(0b110)
 	if result_unit and "unit_team" in result_unit.collider and result_unit.collider.unit_team == k_player_team:
 		var selected_unit = result_unit.collider	
 		return selected_unit
@@ -137,6 +136,7 @@ func select_units() -> void:
 			
 	if selected_units.size() != 0:
 		clean_new_selection(selected_units)
+		emit_signal("units_selected", selected_units)
 	elif selected_units.size() == 0:
 		selected_units = old_selected_units
 
@@ -177,7 +177,7 @@ func get_units_in_box(topleft,botright) -> Array:
 	
 	for unit in get_tree().get_nodes_in_group("units"):
 		if unit.unit_team == k_player_team and box.has_point(cam.unproject_position(unit.global_transform.origin)):
-			if boxed_units.size() <= 24:
+			if boxed_units.size() <= k_max_selectable_units:
 				boxed_units.append(unit)
 	return boxed_units
 

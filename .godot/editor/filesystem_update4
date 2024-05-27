@@ -1,28 +1,17 @@
-res://scene/levels/map1.tscn
+res://scene/units/stone_unit.tscn
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
 res://assets/Personal/mesh/cairn.tres
 res://assets/Personal/mesh/watchtower.tres
 res://resources/shapes/watchtower-hitbox.tres
-res://scene/units/default/basic_building.tscn
-res://scene/units/stone_unit.tscn
-res://scene/units/default/basic_cairn.tscn
-res://scene/units/default/watchtower.tscn
-res://scene/global/master_scene.tscn
-res://scene/global/unit.gd
-res://scene/global/UI/UnitSelector.gd
-res://scene/global/RTSController.gd
-res://scene/global/main.gd
-res://resources/mats/hex_tile.tres
-res://resources/shapes/debug_plane.tres
-res://resources/sky/map1.tres
-res://assets/Udemy-AvivDavid/Project Assets/Animations/Attack.res
-res://assets/Udemy-AvivDavid/Project Assets/Animations/Build.res
-res://assets/Udemy-AvivDavid/Project Assets/Animations/Idle.res
-res://assets/Udemy-AvivDavid/Project Assets/Animations/Walk.res
-res://assets/Udemy-AvivDavid/Project Assets/Animations/Animations.res
-res://resources/shapes/selecftion_ring_pawn.tres
-res://resources/shapes/cairn_cap_range.tres
-res://resources/shapes/watchtower-visual-range.tres
 res://scene/global/GUIController.gd
+res://scene/global/master_scene.tscn
+res://scene/global/RTSController.gd
+res://scene/levels/map1.tscn
+res://scene/buildings/main_building.tscn
+res://assets/Personal/mesh/flagpole.tres
+res://resources/shapes/selecftion_ring_pawn.tres
+res://scene/buildings/building.gd
+res://scene/global/unit.gd
+res://scene/global/main.gd

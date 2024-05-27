@@ -6,16 +6,17 @@ const k_team_colours : Dictionary = {
 	UnitTeam.NEUTRAL : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres")
 }
 
+enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
 
 enum States {IDLE, WALKING, ATTACKING, MINING, BUILDING}
 var current_state = States.IDLE
 var state_machine
 
+
 @onready var selection_ring : MeshInstance3D = $SelectionRing
 @onready var animation_tree : AnimationTree = $AnimationTree
 @onready var nav_agent : NavigationAgent3D = $NavigationAgent3D
 
-enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
 @export_category("Pawn Stats")
 @export var unit_team : UnitTeam
 @export var health : int
