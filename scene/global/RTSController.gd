@@ -6,8 +6,11 @@ extends Node3D
 @export_range(10,250,5) var edge_pan_speed : int = 100
 @export_range(50,300,5) var wasd_speed_scalar : int = 100
 @export_range(0.01,0.5,0.01) var zoom_speed : float = 0.05
+@export_category("Formations")
 @export var units_in_circle : int = 4
 @export var formation_radius : float = 20
+@export var units_per_line : int = 6
+
 const k_move_margin : int = 20
 const k_ray_length : int = 1000
 const k_player_team : int = Unit.UnitTeam.PLAYER
@@ -149,13 +152,15 @@ func move_selected_units() -> void:
 	#
 	# This was some crazy, Udemy logic which I would never be able to
 	# take credit for. It works though! :D
-	var result = draw_ray_to_mouse(0b100111)
 	unit_pos_index = 0
+	var result = draw_ray_to_mouse(0b100111)
 	if selected_units.size() != 0:
 		var first_unit = selected_units[0]
 		if result.collider.is_in_group("surface"):
 			for unit in selected_units:
 				position_units_in_formation(unit, result)
+	
+	
 
 func get_units_in_box(topleft,botright) -> Array:
 	if topleft.x > botright.x:
@@ -175,6 +180,31 @@ func get_units_in_box(topleft,botright) -> Array:
 			if boxed_units.size() <= 24:
 				boxed_units.append(unit)
 	return boxed_units
+
+func set_formation_box(target_pos : Vector3, units_count : int):
+	var line_positions_list : Array[Vector3] = []
+	var positions_list : Array[Vector3] = []
+	var new_target_pos = target_pos
+	var xpos = 22
+	var zpos = 22
+	var lines = ceil(units_count/units_per_line)
+	
+	for i in units_per_line:
+		line_positions_list.append(new_target_pos)
+		positions_list.append(new_target_pos)
+		new_target_pos = Vector3(target_pos.x + xpos, target_pos.y, target_pos.z)
+		if i % 2 == 1:
+			xpos -= 8
+		xpos = -xpos
+		
+	for i in lines:
+		for k in units_per_line:
+			var new_pos = Vector3(line_positions_list[k].x,line_positions_list[k].y,line_positions_list[k].z + zpos)
+			positions_list.append(new_pos)
+		if i % 2 == 1:
+			zpos -= 8
+		zpos = -zpos
+	return positions_list
 
 func set_formation_circle(target_pos : Vector3, units_count : int):
 	var positions : Array[Vector3] = []
@@ -201,6 +231,6 @@ func set_formation_circle(target_pos : Vector3, units_count : int):
 	return positions
 
 func position_units_in_formation(unit, result):
-	target_positions_list = set_formation_circle(result.position, len(selected_units))
+	target_positions_list = set_formation_box(result.position, len(selected_units))
 	unit.move_to(target_positions_list[unit_pos_index])
 	unit_pos_index += 1
