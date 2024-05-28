@@ -11,7 +11,7 @@ extends Node3D
 @export var formation_radius : float = 20
 @export var units_per_line : int = 6
 
-const k_max_selectable_units : int = 16
+const k_max_selectable_units : int = 24
 const k_move_margin : int = 20
 const k_ray_length : int = 1000
 const k_player_team : int = Unit.UnitTeam.PLAYER

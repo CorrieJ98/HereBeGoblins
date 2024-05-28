@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://cjqrl4ci5cvah"]
+[gd_scene load_steps=7 format=3 uid="uid://btm6vvbrtn4dv"]
 
 [ext_resource type="Script" path="res://scene/buildings/TownHall.gd" id="1_ytt13"]
 [ext_resource type="ArrayMesh" uid="uid://cmaqmhrufme8s" path="res://assets/Personal/mesh/cairn.tres" id="2_avng7"]
@@ -45,6 +45,5 @@ visible = false
 shape = SubResource("BoxShape3D_s4i8y")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
 visible = false
 shape = SubResource("ConcavePolygonShape3D_gfn8m")
