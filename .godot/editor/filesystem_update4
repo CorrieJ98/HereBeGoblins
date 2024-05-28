@@ -19,3 +19,13 @@ res://scene/units/warrior.gd
 res://scene/units/worker.tscn
 res://scene/units/worker.gd
 res://scene/units/warrior.tscn
+res://scene/buildings/barracks.tscn
+res://scene/buildings/barracks.gd
+res://scene/buildings/TownHall.gd
+res://scene/buildings/townhall.tscn
+res://scene/buildings/cairn.tscn
+res://assets/Udemy-AvivDavid/Project Assets/Materials/FloorMat.tres
+res://resources/mats/hex_tile.tres
+res://resources/shapes/debug_plane.tres
+res://scene/global/UI/unit_progress_bar.tscn
+res://scene/global/UI/unit_img_button.tscn

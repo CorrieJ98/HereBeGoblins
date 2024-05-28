@@ -1,4 +1,4 @@
-extends Unit
+class_name Warrior extends Unit
 
 func _ready():
 	# Run the _ready() func within Unit superclass

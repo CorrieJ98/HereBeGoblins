@@ -1,8 +1,8 @@
-res://assets/Personal/mesh
+res://scene/global/UI
 res://scene/buildings
+res://assets/Personal/mesh
 res://scene/units
 res://scene/global
-res://scene/global/UI
 res://scene/levels
 res://resources/shapes
 res://scene/units/default

@@ -5,3 +5,5 @@
 [resource]
 vertex_color_is_srgb = true
 albedo_texture = ExtResource("1_ew4l1")
+emission_enabled = true
+emission = Color(0.329412, 0.396078, 0.360784, 1)
