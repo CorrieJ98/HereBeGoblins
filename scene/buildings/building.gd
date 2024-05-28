@@ -23,9 +23,9 @@ enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
 enum BuildingType{TOWNHALL,BARRACKS, CAIRN}
 
 @onready var unit_destination = $UnitDestination
-@onready var units_hbox = $UnitProgressContainer/HBoxContainer
-@onready var unit_progress_bar = $UnitProgressContainer/VBoxContainer/ProgressBar
 @onready var unit_progress_container = $UnitProgressContainer
+@onready var unit_progress_bar = $UnitProgressContainer/VBoxContainer/ProgressBar
+@onready var units_hbox = $UnitProgressContainer/VBoxContainer/HBoxContainer
 @onready var navmesh = get_parent().get_parent()
 var unit_img = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg")
 
