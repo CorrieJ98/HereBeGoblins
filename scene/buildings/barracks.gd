@@ -7,4 +7,4 @@ func _ready():
 	#spawning_unit = k_worker
 	##spawning_unit_img = k_worker_img
 	#
-	#unit_img = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg")
+	unit_img = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/UnitBuildingImg.jpg")

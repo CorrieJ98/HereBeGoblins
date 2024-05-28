@@ -5,17 +5,9 @@ const k_team_colours : Dictionary = {
 	UnitTeam.ENEMY : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres"),
 	UnitTeam.NEUTRAL : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres")
 }
-#
-#const k_worker
-#const k_worker_img
-#const k_warrior
-#const k_warrior_img
-#const k_townhall
-#const k_townhall_img
-#const k_barracks
-#const k_barracks_img
-#const k_cairn
-#const k_cairn_img 
+
+
+var unit_img = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg")
 
 enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
 enum BuildingType{TOWNHALL,BARRACKS}
