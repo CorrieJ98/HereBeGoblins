@@ -1,31 +1,8 @@
-res://scene/units/stone_unit.tscn
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
-res://assets/Personal/mesh/cairn.tres
-res://assets/Personal/mesh/watchtower.tres
-res://resources/shapes/watchtower-hitbox.tres
-res://scene/global/GUIController.gd
-res://scene/global/master_scene.tscn
-res://scene/global/RTSController.gd
-res://scene/levels/map1.tscn
-res://scene/buildings/main_building.tscn
 res://assets/Personal/mesh/flagpole.tres
-res://resources/shapes/selecftion_ring_pawn.tres
-res://scene/buildings/building.gd
-res://scene/global/unit.gd
-res://scene/global/main.gd
-res://scene/units/warrior.gd
-res://scene/units/worker.tscn
-res://scene/units/worker.gd
-res://scene/units/warrior.tscn
-res://scene/buildings/barracks.tscn
-res://scene/buildings/barracks.gd
-res://scene/buildings/TownHall.gd
-res://scene/buildings/townhall.tscn
-res://scene/buildings/cairn.tscn
-res://assets/Udemy-AvivDavid/Project Assets/Materials/FloorMat.tres
 res://resources/mats/hex_tile.tres
-res://resources/shapes/debug_plane.tres
-res://scene/global/UI/unit_progress_bar.tscn
-res://scene/global/UI/unit_img_button.tscn
+res://assets/Udemy-AvivDavid/Project Assets/Materials/FloorMat.tres
+res://assets/Personal/mesh/cairn.tres
+res://scene/buildings/barracks.tscn
