@@ -14,9 +14,9 @@ offset_right = -0.400085
 grow_horizontal = 2
 grow_vertical = 0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
-layout_mode = 2
-
-[node name="ProgressBar" type="ProgressBar" parent="VBoxContainer"]
+[node name="UnitProgressBar" type="ProgressBar" parent="VBoxContainer"]
 layout_mode = 2
 size_flags_vertical = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2

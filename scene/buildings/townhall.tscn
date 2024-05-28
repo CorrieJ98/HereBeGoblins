@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://t4orrhthxr2i"]
+[gd_scene load_steps=18 format=3 uid="uid://t4orrhthxr2i"]
 
 [ext_resource type="Script" path="res://scene/buildings/TownHall.gd" id="1_1ru3i"]
 [ext_resource type="Texture2D" uid="uid://mqy4djsro7l5" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stoneDark.png" id="2_in17k"]
@@ -8,7 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://c8hnb633o1jr" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2__defaultMat.png" id="4_wwwcx"]
 [ext_resource type="Texture2D" uid="uid://fvmmp7s0jw4h" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stone.png" id="5_r8www"]
 [ext_resource type="Texture2D" uid="uid://d2xqm2ai6efpp" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_dark.png" id="6_2xx56"]
-[ext_resource type="PackedScene" uid="uid://dsq6sntm8v51u" path="res://scene/global/UI/unit_progress_bar.tscn" id="9_g544l"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bcdpn"]
 resource_name = "stoneDark"
@@ -209,4 +208,23 @@ shape = SubResource("BoxShape3D_s4i8y")
 transform = Transform3D(1, 0, 0, 0, -1.19209e-07, -1, 0, 1, -1.19209e-07, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_sbkjn")
 
-[node name="UnitProgressBar" parent="." instance=ExtResource("9_g544l")]
+[node name="UnitProgressContainer" type="CanvasLayer" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UnitProgressContainer"]
+anchors_preset = -1
+anchor_left = 0.406
+anchor_top = 0.956
+anchor_right = 0.594
+anchor_bottom = 1.0
+offset_left = 0.399963
+offset_top = -0.400024
+offset_right = -0.400085
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="UnitProgressBar" type="ProgressBar" parent="UnitProgressContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="HBoxContainer" type="HBoxContainer" parent="UnitProgressContainer/VBoxContainer"]
+layout_mode = 2

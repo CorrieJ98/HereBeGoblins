@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://f3joarvu6vk5"]
+[gd_scene load_steps=7 format=3 uid="uid://dkiqetud7q013"]
 
 [ext_resource type="Script" path="res://scene/buildings/barracks.gd" id="1_fjso4"]
 [ext_resource type="ArrayMesh" uid="uid://bpxmjxsxrsn53" path="res://assets/Personal/mesh/flagpole.tres" id="2_by0er"]

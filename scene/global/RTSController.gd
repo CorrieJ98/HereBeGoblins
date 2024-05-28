@@ -11,7 +11,7 @@ extends Node3D
 @export var formation_radius : float = 20
 @export var units_per_line : int = 6
 
-const k_max_selectable_units : int = 24
+const k_max_selectable_units : int = 16
 const k_move_margin : int = 20
 const k_ray_length : int = 1000
 const k_player_team : int = Unit.UnitTeam.PLAYER
@@ -176,7 +176,7 @@ func get_units_in_box(topleft,botright) -> Array:
 	var boxed_units = []
 	
 	for unit in get_tree().get_nodes_in_group("units"):
-		if unit.unit_team == k_player_team and box.has_point(cam.unproject_position(unit.global_transform.origin)):
+		if unit.unit_team == k_player_team and box.has_point(cam.unproject_position(unit.global_transform.origin)) and unit is Unit:
 			if boxed_units.size() <= k_max_selectable_units:
 				boxed_units.append(unit)
 	return boxed_units
