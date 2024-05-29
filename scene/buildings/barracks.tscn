@@ -1,9 +1,12 @@
-[gd_scene load_steps=7 format=3 uid="uid://dkiqetud7q013"]
+[gd_scene load_steps=10 format=3 uid="uid://dkiqetud7q013"]
 
 [ext_resource type="Script" path="res://scene/buildings/barracks.gd" id="1_fjso4"]
 [ext_resource type="ArrayMesh" uid="uid://bpxmjxsxrsn53" path="res://assets/Personal/mesh/flagpole.tres" id="2_by0er"]
+[ext_resource type="PackedScene" uid="uid://8ruw45y4rmfg" path="res://scene/units/worker.tscn" id="2_x70og"]
+[ext_resource type="PackedScene" uid="uid://d34og3yo41io" path="res://scene/units/warrior.tscn" id="3_raa6k"]
 [ext_resource type="TorusMesh" uid="uid://uou7katuw1nc" path="res://resources/shapes/selecftion_ring_pawn.tres" id="3_sh1j8"]
 [ext_resource type="PackedScene" uid="uid://bjmqplgkdi3c4" path="res://assets/Udemy-AvivDavid/Project Assets/Build3/Building3.glb" id="4_vwfht"]
+[ext_resource type="PackedScene" uid="uid://dsq6sntm8v51u" path="res://scene/global/UI/unit_progress_bar.tscn" id="5_20cd5"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_s4i8y"]
 size = Vector3(7, 3.5, 7)
@@ -16,6 +19,8 @@ transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 0, 0)
 collision_layer = 4
 collision_mask = 65
 script = ExtResource("1_fjso4")
+worker_scene = ExtResource("2_x70og")
+warrior_scene = ExtResource("3_raa6k")
 
 [node name="UnitDestination" type="MeshInstance3D" parent="."]
 transform = Transform3D(-0.1, 0, -8.74228e-09, 0, 0.1, 0, 8.74228e-09, 0, -0.1, 0, 0, 3.98495)
@@ -43,5 +48,7 @@ shape = SubResource("BoxShape3D_s4i8y")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
 shape = SubResource("ConcavePolygonShape3D_10c00")
+
+[node name="UnitProgressContainer" parent="." instance=ExtResource("5_20cd5")]
 
 [editable path="Building3"]

@@ -1,4 +1,4 @@
-class_name Building extends Node3D
+class_name Building_old extends Node3D
 
 const k_team_colours : Dictionary = {
 	UnitTeam.PLAYER : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres"),
@@ -36,7 +36,7 @@ var tween_callable_spawn_repeat = Callable(self,"spawn_repeat")
 
 var spawning_unit
 var spawning_unit_img
-var units_to_spawn = []
+var units_to_spawn := []
 var is_under_construction : bool = false
 var cost : int = 200
 var max_units : int = 4
@@ -44,6 +44,10 @@ var current_created_units : int = 0
 var units_imgs = []
 var unit_building
 var can_build = true
+
+@export_category("Scene References")
+@export var worker_scene : PackedScene
+@export var warrior_scene : PackedScene
 
 @export_category("Stats")
 @export var health = 100
@@ -72,19 +76,22 @@ func deselect():
 func add_unit_to_spawn(unit):
 	if current_created_units < max_units:
 		var unit_img = k_unit_img_button.instantiate()
+		spawning_unit = unit
 		unit_img.texture_normal = spawning_unit_img
 		current_created_units += 1
 		unit_hbox.add_child(unit_img)
 		
 		var callable = Callable(self,"cancel_unit")
 		unit_img.pressed.connect(callable.bind(unit_img,unit))
+		
 		units_imgs.append(unit_img)
 		units_to_spawn.append(unit)
 		if current_created_units == 1:
 			var tween := get_tree().create_tween()
 			new_tween = tween
 			new_tween.tween_property(unit_progress_bar,"value", 100.0,3)
-			spawn_repeat()
+			#spawn_repeat()
+			spawn_unit()
 			unit_progress_container.visible = true
 
 func spawn_repeat():
@@ -92,9 +99,15 @@ func spawn_repeat():
 
 func spawn_unit():
 	new_tween.stop()
+	
+	match spawning_unit:
+		k_worker: worker_scene.instantiate()
+		
+		k_warrior: warrior_scene.instantiate()
+	
 	var unit = spawning_unit.instantiate()
-	units_to_spawn.remove_at(0)
-	units_imgs.remove_at(0)
+	units_to_spawn.erase(0)
+	units_imgs.erase(0)
 	unit_hbox.get_child(0).queue_free()
 	var spawnpos = NavigationServer3D.map_get_closest_point(get_world_3d().get_navigation_map(), $UnitSpawnPoint.global_transform.origin)
 	unit.global_transform.origin = spawnpos

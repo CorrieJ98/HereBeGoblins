@@ -1,11 +1,11 @@
+Label
+TextureRect
+VBoxContainer
 TextureButton
 GridContainer
 ProgressBar
 HBoxContainer
-VBoxContainer
 CanvasLayer
-Label
-TextureRect
 Node
 BoneAttachment3D
 StaticBody3D

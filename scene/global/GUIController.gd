@@ -16,18 +16,18 @@ var unit_img_button = preload("res://scene/units/worker_img.tscn")
 var current_units = []
 var minerals : int = 1500
 
-@onready var main_unit_img = $UnitPortrait/MainUnitImage
-@onready var button_1_img = $SelectionBar/BuildingsGrid/OptionButton1
-@onready var button_2_img = $SelectionBar/BuildingsGrid/OptionButton2
-@onready var minerals_label = $Minerals/Label
-@onready var buildings_grid = $SelectionBar/BuildingsGrid
+@onready var main_unit_img = get_node("UnitPortrait/MainUnitImage")
+@onready var button_1_img = get_node("SelectionBar/BuildingsGrid/Button1")
+@onready var button_2_img = get_node("`SelectionBar/BuildingsGrid/Button2")
+@onready var minerals_label = get_node("Minerals/Label")
+@onready var buildings_grid = get_node("SelectionBar/BuildingsGrid")
 
 var button_1_unit
 var button_2_unit
 
 
-func _ready():
-	minerals_label.text = str(minerals)
+#func _ready():
+	#minerals_label.text = str(minerals)
 
 # Instantiate a new portrait per each selected unit
 # set the main portrait to be the very first unit selected
@@ -56,12 +56,6 @@ func show_context_buttons(active_buttons):
 		$SelectionBar/BuildingsGrid.get_child(i).visible = true
 
 
-func _on_option_button_1_button_down():
-	activate_button(button_1_unit)
-
-
-func _on_option_button_2_button_down():
-	activate_button(button_2_unit)
 
 func set_button_images():
 	if current_units[0] is TownHall:
@@ -101,3 +95,11 @@ func activate_button(button):
 		if minerals >= unit_cost and selected_unit.current_created_units != selected_unit.max_units:
 			spend_minerals(unit_cost)
 			selected_unit.add_unit_to_spawn(unit_button_ins)
+
+
+func _on_button_1_button_down():
+	activate_button(button_1_unit)
+
+
+func _on_button_2_button_down():
+	activate_button(button_2_unit)

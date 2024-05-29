@@ -16,9 +16,6 @@ transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 6.4137, 0)
 collision_layer = 4
 collision_mask = 65
 script = ExtResource("1_ytt13")
-health = null
-building_type = null
-unit_team = null
 
 [node name="Build1" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00518417, -0.00810355, 0.00290337)
