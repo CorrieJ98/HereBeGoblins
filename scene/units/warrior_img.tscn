@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bbucr814u2wyw"]
+
+[ext_resource type="Texture2D" uid="uid://bwybqordurnd" path="res://assets/Udemy-AvivDavid/Project Assets/GUI/WarriorImg.jpg" id="1_sett2"]
+
+[node name="WarriorImg" type="TextureButton"]
+custom_minimum_size = Vector2(80, 60)
+texture_normal = ExtResource("1_sett2")
+ignore_texture_size = true
+stretch_mode = 0

@@ -11,20 +11,17 @@ config_version=5
 [application]
 
 config/name="Here Be Goblins"
-config/description="You have been banished from civilisation and no longer will you find respite behind those city walls, where the outlandish beasts from the Darklands are kept at bay.
-
-Instead, you and a group of followers must make do and create a life for yourselves outside of those walls. Make sure you have enough food, water, stone, and steel to deal with what lies in the shadows. For the denizens of the forests have no morals, no manners, and an accent to boot.
-
-Here be dragons? No.
-
-Here be goblins. 
+config/description="You have been banished from civilisation and no longer will you find respite behind those city walls, where the outlandish beasts from the Darklands are kept at bay. Instead, you and a group of followers must make do and create a life for yourselves outside of those walls. Make sure you have enough food, water, stone, and steel to deal with what lies in the shadows. For the denizens of the forests have no morals, no manners, and an accent to boot.
+Here be dragons? 
+No. Here be goblins. 
 "
 config/version="0.0.2"
 run/main_scene="res://scene/global/master_scene.tscn"
+config/use_custom_user_dir=true
+config/custom_user_dir_name="userdata"
 config/features=PackedStringArray("4.2", "Forward Plus")
 boot_splash/bg_color=Color(0.141176, 0.141176, 0.141176, 1)
-boot_splash/image="res://assets/cover.png"
-config/icon="res://assets/icon.png"
+boot_splash/show_image=false
 
 [debug]
 
@@ -41,8 +38,9 @@ folder_colors={
 "res://assets/": "yellow",
 "res://resources/": "orange",
 "res://scene/": "pink",
-"res://scene/global/": "pink",
-"res://scene/global/UI/": "pink",
+"res://scene/buildings/": "green",
+"res://scene/global/": "green",
+"res://scene/global/UI/": "green",
 "res://scene/levels/": "green",
 "res://scene/structures/": "green",
 "res://scene/units/": "green"

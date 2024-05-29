@@ -90,6 +90,8 @@ func add_unit_to_spawn(unit):
 func spawn_repeat():
 	new_tween.finished.connect(tween_callable_spawn_unit)
 
+
+# TODO nonexistent function 'instantiate' in base 'RigidBody3D (Warrior)
 func spawn_unit():
 	new_tween.stop()
 	var unit = spawning_unit.instantiate()

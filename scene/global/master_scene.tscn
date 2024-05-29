@@ -3,8 +3,13 @@
 [ext_resource type="Script" path="res://scene/global/main.gd" id="1_621uy"]
 [ext_resource type="PlaneMesh" uid="uid://bh7bxv2euomog" path="res://resources/shapes/debug_plane.tres" id="2_fh0yc"]
 [ext_resource type="Sky" uid="uid://20csmshba6rf" path="res://resources/sky/map1.tres" id="3_t72pv"]
+<<<<<<< Updated upstream
 [ext_resource type="PackedScene" uid="uid://f3joarvu6vk5" path="res://scene/buildings/barracks.tscn" id="4_86amd"]
 [ext_resource type="PackedScene" uid="uid://k6i08ppyio34" path="res://scene/buildings/main_building.tscn" id="4_ny0xt"]
+=======
+[ext_resource type="PackedScene" uid="uid://dkiqetud7q013" path="res://scene/buildings/barracks.tscn" id="4_86amd"]
+[ext_resource type="PackedScene" uid="uid://t4orrhthxr2i" path="res://scene/buildings/Townhall.tscn" id="4_ny0xt"]
+>>>>>>> Stashed changes
 [ext_resource type="PackedScene" uid="uid://d34og3yo41io" path="res://scene/units/warrior.tscn" id="5_cv672"]
 [ext_resource type="Script" path="res://scene/global/RTSController.gd" id="6_kh11v"]
 [ext_resource type="Script" path="res://scene/global/UI/UnitSelector.gd" id="8_57yx1"]

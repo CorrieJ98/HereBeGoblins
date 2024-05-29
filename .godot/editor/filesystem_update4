@@ -1,11 +1,26 @@
+<<<<<<< Updated upstream
 res://scene/buildings/townhall.tscn
+=======
+res://scene/global/UI/health_bar.tscn
+>>>>>>> Stashed changes
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres
 res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
 res://assets/Personal/mesh/flagpole.tres
+<<<<<<< Updated upstream
 res://scene/buildings/barracks.gd
 res://scene/global/UI/unit_progress_bar.tscn
 res://scene/global/UI/unit_img_button.tscn
 res://scene/global/GUIController.gd
 res://scene/buildings/barracks.tscn
 res://resources/mats/hex_tile.tres
+=======
+res://scene/global/UI/health_bar.gd
+res://scene/units/warrior.tscn
+res://scene/units/worker.tscn
+res://scene/global/master_scene.tscn
+res://resources/mats/hex_tile.tres
+res://scene/buildings/Townhall.tscn
+res://scene/buildings/barracks.gd
+res://scene/buildings/building.gd
+>>>>>>> Stashed changes

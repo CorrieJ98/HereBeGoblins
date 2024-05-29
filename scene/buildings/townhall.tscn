@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://t4orrhthxr2i"]
+[gd_scene load_steps=19 format=3 uid="uid://t4orrhthxr2i"]
 
 [ext_resource type="Script" path="res://scene/buildings/TownHall.gd" id="1_1ru3i"]
 [ext_resource type="Texture2D" uid="uid://mqy4djsro7l5" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stoneDark.png" id="2_in17k"]
@@ -8,6 +8,7 @@
 [ext_resource type="Texture2D" uid="uid://c8hnb633o1jr" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2__defaultMat.png" id="4_wwwcx"]
 [ext_resource type="Texture2D" uid="uid://fvmmp7s0jw4h" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stone.png" id="5_r8www"]
 [ext_resource type="Texture2D" uid="uid://d2xqm2ai6efpp" path="res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_dark.png" id="6_2xx56"]
+[ext_resource type="PackedScene" uid="uid://chrnasd28dmqe" path="res://scene/global/UI/health_bar.tscn" id="9_bxs3v"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bcdpn"]
 resource_name = "stoneDark"
@@ -228,3 +229,6 @@ size_flags_vertical = 4
 
 [node name="HBoxContainer" type="HBoxContainer" parent="UnitProgressContainer/VBoxContainer"]
 layout_mode = 2
+
+[node name="HealthBar" parent="." instance=ExtResource("9_bxs3v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0)

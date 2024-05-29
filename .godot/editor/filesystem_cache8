@@ -1,4 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1716898387
 README.md::TextFile::-1::1713266024::0::1::::<><>::
 ::res://assets/::1716804674
@@ -137,3 +138,144 @@ worker.gd::GDScript::-1::1716898334::0::1::::Worker<>Unit<>::
 worker.tscn::PackedScene::2352581459846494648::1716898391::0::1::::<><>::res://scene/units/worker.gd<>uid://dsuriq88onl2w::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Animations.res<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres
 worker_img.tscn::PackedScene::2902745701986774681::1716898391::0::1::::<><>::uid://bb8sf1tl1kjka::::res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg
 worker_pawn.gd::GDScript::-1::1716804642::0::1::::<>RigidBody3D<>::
+=======
+::res://::1716987919
+README.md::TextFile::-1::1716926543::0::1::::<><>::
+::res://assets/::1716926543
+::res://assets/Personal/::1716926543
+1200px-Checkerboard_pattern.svg.png::CompressedTexture2D::9042529776067010333::1716926543::1716926543::1::::<><>::
+cover.png::CompressedTexture2D::5907438696070454450::1716926543::1716926543::1::::<><>::
+icon.png::CompressedTexture2D::7204378351693521553::1716926543::1716926543::1::::<><>::
+::res://assets/Personal/blend/::1716926543
+cairn.glb::PackedScene::7953838094061616409::1716926543::1716926543::1::::<><>::
+flagpole.glb::PackedScene::5474961591035565045::1716926543::1716926543::1::::<><>::
+monkeypod.glb::PackedScene::408097351986184813::1716926543::1716926543::1::::<><>::
+terrain-base.glb::PackedScene::4789062745098527564::1716926543::1716926543::1::::<><>::
+terrain-base_forest-floor-01-photoscanned-seamless-texture-3d-model-blend.jpg::CompressedTexture2D::5313873196704568474::1716926543::1716926543::1::::<><>::
+watchtower.glb::PackedScene::8344927290522619445::1716926543::1716926543::1::::<><>::
+::res://assets/Personal/mesh/::1716977914
+cairn.tres::ArrayMesh::5616100787294706548::1716977914::0::1::::<><>::uid://d0i3q6j44jwns::::res://assets/Udemy-AvivDavid/Project Assets/Materials/FloorMat.tres
+flagpole.tres::ArrayMesh::3487479939577292108::1716977913::0::1::::<><>::
+monkeypod.tres::ArrayMesh::1331506897423168745::1716926543::0::1::::<><>::
+watchtower.tres::ArrayMesh::1582304617813897848::1716926543::0::1::::<><>::
+::res://assets/Udemy-AvivDavid/::1716926543
+::res://assets/Udemy-AvivDavid/Project Assets/::1716926543
+::res://assets/Udemy-AvivDavid/Project Assets/Animations/::1716926543
+Animations.res::AnimationLibrary::8464996159744100992::1716926543::0::1::::<><>::uid://bwxb7b384k88b::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Attack.res<>uid://c81om6esmqchr::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Build.res<>uid://odc6hpxwimfe::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Idle.res<>uid://cob46ju2rrw14::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Walk.res
+Attack.res::Animation::3978173891787340327::1716926543::0::1::::<><>::
+Build.res::Animation::7143620131709991431::1716926543::0::1::::<><>::
+Idle.res::Animation::989014129701477278::1716926543::0::1::::<><>::
+Walk.res::Animation::5759366213330402785::1716926543::0::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Build2/::1716926543
+bricks.material::StandardMaterial3D::-1::1716926543::0::1::::<><>::res://addons/3D Outline/Outline.material
+Building2.glb::PackedScene::5293581015786621486::1716926543::1716926543::1::::<><>::
+Building2_bricks.png::CompressedTexture2D::4111212158151975960::1716926543::1716926543::1::::<><>::
+Building2_dark.png::CompressedTexture2D::9102835837596201777::1716926543::1716926543::1::::<><>::
+Building2_stone.png::CompressedTexture2D::395047022601093201::1716926543::1716926543::1::::<><>::
+Building2_stoneDark.png::CompressedTexture2D::876805335885415316::1716926543::1716926543::1::::<><>::
+Building2__defaultMat.png::CompressedTexture2D::208950489152643227::1716926543::1716926543::1::::<><>::
+dark.material::StandardMaterial3D::-1::1716926543::0::1::::<><>::
+stone.material::StandardMaterial3D::-1::1716926543::0::1::::<><>::
+stoneDark.material::StandardMaterial3D::-1::1716926543::0::1::::<><>::
+_defaultMat.material::StandardMaterial3D::-1::1716926543::0::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Build3/::1716926543
+Building3.glb::PackedScene::3043891655761334913::1716926543::1716926543::1::::<><>::
+Building3_0.png::CompressedTexture2D::6541805025033947046::1716926543::1716926543::1::::<><>::
+Building3_1.png::CompressedTexture2D::1593282215212403729::1716926543::1716926543::1::::<><>::
+Building3_2.png::CompressedTexture2D::946715679494667083::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Bush/::1716926543
+Bush.glb::PackedScene::7706814421496809973::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Floor/::1716926543
+::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/::1716926543
+PavingStones080_2K_AmbientOcclusion.jpg::CompressedTexture2D::6156395114678970465::1716926543::1716926543::1::::<><>::
+PavingStones080_2K_Color.jpg::CompressedTexture2D::8197344470150293075::1716926543::1716926543::1::::<><>::
+PavingStones080_2K_Displacement.jpg::CompressedTexture2D::2403564730466691252::1716926543::1716926543::1::::<><>::
+PavingStones080_2K_NormalDX.jpg::CompressedTexture2D::2764109924342008255::1716926543::1716926543::1::::<><>::
+PavingStones080_2K_NormalGL.jpg::CompressedTexture2D::3653554471037866285::1716926543::1716926543::1::::<><>::
+PavingStones080_2K_Roughness.jpg::CompressedTexture2D::62024029707218174::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/GUI/::1716926543
+black_full_tex.png::CompressedTexture2D::6662959382178805823::1716926543::1716926543::1::::<><>::
+black_tex.png::CompressedTexture2D::2295753493738972084::1716926543::1716926543::1::::<><>::
+DetailBar.png::CompressedTexture2D::768275399182398115::1716926543::1716926543::1::::<><>::
+HealthBar.png::CompressedTexture2D::3066373925466520797::1716926543::1716926543::1::::<><>::
+Health_bar_empty.png::CompressedTexture2D::7400827417854623093::1716926543::1716926543::1::::<><>::
+MainBuildingImg.jpg::CompressedTexture2D::7806910900766149741::1716926543::1716926543::1::::<><>::
+MiniMap_Portrait.png::CompressedTexture2D::9086922875574711108::1716926543::1716926543::1::::<><>::
+progress_bar.png::CompressedTexture2D::6942581752779003943::1716926543::1716926543::1::::<><>::
+rock.png::CompressedTexture2D::5271360993830270142::1716926543::1716926543::1::::<><>::
+SelectionBar.png::CompressedTexture2D::5561827610290678905::1716926543::1716926543::1::::<><>::
+transperent_tex.png::CompressedTexture2D::6164760770025649524::1716926543::1716926543::1::::<><>::
+UnitBuildingImg.jpg::CompressedTexture2D::90784691576478066::1716926543::1716926543::1::::<><>::
+WarriorImg.jpg::CompressedTexture2D::117065010625729009::1716926543::1716926543::1::::<><>::
+WorkerImg.jpg::CompressedTexture2D::2525837223547752712::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Materials/::1716977913
+FloorMat.tres::StandardMaterial3D::8932228456046385180::1716977913::0::1::::<><>::uid://do14cibjk15w6::::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/PavingStones080_2K_Color.jpg<>uid://ctyg6s4gjukaj::::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/PavingStones080_2K_AmbientOcclusion.jpg<>uid://baikmidkiim3m::::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/PavingStones080_2K_Displacement.jpg<>uid://bsb2rjwcnyiq4::::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/PavingStones080_2K_NormalGL.jpg<>uid://5br54yeqp7c::::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/PavingStones080_2K_Roughness.jpg
+GreenStracture.tres::StandardMaterial3D::7378027845473958050::1716926543::0::1::::<><>::
+new_fog_material.tres::FogMaterial::3122176560897980692::1716926543::0::1::::<><>::
+new_fog_material_visible.tres::FogMaterial::3469681391798981706::1716926543::0::1::::<><>::
+RedStracture.tres::StandardMaterial3D::470577243973876351::1716926543::0::1::::<><>::
+SeeThroughStracture.tres::StandardMaterial3D::7938596584375133796::1716926543::0::1::::<><>::
+TeamBlueMat.tres::StandardMaterial3D::5012186928874825299::1716977913::0::1::::<><>::
+TeamNeutMat.tres::StandardMaterial3D::5250203194159951102::1716977913::0::1::::<><>::
+TeamRedMat.tres::StandardMaterial3D::4149178806181604075::1716977913::0::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Rock/::1716926543
+Rocks.glb::PackedScene::3098867185670016050::1716926543::1716926543::1::::<><>::
+Rocks_stone.png::CompressedTexture2D::296331288207054533::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/StoneUnit/::1716926543
+Material_001.material::StandardMaterial3D::-1::1716926543::0::1::::<><>::
+Material_002.material::StandardMaterial3D::-1::1716926543::0::1::::<><>::
+StoneUnit.glb::PackedScene::804876543044741283::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Tree/::1716926543
+BushMesh.mesh::ArrayMesh::5751664020797116685::1716926543::0::1::::<><>::
+Tree.glb::PackedScene::2510686478075786277::1716926543::1716926543::1::::<><>::
+TreeMesh.mesh::ArrayMesh::7161054465009372126::1716926543::0::1::::<><>::
+Tree_0.png::CompressedTexture2D::2136861727324355139::1716926543::1716926543::1::::<><>::
+Tree_1.png::CompressedTexture2D::906783331065830847::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/Unit Weapon/::1716926543
+weapon.gltf::PackedScene::8729350360566159236::1716926543::1716926543::1::::<><>::
+::res://assets/Udemy-AvivDavid/Project Assets/UnitRing/::1716926543
+UnitRing.glb::PackedScene::3756403499013779328::1716926543::1716926543::1::::<><>::
+::res://resources/::1716926543
+::res://resources/mats/::1716977914
+debug_tile.tres::StandardMaterial3D::7248952228543148380::1716926543::0::1::::<><>::uid://d13je5132y8e8::::res://assets/Personal/1200px-Checkerboard_pattern.svg.png
+hex_tile.tres::StandardMaterial3D::1954468907669733897::1716977914::0::1::::<><>::uid://5br54yeqp7c::::res://assets/Udemy-AvivDavid/Project Assets/Floor/Floor-Tex/PavingStones080_2K_Roughness.jpg
+::res://resources/shapes/::1716926543
+cairn_cap_range.tres::SphereShape3D::6926334656397176521::1716926543::0::1::::<><>::
+debug_plane.tres::PlaneMesh::2943905612450924930::1716926543::0::1::::<><>::uid://230214ox82iv::::res://resources/mats/hex_tile.tres
+selecftion_ring_pawn.tres::TorusMesh::1433950172702166900::1716926543::0::1::::<><>::
+watchtower-hitbox.tres::BoxShape3D::7457568318832830323::1716926543::0::1::::<><>::
+watchtower-visual-range.tres::SphereShape3D::4884127134397342056::1716926543::0::1::::<><>::
+::res://resources/sky/::1716926543
+map1.tres::Sky::1946862458760291763::1716926543::0::1::::<><>::
+::res://scene/::1716926543
+::res://scene/buildings/::1716987904
+barracks.gd::GDScript::-1::1716985203::0::1::::Barracks<>Building<>::
+barracks.tscn::PackedScene::7878645153571456980::1716986226::0::1::::<><>::res://scene/buildings/barracks.gd<>uid://bpxmjxsxrsn53::::res://assets/Personal/mesh/flagpole.tres<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres<>uid://bjmqplgkdi3c4::::res://assets/Udemy-AvivDavid/Project Assets/Build3/Building3.glb<>uid://dsq6sntm8v51u::::res://scene/global/UI/unit_progress_bar.tscn
+building.gd::GDScript::-1::1716986370::0::1::::Building<>Node3D<>::
+cairn.tscn::PackedScene::3746702079645691495::1716986225::0::1::::<><>::res://scene/buildings/TownHall.gd<>uid://cmaqmhrufme8s::::res://assets/Personal/mesh/cairn.tres<>uid://bpxmjxsxrsn53::::res://assets/Personal/mesh/flagpole.tres<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres
+MainBuilding.tscn::PackedScene::766416284702487021::1716986226::0::1::::<><>::res://scene/buildings/building_test.gd<>uid://mqy4djsro7l5::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stoneDark.png<>uid://bpxmjxsxrsn53::::res://assets/Personal/mesh/flagpole.tres<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres<>uid://bytrcfrkp8aey::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_bricks.png<>uid://c8hnb633o1jr::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2__defaultMat.png<>uid://fvmmp7s0jw4h::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stone.png<>uid://d2xqm2ai6efpp::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_dark.png<>uid://dsq6sntm8v51u::::res://scene/global/UI/unit_progress_bar.tscn
+TownHall.gd::GDScript::-1::1716987904::0::1::::TownHall<>Building<>::
+Townhall.tscn::PackedScene::1394336284969597866::1716986226::0::1::::<><>::res://scene/buildings/TownHall.gd<>uid://mqy4djsro7l5::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stoneDark.png<>uid://bpxmjxsxrsn53::::res://assets/Personal/mesh/flagpole.tres<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres<>uid://bytrcfrkp8aey::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_bricks.png<>uid://c8hnb633o1jr::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2__defaultMat.png<>uid://fvmmp7s0jw4h::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_stone.png<>uid://d2xqm2ai6efpp::::res://assets/Udemy-AvivDavid/Project Assets/Build2/Building2_dark.png
+::res://scene/global/::1716986385
+GUIController.gd::GDScript::-1::1716979662::0::1::::<>Control<>::
+main.gd::GDScript::-1::1716981832::0::1::::<>Node3D<>::
+master_scene.tscn::PackedScene::289008759643505790::1716986385::0::1::::<><>::res://scene/global/main.gd<>uid://bh7bxv2euomog::::res://resources/shapes/debug_plane.tres<>uid://20csmshba6rf::::res://resources/sky/map1.tres<>uid://dkiqetud7q013::::res://scene/buildings/barracks.tscn<>uid://k6i08ppyio34::::res://scene/buildings/MainBuilding.tscn<>uid://d34og3yo41io::::res://scene/units/warrior.tscn<>res://scene/global/RTSController.gd<>res://scene/global/UI/UnitSelector.gd<>uid://8ruw45y4rmfg::::res://scene/units/worker.tscn<>uid://k7fnbofhk0c2::::res://assets/Udemy-AvivDavid/Project Assets/GUI/DetailBar.png<>res://scene/global/GUIController.gd<>uid://d2p1j6ypo4vf5::::res://assets/Udemy-AvivDavid/Project Assets/GUI/MiniMap_Portrait.png<>uid://cligqukgffx0t::::res://assets/Udemy-AvivDavid/Project Assets/GUI/SelectionBar.png<>uid://bb8sf1tl1kjka::::res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg<>uid://bhmd2ebp84tyf::::res://scene/units/worker_img.tscn<>uid://djhyxgkv3fwth::::res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg<>uid://chdqssq55t7ta::::res://assets/Udemy-AvivDavid/Project Assets/GUI/rock.png
+RTSController.gd::GDScript::-1::1716926543::0::1::::<>Node3D<>::
+unit.gd::GDScript::-1::1716926543::0::1::::Unit<>RigidBody3D<>::
+::res://scene/global/UI/::1716987904
+health_bar.tscn::PackedScene::5300047966903112732::1716987904::0::1::::<><>::
+UnitSelector.gd::GDScript::-1::1716926543::0::1::::<>Control<>::
+unit_img_button.tscn::PackedScene::2362690959189842405::1716986225::0::1::::<><>::uid://bb8sf1tl1kjka::::res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg
+unit_progress_bar.tscn::PackedScene::8457606364439911928::1716986225::0::1::::<><>::
+::res://scene/levels/::1716926543
+debug_level.tscn::PackedScene::2815468992213421806::1716926543::0::1::::<><>::uid://bh7bxv2euomog::::res://resources/shapes/debug_plane.tres
+map1.tscn::PackedScene::4201661115688699176::1716926543::0::1::::<><>::uid://bh7bxv2euomog::::res://resources/shapes/debug_plane.tres<>uid://20csmshba6rf::::res://resources/sky/map1.tres
+::res://scene/units/::1716986227
+warrior.gd::GDScript::-1::1716926543::0::1::::Warrior<>Unit<>::
+warrior.tscn::PackedScene::270155261437620430::1716986227::0::1::::<><>::res://scene/units/warrior.gd<>uid://dwmteitsfqjia::::res://assets/Udemy-AvivDavid/Project Assets/Unit Weapon/weapon.gltf<>uid://dsuriq88onl2w::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Animations.res<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres
+warrior_img.tscn::PackedScene::2498050649675156182::1716986227::0::1::::<><>::uid://bwybqordurnd::::res://assets/Udemy-AvivDavid/Project Assets/GUI/WarriorImg.jpg
+worker.gd::GDScript::-1::1716926543::0::1::::Worker<>Unit<>::
+worker.tscn::PackedScene::2352581459846494648::1716926543::0::1::::<><>::res://scene/units/worker.gd<>uid://dsuriq88onl2w::::res://assets/Udemy-AvivDavid/Project Assets/Animations/Animations.res<>uid://uou7katuw1nc::::res://resources/shapes/selecftion_ring_pawn.tres
+worker_img.tscn::PackedScene::2902745701986774681::1716986227::0::1::::<><>::uid://bb8sf1tl1kjka::::res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg
+worker_pawn.gd::GDScript::-1::1716926543::0::1::::<>RigidBody3D<>::
+>>>>>>> Stashed changes
