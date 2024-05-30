@@ -1,0 +1,44 @@
+[gd_scene load_steps=6 format=3 uid="uid://b04k0k45enq3i"]
+
+[ext_resource type="PlaneMesh" uid="uid://wxksydiquxv7" path="res://resources/mesh-shapes/map_plane.tres" id="1_yatxl"]
+[ext_resource type="Sky" uid="uid://20csmshba6rf" path="res://resources/sky/map1.tres" id="2_h20bg"]
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_qo511"]
+vertices = PackedVector3Array(-511.5, 0.5, -511.5, -511.5, 0.5, 511.5, 511.5, 0.5, 511.5, 511.5, 0.5, -511.5)
+polygons = [PackedInt32Array(3, 2, 0), PackedInt32Array(0, 2, 1)]
+geometry_parsed_geometry_type = 2
+geometry_collision_mask = 4294967285
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_nrdod"]
+data = PackedVector3Array(250, 0, 250, -250, 0, 250, 250, 0, -250, -250, 0, 250, -250, 0, -250, 250, 0, -250)
+
+[sub_resource type="Environment" id="Environment_juvd0"]
+background_mode = 2
+sky = ExtResource("2_h20bg")
+sdfgi_enabled = true
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.01
+volumetric_fog_detail_spread = 6.0
+volumetric_fog_temporal_reprojection_amount = 0.99
+
+[node name="World" type="Node3D"]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_qo511")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D"]
+mesh = ExtResource("1_yatxl")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/MeshInstance3D" groups=["surface"]]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_nrdod")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 153.298, 132.419, 151.886)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_juvd0")

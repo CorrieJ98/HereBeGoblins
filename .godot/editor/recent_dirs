@@ -1,13 +1,7 @@
-res://scene/buildings
-res://scene/global/UI
-res://assets/Personal/mesh
-res://scene/units
-res://scene/global
-res://scene/levels
-res://resources/shapes
-res://assets/Udemy-AvivDavid/Project Assets/Animations
+res://scenes/global
+res://scripts
+res://resources/mesh-shapes
+res://scenes/global/ui
 res://resources/sky
-res://resources/mats
 res://resources
 res://
-res://scene

@@ -1,21 +1,13 @@
-<<<<<<< Updated upstream
-=======
+HBoxContainer
+VBoxContainer
+MarginContainer
+Node
+MeshInstance3D
 TextureProgressBar
 SubViewport
 Sprite3D
 Label
 TextureRect
-VBoxContainer
->>>>>>> Stashed changes
 TextureButton
 GridContainer
 ProgressBar
-HBoxContainer
-VBoxContainer
-CanvasLayer
-Label
-TextureRect
-Node
-BoneAttachment3D
-StaticBody3D
-CollisionShape3D

@@ -1,26 +1,11 @@
-<<<<<<< Updated upstream
-res://scene/buildings/townhall.tscn
-=======
-res://scene/global/UI/health_bar.tscn
->>>>>>> Stashed changes
-res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres
-res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres
-res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres
-res://assets/Personal/mesh/flagpole.tres
-<<<<<<< Updated upstream
-res://scene/buildings/barracks.gd
-res://scene/global/UI/unit_progress_bar.tscn
-res://scene/global/UI/unit_img_button.tscn
-res://scene/global/GUIController.gd
-res://scene/buildings/barracks.tscn
-res://resources/mats/hex_tile.tres
-=======
-res://scene/global/UI/health_bar.gd
-res://scene/units/warrior.tscn
-res://scene/units/worker.tscn
-res://scene/global/master_scene.tscn
-res://resources/mats/hex_tile.tres
-res://scene/buildings/Townhall.tscn
-res://scene/buildings/barracks.gd
-res://scene/buildings/building.gd
->>>>>>> Stashed changes
+res://scenes/buildings/townhall.tscn
+res://scenes/global/ui/health_bar.tscn
+res://scenes/global/ui/unit_progress_bar.tscn
+res://scenes/levels/map1.tscn
+res://resources/mesh-shapes/flagpole.tres
+res://scenes/units/worker.tscn
+res://scenes/units/warrior.tscn
+res://scripts/Unit--warrior.gd
+res://scripts/Unit--worker.gd
+res://scripts/Unit.gd
+res://scenes/global/main_menu.tscn
