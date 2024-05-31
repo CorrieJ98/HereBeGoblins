@@ -9,7 +9,7 @@ ___
 
 func camel_case()
 
-const k_constant_name
+const k_constant_name : type = value
 
 enum EnumName{PARAM1,PARAM2,PARAM3}
 
