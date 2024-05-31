@@ -1,3 +1,10 @@
 res://scenes/buildings/townhall.tscn
 res://resources/mesh-shapes/flagpole.tres
 res://resources/mesh-shapes/barracks.tres
+res://scenes/global/master_scene.tscn
+res://scenes/units/worker.tscn
+res://scenes/units/warrior.tscn
+res://scenes/buildings/barracks.tscn
+res://scripts/Main.gd
+res://scenes/global/UnitSelector.gd
+res://scripts/RTSController.gd

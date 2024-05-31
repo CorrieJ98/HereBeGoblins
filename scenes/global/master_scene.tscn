@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://dacnnnbxv6hwq"]
+[gd_scene load_steps=13 format=3 uid="uid://dacnnnbxv6hwq"]
 
 [ext_resource type="Script" path="res://scripts/Main.gd" id="1_xfgxr"]
 [ext_resource type="PlaneMesh" uid="uid://wxksydiquxv7" path="res://resources/mesh-shapes/map_plane.tres" id="2_tqxcc"]
@@ -8,6 +8,7 @@
 [ext_resource type="Script" path="res://scripts/RTSController.gd" id="4_qptw7"]
 [ext_resource type="PackedScene" uid="uid://8ruw45y4rmfg" path="res://scenes/units/worker.tscn" id="6_v82j5"]
 [ext_resource type="PackedScene" uid="uid://do7dhrmph1usg" path="res://scenes/units/warrior.tscn" id="7_edppr"]
+[ext_resource type="Script" path="res://scenes/global/UnitSelector.gd" id="9_a6coa"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_qo511"]
 vertices = PackedVector3Array(-511.5, 0.5, -511.5, -511.5, 0.5, 511.5, 511.5, 0.5, 511.5, 511.5, 0.5, -511.5)
@@ -30,6 +31,14 @@ volumetric_fog_temporal_reprojection_amount = 0.99
 
 [node name="=== MasterScene" type="Node"]
 script = ExtResource("1_xfgxr")
+
+[node name="=== Units" type="Node" parent="."]
+
+[node name="Worker" parent="=== Units" instance=ExtResource("6_v82j5")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.5906, 0, 17.8562)
+
+[node name="Warrior" parent="=== Units" instance=ExtResource("7_edppr")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.118, 0, -28.8268)
 
 [node name="=== Levels" type="Node" parent="."]
 
@@ -63,47 +72,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 153.298, 132.419, 151.886)
 environment = SubResource("Environment_juvd0")
 
 [node name="RTSController" type="Node3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 0, 0)
+transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 50, 0)
 script = ExtResource("4_qptw7")
 
 [node name="Camera3D" type="Camera3D" parent="RTSController"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 17)
 current = true
 
-[node name="=== Units" type="Node" parent="."]
-
-[node name="Worker" parent="=== Units" instance=ExtResource("6_v82j5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.5906, 0, 17.8562)
-
-[node name="Worker2" parent="=== Units" instance=ExtResource("6_v82j5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -48.0498, 0, 19.7554)
-
-[node name="Worker3" parent="=== Units" instance=ExtResource("6_v82j5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -28.9132, 0, 40.8308)
-
-[node name="Worker4" parent="=== Units" instance=ExtResource("6_v82j5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16.9373, 0, 11.003)
-
-[node name="Warrior" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.118, 0, -28.8268)
-
-[node name="Warrior2" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 66.3054, 0, -28.8268)
-
-[node name="Warrior3" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.5346, 0, -28.8268)
-
-[node name="Warrior4" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 102.077, 0, -28.8268)
-
-[node name="Warrior5" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.4575, 0, -11.3192)
-
-[node name="Warrior6" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.8204, 0, 7.36485)
-
-[node name="Warrior7" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 82.7835, 0, -6.16471)
-
-[node name="Warrior8" parent="=== Units" instance=ExtResource("7_edppr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 81.3012, 0, -28.8268)
+[node name="UnitSelector" type="Control" parent="RTSController"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("9_a6coa")

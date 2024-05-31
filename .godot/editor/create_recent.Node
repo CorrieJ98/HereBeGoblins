@@ -1,3 +1,4 @@
+Control
 Camera3D
 Node
 Node3D
@@ -12,4 +13,3 @@ Label
 TextureRect
 TextureButton
 GridContainer
-ProgressBar

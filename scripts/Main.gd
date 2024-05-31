@@ -1,6 +1,4 @@
-extends Node3D
-
-
+extends Node
 
 func _ready():
 	# lock mouse to game window

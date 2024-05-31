@@ -32,7 +32,7 @@ func _process(delta) -> void:
 	# ===== Left Mouse Button Bindings =====
 	# -- select point / begin drag
 	if Input.is_action_just_pressed("LeftMouseButton"):
-		selection_box.start_position = mouse_pos
+		selection_box.start_pos = mouse_pos
 		start_select_position = mouse_pos
 	
 	# -- confirm selection
