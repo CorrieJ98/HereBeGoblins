@@ -1,14 +1,28 @@
 # HereBeGoblins
-## HND 2024 Graded Unit - Made in Godot 4.0
+## Coding standards and nomenclature within Godot 4 and GDScript
 
 Everything you see before you is a work in progress and subject to change
 
 ___
 
-You have been banished from civilisation and no longer will you find respite behind those city walls, where the outlandish beasts from the Darklands are kept at bay.
+### GDScript
 
-Instead, you and a group of followers must make do and create a life for yourselves outside of those walls. Make sure you have enough food, water, stone, and steel to deal with what lies in the shadows. For the denizens of the forests have no morals, no manners, and an accent to boot.
+func camel_case()
 
-Here be dragons? No. 
+const k_constant_name
 
-Here be goblins.
+enum EnumName{PARAM1,PARAM2,PARAM3}
+
+var var_name : type = value
+
+
+### Filenames
+SuperClassName.gd
+
+SuperClassName--subclass.gd
+
+scene_name.tscn
+ 
+A_AutoLoadScript.gd
+
+_AUTO_LOAD_COMMON_VAR
