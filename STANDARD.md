@@ -9,7 +9,7 @@ ___
 
 ### GDScript
 
-func foo_name(param1,param2,param3)` or `func foo_name(p1 : type, p2 : type)`
+`func foo_name(param1,param2,param3)` or `func foo_name(p1 : type, p2 : type)`
 
 `const k_const_name : type = value` or `const k_const_name := type()` or `const k_const_name := []` 
 
