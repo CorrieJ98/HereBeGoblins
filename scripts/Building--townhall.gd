@@ -4,7 +4,7 @@ func _ready():
 	super._ready()
 	building_type = BuildingType.TOWNHALL
 	cost = 500
-	spawning_unit = k_worker
-	spawning_unit_img = k_worker_img
+	spawning_unit = _TSCNREF.k_worker
+	spawning_unit_img = _TSCNREF.k_worker_img
 	
-	unit_img = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg")
+	unit_img = preload("res://assets/udemy/Project Assets/GUI/MainBuildingImg.jpg")

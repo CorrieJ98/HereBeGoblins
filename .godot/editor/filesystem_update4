@@ -1,11 +1,3 @@
 res://scenes/buildings/townhall.tscn
-res://scenes/global/ui/health_bar.tscn
-res://scenes/global/ui/unit_progress_bar.tscn
-res://scenes/levels/map1.tscn
 res://resources/mesh-shapes/flagpole.tres
-res://scenes/units/worker.tscn
-res://scenes/units/warrior.tscn
-res://scripts/Unit--warrior.gd
-res://scripts/Unit--worker.gd
-res://scripts/Unit.gd
-res://scenes/global/main_menu.tscn
+res://resources/mesh-shapes/barracks.tres

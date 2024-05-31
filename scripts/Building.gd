@@ -1,23 +1,14 @@
 class_name Building extends Node3D
 
+
 const k_team_colours : Dictionary = {
-	UnitTeam.PLAYER : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamBlueMat.tres"),
-	UnitTeam.ENEMY : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamRedMat.tres"),
-	UnitTeam.NEUTRAL : preload("res://assets/Udemy-AvivDavid/Project Assets/Materials/TeamNeutMat.tres")
+	UnitTeam.PLAYER : preload("res://assets/udemy/Project Assets/Materials/TeamBlueMat.tres"),
+	UnitTeam.ENEMY : preload("res://assets/udemy/Project Assets/Materials/TeamRedMat.tres"),
+	UnitTeam.NEUTRAL : preload("res://assets/udemy/Project Assets/Materials/TeamNeutMat.tres")
 }
 
-const k_unit_img_button = preload("res://scene/global/UI/unit_img_button.tscn")
-
-# ===== Units and Buildings Scenes =====
-const k_townhall : PackedScene = preload("res://scene/buildings/townhall.tscn")
-const k_barracks : PackedScene = preload("res://scene/buildings/barracks.tscn")
-const k_worker : PackedScene = preload("res://scene/units/worker.tscn")
-const k_warrior : PackedScene = preload("res://scene/units/warrior.tscn")
-
-const k_townhall_img  : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg")
-const k_barracks_img : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/UnitBuildingImg.jpg")
-const k_worker_img : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg")
-const k_warrior_img : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/WarriorImg.jpg")
+# this will be modified based on selection, assigned a base value initially
+var unit_img = _TSCNREF.k_worker_img
 
 enum UnitTeam{PLAYER,ENEMY,NEUTRAL}
 enum BuildingType{TOWNHALL,BARRACKS, CAIRN}
@@ -27,7 +18,6 @@ enum BuildingType{TOWNHALL,BARRACKS, CAIRN}
 @onready var unit_progress_bar = get_node("UnitProgressContainer/VBoxContainer")
 @onready var unit_progress_container = get_node("UnitProgressContainer")
 @onready var navmesh = get_parent().get_parent()
-var unit_img = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg")
 
 # Create Tween
 var new_tween : Tween
@@ -71,7 +61,7 @@ func deselect():
 
 func add_unit_to_spawn(unit):
 	if current_created_units < max_units:
-		var unit_img = k_unit_img_button.instantiate()
+		var unit_img = _TSCNREF.k_unit_img_button.instantiate()
 		unit_img.texture_normal = spawning_unit_img
 		current_created_units += 1
 		unit_hbox.add_child(unit_img)

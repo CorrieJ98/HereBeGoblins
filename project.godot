@@ -10,9 +10,13 @@ config_version=5
 
 [application]
 
-config/name="Here Be Goblins Clean"
+config/name="Here Be Goblins"
+run/main_scene="res://scenes/global/master_scene.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
-config/icon="res://icon.svg"
+
+[autoload]
+
+_TSCNREF="*res://scripts/A_SceneRef.gd"
 
 [file_customization]
 
@@ -22,3 +26,11 @@ folder_colors={
 "res://scenes/": "green",
 "res://scripts/": "pink"
 }
+
+[layer_names]
+
+3d_physics/layer_1="Map"
+3d_physics/layer_2="Units"
+3d_physics/layer_3="Buildings"
+3d_physics/layer_4="Enemy"
+3d_physics/layer_7="Minerals"

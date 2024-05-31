@@ -174,11 +174,11 @@ data = PackedVector3Array(1.5, 0.2886, -1, 1.5, -0.2887, -1, 1.5, -0.2887, 0, 1.
 
 [node name="TownHall" type="StaticBody3D"]
 transform = Transform3D(20, 0, 0, 0, 20, 0, 0, 0, 20, 0, 0, 0)
-collision_layer = 4
+collision_layer = 5
 collision_mask = 65
 script = ExtResource("1_1ru3i")
 
-[node name="Build1" type="MeshInstance3D" parent="."]
+[node name="Building" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -1.19209e-07, -1, 0, 1, -1.19209e-07, 0, 0, 0)
 gi_mode = 0
 mesh = SubResource("ArrayMesh_64bh4")

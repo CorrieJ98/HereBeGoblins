@@ -1,7 +1,9 @@
+Camera3D
+Node
+Node3D
 HBoxContainer
 VBoxContainer
 MarginContainer
-Node
 MeshInstance3D
 TextureProgressBar
 SubViewport
