@@ -1,18 +1,5 @@
 extends Control
 
-
-# ===== Units and Buildings Scenes =====
-const k_townhall : PackedScene = preload("res://scene/buildings/townhall.tscn")
-const k_barracks : PackedScene = preload("res://scene/buildings/barracks.tscn")
-const k_worker : PackedScene = preload("res://scene/units/worker.tscn")
-const k_warrior : PackedScene = preload("res://scene/units/warrior.tscn")
-
-const k_townhall_img  : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/MainBuildingImg.jpg")
-const k_barracks_img : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/UnitBuildingImg.jpg")
-const k_worker_img : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/WorkerImg.jpg")
-const k_warrior_img : CompressedTexture2D = preload("res://assets/Udemy-AvivDavid/Project Assets/GUI/WarriorImg.jpg")
-
-var unit_img_button = preload("res://scene/units/worker_img.tscn")
 var current_units = []
 var minerals : int = 1500
 
@@ -27,7 +14,8 @@ var button_2_unit
 
 
 func _ready():
-	minerals_label.text = str(minerals)
+	pass
+	#minerals_label.text = str(minerals)
 
 # Instantiate a new portrait per each selected unit
 # set the main portrait to be the very first unit selected
@@ -39,7 +27,7 @@ func _on_rts_controller_units_selected(units):
 		n.queue_free()
 		
 	for i in range(1,len(units)):
-		var img_button = unit_img_button.instantiate()
+		var img_button = _TSCNREF.unit_img_button.instantiate()
 		units_grid.add_child(img_button)
 		img_button.texture_normal = units[i].unit_img
 		
@@ -66,18 +54,18 @@ func _on_option_button_2_button_down():
 func set_button_images():
 	if current_units[0] is TownHall:
 		show_context_buttons(1)
-		button_1_unit = k_worker
-		button_1_img.texture_normal = k_worker_img
+		button_1_unit = _TSCNREF.k_worker
+		button_1_img.texture_normal = _TSCNREF.k_worker_img
 	elif current_units[0] is Barracks:
 		show_context_buttons(1)
-		button_1_unit = k_warrior
-		button_1_img.texture_normal = k_warrior_img
+		button_1_unit = _TSCNREF.k_warrior
+		button_1_img.texture_normal = _TSCNREF.k_warrior_img
 	elif current_units[0] is Worker:
 		show_context_buttons(2)
-		button_1_unit = k_townhall
-		button_1_img.texture_normal = k_townhall_img
-		button_2_unit = k_barracks
-		button_2_img.texture_normal = k_barracks_img 
+		button_1_unit = _TSCNREF.k_townhall
+		button_1_img.texture_normal = _TSCNREF.k_townhall_img
+		button_2_unit = _TSCNREF.k_barracks
+		button_2_img.texture_normal = _TSCNREF.k_barracks_img 
 	elif current_units[0] is Warrior:
 		show_context_buttons(0)
 

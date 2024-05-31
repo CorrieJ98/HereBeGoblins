@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=3 uid="uid://dacnnnbxv6hwq"]
+[gd_scene load_steps=20 format=3 uid="uid://dacnnnbxv6hwq"]
 
 [ext_resource type="Script" path="res://scripts/Main.gd" id="1_xfgxr"]
 [ext_resource type="PlaneMesh" uid="uid://wxksydiquxv7" path="res://resources/mesh-shapes/map_plane.tres" id="2_tqxcc"]
@@ -8,7 +8,14 @@
 [ext_resource type="Script" path="res://scripts/RTSController.gd" id="4_qptw7"]
 [ext_resource type="PackedScene" uid="uid://8ruw45y4rmfg" path="res://scenes/units/worker.tscn" id="6_v82j5"]
 [ext_resource type="PackedScene" uid="uid://do7dhrmph1usg" path="res://scenes/units/warrior.tscn" id="7_edppr"]
-[ext_resource type="Script" path="res://scenes/global/UnitSelector.gd" id="9_a6coa"]
+[ext_resource type="Script" path="res://scripts/Selector.gd" id="9_a6coa"]
+[ext_resource type="Script" path="res://scripts/GUIController.gd" id="10_yj1tc"]
+[ext_resource type="Texture2D" uid="uid://k7fnbofhk0c2" path="res://assets/udemy/Project Assets/GUI/DetailBar.png" id="11_yufax"]
+[ext_resource type="Texture2D" uid="uid://d2p1j6ypo4vf5" path="res://assets/udemy/Project Assets/GUI/MiniMap_Portrait.png" id="12_f2dpy"]
+[ext_resource type="Texture2D" uid="uid://cligqukgffx0t" path="res://assets/udemy/Project Assets/GUI/SelectionBar.png" id="13_h4sc0"]
+[ext_resource type="Texture2D" uid="uid://djhyxgkv3fwth" path="res://assets/udemy/Project Assets/GUI/MainBuildingImg.jpg" id="14_rrw5e"]
+[ext_resource type="Texture2D" uid="uid://bb8sf1tl1kjka" path="res://assets/udemy/Project Assets/GUI/WorkerImg.jpg" id="15_a5lc5"]
+[ext_resource type="PackedScene" uid="uid://bhmd2ebp84tyf" path="res://scenes/units/worker_img.tscn" id="16_1itmg"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_qo511"]
 vertices = PackedVector3Array(-511.5, 0.5, -511.5, -511.5, 0.5, 511.5, 511.5, 0.5, 511.5, 511.5, 0.5, -511.5)
@@ -85,3 +92,130 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("9_a6coa")
+
+[node name="GUIController" type="Control" parent="RTSController"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("10_yj1tc")
+
+[node name="InfoBar" type="TextureRect" parent="RTSController/GUIController"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -500.0
+offset_top = -180.0
+offset_right = 500.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("11_yufax")
+expand_mode = 1
+
+[node name="MinimapContainer" type="TextureRect" parent="RTSController/GUIController"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -314.0
+offset_right = 315.0
+offset_bottom = 1.0
+grow_vertical = 0
+texture = ExtResource("12_f2dpy")
+expand_mode = 1
+
+[node name="SelectionBar" type="TextureRect" parent="RTSController/GUIController"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -369.0
+offset_top = -222.0
+offset_right = 2.0
+offset_bottom = 2.0
+grow_horizontal = 0
+grow_vertical = 0
+texture = ExtResource("13_h4sc0")
+expand_mode = 1
+
+[node name="GridContainer" type="GridContainer" parent="RTSController/GUIController/SelectionBar"]
+layout_mode = 0
+anchor_left = 0.0619946
+anchor_top = 0.0982143
+anchor_right = 0.946092
+anchor_bottom = 0.924107
+theme_override_constants/h_separation = 15
+theme_override_constants/v_separation = 16
+columns = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="Button1" type="TextureButton" parent="RTSController/GUIController/SelectionBar/GridContainer"]
+custom_minimum_size = Vector2(72.5, 52)
+layout_mode = 2
+texture_normal = ExtResource("14_rrw5e")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Button2" type="TextureButton" parent="RTSController/GUIController/SelectionBar/GridContainer"]
+custom_minimum_size = Vector2(72.5, 52)
+layout_mode = 2
+texture_normal = ExtResource("14_rrw5e")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="UnitPortrait" type="TextureRect" parent="RTSController/GUIController"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 326.0
+offset_top = -160.0
+offset_right = 468.0
+offset_bottom = -18.0
+grow_vertical = 0
+texture = ExtResource("12_f2dpy")
+expand_mode = 1
+
+[node name="MainUnitImage" type="TextureRect" parent="RTSController/GUIController/UnitPortrait"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.042
+anchor_top = 0.056
+anchor_right = 0.958
+anchor_bottom = 0.942
+offset_left = 0.0359998
+offset_top = 0.0479999
+offset_right = -0.0360107
+offset_bottom = 0.235992
+grow_vertical = 0
+texture = ExtResource("15_a5lc5")
+expand_mode = 1
+
+[node name="UnitsGrid" type="GridContainer" parent="RTSController/GUIController"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -324.0
+offset_top = -160.0
+offset_right = 145.0
+offset_bottom = -17.0
+grow_horizontal = 2
+grow_vertical = 0
+columns = 8
+
+[node name="WorkerImg" parent="RTSController/GUIController/UnitsGrid" instance=ExtResource("16_1itmg")]
+custom_minimum_size = Vector2(55, 45)
+layout_mode = 2
+
+[connection signal="button_down" from="RTSController/GUIController/SelectionBar/GridContainer/Button1" to="RTSController/GUIController" method="_on_button_1_button_down"]
+[connection signal="button_down" from="RTSController/GUIController/SelectionBar/GridContainer/Button2" to="RTSController/GUIController" method="_on_button_2_button_down"]

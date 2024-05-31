@@ -18,6 +18,11 @@ config/features=PackedStringArray("4.2", "Forward Plus")
 
 _TSCNREF="*res://scripts/A_SceneRef.gd"
 
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+
 [file_customization]
 
 folder_colors={

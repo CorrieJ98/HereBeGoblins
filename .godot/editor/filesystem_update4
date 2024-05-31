@@ -8,3 +8,5 @@ res://scenes/buildings/barracks.tscn
 res://scripts/Main.gd
 res://scenes/global/UnitSelector.gd
 res://scripts/RTSController.gd
+res://scenes/gui_controller.tscn
+res://scripts/GUIController.gd
