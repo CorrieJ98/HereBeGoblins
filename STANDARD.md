@@ -17,12 +17,14 @@ var var_name : type = value
 
 
 ### Filenames
-SuperClassName.gd
+SuperClassScriptName.gd
 
-SuperClassName--subclass.gd
+SuperClassScriptName--subclass_script_name.gd
 
-scene_name.tscn
+ ScriptName.gd
+
+_AutoLoadScriptName.gd
  
-A_AutoLoadScript.gd
+scene_name.tscn
 
 _AUTO_LOAD_COMMON_VAR
