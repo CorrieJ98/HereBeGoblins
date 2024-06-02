@@ -9,8 +9,12 @@ signal units_selected(units : Array)
 @export var units_in_line : int = 6
 
 const MOVE_MARGIN : int = 20
-const MOVE_SPEED : int = 15
 const RAY_LENGTH : int = 1000
+
+
+@export_range(10,250,5) var edge_pan_speed : int = 100
+@export_range(50,300,5) var wasd_speed_scalar : int = 100
+@export_range(0.01,0.5,0.01) var zoom_speed : float = 0.05
 
 
 var m_pos := Vector2()
@@ -28,9 +32,9 @@ func _ready():
 
 
 func _input(event):
-	if event.is_action_pressed("wheel_down"):
+	if event.is_action_pressed("MWheelDown"):
 		cam.fov = lerp(cam.fov, 75.0, 0.25)
-	if event.is_action_pressed("wheel_up"):
+	if event.is_action_pressed("MWheelUp"):
 		cam.fov = lerp(cam.fov, 35.0, 0.25)
 
 
@@ -39,27 +43,28 @@ func _process(delta):
 	m_pos = get_viewport().get_mouse_position()
 	camera_movement(delta)
 	
-	#start_sel_pos = m_pos if Input.is_action_just_pressed("select") else start_sel_pos
+	#start_sel_pos = m_pos if Input.is_action_just_pressed("LeftMouseButton") else start_sel_pos
 	
-	if Input.is_action_just_pressed("select"):
+	if Input.is_action_just_pressed("LeftMouseButton"):
 		unit_selector.start_pos = m_pos
 		start_sel_pos = m_pos
-	if Input.is_action_just_released("select"):
+	if Input.is_action_just_released("LeftMouseButton"):
 		select_units()
-	if Input.is_action_pressed("select"):
+	if Input.is_action_pressed("LeftMouseButton"):
 		unit_selector.m_pos = m_pos
 		unit_selector.is_visible = true
 	else:
 		unit_selector.is_visible = false
 
-	if Input.is_action_just_pressed("command"):
+	if Input.is_action_just_pressed("RightMouseButton"):
 		move_selected_units()
 
-func camera_movement(delta):
+func camera_movement(dt):
 	var viewport_size : Vector2 = get_viewport().size
 	var origin : Vector3 = global_transform.origin
 	var move_vec := Vector3()
 	
+	# ----- Edge Panning
 	if origin.x > -62:
 		if m_pos.x < MOVE_MARGIN:
 			move_vec.x -= 1
@@ -73,8 +78,26 @@ func camera_movement(delta):
 		if m_pos.y > viewport_size.y - MOVE_MARGIN:
 			move_vec.z += 1
 	
+	# ----- WASD Panning
+	if Input.is_action_pressed("CamPanNorth"):
+		move_vec.z -= (wasd_speed_scalar * dt)
+		move_vec.normalized()
+	
+	if Input.is_action_pressed("CamPanEast"):
+		move_vec.x += (wasd_speed_scalar * dt)
+		move_vec.normalized()
+		
+	if Input.is_action_pressed("CamPanSouth"):
+		move_vec.z += (wasd_speed_scalar * dt)
+		move_vec.normalized()
+		
+	if Input.is_action_pressed("CamPanWest"):
+		move_vec.x -= (wasd_speed_scalar * dt)
+		move_vec.normalized()
+	
 	move_vec = move_vec.rotated(Vector3(0, 1, 0), rad_to_deg(rotation.y))
-	global_translate(move_vec * delta * MOVE_SPEED)
+	move_vec.normalized()
+	global_translate(move_vec * dt * edge_pan_speed)
 
 
 func raycast_from_mouse(collision_mask) -> Dictionary:
