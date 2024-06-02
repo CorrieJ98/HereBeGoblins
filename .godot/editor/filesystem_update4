@@ -1,2 +1,11 @@
 res://scenes/world.tscn
 res://scripts/RTSController.gd
+res://scenes/health_bar.tscn
+res://scripts/health_bar.gd
+res://scenes/worker.tscn
+res://scenes/unit_building.tscn
+res://scenes/main_building.tscn
+res://scenes/main.gd
+res://scripts/unit.gd
+res://scripts/building.gd
+res://scripts/main_building.gd

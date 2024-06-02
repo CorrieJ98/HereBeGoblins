@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=3 uid="uid://dy5pmuvdioedi"]
+[gd_scene load_steps=20 format=3 uid="uid://dy5pmuvdioedi"]
 
 [ext_resource type="Texture2D" uid="uid://mtocof7kc3go" path="res://assets/Build2/Building2_stoneDark.png" id="2_ldea8"]
 [ext_resource type="Script" path="res://scripts/main_building.gd" id="2_ql8mp"]
@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://xy371awrfo5t" path="res://assets/Build2/Building2_stone.png" id="5_3obgi"]
 [ext_resource type="Texture2D" uid="uid://6x6qhwf1r8kc" path="res://assets/Build2/Building2_dark.png" id="6_wqkro"]
 [ext_resource type="PackedScene" uid="uid://cxwgitlxy16o1" path="res://scenes/unit_progress_container.tscn" id="7_2hqkv"]
+[ext_resource type="PackedScene" uid="uid://cklw4qsl24llh" path="res://scenes/health_bar.tscn" id="8_ofno7"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_joua4"]
 resource_name = "stoneDark"
@@ -182,7 +183,7 @@ collision_layer = 4
 collision_mask = 65
 script = ExtResource("2_ql8mp")
 
-[node name="Build1" type="MeshInstance3D" parent="."]
+[node name="Mesh" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -1.19209e-07, -1, 0, 1, -1.19209e-07, 0, 0, 0)
 gi_mode = 0
 mesh = SubResource("ArrayMesh_em3kj")
@@ -213,3 +214,9 @@ transform = Transform3D(1, 0, 0, 0, -1.19209e-07, -1, 0, 1, -1.19209e-07, 0, 0, 
 shape = SubResource("ConcavePolygonShape3D_1v4oc")
 
 [node name="UnitProgressContainer" parent="." instance=ExtResource("7_2hqkv")]
+
+[node name="HealthBar" parent="." instance=ExtResource("8_ofno7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0)
+
+[connection signal="body_entered" from="BuildArea" to="." method="_on_build_area_body_entered"]
+[connection signal="body_exited" from="BuildArea" to="." method="_on_build_area_body_exited"]

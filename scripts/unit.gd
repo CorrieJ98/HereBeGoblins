@@ -1,6 +1,7 @@
 class_name Unit extends RigidBody3D
 
 @onready var animation_tree = $AnimationTree
+@onready var unit_health_bar = $HealthBar/SubViewport/HealthProgressBar
 
 enum states { IDLE, WALKING, ATTACKING, MINING, BUILDING }
 enum unit_types { WORKER, WARRIOR }
@@ -27,6 +28,7 @@ var team_colours : Dictionary = {
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	unit_health_bar.value = health
 	state_machine = animation_tree.get("parameters/playback")
 	speed = 0
 	

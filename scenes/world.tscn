@@ -1,5 +1,6 @@
-[gd_scene load_steps=21 format=3 uid="uid://be1l5kspsh8b6"]
+[gd_scene load_steps=22 format=3 uid="uid://be1l5kspsh8b6"]
 
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_dqeb6"]
 [ext_resource type="Material" uid="uid://d0i3q6j44jwns" path="res://assets/Materials/FloorMat.tres" id="1_fvg1o"]
 [ext_resource type="Script" path="res://scripts/RTSController.gd" id="1_rpve7"]
 [ext_resource type="PackedScene" uid="uid://dy5pmuvdioedi" path="res://scenes/main_building.tscn" id="2_tya4q"]
@@ -42,6 +43,7 @@ volumetric_fog_detail_spread = 4.28709
 volumetric_fog_temporal_reprojection_amount = 0.99
 
 [node name="World" type="Node3D"]
+script = ExtResource("1_dqeb6")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
 navigation_mesh = SubResource("NavigationMesh_5iopb")

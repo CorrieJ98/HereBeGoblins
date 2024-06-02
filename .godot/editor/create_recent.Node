@@ -1,12 +1,9 @@
-<<<<<<< Updated upstream
-=======
 TextureProgressBar
 SubViewport
 Sprite3D
 Label
 TextureRect
 VBoxContainer
->>>>>>> Stashed changes
 TextureButton
 GridContainer
 ProgressBar
@@ -15,7 +12,3 @@ VBoxContainer
 CanvasLayer
 Label
 TextureRect
-Node
-BoneAttachment3D
-StaticBody3D
-CollisionShape3D

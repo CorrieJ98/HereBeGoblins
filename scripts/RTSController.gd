@@ -25,6 +25,8 @@ var start_sel_pos := Vector2()
 var target_positions_list : Array[Vector3] = []
 var unit_pos_index : int = 0
 
+var is_building = false
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -43,21 +45,22 @@ func _process(delta):
 	m_pos = get_viewport().get_mouse_position()
 	camera_movement(delta)
 	
-	#start_sel_pos = m_pos if Input.is_action_just_pressed("LeftMouseButton") else start_sel_pos
+	if !is_building:
+		#start_sel_pos = m_pos if Input.is_action_just_pressed("LeftMouseButton") else start_sel_pos
+		
+		if Input.is_action_just_pressed("LeftMouseButton"):
+			unit_selector.start_pos = m_pos
+			start_sel_pos = m_pos
+		if Input.is_action_just_released("LeftMouseButton"):
+			select_units()
+		if Input.is_action_pressed("LeftMouseButton"):
+			unit_selector.m_pos = m_pos
+			unit_selector.is_visible = true
+		else:
+			unit_selector.is_visible = false
 	
-	if Input.is_action_just_pressed("LeftMouseButton"):
-		unit_selector.start_pos = m_pos
-		start_sel_pos = m_pos
-	if Input.is_action_just_released("LeftMouseButton"):
-		select_units()
-	if Input.is_action_pressed("LeftMouseButton"):
-		unit_selector.m_pos = m_pos
-		unit_selector.is_visible = true
-	else:
-		unit_selector.is_visible = false
-
-	if Input.is_action_just_pressed("RightMouseButton"):
-		move_selected_units()
+		if Input.is_action_just_pressed("RightMouseButton"):
+			move_selected_units()
 
 func camera_movement(dt):
 	var viewport_size : Vector2 = get_viewport().size
