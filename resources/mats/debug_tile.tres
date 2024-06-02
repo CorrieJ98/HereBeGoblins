@@ -1,7 +1,0 @@
-[gd_resource type="StandardMaterial3D" load_steps=2 format=3 uid="uid://dbjpgi3u0xcpo"]
-
-[ext_resource type="Texture2D" uid="uid://d13je5132y8e8" path="res://assets/Personal/1200px-Checkerboard_pattern.svg.png" id="1_bumbk"]
-
-[resource]
-albedo_color = Color(1, 0.478431, 0.988235, 1)
-albedo_texture = ExtResource("1_bumbk")

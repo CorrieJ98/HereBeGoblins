@@ -1,6 +1,0 @@
-21/05/2024
-E 0:00:02:0309   SelectionHandler.gd:60 @ _draw(): Drawing is only allowed inside NOTIFICATION_DRAW, _draw() function or 'draw' signal.
-  <C++ Error>    Condition "!drawing" is true.
-  <C++ Source>   scene/main/canvas_item.cpp:680 @ draw_rect()
-  <Stack Trace>  SelectionHandler.gd:60 @ _draw()
-                 game_controller.gd:20 @ _process()
