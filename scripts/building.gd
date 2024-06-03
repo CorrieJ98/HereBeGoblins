@@ -4,7 +4,7 @@ class_name Building extends Node3D
 @onready var unit_h_box_container = $UnitProgressContainer.get_node("VBoxContainer/HBoxContainer")
 @onready var unit_progress_bar = $UnitProgressContainer.get_node("VBoxContainer/UnitProgressBar")
 @onready var unit_progress_container = $UnitProgressContainer
-@onready var nav_mesh = get_parent()
+@onready var nav_mesh = get_parent().get_parent()
 @onready var unit_health_bar = $HealthBar/SubViewport/HealthProgressBar
 @onready var rts_controller = get_tree().get_root().get_node("World/RTSController")
 @onready var gui_controller = get_tree().get_root().get_node("World/CanvasLayer/GUIController")
@@ -75,8 +75,7 @@ func _process(delta):
 	if under_cons:
 		$HealthBar.visible = false
 		rts_controller.is_building = true
-		var m_pos = get_viewport().get_mouse_position()
-		var raycast_pos = rts_controller.raycast_from_mouse(m_pos, 1).position
+		var raycast_pos = rts_controller.raycast_from_mouse(1).position
 		if !is_rotating:
 			self.position = raycast_pos
 		
@@ -99,7 +98,7 @@ func _process(delta):
 			self.set_process(false)
 		if Input.is_action_just_pressed("RightMouseButton"):
 			rts_controller.is_building = false
-			gui_controller.adad_minerals(cost)
+			gui_controller.add_minerals(cost * 0.15)
 			queue_free()
 
 func send_unit():
@@ -123,7 +122,7 @@ func add_health(unit):
 		unit.change_state("idle")
 		activate_building()
 		return
-	unit_health_bar += 1
+	unit_health_bar.value += 1
 
 func select():
 	$BuildingRing.show()
@@ -213,3 +212,14 @@ func cancel_unit(img, unit):
 func move_to(target_pos):
 	var closest_pos = NavigationServer3D.map_get_closest_point(get_world_3d().navigation_map, target_pos)
 	unit_destination.global_transform.origin = closest_pos
+
+func _on_build_area_body_entered(body):
+	if under_cons:
+		can_build = false
+		$Mesh.material_override = red_mat
+
+
+func _on_build_area_body_exited(body):
+	if $BuildArea.get_overlapping_bodies().size() == 0:
+		$Mesh.material_override = green_mat
+		can_build = true

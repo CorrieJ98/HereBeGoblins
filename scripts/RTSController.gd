@@ -30,8 +30,7 @@ var is_building = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
-
+	$"../NavigationRegion3D/Buildings/MainBuilding".active = true
 
 func _input(event):
 	if event.is_action_pressed("MWheelDown"):
@@ -150,6 +149,8 @@ func clean_current_units_and_apply_new(new_units) -> void:
 
 
 func move_selected_units() -> void:
+	# 0b100111 passes Layers 1,2,3 and 6
+	# udemy brain hack, idk why it doesnt parse
 	var result = raycast_from_mouse(0b100111)
 	unit_pos_index = 0
 	if selected_units.size() != 0:
@@ -160,6 +161,13 @@ func move_selected_units() -> void:
 			elif first_unit is Unit:
 				for unit in selected_units:
 					position_units(unit, result)
+		elif result.collider is Building:
+			for unit in selected_units:
+				if unit is Unit:
+					if unit is Worker:
+						unit.build_structure(result.collider)
+					elif unit is Warrior:
+						position_units(unit,result)
 
 
 func get_units_in_box(top_left, bot_right) -> Array:

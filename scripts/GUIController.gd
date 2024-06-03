@@ -97,22 +97,22 @@ func add_minerals(num):
 
 
 func activate_button(button):
-	var unit_button_ins = button.instantiate()
-	var selected_unit = current_units[0]
-	
-	if unit_button_ins is Building:
-		var unit_cost = unit_button_ins.cost
+	if button != null:
+		var unit_button_ins = button.instantiate()
+		var selected_unit = current_units[0]
 		
-		if num_minerals > unit_cost:
-			spend_minerals(unit_cost)
-			#selected_unit.create_structure(unit_button_ins)
-	elif unit_button_ins is Unit:
-		var unit_cost = unit_button_ins.cost
-		
-		if num_minerals >= unit_cost and selected_unit.current_created_units != selected_unit.max_units_to_spawn:
-			spend_minerals(unit_cost)
-			selected_unit.add_unit_to_spawn(unit_button_ins)
+		if unit_button_ins is Building:
+			var unit_cost = unit_button_ins.cost
 			
+			if num_minerals > unit_cost:
+				spend_minerals(unit_cost)
+				selected_unit.create_structure(unit_button_ins)
+		elif unit_button_ins is Unit:
+			var unit_cost = unit_button_ins.cost
+			if selected_unit.active:
+				if num_minerals >= unit_cost and selected_unit.current_created_units != selected_unit.max_units_to_spawn:
+					spend_minerals(unit_cost)
+					selected_unit.add_unit_to_spawn(unit_button_ins)
 
 
 ### DEBUGGING ###
