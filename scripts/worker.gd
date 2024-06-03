@@ -27,7 +27,6 @@ func build_structure(structure):
 	move_to(lerp_from_self(structure_to_build.get_global_transform().origin))
 	change_state("building")
 
-# state "work" ???
 func work():
 	speed = 0.0001
 	state_machine.travel("Build")
@@ -45,15 +44,18 @@ func _on_navigation_agent_3d_target_reached():
 		change_state("idle")
 
 func lerp_from_self(pos) -> Vector3:
-	var change_point_by = 0
+	var change_point_by = 0.0
 	var point = pos.lerp(get_global_transform().origin, change_point_by)
-	var desired_distance = 2.5
+	var desired_distance = 100.0
 	
-	while point.distance_to(pos) < desired_distance:
+	# units are currently moving towards the new building but arent stopping to build
+	# somethings wrong here but fuck today
+	while point.distance_to(pos) > desired_distance:
 		change_point_by += 0.01
 		point = position.lerp(get_global_transform().origin, change_point_by)
 		if point.distance_to(pos) <= desired_distance:
 			break
+	
 	return point
 
 func _on_work_timer_timeout():
