@@ -4,7 +4,7 @@ class_name Building extends Node3D
 @onready var unit_h_box_container = $UnitProgressContainer.get_node("VBoxContainer/HBoxContainer")
 @onready var unit_progress_bar = $UnitProgressContainer.get_node("VBoxContainer/UnitProgressBar")
 @onready var unit_progress_container = $UnitProgressContainer
-@onready var nav_mesh = get_parent().get_parent()
+@onready var nav_mesh = get_parent()
 @onready var unit_health_bar = $HealthBar/SubViewport/HealthProgressBar
 @onready var rts_controller = get_tree().get_root().get_node("World/RTSController")
 @onready var gui_controller = get_tree().get_root().get_node("World/CanvasLayer/GUIController")
