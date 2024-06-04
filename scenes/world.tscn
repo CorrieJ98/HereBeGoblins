@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://be1l5kspsh8b6"]
+[gd_scene load_steps=21 format=3 uid="uid://be1l5kspsh8b6"]
 
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_dqeb6"]
 [ext_resource type="Material" uid="uid://d0i3q6j44jwns" path="res://assets/Materials/FloorMat.tres" id="1_fvg1o"]
@@ -9,6 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://k7fnbofhk0c2" path="res://assets/GUI/DetailBar.png" id="5_55qjs"]
 [ext_resource type="Script" path="res://scripts/GUIController.gd" id="5_ruh28"]
 [ext_resource type="Texture2D" uid="uid://d2p1j6ypo4vf5" path="res://assets/GUI/MiniMap_Portrait.png" id="6_iwjt3"]
+[ext_resource type="PackedScene" uid="uid://vxo3p35ylaew" path="res://scenes/worker_ai.tscn" id="7_87kuv"]
 [ext_resource type="Texture2D" uid="uid://cligqukgffx0t" path="res://assets/GUI/SelectionBar.png" id="7_u8vom"]
 [ext_resource type="Texture2D" uid="uid://bb8sf1tl1kjka" path="res://assets/GUI/WorkerImg.jpg" id="9_fmaq7"]
 [ext_resource type="Texture2D" uid="uid://djhyxgkv3fwth" path="res://assets/GUI/MainBuildingImg.jpg" id="12_3mtlv"]
@@ -88,6 +89,21 @@ transform = Transform3D(1, 0, 0, 0, -0.341594, 0.939848, 0, -0.939848, -0.341594
 environment = SubResource("Environment_boo4a")
 
 [node name="Units" type="Node" parent="."]
+
+[node name="WorkerAI" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.6438, 0, 0.416365)
+
+[node name="WorkerAI2" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.3793, 0, 0.531744)
+
+[node name="WorkerAI3" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.3793, 0, 0.531744)
+
+[node name="WorkerAI4" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.4518, 0, 3.66449)
+
+[node name="WorkerAI5" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.6327, -0.254375, 3.89796)
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

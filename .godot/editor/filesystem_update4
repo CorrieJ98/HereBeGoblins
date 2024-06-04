@@ -10,3 +10,8 @@ res://scenes/minerals.tscn
 res://scripts/minerals.gd
 res://scripts/RTSController.gd
 res://scripts/main_building.gd
+res://scripts/unit.gd
+res://assets/Animations/Attack.res
+res://scripts/warrior.gd
+res://scenes/worker_ai.tscn
+res://scripts/worker_ai.gd

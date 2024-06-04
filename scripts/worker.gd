@@ -86,6 +86,8 @@ func _on_navigation_agent_3d_target_reached():
 		work()
 	elif current_state == states.MINING and !rock_mine:
 		mine()
+	elif current_state == states.ATTACKING:
+		attack()
 	elif current_state == states.MINING and rock_mine:
 		await get_tree().create_timer(0.05).timeout
 		minerals -= 5
@@ -121,3 +123,6 @@ func _on_work_timer_timeout():
 
 func _on_mine_timer_timeout():
 	mineral_field_to_mine.mine_rocks(self)
+
+func _on_attack_timer_timeout():
+	search_for_enemies("enemy")

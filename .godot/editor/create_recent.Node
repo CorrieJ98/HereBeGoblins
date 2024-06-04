@@ -1,7 +1,9 @@
+Timer
+CollisionShape3D
+Area3D
 Node
 StaticBody3D
 Node3D
-Timer
 TextureProgressBar
 SubViewport
 Sprite3D
@@ -10,6 +12,3 @@ TextureRect
 VBoxContainer
 TextureButton
 GridContainer
-ProgressBar
-HBoxContainer
-VBoxContainer
