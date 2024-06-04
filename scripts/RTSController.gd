@@ -24,7 +24,7 @@ var old_selected_units : Array = []
 var start_sel_pos := Vector2()
 var target_positions_list : Array[Vector3] = []
 var unit_pos_index : int = 0
-
+var main_buildings : Array[Building] = []
 var is_building = false
 
 
@@ -168,6 +168,12 @@ func move_selected_units() -> void:
 						unit.build_structure(result.collider)
 					elif unit is Warrior:
 						position_units(unit,result)
+		elif result.collider is MineralField:
+			for unit in selected_units:
+				if unit is Worker:
+					unit.mine_mineral_field(result.collider)
+				elif unit is Warrior:
+					position_units(unit,result)
 
 
 func get_units_in_box(top_left, bot_right) -> Array:

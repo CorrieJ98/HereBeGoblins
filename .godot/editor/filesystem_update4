@@ -6,3 +6,7 @@ res://scenes/unit_building.tscn
 res://scripts/worker.gd
 res://scripts/worker-u.gd
 res://scripts/building.gd
+res://scenes/minerals.tscn
+res://scripts/minerals.gd
+res://scripts/RTSController.gd
+res://scripts/main_building.gd

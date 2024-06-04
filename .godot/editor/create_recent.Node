@@ -1,3 +1,6 @@
+Node
+StaticBody3D
+Node3D
 Timer
 TextureProgressBar
 SubViewport
@@ -10,6 +13,3 @@ GridContainer
 ProgressBar
 HBoxContainer
 VBoxContainer
-CanvasLayer
-Label
-TextureRect
