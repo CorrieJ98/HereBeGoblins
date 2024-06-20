@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqgrxrecfwrtv"
+path="res://.godot/imported/ObsidianStatueWhat3.wav-2a482097725172378c8c22dec0a5001d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/ObsidianStatue/ObsidianStatueWhat3.wav"
+dest_files=["res://.godot/imported/ObsidianStatueWhat3.wav-2a482097725172378c8c22dec0a5001d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

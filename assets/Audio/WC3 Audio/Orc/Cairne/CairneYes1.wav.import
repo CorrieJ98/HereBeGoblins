@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://casrkm0th7wyv"
+path="res://.godot/imported/CairneYes1.wav-9d10ccc3af6ff864439f4022610b17fd.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Cairne/CairneYes1.wav"
+dest_files=["res://.godot/imported/CairneYes1.wav-9d10ccc3af6ff864439f4022610b17fd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

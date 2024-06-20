@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnkb2ddb5l3ek"
+path="res://.godot/imported/TichondriusWarcry1.wav-63e87f213a82a1c4fd82ae9095fd5c1f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Tichondrius/TichondriusWarcry1.wav"
+dest_files=["res://.godot/imported/TichondriusWarcry1.wav-63e87f213a82a1c4fd82ae9095fd5c1f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

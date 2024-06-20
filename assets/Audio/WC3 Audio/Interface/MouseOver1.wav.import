@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dm00i7uwds22c"
+path="res://.godot/imported/MouseOver1.wav-669172e0699633f58d94bd43ab71467c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/MouseOver1.wav"
+dest_files=["res://.godot/imported/MouseOver1.wav-669172e0699633f58d94bd43ab71467c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

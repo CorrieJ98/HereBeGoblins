@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://p1fjv162hhpo"
+path="res://.godot/imported/KaelAngry4.wav-0f312fd650cf73b346ac6f33336bed31.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Kael/KaelAngry4.wav"
+dest_files=["res://.godot/imported/KaelAngry4.wav-0f312fd650cf73b346ac6f33336bed31.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bpkpjrci87x4c"
+path="res://.godot/imported/BanditAngry5.wav-621ee26940222b33db371258fa442878.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Bandit/BanditAngry5.wav"
+dest_files=["res://.godot/imported/BanditAngry5.wav-621ee26940222b33db371258fa442878.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

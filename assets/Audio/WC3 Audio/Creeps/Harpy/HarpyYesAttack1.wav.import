@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://23xw4rq7icxr"
+path="res://.godot/imported/HarpyYesAttack1.wav-3507942ab5e1ea572201eb111714429b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Harpy/HarpyYesAttack1.wav"
+dest_files=["res://.godot/imported/HarpyYesAttack1.wav-3507942ab5e1ea572201eb111714429b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

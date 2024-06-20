@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3ltooqle225o"
+path="res://.godot/imported/GruntAngry3.wav-3940c83ebc0144e03a03d5056caa0877.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Grunt/GruntAngry3.wav"
+dest_files=["res://.godot/imported/GruntAngry3.wav-3940c83ebc0144e03a03d5056caa0877.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

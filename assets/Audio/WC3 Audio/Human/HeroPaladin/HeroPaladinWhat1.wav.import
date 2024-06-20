@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnxbw6s7i1nks"
+path="res://.godot/imported/HeroPaladinWhat1.wav-aebbb3ccb025b57928f181dc290807ce.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroPaladin/HeroPaladinWhat1.wav"
+dest_files=["res://.godot/imported/HeroPaladinWhat1.wav-aebbb3ccb025b57928f181dc290807ce.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxq0272lrfmbp"
+path="res://.godot/imported/KelThuzadWarcry1.wav-d620b388014552bfbab6c97122c96c6b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/KelThuzadLich/KelThuzadWarcry1.wav"
+dest_files=["res://.godot/imported/KelThuzadWarcry1.wav-d620b388014552bfbab6c97122c96c6b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

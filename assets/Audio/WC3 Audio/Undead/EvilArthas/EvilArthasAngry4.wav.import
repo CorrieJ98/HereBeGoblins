@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bjwq5bkgwtwsw"
+path="res://.godot/imported/EvilArthasAngry4.wav-b416dae09c53a9eee83dfff6ee99b68c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/EvilArthas/EvilArthasAngry4.wav"
+dest_files=["res://.godot/imported/EvilArthasAngry4.wav-b416dae09c53a9eee83dfff6ee99b68c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

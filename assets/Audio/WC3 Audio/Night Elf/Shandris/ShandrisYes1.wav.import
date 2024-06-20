@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bi5qdb4p6k01h"
+path="res://.godot/imported/ShandrisYes1.wav-ccacfcd14a9bd21a4abf9d063218d247.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Shandris/ShandrisYes1.wav"
+dest_files=["res://.godot/imported/ShandrisYes1.wav-ccacfcd14a9bd21a4abf9d063218d247.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

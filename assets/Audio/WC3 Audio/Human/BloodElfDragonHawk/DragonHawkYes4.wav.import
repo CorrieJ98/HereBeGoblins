@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5jh757bud5ik"
+path="res://.godot/imported/DragonHawkYes4.wav-6580ddeeef436bf64a6a79aaaceb56cc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/BloodElfDragonHawk/DragonHawkYes4.wav"
+dest_files=["res://.godot/imported/DragonHawkYes4.wav-6580ddeeef436bf64a6a79aaaceb56cc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

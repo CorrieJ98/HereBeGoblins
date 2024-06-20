@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3a01k1wmeye0"
+path="res://.godot/imported/NecromancerYesAttack1.wav-9ff9e45e25f86129752ea5641d31c4ca.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Necromancer/NecromancerYesAttack1.wav"
+dest_files=["res://.godot/imported/NecromancerYesAttack1.wav-9ff9e45e25f86129752ea5641d31c4ca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

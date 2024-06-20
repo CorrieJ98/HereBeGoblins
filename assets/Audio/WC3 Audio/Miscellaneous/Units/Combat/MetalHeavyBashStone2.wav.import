@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d061w1bcsdgh6"
+path="res://.godot/imported/MetalHeavyBashStone2.wav-c3b8d334c662ae0db0e1f42e4e9e2caa.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalHeavyBashStone2.wav"
+dest_files=["res://.godot/imported/MetalHeavyBashStone2.wav-c3b8d334c662ae0db0e1f42e4e9e2caa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

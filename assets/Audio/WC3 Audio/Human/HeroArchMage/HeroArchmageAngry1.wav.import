@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4xiim6v6r4qj"
+path="res://.godot/imported/HeroArchmageAngry1.wav-57e228cd9f61c6c4cc1cbc1e4cc379a4.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroArchMage/HeroArchmageAngry1.wav"
+dest_files=["res://.godot/imported/HeroArchmageAngry1.wav-57e228cd9f61c6c4cc1cbc1e4cc379a4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

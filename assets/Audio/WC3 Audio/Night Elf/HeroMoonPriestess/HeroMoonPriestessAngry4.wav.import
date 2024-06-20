@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://do80clpcvc5nm"
+path="res://.godot/imported/HeroMoonPriestessAngry4.wav-cf1851473a74de064018bd55102bc926.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroMoonPriestess/HeroMoonPriestessAngry4.wav"
+dest_files=["res://.godot/imported/HeroMoonPriestessAngry4.wav-cf1851473a74de064018bd55102bc926.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bf44wsa0a03l2"
+path="res://.godot/imported/GyrocopterAngry4.wav-02b9ebdee5377b9155ec724d22f7945c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/GyroCopter/GyrocopterAngry4.wav"
+dest_files=["res://.godot/imported/GyrocopterAngry4.wav-02b9ebdee5377b9155ec724d22f7945c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

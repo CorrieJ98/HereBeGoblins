@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctb6pg8j3vqb8"
+path="res://.godot/imported/VarimathrasWhat1.wav-378f40fa8000316e1715d4f6541dc41d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Varimathras/VarimathrasWhat1.wav"
+dest_files=["res://.godot/imported/VarimathrasWhat1.wav-378f40fa8000316e1715d4f6541dc41d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

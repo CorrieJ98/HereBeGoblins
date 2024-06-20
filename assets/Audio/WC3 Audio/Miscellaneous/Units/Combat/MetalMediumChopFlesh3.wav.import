@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5053dy36rves"
+path="res://.godot/imported/MetalMediumChopFlesh3.wav-cb8da6194d4b34970e876b8b46ddc36a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalMediumChopFlesh3.wav"
+dest_files=["res://.godot/imported/MetalMediumChopFlesh3.wav-cb8da6194d4b34970e876b8b46ddc36a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

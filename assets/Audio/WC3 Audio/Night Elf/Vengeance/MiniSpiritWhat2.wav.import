@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c87j5oj05ksh0"
+path="res://.godot/imported/MiniSpiritWhat2.wav-5e4bd8db65426c1507a12f143eccc232.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Vengeance/MiniSpiritWhat2.wav"
+dest_files=["res://.godot/imported/MiniSpiritWhat2.wav-5e4bd8db65426c1507a12f143eccc232.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

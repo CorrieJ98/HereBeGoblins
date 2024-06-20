@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxbe6cwm8w1kq"
+path="res://.godot/imported/IllidanMorphedAngry4.wav-9727417a63d9cec6f848caf6f5a4e6cb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Illidan/IllidanMorphedAngry4.wav"
+dest_files=["res://.godot/imported/IllidanMorphedAngry4.wav-9727417a63d9cec6f848caf6f5a4e6cb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

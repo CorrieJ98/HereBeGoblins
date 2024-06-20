@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dcmu7cn4k6oj7"
+path="res://.godot/imported/ArachnathidDeath1.wav-c071e194a35a85ae1b5b858523059ebf.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Archnathid/ArachnathidDeath1.wav"
+dest_files=["res://.godot/imported/ArachnathidDeath1.wav-c071e194a35a85ae1b5b858523059ebf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

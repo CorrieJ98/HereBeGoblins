@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwlmg6xd3kind"
+path="res://.godot/imported/TichondriusAngry1.wav-08f854168e3292a3f03bb2180ae1e8e6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Tichondrius/TichondriusAngry1.wav"
+dest_files=["res://.godot/imported/TichondriusAngry1.wav-08f854168e3292a3f03bb2180ae1e8e6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

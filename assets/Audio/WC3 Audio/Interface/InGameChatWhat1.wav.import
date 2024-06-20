@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnw6pyqckn1eb"
+path="res://.godot/imported/InGameChatWhat1.wav-f5fd80ac07cff3e2838c0e0ce2c45fe2.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/InGameChatWhat1.wav"
+dest_files=["res://.godot/imported/InGameChatWhat1.wav-f5fd80ac07cff3e2838c0e0ce2c45fe2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

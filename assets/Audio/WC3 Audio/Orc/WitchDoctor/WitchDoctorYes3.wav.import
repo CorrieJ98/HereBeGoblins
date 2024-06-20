@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://kfys1lek8osm"
+path="res://.godot/imported/WitchDoctorYes3.wav-1388f44e2c9770259ed6bf9b08bdbf54.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/WitchDoctor/WitchDoctorYes3.wav"
+dest_files=["res://.godot/imported/WitchDoctorYes3.wav-1388f44e2c9770259ed6bf9b08bdbf54.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

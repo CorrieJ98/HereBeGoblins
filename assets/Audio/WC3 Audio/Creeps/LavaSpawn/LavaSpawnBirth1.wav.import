@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwjc7g00sojtf"
+path="res://.godot/imported/LavaSpawnBirth1.wav-e4a2d51497c380d0b2d87933db588250.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/LavaSpawn/LavaSpawnBirth1.wav"
+dest_files=["res://.godot/imported/LavaSpawnBirth1.wav-e4a2d51497c380d0b2d87933db588250.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://k0otoduj1c22"
+path="res://.godot/imported/DraeneiWhat2.wav-94dd6367627830942f8c727965778d29.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/Dranai/DraeneiWhat2.wav"
+dest_files=["res://.godot/imported/DraeneiWhat2.wav-94dd6367627830942f8c727965778d29.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2wlssfvh33sm"
+path="res://.godot/imported/ShadowHunterAngry6.wav-4b57a14427128ef9c12485acff88d3bb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroShadowHunter/ShadowHunterAngry6.wav"
+dest_files=["res://.godot/imported/ShadowHunterAngry6.wav-4b57a14427128ef9c12485acff88d3bb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cf21wyf55lqd8"
+path="res://.godot/imported/SkeletonYesAttack3.wav-09bd3916bc58805b7544a57c24229739.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Skeleton/SkeletonYesAttack3.wav"
+dest_files=["res://.godot/imported/SkeletonYesAttack3.wav-09bd3916bc58805b7544a57c24229739.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

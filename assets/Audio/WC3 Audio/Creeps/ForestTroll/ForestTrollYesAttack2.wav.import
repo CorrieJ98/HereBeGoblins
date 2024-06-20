@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cthhnhl6qdgek"
+path="res://.godot/imported/ForestTrollYesAttack2.wav-07a043f0aec8186f39c9849c6aeb6f8a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/ForestTroll/ForestTrollYesAttack2.wav"
+dest_files=["res://.godot/imported/ForestTrollYesAttack2.wav-07a043f0aec8186f39c9849c6aeb6f8a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

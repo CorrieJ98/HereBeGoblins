@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b303j8xf8rbq4"
+path="res://.godot/imported/DruidOfTheClawAngry6.wav-5350480d76d31d7c9727599a9a86ca3d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/DruidOfTheClaw/DruidOfTheClawAngry6.wav"
+dest_files=["res://.godot/imported/DruidOfTheClawAngry6.wav-5350480d76d31d7c9727599a9a86ca3d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

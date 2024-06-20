@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://l1s7x14tfbsc"
+path="res://.godot/imported/DryadAngry9.wav-33af98dd2cc011e7c273fcd4ca45073d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Dryad/DryadAngry9.wav"
+dest_files=["res://.godot/imported/DryadAngry9.wav-33af98dd2cc011e7c273fcd4ca45073d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

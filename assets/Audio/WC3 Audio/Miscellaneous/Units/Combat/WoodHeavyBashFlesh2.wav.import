@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqoxau4p0mp3l"
+path="res://.godot/imported/WoodHeavyBashFlesh2.wav-bba5c0f5a42bb3d4adfccdaee5006e0e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/WoodHeavyBashFlesh2.wav"
+dest_files=["res://.godot/imported/WoodHeavyBashFlesh2.wav-bba5c0f5a42bb3d4adfccdaee5006e0e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

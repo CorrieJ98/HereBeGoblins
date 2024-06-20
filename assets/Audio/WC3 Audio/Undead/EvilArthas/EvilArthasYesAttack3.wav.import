@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bw0e5unfwd1p"
+path="res://.godot/imported/EvilArthasYesAttack3.wav-80e01470b3aa9736a7a91a94e30a93bf.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/EvilArthas/EvilArthasYesAttack3.wav"
+dest_files=["res://.godot/imported/EvilArthasYesAttack3.wav-80e01470b3aa9736a7a91a94e30a93bf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

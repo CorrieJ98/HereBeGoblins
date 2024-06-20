@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c28drr8qu6l64"
+path="res://.godot/imported/DruidOfTheTalonWarcry1.wav-04a251e4c2e2e4196873bbc7b27aec74.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/DruidOfTheTalon/DruidOfTheTalonWarcry1.wav"
+dest_files=["res://.godot/imported/DruidOfTheTalonWarcry1.wav-04a251e4c2e2e4196873bbc7b27aec74.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

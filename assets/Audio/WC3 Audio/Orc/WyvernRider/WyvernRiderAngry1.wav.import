@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://nyqwnw0a1pk4"
+path="res://.godot/imported/WyvernRiderAngry1.wav-7d3e5cf436cc0c96b7d7cabf7a70b2fc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/WyvernRider/WyvernRiderAngry1.wav"
+dest_files=["res://.godot/imported/WyvernRiderAngry1.wav-7d3e5cf436cc0c96b7d7cabf7a70b2fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

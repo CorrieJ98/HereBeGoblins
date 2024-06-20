@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dovi5bxo7kd7n"
+path="res://.godot/imported/DragonWhat3.wav-1fb1f4396217459697e8fec3a21f5437.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/AzureDragon/DragonWhat3.wav"
+dest_files=["res://.godot/imported/DragonWhat3.wav-1fb1f4396217459697e8fec3a21f5437.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

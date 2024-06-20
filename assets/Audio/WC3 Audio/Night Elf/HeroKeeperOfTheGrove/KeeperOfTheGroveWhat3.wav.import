@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cfpl6j3wvjw1i"
+path="res://.godot/imported/KeeperOfTheGroveWhat3.wav-d310d8f65c7818ed014ca35d3584f188.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroKeeperOfTheGrove/KeeperOfTheGroveWhat3.wav"
+dest_files=["res://.godot/imported/KeeperOfTheGroveWhat3.wav-d310d8f65c7818ed014ca35d3584f188.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

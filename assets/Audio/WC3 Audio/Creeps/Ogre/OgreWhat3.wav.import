@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dm05kj8qbw8ot"
+path="res://.godot/imported/OgreWhat3.wav-35053fef28ae14575fcd5fdcd55aa183.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Ogre/OgreWhat3.wav"
+dest_files=["res://.godot/imported/OgreWhat3.wav-35053fef28ae14575fcd5fdcd55aa183.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cbyrby67kylmw"
+path="res://.godot/imported/VillagerCWhat3.wav-46796f8de6813f0e4abc0b0a00de2e1b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/VillagerKid/VillagerCWhat3.wav"
+dest_files=["res://.godot/imported/VillagerCWhat3.wav-46796f8de6813f0e4abc0b0a00de2e1b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

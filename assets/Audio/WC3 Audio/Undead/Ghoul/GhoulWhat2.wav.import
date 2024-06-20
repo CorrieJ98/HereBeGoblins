@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvb75qr15ce5t"
+path="res://.godot/imported/GhoulWhat2.wav-437fc4ba1014d62e90133ce61e8f8471.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Ghoul/GhoulWhat2.wav"
+dest_files=["res://.godot/imported/GhoulWhat2.wav-437fc4ba1014d62e90133ce61e8f8471.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

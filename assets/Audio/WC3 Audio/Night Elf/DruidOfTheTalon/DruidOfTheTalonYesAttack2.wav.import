@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xo7l2sc1dyux"
+path="res://.godot/imported/DruidOfTheTalonYesAttack2.wav-1ced6906a3f07fe0abf1c7afc1a2441e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/DruidOfTheTalon/DruidOfTheTalonYesAttack2.wav"
+dest_files=["res://.godot/imported/DruidOfTheTalonYesAttack2.wav-1ced6906a3f07fe0abf1c7afc1a2441e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

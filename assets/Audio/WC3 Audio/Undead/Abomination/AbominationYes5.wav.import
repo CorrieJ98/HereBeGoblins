@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c3xnjdopu2mng"
+path="res://.godot/imported/AbominationYes5.wav-31bdec5a8490551c401c0527cfb12c9f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Abomination/AbominationYes5.wav"
+dest_files=["res://.godot/imported/AbominationYes5.wav-31bdec5a8490551c401c0527cfb12c9f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

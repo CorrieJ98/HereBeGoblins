@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bysyqd1mtu7ou"
+path="res://.godot/imported/PeasantYesAttack2.wav-878ec197e82c9109927d85eab348c61e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Peasant/PeasantYesAttack2.wav"
+dest_files=["res://.godot/imported/PeasantYesAttack2.wav-878ec197e82c9109927d85eab348c61e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

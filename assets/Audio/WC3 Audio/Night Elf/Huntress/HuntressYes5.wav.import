@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4hs4ur5bems1"
+path="res://.godot/imported/HuntressYes5.wav-96e2f87f3a462ebcbf8c65e720f4cf0f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Huntress/HuntressYes5.wav"
+dest_files=["res://.godot/imported/HuntressYes5.wav-96e2f87f3a462ebcbf8c65e720f4cf0f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

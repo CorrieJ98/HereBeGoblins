@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5lljyvf1t8ks"
+path="res://.godot/imported/LeftGlueScreenPopDown.wav-367e9e13cc9b7e1866c918ef3ee3c0ac.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/LeftGlueScreenPopDown.wav"
+dest_files=["res://.godot/imported/LeftGlueScreenPopDown.wav-367e9e13cc9b7e1866c918ef3ee3c0ac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

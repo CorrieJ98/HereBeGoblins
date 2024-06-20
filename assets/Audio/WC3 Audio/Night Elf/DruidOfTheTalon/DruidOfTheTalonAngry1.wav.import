@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnv6w3f13thwr"
+path="res://.godot/imported/DruidOfTheTalonAngry1.wav-29bb08d2bf47c9f16445d4f2bb3a5b5e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/DruidOfTheTalon/DruidOfTheTalonAngry1.wav"
+dest_files=["res://.godot/imported/DruidOfTheTalonAngry1.wav-29bb08d2bf47c9f16445d4f2bb3a5b5e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

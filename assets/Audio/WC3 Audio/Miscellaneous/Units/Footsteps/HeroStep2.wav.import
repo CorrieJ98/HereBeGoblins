@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c11mo3j3sxwgi"
+path="res://.godot/imported/HeroStep2.wav-edbfc0c6be1f4ed0cd7c378b484bc423.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Footsteps/HeroStep2.wav"
+dest_files=["res://.godot/imported/HeroStep2.wav-edbfc0c6be1f4ed0cd7c378b484bc423.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

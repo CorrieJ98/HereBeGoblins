@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d18q2gn56ru2a"
+path="res://.godot/imported/ShadowHunterYes2.wav-15d8e595df19ed98bf6ba53161b494cb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroShadowHunter/ShadowHunterYes2.wav"
+dest_files=["res://.godot/imported/ShadowHunterYes2.wav-15d8e595df19ed98bf6ba53161b494cb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

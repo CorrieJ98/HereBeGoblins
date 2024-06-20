@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ke8l88pqqwdy"
+path="res://.godot/imported/MurlocYes1.wav-e27974fb6389fcf145ecb0b3c01830b2.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Murloc/MurlocYes1.wav"
+dest_files=["res://.godot/imported/MurlocYes1.wav-e27974fb6389fcf145ecb0b3c01830b2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cg3jru3tglwou"
+path="res://.godot/imported/GiantSeaTurtleYes1.wav-a71b40e1b328b10f055a955737386e09.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GiantSeaTurtle/GiantSeaTurtleYes1.wav"
+dest_files=["res://.godot/imported/GiantSeaTurtleYes1.wav-a71b40e1b328b10f055a955737386e09.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

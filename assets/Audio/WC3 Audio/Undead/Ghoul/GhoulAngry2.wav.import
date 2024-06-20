@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnjocye65dwvi"
+path="res://.godot/imported/GhoulAngry2.wav-8741cc00c94b74a2263eee5f62b8ff2c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Ghoul/GhoulAngry2.wav"
+dest_files=["res://.godot/imported/GhoulAngry2.wav-8741cc00c94b74a2263eee5f62b8ff2c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

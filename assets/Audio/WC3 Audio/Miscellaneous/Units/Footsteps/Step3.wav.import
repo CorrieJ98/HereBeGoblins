@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://df8f3ex1npa6"
+path="res://.godot/imported/Step3.wav-a2952bf9ee7eb422dea28a1b0e493a90.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Footsteps/Step3.wav"
+dest_files=["res://.godot/imported/Step3.wav-a2952bf9ee7eb422dea28a1b0e493a90.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

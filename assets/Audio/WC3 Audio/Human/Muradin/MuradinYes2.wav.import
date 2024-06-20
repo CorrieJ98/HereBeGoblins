@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://66et7v0a36cv"
+path="res://.godot/imported/MuradinYes2.wav-a1937539e1b64b8ad5ac1522f42b1a5d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Muradin/MuradinYes2.wav"
+dest_files=["res://.godot/imported/MuradinYes2.wav-a1937539e1b64b8ad5ac1522f42b1a5d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

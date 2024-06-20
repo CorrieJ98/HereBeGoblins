@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://da7s2ykm0o328"
+path="res://.godot/imported/KeeperOfTheGroveAngry5.wav-8f8df887e0846ba3ce244e535e930c3e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroKeeperOfTheGrove/KeeperOfTheGroveAngry5.wav"
+dest_files=["res://.godot/imported/KeeperOfTheGroveAngry5.wav-8f8df887e0846ba3ce244e535e930c3e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

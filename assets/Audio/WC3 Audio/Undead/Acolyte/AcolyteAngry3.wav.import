@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmt13sss3hwaq"
+path="res://.godot/imported/AcolyteAngry3.wav-f179312b914b9866fa48091269b13ef5.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Acolyte/AcolyteAngry3.wav"
+dest_files=["res://.godot/imported/AcolyteAngry3.wav-f179312b914b9866fa48091269b13ef5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

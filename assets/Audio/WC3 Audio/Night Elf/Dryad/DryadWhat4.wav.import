@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bch0hs35702fw"
+path="res://.godot/imported/DryadWhat4.wav-5f9c0c735a93fd2733b7509171dca9c1.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Dryad/DryadWhat4.wav"
+dest_files=["res://.godot/imported/DryadWhat4.wav-5f9c0c735a93fd2733b7509171dca9c1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

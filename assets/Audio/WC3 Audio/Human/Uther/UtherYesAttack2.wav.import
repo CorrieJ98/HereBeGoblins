@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnhbedgxpqwqs"
+path="res://.godot/imported/UtherYesAttack2.wav-532945d2cce35749a4feb4efdb5a3ad2.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Uther/UtherYesAttack2.wav"
+dest_files=["res://.godot/imported/UtherYesAttack2.wav-532945d2cce35749a4feb4efdb5a3ad2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

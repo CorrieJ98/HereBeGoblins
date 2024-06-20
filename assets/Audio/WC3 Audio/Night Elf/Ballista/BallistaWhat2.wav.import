@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3iddi310oaw5"
+path="res://.godot/imported/BallistaWhat2.wav-5665c6237cbafd1ea03b9b7b4755cb23.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Ballista/BallistaWhat2.wav"
+dest_files=["res://.godot/imported/BallistaWhat2.wav-5665c6237cbafd1ea03b9b7b4755cb23.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

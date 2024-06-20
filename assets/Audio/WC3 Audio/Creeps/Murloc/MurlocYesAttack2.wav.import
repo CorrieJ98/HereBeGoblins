@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0l1ot08b3f8v"
+path="res://.godot/imported/MurlocYesAttack2.wav-48b413b7eaf8979d031e13f5dd894c87.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Murloc/MurlocYesAttack2.wav"
+dest_files=["res://.godot/imported/MurlocYesAttack2.wav-48b413b7eaf8979d031e13f5dd894c87.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

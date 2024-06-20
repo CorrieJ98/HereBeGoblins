@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://fjcwjalto6ix"
+path="res://.godot/imported/HeroMountainKingYesAttack4.wav-f9947545762dc2c2d34ee982179d4802.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroMountainKing/HeroMountainKingYesAttack4.wav"
+dest_files=["res://.godot/imported/HeroMountainKingYesAttack4.wav-f9947545762dc2c2d34ee982179d4802.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgbxkg63i353n"
+path="res://.godot/imported/MalfurionWhat4.wav-d9d082fcd6241eae50098f285f0b4c22.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/MalFurion/MalfurionWhat4.wav"
+dest_files=["res://.godot/imported/MalfurionWhat4.wav-d9d082fcd6241eae50098f285f0b4c22.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

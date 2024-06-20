@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dexnve4neibna"
+path="res://.godot/imported/FaerieDragonWhat2.wav-95b15bcbf8304bc0f10df48ac8f1e032.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/FaerieDragon/FaerieDragonWhat2.wav"
+dest_files=["res://.godot/imported/FaerieDragonWhat2.wav-95b15bcbf8304bc0f10df48ac8f1e032.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

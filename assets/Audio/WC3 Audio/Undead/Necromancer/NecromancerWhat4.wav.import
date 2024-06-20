@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cj13u7ljvwh3j"
+path="res://.godot/imported/NecromancerWhat4.wav-a2c60eb59250ad3a1773d4f98bc21b48.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Necromancer/NecromancerWhat4.wav"
+dest_files=["res://.godot/imported/NecromancerWhat4.wav-a2c60eb59250ad3a1773d4f98bc21b48.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

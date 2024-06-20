@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://baexx38edy2j3"
+path="res://.godot/imported/GruntUnitAttack1.wav-cb340de4f4bc6303385b2fbb14f32d3f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/Orc/GruntUnitAttack1.wav"
+dest_files=["res://.godot/imported/GruntUnitAttack1.wav-cb340de4f4bc6303385b2fbb14f32d3f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

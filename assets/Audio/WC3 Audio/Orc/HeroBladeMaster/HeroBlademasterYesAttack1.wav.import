@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmnnkrqqw71y1"
+path="res://.godot/imported/HeroBlademasterYesAttack1.wav-699a78d5c887ac9706396b6620418ca2.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroBladeMaster/HeroBlademasterYesAttack1.wav"
+dest_files=["res://.godot/imported/HeroBlademasterYesAttack1.wav-699a78d5c887ac9706396b6620418ca2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjsv4j7eddflb"
+path="res://.godot/imported/SuccubusReady1.wav-fe7d0a756b0887c030d8d949cb1c243c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Demoness/SuccubusReady1.wav"
+dest_files=["res://.godot/imported/SuccubusReady1.wav-fe7d0a756b0887c030d8d949cb1c243c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

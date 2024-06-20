@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jyal52blmk58"
+path="res://.godot/imported/WispWhat2.wav-ef1998e2997796ae05dac94f09fbf4f5.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Wisp/WispWhat2.wav"
+dest_files=["res://.godot/imported/WispWhat2.wav-ef1998e2997796ae05dac94f09fbf4f5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

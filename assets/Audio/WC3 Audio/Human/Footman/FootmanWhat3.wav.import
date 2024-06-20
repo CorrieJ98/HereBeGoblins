@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmt6j6c31mptn"
+path="res://.godot/imported/FootmanWhat3.wav-73f077fb8b19e14e8c73fc3888cbf643.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Footman/FootmanWhat3.wav"
+dest_files=["res://.godot/imported/FootmanWhat3.wav-73f077fb8b19e14e8c73fc3888cbf643.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8uctsrw0fa58"
+path="res://.godot/imported/SpellbreakerWhat4.wav-076c551c94ac45cba167df1b8ebe0dcb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/BloodElfSpellThief/SpellbreakerWhat4.wav"
+dest_files=["res://.godot/imported/SpellbreakerWhat4.wav-076c551c94ac45cba167df1b8ebe0dcb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

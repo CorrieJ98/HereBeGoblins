@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://x0vcohsv5k2h"
+path="res://.godot/imported/TyrandeAngry4.wav-7c773abca48331ec34fbd5a000b3bf1c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Tyrande/TyrandeAngry4.wav"
+dest_files=["res://.godot/imported/TyrandeAngry4.wav-7c773abca48331ec34fbd5a000b3bf1c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

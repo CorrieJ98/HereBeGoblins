@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwuej3ouetvd6"
+path="res://.godot/imported/GoblinSapperAngry2.wav-73c2f89dda7b4899e6dce29d46a0d0c9.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GoblinSapper/GoblinSapperAngry2.wav"
+dest_files=["res://.godot/imported/GoblinSapperAngry2.wav-73c2f89dda7b4899e6dce29d46a0d0c9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

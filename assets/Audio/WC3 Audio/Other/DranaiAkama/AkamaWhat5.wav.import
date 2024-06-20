@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cgue2hlbrto2t"
+path="res://.godot/imported/AkamaWhat5.wav-696cf0df0319588d8fc769b791eb6295.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/DranaiAkama/AkamaWhat5.wav"
+dest_files=["res://.godot/imported/AkamaWhat5.wav-696cf0df0319588d8fc769b791eb6295.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

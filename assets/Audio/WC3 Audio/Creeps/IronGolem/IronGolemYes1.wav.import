@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://8qr8sh347foe"
+path="res://.godot/imported/IronGolemYes1.wav-082eb2f9da6a39e782fcd74394981939.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/IronGolem/IronGolemYes1.wav"
+dest_files=["res://.godot/imported/IronGolemYes1.wav-082eb2f9da6a39e782fcd74394981939.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

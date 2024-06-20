@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bilgwsjvl5m5f"
+path="res://.godot/imported/GruntGoldMineLow1.wav-0e8478055fe80537addb0d096b993344.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/Orc/GruntGoldMineLow1.wav"
+dest_files=["res://.godot/imported/GruntGoldMineLow1.wav-0e8478055fe80537addb0d096b993344.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

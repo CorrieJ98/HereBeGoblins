@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcklwuui7y04m"
+path="res://.godot/imported/RiflemanAttack1.wav-449ddc60367111647eef48d04bd0a450.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Rifleman/RiflemanAttack1.wav"
+dest_files=["res://.godot/imported/RiflemanAttack1.wav-449ddc60367111647eef48d04bd0a450.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

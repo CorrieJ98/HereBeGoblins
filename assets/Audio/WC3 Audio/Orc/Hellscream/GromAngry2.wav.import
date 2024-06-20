@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqexvjejwixsm"
+path="res://.godot/imported/GromAngry2.wav-067bf8c6706515d9b6f2c3544d2fd84a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Hellscream/GromAngry2.wav"
+dest_files=["res://.godot/imported/GromAngry2.wav-067bf8c6706515d9b6f2c3544d2fd84a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

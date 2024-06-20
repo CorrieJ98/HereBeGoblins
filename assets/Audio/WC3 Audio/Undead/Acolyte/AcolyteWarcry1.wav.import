@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnqy4p7j3ix10"
+path="res://.godot/imported/AcolyteWarcry1.wav-e78d87cc6f70c25c20164d35697c41d3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Acolyte/AcolyteWarcry1.wav"
+dest_files=["res://.godot/imported/AcolyteWarcry1.wav-e78d87cc6f70c25c20164d35697c41d3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

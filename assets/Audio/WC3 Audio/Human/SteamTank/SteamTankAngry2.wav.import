@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqt8ifdvv773o"
+path="res://.godot/imported/SteamTankAngry2.wav-2f6d524a9e0ef7f8189f17f90d4a79c2.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/SteamTank/SteamTankAngry2.wav"
+dest_files=["res://.godot/imported/SteamTankAngry2.wav-2f6d524a9e0ef7f8189f17f90d4a79c2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

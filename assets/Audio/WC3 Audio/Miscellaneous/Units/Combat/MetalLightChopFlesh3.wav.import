@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3pasqfwmocuo"
+path="res://.godot/imported/MetalLightChopFlesh3.wav-36afdbee4ec1bba7ae5a9c77b63ed1ff.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalLightChopFlesh3.wav"
+dest_files=["res://.godot/imported/MetalLightChopFlesh3.wav-36afdbee4ec1bba7ae5a9c77b63ed1ff.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

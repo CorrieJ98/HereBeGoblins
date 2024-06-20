@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwjnk05pq3uo6"
+path="res://.godot/imported/FrostwyrmReady1.wav-9f1e001bc44a15eb16955a76be956980.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/FrostWyrm/FrostwyrmReady1.wav"
+dest_files=["res://.godot/imported/FrostwyrmReady1.wav-9f1e001bc44a15eb16955a76be956980.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

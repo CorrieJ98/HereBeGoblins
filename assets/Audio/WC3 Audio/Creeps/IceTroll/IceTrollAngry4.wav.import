@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dabvmtsu7y0wg"
+path="res://.godot/imported/IceTrollAngry4.wav-afd85aaedf9c6755d277224a548da067.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/IceTroll/IceTrollAngry4.wav"
+dest_files=["res://.godot/imported/IceTrollAngry4.wav-afd85aaedf9c6755d277224a548da067.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

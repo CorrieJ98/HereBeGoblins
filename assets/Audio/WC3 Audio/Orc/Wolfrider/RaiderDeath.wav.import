@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cokn265j1rtfm"
+path="res://.godot/imported/RaiderDeath.wav-67b42835d45b4b87a3dc64169de8a02f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Wolfrider/RaiderDeath.wav"
+dest_files=["res://.godot/imported/RaiderDeath.wav-67b42835d45b4b87a3dc64169de8a02f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

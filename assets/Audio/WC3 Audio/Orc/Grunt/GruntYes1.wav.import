@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdj8hkbwmxxi0"
+path="res://.godot/imported/GruntYes1.wav-a1c6810c83ee7876ceb1a6b104a7ed96.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Grunt/GruntYes1.wav"
+dest_files=["res://.godot/imported/GruntYes1.wav-a1c6810c83ee7876ceb1a6b104a7ed96.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://vgqywo28ny38"
+path="res://.godot/imported/MaievYesAttack3.wav-5360640752bfcee75653d808be52e08d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Maiev/MaievYesAttack3.wav"
+dest_files=["res://.godot/imported/MaievYesAttack3.wav-5360640752bfcee75653d808be52e08d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

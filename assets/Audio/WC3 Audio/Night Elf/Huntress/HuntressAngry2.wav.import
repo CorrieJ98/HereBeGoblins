@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://balgs1dyq5d80"
+path="res://.godot/imported/HuntressAngry2.wav-a3bb751c42d8c38fe5134188ae7a492c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Huntress/HuntressAngry2.wav"
+dest_files=["res://.godot/imported/HuntressAngry2.wav-a3bb751c42d8c38fe5134188ae7a492c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

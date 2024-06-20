@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1sylfptilqv2"
+path="res://.godot/imported/MaievAngry2.wav-92ff8b2f5c6c49289f1a2372cc01f7db.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Maiev/MaievAngry2.wav"
+dest_files=["res://.godot/imported/MaievAngry2.wav-92ff8b2f5c6c49289f1a2372cc01f7db.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

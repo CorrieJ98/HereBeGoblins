@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwnx60bnf2jxu"
+path="res://.godot/imported/BuildingConstruction.wav-0b12fbc9a9cc36f08030604d352ffcbf.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Shared/BuildingConstruction.wav"
+dest_files=["res://.godot/imported/BuildingConstruction.wav-0b12fbc9a9cc36f08030604d352ffcbf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

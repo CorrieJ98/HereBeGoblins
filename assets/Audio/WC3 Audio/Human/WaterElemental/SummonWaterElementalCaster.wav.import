@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dsdpkwj2blovp"
+path="res://.godot/imported/SummonWaterElementalCaster.wav-6c3e78120dac983f62036d4e29e8ee09.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/WaterElemental/SummonWaterElementalCaster.wav"
+dest_files=["res://.godot/imported/SummonWaterElementalCaster.wav-6c3e78120dac983f62036d4e29e8ee09.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

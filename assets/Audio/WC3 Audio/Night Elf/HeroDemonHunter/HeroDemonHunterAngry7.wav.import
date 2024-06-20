@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfv7v87c5obfe"
+path="res://.godot/imported/HeroDemonHunterAngry7.wav-bf4c05d457cb0a2c1ae3a67b4449a7a5.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroDemonHunter/HeroDemonHunterAngry7.wav"
+dest_files=["res://.godot/imported/HeroDemonHunterAngry7.wav-bf4c05d457cb0a2c1ae3a67b4449a7a5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

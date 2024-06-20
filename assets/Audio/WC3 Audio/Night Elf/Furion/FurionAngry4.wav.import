@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dgfyc4y4pw23x"
+path="res://.godot/imported/FurionAngry4.wav-fce3a98f0afab5611db87c1fcb1d015b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Furion/FurionAngry4.wav"
+dest_files=["res://.godot/imported/FurionAngry4.wav-fce3a98f0afab5611db87c1fcb1d015b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

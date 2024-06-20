@@ -232,3 +232,12 @@ layout_mode = 2
 
 [node name="HealthBar" parent="." instance=ExtResource("9_bxs3v")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, 0)
+<<<<<<< Updated upstream:scene/buildings/townhall.tscn
+=======
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+
+[connection signal="tree_exited" from="." to="." method="_on_tree_exited"]
+[connection signal="body_entered" from="BuildArea" to="." method="_on_build_area_body_entered"]
+[connection signal="body_exited" from="BuildArea" to="." method="_on_build_area_body_exited"]
+>>>>>>> Stashed changes:scenes/main_building.tscn

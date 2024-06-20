@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ceigpsrl1nafd"
+path="res://.godot/imported/PeonWarcry1.wav-eeb63831e694e4d9cbab6ae2977f5bab.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Peon/PeonWarcry1.wav"
+dest_files=["res://.godot/imported/PeonWarcry1.wav-eeb63831e694e4d9cbab6ae2977f5bab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dec3kj56wcvu3"
+path="res://.godot/imported/ForestTrollWhat1.wav-0be08e1db02ee1fbaaa112e9ba45d9e3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/ForestTroll/ForestTrollWhat1.wav"
+dest_files=["res://.godot/imported/ForestTrollWhat1.wav-0be08e1db02ee1fbaaa112e9ba45d9e3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

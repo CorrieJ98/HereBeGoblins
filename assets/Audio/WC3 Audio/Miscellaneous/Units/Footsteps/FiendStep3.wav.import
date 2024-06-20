@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dewu3d5pnc1u3"
+path="res://.godot/imported/FiendStep3.wav-71ace2cef8fb9b17bcfc81b50c220b43.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Footsteps/FiendStep3.wav"
+dest_files=["res://.godot/imported/FiendStep3.wav-71ace2cef8fb9b17bcfc81b50c220b43.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

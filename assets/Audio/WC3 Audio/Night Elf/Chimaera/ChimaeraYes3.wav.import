@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bfpmsout0f8py"
+path="res://.godot/imported/ChimaeraYes3.wav-633a58db96d1f0526a7b51472b929ead.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Chimaera/ChimaeraYes3.wav"
+dest_files=["res://.godot/imported/ChimaeraYes3.wav-633a58db96d1f0526a7b51472b929ead.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

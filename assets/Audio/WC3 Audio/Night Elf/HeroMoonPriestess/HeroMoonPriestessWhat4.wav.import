@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dq2op4p5b20ma"
+path="res://.godot/imported/HeroMoonPriestessWhat4.wav-ca05ba690b982aac6a3cdbd7a72014ac.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroMoonPriestess/HeroMoonPriestessWhat4.wav"
+dest_files=["res://.godot/imported/HeroMoonPriestessWhat4.wav-ca05ba690b982aac6a3cdbd7a72014ac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

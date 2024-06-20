@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6msr7lsna7r4"
+path="res://.godot/imported/SnapDragonYesAttack1.wav-768e4c646f35de92d03756f60615b67e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/SnapDragon/SnapDragonYesAttack1.wav"
+dest_files=["res://.godot/imported/SnapDragonYesAttack1.wav-768e4c646f35de92d03756f60615b67e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

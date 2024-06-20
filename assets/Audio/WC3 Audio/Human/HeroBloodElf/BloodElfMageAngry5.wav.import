@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://mppc6bufkqo6"
+path="res://.godot/imported/BloodElfMageAngry5.wav-1464d1c5a1f39c9f7a3dbfe313138998.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroBloodElf/BloodElfMageAngry5.wav"
+dest_files=["res://.godot/imported/BloodElfMageAngry5.wav-1464d1c5a1f39c9f7a3dbfe313138998.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2r5mpb0os5ba"
+path="res://.godot/imported/HeroMoonPriestessDeath1.wav-1b1bf79eb510aea2d34312e717662613.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroMoonPriestess/HeroMoonPriestessDeath1.wav"
+dest_files=["res://.godot/imported/HeroMoonPriestessDeath1.wav-1b1bf79eb510aea2d34312e717662613.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

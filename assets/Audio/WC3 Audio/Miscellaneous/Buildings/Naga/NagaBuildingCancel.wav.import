@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwodg1qhtujlc"
+path="res://.godot/imported/NagaBuildingCancel.wav-efcf725a152634f8c5a044c2b53b3ef2.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Naga/NagaBuildingCancel.wav"
+dest_files=["res://.godot/imported/NagaBuildingCancel.wav-efcf725a152634f8c5a044c2b53b3ef2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

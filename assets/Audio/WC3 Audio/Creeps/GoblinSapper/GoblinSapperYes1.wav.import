@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bm2vjcrqr0c8s"
+path="res://.godot/imported/GoblinSapperYes1.wav-66db5b0e98ed8d5147c236f8c46be08f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GoblinSapper/GoblinSapperYes1.wav"
+dest_files=["res://.godot/imported/GoblinSapperYes1.wav-66db5b0e98ed8d5147c236f8c46be08f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

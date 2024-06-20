@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cllokuv4hpot5"
+path="res://.godot/imported/BattlenetDeath1.wav-2aa820be3bcc65e7f344835425f6e395.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/BattlenetDeath1.wav"
+dest_files=["res://.godot/imported/BattlenetDeath1.wav-2aa820be3bcc65e7f344835425f6e395.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

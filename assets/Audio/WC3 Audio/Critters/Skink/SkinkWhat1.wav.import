@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://qkwhc3lf7ncq"
+path="res://.godot/imported/SkinkWhat1.wav-a70571cfb1a28b24e7a86cace84259bb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/Skink/SkinkWhat1.wav"
+dest_files=["res://.godot/imported/SkinkWhat1.wav-a70571cfb1a28b24e7a86cace84259bb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

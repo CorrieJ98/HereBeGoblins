@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://nqjisp2patkd"
+path="res://.godot/imported/NaishaAngry1.wav-e719f4d385f1c8c0288bc3261b446177.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Naisha/NaishaAngry1.wav"
+dest_files=["res://.godot/imported/NaishaAngry1.wav-e719f4d385f1c8c0288bc3261b446177.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

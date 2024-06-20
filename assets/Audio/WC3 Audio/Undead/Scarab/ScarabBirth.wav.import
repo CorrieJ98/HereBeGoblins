@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cn1ajjikopffp"
+path="res://.godot/imported/ScarabBirth.wav-6e4c88cc4230f69c88a40462b2b42cda.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Scarab/ScarabBirth.wav"
+dest_files=["res://.godot/imported/ScarabBirth.wav-6e4c88cc4230f69c88a40462b2b42cda.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

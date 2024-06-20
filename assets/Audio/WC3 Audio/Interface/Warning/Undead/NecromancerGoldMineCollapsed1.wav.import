@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bij4fgtqs1eqm"
+path="res://.godot/imported/NecromancerGoldMineCollapsed1.wav-410638489783eb928d77fd56cfb6ef0f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/Undead/NecromancerGoldMineCollapsed1.wav"
+dest_files=["res://.godot/imported/NecromancerGoldMineCollapsed1.wav-410638489783eb928d77fd56cfb6ef0f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

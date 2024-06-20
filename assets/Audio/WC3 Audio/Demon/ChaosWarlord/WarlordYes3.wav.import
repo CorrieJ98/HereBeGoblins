@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1vsinn18iq3k"
+path="res://.godot/imported/WarlordYes3.wav-8f3b450cc587fdf83028ed1e646b818c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/ChaosWarlord/WarlordYes3.wav"
+dest_files=["res://.godot/imported/WarlordYes3.wav-8f3b450cc587fdf83028ed1e646b818c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

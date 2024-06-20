@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bp0u4n3v62wdy"
+path="res://.godot/imported/ForestTrollAngry5.wav-d943b353560df0e8f56a8aa5286342dd.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/ForestTroll/ForestTrollAngry5.wav"
+dest_files=["res://.godot/imported/ForestTrollAngry5.wav-d943b353560df0e8f56a8aa5286342dd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

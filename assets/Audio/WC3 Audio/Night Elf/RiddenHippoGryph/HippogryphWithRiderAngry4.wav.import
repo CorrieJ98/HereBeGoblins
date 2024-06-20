@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cv52qlkf7qo46"
+path="res://.godot/imported/HippogryphWithRiderAngry4.wav-967d3e784aedb98947da54cbf34cddd3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/RiddenHippoGryph/HippogryphWithRiderAngry4.wav"
+dest_files=["res://.godot/imported/HippogryphWithRiderAngry4.wav-967d3e784aedb98947da54cbf34cddd3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://6wfwy2cbakdj"
+path="res://.godot/imported/HeroDreadlordAngry5.wav-0135217e91edf486cd1a6100bfcc7bd0.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroDreadLord/HeroDreadlordAngry5.wav"
+dest_files=["res://.godot/imported/HeroDreadlordAngry5.wav-0135217e91edf486cd1a6100bfcc7bd0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

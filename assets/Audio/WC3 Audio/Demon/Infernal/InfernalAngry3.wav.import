@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvw3wqrs7dyxn"
+path="res://.godot/imported/InfernalAngry3.wav-51246cb74f0760e8de29f3927913affe.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Infernal/InfernalAngry3.wav"
+dest_files=["res://.godot/imported/InfernalAngry3.wav-51246cb74f0760e8de29f3927913affe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

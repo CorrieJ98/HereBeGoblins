@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cbuj68yg4gw3a"
+path="res://.godot/imported/WolfriderYesAttack3.wav-cfc852343bce6df1f8b01a6b6f18a22d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Wolfrider/WolfriderYesAttack3.wav"
+dest_files=["res://.godot/imported/WolfriderYesAttack3.wav-cfc852343bce6df1f8b01a6b6f18a22d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c23ph03cl3fc3"
+path="res://.godot/imported/PandarenBrewmasterEarthWarcry1.wav-f84e4a5d130dc35431febba7c02fca79.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/EarthPandarenBrewmaster/PandarenBrewmasterEarthWarcry1.wav"
+dest_files=["res://.godot/imported/PandarenBrewmasterEarthWarcry1.wav-f84e4a5d130dc35431febba7c02fca79.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

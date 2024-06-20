@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://csjuhmatq3qiv"
+path="res://.godot/imported/FanOfKnives.wav-54ef62045391cea9eeef666b0a47fd39.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroWarden/FanOfKnives.wav"
+dest_files=["res://.godot/imported/FanOfKnives.wav-54ef62045391cea9eeef666b0a47fd39.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

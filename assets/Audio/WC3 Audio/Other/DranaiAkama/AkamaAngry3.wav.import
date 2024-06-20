@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bu4llc65rw12k"
+path="res://.godot/imported/AkamaAngry3.wav-6233f8464b9cdb0cf7c18f238b176336.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/DranaiAkama/AkamaAngry3.wav"
+dest_files=["res://.godot/imported/AkamaAngry3.wav-6233f8464b9cdb0cf7c18f238b176336.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hdfo3x34jtjs"
+path="res://.godot/imported/WaterStep3.wav-3589d208212f0328a9bfa4ed9d30e657.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Footsteps/WaterStep3.wav"
+dest_files=["res://.godot/imported/WaterStep3.wav-3589d208212f0328a9bfa4ed9d30e657.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

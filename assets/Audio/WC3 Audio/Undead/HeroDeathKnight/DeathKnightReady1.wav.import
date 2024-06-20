@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dubyfdpnero4x"
+path="res://.godot/imported/DeathKnightReady1.wav-3d0b4c1cadc4fc7756be4b10478169df.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroDeathKnight/DeathKnightReady1.wav"
+dest_files=["res://.godot/imported/DeathKnightReady1.wav-3d0b4c1cadc4fc7756be4b10478169df.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7jya40bq66s6"
+path="res://.godot/imported/PandarenBrewmasterFireAngry1.wav-02f918e907e699615cb6892779fdf96a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/FirePandarenBrewmaster/PandarenBrewmasterFireAngry1.wav"
+dest_files=["res://.godot/imported/PandarenBrewmasterFireAngry1.wav-02f918e907e699615cb6892779fdf96a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

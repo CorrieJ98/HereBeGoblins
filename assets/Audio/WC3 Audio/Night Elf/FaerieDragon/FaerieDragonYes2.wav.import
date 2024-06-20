@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d2sp8qeylmqx0"
+path="res://.godot/imported/FaerieDragonYes2.wav-f54d916170b06015702f9dbcdc9ac56c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/FaerieDragon/FaerieDragonYes2.wav"
+dest_files=["res://.godot/imported/FaerieDragonYes2.wav-f54d916170b06015702f9dbcdc9ac56c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

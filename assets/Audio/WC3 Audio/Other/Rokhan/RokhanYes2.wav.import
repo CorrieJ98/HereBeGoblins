@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://box6g4q58lwl8"
+path="res://.godot/imported/RokhanYes2.wav-f574853baa3b09d2cf326b13a5a31b99.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/Rokhan/RokhanYes2.wav"
+dest_files=["res://.godot/imported/RokhanYes2.wav-f574853baa3b09d2cf326b13a5a31b99.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

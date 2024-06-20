@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ci7qq3i7f5ano"
+path="res://.godot/imported/WitchDoctorDeath.wav-75e6411553b8fc08baabe9e304a2c273.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/WitchDoctor/WitchDoctorDeath.wav"
+dest_files=["res://.godot/imported/WitchDoctorDeath.wav-75e6411553b8fc08baabe9e304a2c273.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

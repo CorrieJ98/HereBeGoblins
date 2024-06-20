@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnnqbjjho27a4"
+path="res://.godot/imported/NazgrelYesAttack3.wav-524b336302395af5cfedb109b8b79f2b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/Nazgrel/NazgrelYesAttack3.wav"
+dest_files=["res://.godot/imported/NazgrelYesAttack3.wav-524b336302395af5cfedb109b8b79f2b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

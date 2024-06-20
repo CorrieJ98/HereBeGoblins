@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr7mue2lcc2pf"
+path="res://.godot/imported/HeroMoonPriestessYesAttack2.wav-b606ec3e7c3301778dde6cda519d63cf.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroMoonPriestess/HeroMoonPriestessYesAttack2.wav"
+dest_files=["res://.godot/imported/HeroMoonPriestessYesAttack2.wav-b606ec3e7c3301778dde6cda519d63cf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

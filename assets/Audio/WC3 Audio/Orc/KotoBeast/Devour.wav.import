@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5n5w2hgpbs6h"
+path="res://.godot/imported/Devour.wav-677d28f5efe1cb89fe7161c885ee1793.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/KotoBeast/Devour.wav"
+dest_files=["res://.godot/imported/Devour.wav-677d28f5efe1cb89fe7161c885ee1793.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

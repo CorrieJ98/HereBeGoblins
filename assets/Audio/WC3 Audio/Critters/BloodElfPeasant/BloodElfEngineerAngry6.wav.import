@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drb1jndhocbqk"
+path="res://.godot/imported/BloodElfEngineerAngry6.wav-53915d91ac55acd33f645a703cfbbddc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/BloodElfPeasant/BloodElfEngineerAngry6.wav"
+dest_files=["res://.godot/imported/BloodElfEngineerAngry6.wav-53915d91ac55acd33f645a703cfbbddc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

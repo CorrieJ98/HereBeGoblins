@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cfhm0r3v3vrsb"
+path="res://.godot/imported/MagnataurYesAttack2.wav-ca37d7d1c791f8e133ee81b19709ffcc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Magnataur/MagnataurYesAttack2.wav"
+dest_files=["res://.godot/imported/MagnataurYesAttack2.wav-ca37d7d1c791f8e133ee81b19709ffcc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

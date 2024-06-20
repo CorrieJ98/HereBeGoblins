@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpk4p26s1qwbr"
+path="res://.godot/imported/KodoBeastDeath.wav-55edd93fd5139e60c2d0a01ab8668f4d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/KotoBeast/KodoBeastDeath.wav"
+dest_files=["res://.godot/imported/KodoBeastDeath.wav-55edd93fd5139e60c2d0a01ab8668f4d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

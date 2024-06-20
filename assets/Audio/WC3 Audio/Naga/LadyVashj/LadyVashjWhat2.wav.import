@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnxnboiun5dua"
+path="res://.godot/imported/LadyVashjWhat2.wav-0428dc24bd11528896b2c824b263b253.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/LadyVashj/LadyVashjWhat2.wav"
+dest_files=["res://.godot/imported/LadyVashjWhat2.wav-0428dc24bd11528896b2c824b263b253.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

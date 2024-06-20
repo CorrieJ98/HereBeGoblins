@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c47l0t4oo6jm1"
+path="res://.godot/imported/MetalHeavySliceStone2.wav-2291c41940fb5cc014cd24e8eeeb998e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalHeavySliceStone2.wav"
+dest_files=["res://.godot/imported/MetalHeavySliceStone2.wav-2291c41940fb5cc014cd24e8eeeb998e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

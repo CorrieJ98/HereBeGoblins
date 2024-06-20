@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccgpdxfrk32kf"
+path="res://.godot/imported/KnightYes2.wav-01a52552a2452304d63d7a9cdf37a2e3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Knight/KnightYes2.wav"
+dest_files=["res://.godot/imported/KnightYes2.wav-01a52552a2452304d63d7a9cdf37a2e3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

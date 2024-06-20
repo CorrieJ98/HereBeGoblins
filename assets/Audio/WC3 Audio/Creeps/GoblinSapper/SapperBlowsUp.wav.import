@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnqr6rtj72mqd"
+path="res://.godot/imported/SapperBlowsUp.wav-a2e9a554e9e5ee5461f9eeb98e09c8da.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GoblinSapper/SapperBlowsUp.wav"
+dest_files=["res://.godot/imported/SapperBlowsUp.wav-a2e9a554e9e5ee5461f9eeb98e09c8da.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

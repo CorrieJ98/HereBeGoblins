@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3yqixqaxv1mf"
+path="res://.godot/imported/NagaGoldMineLow1.wav-7e0a13571a2ffb6fa29246c97ea7c8c5.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/Naga/NagaGoldMineLow1.wav"
+dest_files=["res://.godot/imported/NagaGoldMineLow1.wav-7e0a13571a2ffb6fa29246c97ea7c8c5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

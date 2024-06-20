@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://camiy4wqteh56"
+path="res://.godot/imported/LadyVashjWarcry1.wav-9a2c6b6931d0d5aa8fc5734d8a52f6bf.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/LadyVashj/LadyVashjWarcry1.wav"
+dest_files=["res://.godot/imported/LadyVashjWarcry1.wav-9a2c6b6931d0d5aa8fc5734d8a52f6bf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

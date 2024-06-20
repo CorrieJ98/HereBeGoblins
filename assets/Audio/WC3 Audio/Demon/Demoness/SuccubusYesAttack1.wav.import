@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://drw7sahpqr3rr"
+path="res://.godot/imported/SuccubusYesAttack1.wav-2ed6ba86f2ee9b5771e45aa4d7c2aa88.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Demoness/SuccubusYesAttack1.wav"
+dest_files=["res://.godot/imported/SuccubusYesAttack1.wav-2ed6ba86f2ee9b5771e45aa4d7c2aa88.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

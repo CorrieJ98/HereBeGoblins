@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5nhyhqk4gpx3"
+path="res://.godot/imported/BloodElfEngineerYes2.wav-e9f831211b9e0bddf05c461e4b118d45.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/BloodElfPeasant/BloodElfEngineerYes2.wav"
+dest_files=["res://.godot/imported/BloodElfEngineerYes2.wav-e9f831211b9e0bddf05c461e4b118d45.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

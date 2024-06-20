@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxmraa2hwvkqn"
+path="res://.godot/imported/BansheeGhostYes2.wav-c24d074244ab7649f942e4e6bede8b8d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/BansheeGhost/BansheeGhostYes2.wav"
+dest_files=["res://.godot/imported/BansheeGhostYes2.wav-c24d074244ab7649f942e4e6bede8b8d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

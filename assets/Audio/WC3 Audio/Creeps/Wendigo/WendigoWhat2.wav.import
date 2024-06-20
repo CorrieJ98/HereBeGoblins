@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr2fxgnl1r4hh"
+path="res://.godot/imported/WendigoWhat2.wav-e241d75c8cb3261a2e6ef37310f14559.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Wendigo/WendigoWhat2.wav"
+dest_files=["res://.godot/imported/WendigoWhat2.wav-e241d75c8cb3261a2e6ef37310f14559.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

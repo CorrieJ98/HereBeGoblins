@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://f1kewquodl7c"
+path="res://.godot/imported/HippogryphWithRiderWarcry1.wav-8491bd21d6a7bab8fa18a11bbdf905fc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/RiddenHippoGryph/HippogryphWithRiderWarcry1.wav"
+dest_files=["res://.godot/imported/HippogryphWithRiderWarcry1.wav-8491bd21d6a7bab8fa18a11bbdf905fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dkhitlvuxf4ud"
+path="res://.godot/imported/RacoonWhat1.wav-ea59c72e54b86f5f7d494da84a280d79.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/Raccoon/RacoonWhat1.wav"
+dest_files=["res://.godot/imported/RacoonWhat1.wav-ea59c72e54b86f5f7d494da84a280d79.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

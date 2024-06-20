@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://chye1p0y85dwd"
+path="res://.godot/imported/GyrocopterYesAttack4.wav-42680d604fb252d80bfc6fa1ee97b4e7.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/GyroCopter/GyrocopterYesAttack4.wav"
+dest_files=["res://.godot/imported/GyrocopterYesAttack4.wav-42680d604fb252d80bfc6fa1ee97b4e7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

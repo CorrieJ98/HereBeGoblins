@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://k5kd5codexvg"
+path="res://.godot/imported/ArcherYes3.wav-afb9ab1d01180dec2146022aad598af8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Archer/ArcherYes3.wav"
+dest_files=["res://.godot/imported/ArcherYes3.wav-afb9ab1d01180dec2146022aad598af8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

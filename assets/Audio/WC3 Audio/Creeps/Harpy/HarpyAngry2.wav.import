@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cquga2miuii78"
+path="res://.godot/imported/HarpyAngry2.wav-e8cac83aa78242cb3f421e14930b5283.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Harpy/HarpyAngry2.wav"
+dest_files=["res://.godot/imported/HarpyAngry2.wav-e8cac83aa78242cb3f421e14930b5283.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

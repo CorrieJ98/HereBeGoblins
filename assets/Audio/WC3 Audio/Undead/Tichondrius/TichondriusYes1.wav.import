@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cq7wun2urqckk"
+path="res://.godot/imported/TichondriusYes1.wav-3dd7941f7e5a833f7ef9f60702e59d28.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Tichondrius/TichondriusYes1.wav"
+dest_files=["res://.godot/imported/TichondriusYes1.wav-3dd7941f7e5a833f7ef9f60702e59d28.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

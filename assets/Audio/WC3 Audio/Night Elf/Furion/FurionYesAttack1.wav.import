@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cixaxo525qt2l"
+path="res://.godot/imported/FurionYesAttack1.wav-f297e6da135cbe32c0843a9b3a3fbc23.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Furion/FurionYesAttack1.wav"
+dest_files=["res://.godot/imported/FurionYesAttack1.wav-f297e6da135cbe32c0843a9b3a3fbc23.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

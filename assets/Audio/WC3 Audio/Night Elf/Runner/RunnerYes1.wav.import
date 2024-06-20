@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://blot4u33hxefo"
+path="res://.godot/imported/RunnerYes1.wav-748834e106593480de998a00feb690ae.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Runner/RunnerYes1.wav"
+dest_files=["res://.godot/imported/RunnerYes1.wav-748834e106593480de998a00feb690ae.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

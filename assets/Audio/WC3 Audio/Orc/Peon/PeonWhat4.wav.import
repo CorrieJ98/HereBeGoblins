@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbosrijmuvrtq"
+path="res://.godot/imported/PeonWhat4.wav-3ecbbe649a97371628df3078cb27b9fd.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Peon/PeonWhat4.wav"
+dest_files=["res://.godot/imported/PeonWhat4.wav-3ecbbe649a97371628df3078cb27b9fd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

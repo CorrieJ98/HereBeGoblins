@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0kpt5d7k3gof"
+path="res://.godot/imported/BristlebackYes1.wav-d17e2bfcc59f868294a060b8b74f23ae.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/BristleBack/BristlebackYes1.wav"
+dest_files=["res://.godot/imported/BristlebackYes1.wav-d17e2bfcc59f868294a060b8b74f23ae.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

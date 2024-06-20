@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dum7lwqvkwl8x"
+path="res://.godot/imported/TyrandeYes3.wav-8bcd21a1e9c4919227c44047dba21d67.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Tyrande/TyrandeYes3.wav"
+dest_files=["res://.godot/imported/TyrandeYes3.wav-8bcd21a1e9c4919227c44047dba21d67.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

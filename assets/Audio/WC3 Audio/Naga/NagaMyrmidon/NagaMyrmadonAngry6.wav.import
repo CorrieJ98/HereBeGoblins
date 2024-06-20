@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ciuxle5m1fk47"
+path="res://.godot/imported/NagaMyrmadonAngry6.wav-1ed4775e494552b232036e28633a0f1f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/NagaMyrmidon/NagaMyrmadonAngry6.wav"
+dest_files=["res://.godot/imported/NagaMyrmadonAngry6.wav-1ed4775e494552b232036e28633a0f1f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

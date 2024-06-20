@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c52mpi0m8amfj"
+path="res://.godot/imported/SorceressAngry1.wav-335b53d62881db2b4578eef18b78b73b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Sorceress/SorceressAngry1.wav"
+dest_files=["res://.godot/imported/SorceressAngry1.wav-335b53d62881db2b4578eef18b78b73b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

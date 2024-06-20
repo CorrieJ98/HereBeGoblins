@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clb6yvxlavri"
+path="res://.godot/imported/HeroBlademasterAngry3.wav-a20a403b44392d07f98a94052c8f07a4.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroBladeMaster/HeroBlademasterAngry3.wav"
+dest_files=["res://.godot/imported/HeroBlademasterAngry3.wav-a20a403b44392d07f98a94052c8f07a4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

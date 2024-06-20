@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://du774adh2qryx"
+path="res://.godot/imported/ArcherAngry6.wav-04ec1625dde333397d5d377c1cfb4571.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Archer/ArcherAngry6.wav"
+dest_files=["res://.godot/imported/ArcherAngry6.wav-04ec1625dde333397d5d377c1cfb4571.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

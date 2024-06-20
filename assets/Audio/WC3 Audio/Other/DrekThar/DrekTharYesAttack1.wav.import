@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqgl5sya3pnaa"
+path="res://.godot/imported/DrekTharYesAttack1.wav-48b5ca6f0a94fc845928987c05ced86d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/DrekThar/DrekTharYesAttack1.wav"
+dest_files=["res://.godot/imported/DrekTharYesAttack1.wav-48b5ca6f0a94fc845928987c05ced86d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

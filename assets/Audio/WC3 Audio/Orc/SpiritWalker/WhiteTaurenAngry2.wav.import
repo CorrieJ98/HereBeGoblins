@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c76sfasacpvul"
+path="res://.godot/imported/WhiteTaurenAngry2.wav-2fe468f4f24cb0114ac963d5a160d25d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/SpiritWalker/WhiteTaurenAngry2.wav"
+dest_files=["res://.godot/imported/WhiteTaurenAngry2.wav-2fe468f4f24cb0114ac963d5a160d25d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d4hkeqfpsleed"
+path="res://.godot/imported/VillagerM1.wav-0cc4ec49b62290c30f6e4716411b4f03.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/VillagerMan/VillagerM1.wav"
+dest_files=["res://.godot/imported/VillagerM1.wav-0cc4ec49b62290c30f6e4716411b4f03.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

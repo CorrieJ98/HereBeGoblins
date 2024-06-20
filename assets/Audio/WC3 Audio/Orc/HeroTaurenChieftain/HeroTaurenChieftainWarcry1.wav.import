@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hs3eelhsu7er"
+path="res://.godot/imported/HeroTaurenChieftainWarcry1.wav-a90930fd87b7c4b261ff1a0f60182d2e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroTaurenChieftain/HeroTaurenChieftainWarcry1.wav"
+dest_files=["res://.godot/imported/HeroTaurenChieftainWarcry1.wav-a90930fd87b7c4b261ff1a0f60182d2e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

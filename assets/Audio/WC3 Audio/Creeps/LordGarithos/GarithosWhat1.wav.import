@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxqebe3nmi5a0"
+path="res://.godot/imported/GarithosWhat1.wav-9840b225a4b2c4fad7a2c31dedd3b725.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/LordGarithos/GarithosWhat1.wav"
+dest_files=["res://.godot/imported/GarithosWhat1.wav-9840b225a4b2c4fad7a2c31dedd3b725.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

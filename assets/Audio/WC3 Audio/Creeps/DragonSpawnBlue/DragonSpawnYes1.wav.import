@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://kambqcvo5vdw"
+path="res://.godot/imported/DragonSpawnYes1.wav-4c4edee95a3fee157d4bc2902c930778.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/DragonSpawnBlue/DragonSpawnYes1.wav"
+dest_files=["res://.godot/imported/DragonSpawnYes1.wav-4c4edee95a3fee157d4bc2902c930778.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

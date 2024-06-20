@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bt0vt4eqfvttv"
+path="res://.godot/imported/WolfriderWhat3.wav-8546546ec9f3cc366fc26d9720f781db.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Wolfrider/WolfriderWhat3.wav"
+dest_files=["res://.godot/imported/WolfriderWhat3.wav-8546546ec9f3cc366fc26d9720f781db.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

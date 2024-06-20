@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqies1p8povrl"
+path="res://.godot/imported/DryadWarcry1.wav-2714f488315612601c25e3d8d4822658.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Dryad/DryadWarcry1.wav"
+dest_files=["res://.godot/imported/DryadWarcry1.wav-2714f488315612601c25e3d8d4822658.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

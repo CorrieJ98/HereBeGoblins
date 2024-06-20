@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dh780yp1er3o4"
+path="res://.godot/imported/SteamTankYes2.wav-9207aa02952fbc4287441d0913727e82.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/SteamTank/SteamTankYes2.wav"
+dest_files=["res://.godot/imported/SteamTankYes2.wav-9207aa02952fbc4287441d0913727e82.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

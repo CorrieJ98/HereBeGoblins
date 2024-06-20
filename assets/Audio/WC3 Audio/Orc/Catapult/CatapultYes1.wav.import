@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cguol5621lem5"
+path="res://.godot/imported/CatapultYes1.wav-57c5bdfec96d1add7f1ee79159dcd76d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Catapult/CatapultYes1.wav"
+dest_files=["res://.godot/imported/CatapultYes1.wav-57c5bdfec96d1add7f1ee79159dcd76d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

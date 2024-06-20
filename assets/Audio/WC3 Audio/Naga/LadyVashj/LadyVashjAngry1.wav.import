@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cgcl7wh65r7fn"
+path="res://.godot/imported/LadyVashjAngry1.wav-714e1e84889fc118ca7b22a707d19b6e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/LadyVashj/LadyVashjAngry1.wav"
+dest_files=["res://.godot/imported/LadyVashjAngry1.wav-714e1e84889fc118ca7b22a707d19b6e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c73n1b6nminml"
+path="res://.godot/imported/WhiteTaurenYesAttack2.wav-7528f5900f80c654a1d1090c74dc4257.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/SpiritWalker/WhiteTaurenYesAttack2.wav"
+dest_files=["res://.godot/imported/WhiteTaurenYesAttack2.wav-7528f5900f80c654a1d1090c74dc4257.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

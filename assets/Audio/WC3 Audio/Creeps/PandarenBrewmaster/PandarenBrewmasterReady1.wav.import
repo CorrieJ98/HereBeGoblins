@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4i70bq5rf4fa"
+path="res://.godot/imported/PandarenBrewmasterReady1.wav-441525e78d099c380619150b2025f520.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/PandarenBrewmaster/PandarenBrewmasterReady1.wav"
+dest_files=["res://.godot/imported/PandarenBrewmasterReady1.wav-441525e78d099c380619150b2025f520.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

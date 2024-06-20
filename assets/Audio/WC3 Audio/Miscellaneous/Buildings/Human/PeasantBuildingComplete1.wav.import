@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5abo38syy3g"
+path="res://.godot/imported/PeasantBuildingComplete1.wav-2dc112594997bc4bd27f59f385265837.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Human/PeasantBuildingComplete1.wav"
+dest_files=["res://.godot/imported/PeasantBuildingComplete1.wav-2dc112594997bc4bd27f59f385265837.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

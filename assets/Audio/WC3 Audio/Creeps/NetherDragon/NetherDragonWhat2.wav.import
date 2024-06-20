@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d23460ev256im"
+path="res://.godot/imported/NetherDragonWhat2.wav-2058607e13e8aeeba20549e94bc256f8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/NetherDragon/NetherDragonWhat2.wav"
+dest_files=["res://.godot/imported/NetherDragonWhat2.wav-2058607e13e8aeeba20549e94bc256f8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

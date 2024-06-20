@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b2js2s81hs4sy"
+path="res://.godot/imported/NightElvesLargeFireLoop1.wav-5888203ebaaa1192a5bf8b4a4d2c9d57.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Fire/NightElvesLargeFireLoop1.wav"
+dest_files=["res://.godot/imported/NightElvesLargeFireLoop1.wav-5888203ebaaa1192a5bf8b4a4d2c9d57.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

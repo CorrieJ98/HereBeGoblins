@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0xbw4ykqwn08"
+path="res://.godot/imported/UndeadSmallFireLoop1.wav-e81e9fd7ae680e984de4f1099b24806b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Fire/UndeadSmallFireLoop1.wav"
+dest_files=["res://.godot/imported/UndeadSmallFireLoop1.wav-e81e9fd7ae680e984de4f1099b24806b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dcovmaa47ykea"
+path="res://.godot/imported/NecromancerTownAttack1.wav-641694b85404dbe3b898cf494c3b134d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/Undead/NecromancerTownAttack1.wav"
+dest_files=["res://.godot/imported/NecromancerTownAttack1.wav-641694b85404dbe3b898cf494c3b134d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

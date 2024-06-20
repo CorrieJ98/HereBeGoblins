@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr4am1qp1rpiu"
+path="res://.godot/imported/AcolyteReady1.wav-f6f1b64cb38d6c1ca098d131d6bb4272.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Acolyte/AcolyteReady1.wav"
+dest_files=["res://.godot/imported/AcolyteReady1.wav-f6f1b64cb38d6c1ca098d131d6bb4272.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

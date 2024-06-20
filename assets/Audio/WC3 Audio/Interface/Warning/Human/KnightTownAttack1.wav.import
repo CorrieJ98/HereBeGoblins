@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmy8uwvyb0o3"
+path="res://.godot/imported/KnightTownAttack1.wav-de72295cf32ecad9241371d5b30a54a9.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/Human/KnightTownAttack1.wav"
+dest_files=["res://.godot/imported/KnightTownAttack1.wav-de72295cf32ecad9241371d5b30a54a9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

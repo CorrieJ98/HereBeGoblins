@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cskv5iqomvcxq"
+path="res://.godot/imported/SeaWitchDeathSwim.wav-d7f10fcc3431d7dddca57d8b216677bf.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/HeroNagaSeawitch/SeaWitchDeathSwim.wav"
+dest_files=["res://.godot/imported/SeaWitchDeathSwim.wav-d7f10fcc3431d7dddca57d8b216677bf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

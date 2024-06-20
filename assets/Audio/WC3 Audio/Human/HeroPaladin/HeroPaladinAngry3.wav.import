@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://mkkndusr2ywx"
+path="res://.godot/imported/HeroPaladinAngry3.wav-fc941f6a8c4eed2515115e5dcb2b9165.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroPaladin/HeroPaladinAngry3.wav"
+dest_files=["res://.godot/imported/HeroPaladinAngry3.wav-fc941f6a8c4eed2515115e5dcb2b9165.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

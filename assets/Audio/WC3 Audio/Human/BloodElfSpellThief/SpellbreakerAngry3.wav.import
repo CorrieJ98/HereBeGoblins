@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dom3x8ivk21i0"
+path="res://.godot/imported/SpellbreakerAngry3.wav-bd3d54bde624380dd81260f78576194a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/BloodElfSpellThief/SpellbreakerAngry3.wav"
+dest_files=["res://.godot/imported/SpellbreakerAngry3.wav-bd3d54bde624380dd81260f78576194a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d2s2a162jww6e"
+path="res://.godot/imported/HeroMountainKingAngry1.wav-0e2b56473c51d2b16fbf3e3d852a9d88.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroMountainKing/HeroMountainKingAngry1.wav"
+dest_files=["res://.godot/imported/HeroMountainKingAngry1.wav-0e2b56473c51d2b16fbf3e3d852a9d88.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

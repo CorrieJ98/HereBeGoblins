@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqe3cvjbhdhxl"
+path="res://.godot/imported/CatapultYesAttack1.wav-d94de6e4cb7638ce1dfeb308ce527d2f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Catapult/CatapultYesAttack1.wav"
+dest_files=["res://.godot/imported/CatapultYesAttack1.wav-d94de6e4cb7638ce1dfeb308ce527d2f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

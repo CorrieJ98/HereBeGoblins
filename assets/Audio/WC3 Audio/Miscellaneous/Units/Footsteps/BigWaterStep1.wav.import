@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2yjm2g6slwms"
+path="res://.godot/imported/BigWaterStep1.wav-e61a34209df736f79cbff73bee6c2a4f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Footsteps/BigWaterStep1.wav"
+dest_files=["res://.godot/imported/BigWaterStep1.wav-e61a34209df736f79cbff73bee6c2a4f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

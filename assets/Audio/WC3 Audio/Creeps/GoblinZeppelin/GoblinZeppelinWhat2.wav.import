@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wqitk2wxa48t"
+path="res://.godot/imported/GoblinZeppelinWhat2.wav-65bd0da306bc4ec0529ac5761aa8acf0.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GoblinZeppelin/GoblinZeppelinWhat2.wav"
+dest_files=["res://.godot/imported/GoblinZeppelinWhat2.wav-65bd0da306bc4ec0529ac5761aa8acf0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

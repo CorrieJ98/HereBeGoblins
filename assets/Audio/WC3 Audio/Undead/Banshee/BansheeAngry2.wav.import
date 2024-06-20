@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3sunkyu260cd"
+path="res://.godot/imported/BansheeAngry2.wav-9ed443b73bcca9290f0af8e2bf0d2f0a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Banshee/BansheeAngry2.wav"
+dest_files=["res://.godot/imported/BansheeAngry2.wav-9ed443b73bcca9290f0af8e2bf0d2f0a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

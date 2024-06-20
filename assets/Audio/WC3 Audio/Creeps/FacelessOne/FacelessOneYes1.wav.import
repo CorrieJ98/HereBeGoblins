@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxmrhkpo53npr"
+path="res://.godot/imported/FacelessOneYes1.wav-9c28b99bcf826e44b095c1dfbe3c898f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/FacelessOne/FacelessOneYes1.wav"
+dest_files=["res://.godot/imported/FacelessOneYes1.wav-9c28b99bcf826e44b095c1dfbe3c898f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

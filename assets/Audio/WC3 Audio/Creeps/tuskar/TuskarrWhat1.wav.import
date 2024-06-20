@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccitukgyaa3wd"
+path="res://.godot/imported/TuskarrWhat1.wav-676eaab780b0d4f591b7f7beabda5868.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/tuskar/TuskarrWhat1.wav"
+dest_files=["res://.godot/imported/TuskarrWhat1.wav-676eaab780b0d4f591b7f7beabda5868.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3exc1sm4v3hv"
+path="res://.godot/imported/CaptainWarcry1.wav-dfc4e102bd2c0d9a40015a4b4c29400d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/TheCaptain/CaptainWarcry1.wav"
+dest_files=["res://.godot/imported/CaptainWarcry1.wav-dfc4e102bd2c0d9a40015a4b4c29400d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

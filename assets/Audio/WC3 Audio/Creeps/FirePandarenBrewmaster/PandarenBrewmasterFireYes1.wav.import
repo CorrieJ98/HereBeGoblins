@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnk37wni1r5wc"
+path="res://.godot/imported/PandarenBrewmasterFireYes1.wav-1d09142f82361f569e33aec642ed34e7.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/FirePandarenBrewmaster/PandarenBrewmasterFireYes1.wav"
+dest_files=["res://.godot/imported/PandarenBrewmasterFireYes1.wav-1d09142f82361f569e33aec642ed34e7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddh0knm32pv1b"
+path="res://.godot/imported/HeroArchmageWarcry1.wav-3b5421e18f1db435b508cc1123f1e149.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroArchMage/HeroArchmageWarcry1.wav"
+dest_files=["res://.godot/imported/HeroArchmageWarcry1.wav-3b5421e18f1db435b508cc1123f1e149.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

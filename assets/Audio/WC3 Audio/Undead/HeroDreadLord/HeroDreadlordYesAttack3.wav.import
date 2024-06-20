@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://150yl824flta"
+path="res://.godot/imported/HeroDreadlordYesAttack3.wav-29709d56be97253b09b76628b7975cfc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroDreadLord/HeroDreadlordYesAttack3.wav"
+dest_files=["res://.godot/imported/HeroDreadlordYesAttack3.wav-29709d56be97253b09b76628b7975cfc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

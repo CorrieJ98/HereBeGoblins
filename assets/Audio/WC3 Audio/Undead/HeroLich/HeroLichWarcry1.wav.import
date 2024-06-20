@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yr5w0ilb7a0w"
+path="res://.godot/imported/HeroLichWarcry1.wav-7f969d9fef0c2d087e2b7d51176b3aa6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroLich/HeroLichWarcry1.wav"
+dest_files=["res://.godot/imported/HeroLichWarcry1.wav-7f969d9fef0c2d087e2b7d51176b3aa6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

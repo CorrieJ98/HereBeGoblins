@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1086360m5hba"
+path="res://.godot/imported/GyrocopterWarcry1.wav-b14813342f09da5b1748cd45447f6838.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/GyroCopter/GyrocopterWarcry1.wav"
+dest_files=["res://.godot/imported/GyrocopterWarcry1.wav-b14813342f09da5b1748cd45447f6838.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

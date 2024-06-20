@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://botnsaj7nqe53"
+path="res://.godot/imported/AlchemistDeath.wav-80b723d73127db4df797e159d93ff935.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/HEROGoblinALCHEMIST/AlchemistDeath.wav"
+dest_files=["res://.godot/imported/AlchemistDeath.wav-80b723d73127db4df797e159d93ff935.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

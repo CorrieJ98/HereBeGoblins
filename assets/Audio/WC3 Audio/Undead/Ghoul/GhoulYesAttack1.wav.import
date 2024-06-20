@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctyb8tdnhqta3"
+path="res://.godot/imported/GhoulYesAttack1.wav-ee8431fbdaa4e7d922443a55f81483d0.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Ghoul/GhoulYesAttack1.wav"
+dest_files=["res://.godot/imported/GhoulYesAttack1.wav-ee8431fbdaa4e7d922443a55f81483d0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

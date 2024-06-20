@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bunasmr3438sx"
+path="res://.godot/imported/EvilSylvanasYesAttack1.wav-007e72d5b45e3d3638145b8b3e1533d6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/EvilSylvanas/EvilSylvanasYesAttack1.wav"
+dest_files=["res://.godot/imported/EvilSylvanasYesAttack1.wav-007e72d5b45e3d3638145b8b3e1533d6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

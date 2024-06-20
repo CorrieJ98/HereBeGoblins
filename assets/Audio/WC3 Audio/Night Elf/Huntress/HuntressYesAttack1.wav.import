@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cd3njd34d3dhx"
+path="res://.godot/imported/HuntressYesAttack1.wav-c77d74b55b85eca55e77029acb13c16a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Huntress/HuntressYesAttack1.wav"
+dest_files=["res://.godot/imported/HuntressYesAttack1.wav-c77d74b55b85eca55e77029acb13c16a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

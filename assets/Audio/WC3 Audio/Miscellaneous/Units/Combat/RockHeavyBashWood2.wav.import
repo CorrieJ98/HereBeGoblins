@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7u6lb4cs2grc"
+path="res://.godot/imported/RockHeavyBashWood2.wav-3e4e7d9f636cb74ab28778e33dd37d25.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/RockHeavyBashWood2.wav"
+dest_files=["res://.godot/imported/RockHeavyBashWood2.wav-3e4e7d9f636cb74ab28778e33dd37d25.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

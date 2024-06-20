@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cx7gwnees427n"
+path="res://.godot/imported/PeasantAngry4.wav-4b192925f5c28b25ea80cf09c2eb67d9.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Peasant/PeasantAngry4.wav"
+dest_files=["res://.godot/imported/PeasantAngry4.wav-4b192925f5c28b25ea80cf09c2eb67d9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

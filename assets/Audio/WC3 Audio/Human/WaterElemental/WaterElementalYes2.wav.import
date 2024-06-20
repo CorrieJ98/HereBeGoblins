@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6ch5htiwqh4d"
+path="res://.godot/imported/WaterElementalYes2.wav-339bfdfe2fc52adefaebabb462937669.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/WaterElemental/WaterElementalYes2.wav"
+dest_files=["res://.godot/imported/WaterElementalYes2.wav-339bfdfe2fc52adefaebabb462937669.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

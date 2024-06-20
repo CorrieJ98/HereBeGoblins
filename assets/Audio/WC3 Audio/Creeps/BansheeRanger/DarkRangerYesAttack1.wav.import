@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpkr2ehm6empn"
+path="res://.godot/imported/DarkRangerYesAttack1.wav-dac71340bc34329fdebceb246ad2f685.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/BansheeRanger/DarkRangerYesAttack1.wav"
+dest_files=["res://.godot/imported/DarkRangerYesAttack1.wav-dac71340bc34329fdebceb246ad2f685.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

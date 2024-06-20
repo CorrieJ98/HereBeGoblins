@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c3hmo4nbbu53b"
+path="res://.godot/imported/NagaRoyalGuardWhat5.wav-57fa262b9cd2a25d69c882d4d6ad331f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/NagaRoyalGuard/NagaRoyalGuardWhat5.wav"
+dest_files=["res://.godot/imported/NagaRoyalGuardWhat5.wav-57fa262b9cd2a25d69c882d4d6ad331f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

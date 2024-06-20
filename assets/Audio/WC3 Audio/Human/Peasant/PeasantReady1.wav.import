@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwwsr3qpdni0v"
+path="res://.godot/imported/PeasantReady1.wav-108df4d53a6ae1c79f13fc5744693736.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Peasant/PeasantReady1.wav"
+dest_files=["res://.godot/imported/PeasantReady1.wav-108df4d53a6ae1c79f13fc5744693736.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

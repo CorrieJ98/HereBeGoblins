@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ciw1circr7438"
+path="res://.godot/imported/BristlebackYesAttack1.wav-76a94776efb55e413877f6d3a5af4048.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/BristleBack/BristlebackYesAttack1.wav"
+dest_files=["res://.godot/imported/BristlebackYesAttack1.wav-76a94776efb55e413877f6d3a5af4048.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

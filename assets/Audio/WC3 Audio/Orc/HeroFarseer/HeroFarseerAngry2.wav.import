@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dxkctsro7uni7"
+path="res://.godot/imported/HeroFarseerAngry2.wav-1b9481bb36e707c8f728ef8ad2e6dd38.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroFarseer/HeroFarseerAngry2.wav"
+dest_files=["res://.godot/imported/HeroFarseerAngry2.wav-1b9481bb36e707c8f728ef8ad2e6dd38.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

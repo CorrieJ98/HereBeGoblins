@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuanjfajil3ov"
+path="res://.godot/imported/GnollYesAttack3.wav-72c24e582e8625208dc8976309d8cb08.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Gnoll/GnollYesAttack3.wav"
+dest_files=["res://.godot/imported/GnollYesAttack3.wav-72c24e582e8625208dc8976309d8cb08.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

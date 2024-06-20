@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://65qmibuki0af"
+path="res://.godot/imported/GromWhat3.wav-800d7f649962d9e3326f7308bd365bd0.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Hellscream/GromWhat3.wav"
+dest_files=["res://.godot/imported/GromWhat3.wav-800d7f649962d9e3326f7308bd365bd0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://befbs0ii3i348"
+path="res://.godot/imported/HeadHunterAngry1.wav-01f3c86e4a7c84fa63357b7270ccd735.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeadHunter/HeadHunterAngry1.wav"
+dest_files=["res://.godot/imported/HeadHunterAngry1.wav-01f3c86e4a7c84fa63357b7270ccd735.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

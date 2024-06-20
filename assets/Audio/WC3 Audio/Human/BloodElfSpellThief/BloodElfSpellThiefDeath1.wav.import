@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://crblhys5ebkw5"
+path="res://.godot/imported/BloodElfSpellThiefDeath1.wav-3580eb9593ff69efdf4d2fc670cde51a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/BloodElfSpellThief/BloodElfSpellThiefDeath1.wav"
+dest_files=["res://.godot/imported/BloodElfSpellThiefDeath1.wav-3580eb9593ff69efdf4d2fc670cde51a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

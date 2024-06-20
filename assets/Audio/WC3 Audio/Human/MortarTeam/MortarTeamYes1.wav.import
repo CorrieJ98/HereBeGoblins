@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://o13qdckio3wh"
+path="res://.godot/imported/MortarTeamYes1.wav-98e038df7c764ff90fad3fb993996110.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/MortarTeam/MortarTeamYes1.wav"
+dest_files=["res://.godot/imported/MortarTeamYes1.wav-98e038df7c764ff90fad3fb993996110.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

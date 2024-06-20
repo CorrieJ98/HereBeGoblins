@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7irch148jfjo"
+path="res://.godot/imported/SylvanasAngry3.wav-5a198f0b44349ba3e983eb3846c8e550.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/SylvanusWindrunner/SylvanasAngry3.wav"
+dest_files=["res://.godot/imported/SylvanasAngry3.wav-5a198f0b44349ba3e983eb3846c8e550.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

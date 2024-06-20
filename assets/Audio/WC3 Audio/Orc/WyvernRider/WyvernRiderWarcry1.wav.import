@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://4hddg6uakjjv"
+path="res://.godot/imported/WyvernRiderWarcry1.wav-eb60e3f42aa0d96c9fdb15d1a6b8a1fa.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/WyvernRider/WyvernRiderWarcry1.wav"
+dest_files=["res://.godot/imported/WyvernRiderWarcry1.wav-eb60e3f42aa0d96c9fdb15d1a6b8a1fa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

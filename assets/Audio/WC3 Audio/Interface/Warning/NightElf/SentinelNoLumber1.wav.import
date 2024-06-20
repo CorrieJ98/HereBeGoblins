@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cqoklw40wd8b2"
+path="res://.godot/imported/SentinelNoLumber1.wav-c15b57c1a6b5f4c2872750b12824d884.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/NightElf/SentinelNoLumber1.wav"
+dest_files=["res://.godot/imported/SentinelNoLumber1.wav-c15b57c1a6b5f4c2872750b12824d884.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

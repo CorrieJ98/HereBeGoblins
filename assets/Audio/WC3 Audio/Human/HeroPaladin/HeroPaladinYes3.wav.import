@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cotasucpf6wpy"
+path="res://.godot/imported/HeroPaladinYes3.wav-e747850c08bb601367e9131f5a81adfb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroPaladin/HeroPaladinYes3.wav"
+dest_files=["res://.godot/imported/HeroPaladinYes3.wav-e747850c08bb601367e9131f5a81adfb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

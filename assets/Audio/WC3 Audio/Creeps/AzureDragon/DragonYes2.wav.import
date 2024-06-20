@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://nok6d85itahc"
+path="res://.godot/imported/DragonYes2.wav-9ecb5b2c8d25688e82d6edad4d607f68.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/AzureDragon/DragonYes2.wav"
+dest_files=["res://.godot/imported/DragonYes2.wav-9ecb5b2c8d25688e82d6edad4d607f68.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

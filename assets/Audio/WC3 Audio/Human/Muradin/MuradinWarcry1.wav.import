@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://db7uiam60lgg7"
+path="res://.godot/imported/MuradinWarcry1.wav-89f51a0130a5ee3768e03449f0f90b32.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Muradin/MuradinWarcry1.wav"
+dest_files=["res://.godot/imported/MuradinWarcry1.wav-89f51a0130a5ee3768e03449f0f90b32.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

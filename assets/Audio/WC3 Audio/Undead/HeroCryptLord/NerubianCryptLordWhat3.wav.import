@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c8q1eydrb7eis"
+path="res://.godot/imported/NerubianCryptLordWhat3.wav-875443e50e9a953783479ebffe09a207.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroCryptLord/NerubianCryptLordWhat3.wav"
+dest_files=["res://.godot/imported/NerubianCryptLordWhat3.wav-875443e50e9a953783479ebffe09a207.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

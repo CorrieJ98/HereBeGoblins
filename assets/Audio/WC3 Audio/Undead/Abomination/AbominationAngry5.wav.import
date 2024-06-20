@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuyx2qgmt2sb1"
+path="res://.godot/imported/AbominationAngry5.wav-1db4d73c4944edb84c82821718b2e437.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Abomination/AbominationAngry5.wav"
+dest_files=["res://.godot/imported/AbominationAngry5.wav-1db4d73c4944edb84c82821718b2e437.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

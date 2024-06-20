@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://botvng4qoq8af"
+path="res://.godot/imported/NagaSirenWhat4.wav-03fd3035de70a07501fccf4f0d0c7517.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/NagaSiren/NagaSirenWhat4.wav"
+dest_files=["res://.godot/imported/NagaSirenWhat4.wav-03fd3035de70a07501fccf4f0d0c7517.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

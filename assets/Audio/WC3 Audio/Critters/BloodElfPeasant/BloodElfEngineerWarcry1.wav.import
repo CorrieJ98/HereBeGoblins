@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bmd460wqwyjyu"
+path="res://.godot/imported/BloodElfEngineerWarcry1.wav-7538bab3f3818798b4be90e6f305469f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/BloodElfPeasant/BloodElfEngineerWarcry1.wav"
+dest_files=["res://.godot/imported/BloodElfEngineerWarcry1.wav-7538bab3f3818798b4be90e6f305469f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

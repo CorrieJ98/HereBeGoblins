@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://6rkhesol03jb"
+path="res://.godot/imported/OgreAngry3.wav-1b94cf15c3a893ccde9f73898d997c78.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Ogre/OgreAngry3.wav"
+dest_files=["res://.godot/imported/OgreAngry3.wav-1b94cf15c3a893ccde9f73898d997c78.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

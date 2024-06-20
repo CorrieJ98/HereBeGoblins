@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hvnpp5h5pidv"
+path="res://.godot/imported/EvilArthasWarcry1.wav-6cfa9277e94a150fca342c8c31dae507.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/EvilArthas/EvilArthasWarcry1.wav"
+dest_files=["res://.godot/imported/EvilArthasWarcry1.wav-6cfa9277e94a150fca342c8c31dae507.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

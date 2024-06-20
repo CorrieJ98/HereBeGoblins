@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7mv78xo4tk3f"
+path="res://.godot/imported/DruidOfTheClawYes4.wav-f0cd407a6bced020c461a67e4690be45.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/DruidOfTheClaw/DruidOfTheClawYes4.wav"
+dest_files=["res://.godot/imported/DruidOfTheClawYes4.wav-f0cd407a6bced020c461a67e4690be45.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

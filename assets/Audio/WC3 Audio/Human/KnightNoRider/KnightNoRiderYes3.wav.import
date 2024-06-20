@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2sai1kqhl3g3"
+path="res://.godot/imported/KnightNoRiderYes3.wav-55502b0060af6087b52e04253824db9a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/KnightNoRider/KnightNoRiderYes3.wav"
+dest_files=["res://.godot/imported/KnightNoRiderYes3.wav-55502b0060af6087b52e04253824db9a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

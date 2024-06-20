@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hu4c3y47vfj7"
+path="res://.godot/imported/NagaMyrmadonWhat3.wav-70d66f52b40d0f41251049d5d0d5ac38.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/NagaMyrmidon/NagaMyrmadonWhat3.wav"
+dest_files=["res://.godot/imported/NagaMyrmadonWhat3.wav-70d66f52b40d0f41251049d5d0d5ac38.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

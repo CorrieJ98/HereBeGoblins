@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bq7f0r1j5b7yj"
+path="res://.godot/imported/WyvernRiderYesAttack3.wav-64654d7e705139f878cd40f6d377349e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/WyvernRider/WyvernRiderYesAttack3.wav"
+dest_files=["res://.godot/imported/WyvernRiderYesAttack3.wav-64654d7e705139f878cd40f6d377349e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

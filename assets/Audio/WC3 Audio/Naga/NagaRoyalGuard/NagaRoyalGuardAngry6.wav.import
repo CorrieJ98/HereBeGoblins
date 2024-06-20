@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1352smdy1nya"
+path="res://.godot/imported/NagaRoyalGuardAngry6.wav-6dbd33877c9ef6b4de6360d2f5983e0c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/NagaRoyalGuard/NagaRoyalGuardAngry6.wav"
+dest_files=["res://.godot/imported/NagaRoyalGuardAngry6.wav-6dbd33877c9ef6b4de6360d2f5983e0c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

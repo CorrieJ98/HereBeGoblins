@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://tixky5dn2ckf"
+path="res://.godot/imported/NagaBuildingLoop1.wav-c552ecbd1f66d009b6e5bf592b755a21.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Naga/NagaBuildingLoop1.wav"
+dest_files=["res://.godot/imported/NagaBuildingLoop1.wav-c552ecbd1f66d009b6e5bf592b755a21.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

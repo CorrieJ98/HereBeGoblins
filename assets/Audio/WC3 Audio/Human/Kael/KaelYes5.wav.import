@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2v0q2f04p2a4"
+path="res://.godot/imported/KaelYes5.wav-6814edc4f3c425f6453bc7cf2c824180.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Kael/KaelYes5.wav"
+dest_files=["res://.godot/imported/KaelYes5.wav-6814edc4f3c425f6453bc7cf2c824180.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

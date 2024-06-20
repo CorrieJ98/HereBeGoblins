@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbl28m6wp0lal"
+path="res://.godot/imported/AcolytePlacedOffBlight1.wav-67eb5fe54007ddf4cd00cfb07215f0b6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Warning/Undead/AcolytePlacedOffBlight1.wav"
+dest_files=["res://.godot/imported/AcolytePlacedOffBlight1.wav-67eb5fe54007ddf4cd00cfb07215f0b6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

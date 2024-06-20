@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://becro0mg5mtv2"
+path="res://.godot/imported/EvilArthasYes3.wav-d8b3e9bcb790c91ccfbdc28f9d3907b7.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/EvilArthas/EvilArthasYes3.wav"
+dest_files=["res://.godot/imported/EvilArthasYes3.wav-d8b3e9bcb790c91ccfbdc28f9d3907b7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

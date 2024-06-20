@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cp6wg4nnb47h4"
+path="res://.godot/imported/RiflemanAngry5.wav-097494d5aaef428eb096c5a1f9209f28.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Rifleman/RiflemanAngry5.wav"
+dest_files=["res://.godot/imported/RiflemanAngry5.wav-097494d5aaef428eb096c5a1f9209f28.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

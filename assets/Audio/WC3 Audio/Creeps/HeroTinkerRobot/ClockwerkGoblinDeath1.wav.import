@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c3fpr8oupfaa6"
+path="res://.godot/imported/ClockwerkGoblinDeath1.wav-a98dc599f48a63d102a0105aff2ca31f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/HeroTinkerRobot/ClockwerkGoblinDeath1.wav"
+dest_files=["res://.godot/imported/ClockwerkGoblinDeath1.wav-a98dc599f48a63d102a0105aff2ca31f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

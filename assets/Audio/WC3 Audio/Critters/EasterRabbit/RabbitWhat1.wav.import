@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://fnjruvc7vgrd"
+path="res://.godot/imported/RabbitWhat1.wav-52b4f92c3bcda0694aeea0f406dac285.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/EasterRabbit/RabbitWhat1.wav"
+dest_files=["res://.godot/imported/RabbitWhat1.wav-52b4f92c3bcda0694aeea0f406dac285.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

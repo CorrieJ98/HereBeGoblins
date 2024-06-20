@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://br8wb3at6bm3i"
+path="res://.godot/imported/NaishaWhat5.wav-7d8fa94cbe4c49b5634d03dd11c9b66d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Naisha/NaishaWhat5.wav"
+dest_files=["res://.godot/imported/NaishaWhat5.wav-7d8fa94cbe4c49b5634d03dd11c9b66d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

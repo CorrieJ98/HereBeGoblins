@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3riord3kwfss"
+path="res://.godot/imported/InfernalYes1.wav-4c266e1fe20bb9b1a6345bcf673d2592.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Infernal/InfernalYes1.wav"
+dest_files=["res://.godot/imported/InfernalYes1.wav-4c266e1fe20bb9b1a6345bcf673d2592.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

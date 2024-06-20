@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b35snlwu40q14"
+path="res://.godot/imported/UnbrokenYes2.wav-3233ad6dd14710c0a8be74f4a886fc55.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Unbroken/UnbrokenYes2.wav"
+dest_files=["res://.godot/imported/UnbrokenYes2.wav-3233ad6dd14710c0a8be74f4a886fc55.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

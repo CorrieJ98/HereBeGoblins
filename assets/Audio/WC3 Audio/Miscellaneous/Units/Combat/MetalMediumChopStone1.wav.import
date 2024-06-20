@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cc154a70j6lh2"
+path="res://.godot/imported/MetalMediumChopStone1.wav-994ff17b83b5cee4e20b1604db71e20b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalMediumChopStone1.wav"
+dest_files=["res://.godot/imported/MetalMediumChopStone1.wav-994ff17b83b5cee4e20b1604db71e20b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

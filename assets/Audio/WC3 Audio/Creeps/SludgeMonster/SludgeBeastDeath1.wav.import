@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ch16t431x371v"
+path="res://.godot/imported/SludgeBeastDeath1.wav-390aaf704ab97bbf83e9d8e6335a2b30.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/SludgeMonster/SludgeBeastDeath1.wav"
+dest_files=["res://.godot/imported/SludgeBeastDeath1.wav-390aaf704ab97bbf83e9d8e6335a2b30.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

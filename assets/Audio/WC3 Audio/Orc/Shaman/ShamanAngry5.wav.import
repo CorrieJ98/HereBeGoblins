@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuce6nm3i8lf1"
+path="res://.godot/imported/ShamanAngry5.wav-7c2cc5a8daa22417b3b5b44482f98c40.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Shaman/ShamanAngry5.wav"
+dest_files=["res://.godot/imported/ShamanAngry5.wav-7c2cc5a8daa22417b3b5b44482f98c40.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

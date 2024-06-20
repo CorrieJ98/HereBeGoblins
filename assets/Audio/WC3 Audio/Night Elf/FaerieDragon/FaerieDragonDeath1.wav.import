@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wntypsvnc4wm"
+path="res://.godot/imported/FaerieDragonDeath1.wav-d9e2e24e13892a3a2fa4f52a3a000a71.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/FaerieDragon/FaerieDragonDeath1.wav"
+dest_files=["res://.godot/imported/FaerieDragonDeath1.wav-d9e2e24e13892a3a2fa4f52a3a000a71.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

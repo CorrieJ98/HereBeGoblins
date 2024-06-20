@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7sa8lvipxc5p"
+path="res://.godot/imported/MeatWagonWhat1.wav-1e7c135817a582a4011e77be82747046.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Meatwagon/MeatWagonWhat1.wav"
+dest_files=["res://.godot/imported/MeatWagonWhat1.wav-1e7c135817a582a4011e77be82747046.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

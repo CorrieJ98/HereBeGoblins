@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0juvn5t0sln5"
+path="res://.godot/imported/PeasantWarcry1.wav-a5e2e22ff0e54e853627d11ce822d0ad.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Peasant/PeasantWarcry1.wav"
+dest_files=["res://.godot/imported/PeasantWarcry1.wav-a5e2e22ff0e54e853627d11ce822d0ad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

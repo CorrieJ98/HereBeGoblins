@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://de70ylf52mwkq"
+path="res://.godot/imported/GrizzlyBearDeath1.wav-9d725e7609d331ea0f2f55282c86739c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GrizzlyBear/GrizzlyBearDeath1.wav"
+dest_files=["res://.godot/imported/GrizzlyBearDeath1.wav-9d725e7609d331ea0f2f55282c86739c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvf7l5jdprtpb"
+path="res://.godot/imported/OwlWhat1.wav-6d9acbda3b64214ef4fdd40cc404ed84.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/SnowOwl/OwlWhat1.wav"
+dest_files=["res://.godot/imported/OwlWhat1.wav-6d9acbda3b64214ef4fdd40cc404ed84.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

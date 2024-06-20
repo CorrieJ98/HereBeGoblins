@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmnq7dugs7kw2"
+path="res://.godot/imported/EtherealHeavyHit2.wav-4e9f20f531b29b4ff08fe6746b46c114.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/EtherealHeavyHit2.wav"
+dest_files=["res://.godot/imported/EtherealHeavyHit2.wav-4e9f20f531b29b4ff08fe6746b46c114.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

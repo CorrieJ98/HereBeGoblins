@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dyrixihpwm73y"
+path="res://.godot/imported/CentaurDeath.wav-78a990c39395aabc78516eaffef6080e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Centaur/CentaurDeath.wav"
+dest_files=["res://.godot/imported/CentaurDeath.wav-78a990c39395aabc78516eaffef6080e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

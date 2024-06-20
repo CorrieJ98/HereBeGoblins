@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://200kf4iwrc8x"
+path="res://.godot/imported/UtherWhat1.wav-7652b11a06eeab9c83f3edcffa5b60ce.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Uther/UtherWhat1.wav"
+dest_files=["res://.godot/imported/UtherWhat1.wav-7652b11a06eeab9c83f3edcffa5b60ce.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

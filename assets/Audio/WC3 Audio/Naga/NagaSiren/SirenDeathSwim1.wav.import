@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://btfwkgb56v12u"
+path="res://.godot/imported/SirenDeathSwim1.wav-f311cdf7a51970c080b60bbc2e708f2a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/NagaSiren/SirenDeathSwim1.wav"
+dest_files=["res://.godot/imported/SirenDeathSwim1.wav-f311cdf7a51970c080b60bbc2e708f2a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

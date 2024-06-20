@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bky7nko721psp"
+path="res://.godot/imported/BansheeReady1.wav-6b224ae3a967700a1b36d1ef36420ec7.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Banshee/BansheeReady1.wav"
+dest_files=["res://.godot/imported/BansheeReady1.wav-6b224ae3a967700a1b36d1ef36420ec7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

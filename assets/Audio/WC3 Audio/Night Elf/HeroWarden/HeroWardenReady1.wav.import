@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5ld0oe3x6q31"
+path="res://.godot/imported/HeroWardenReady1.wav-23605ead4bf2564da27cca6b96bd7a5f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroWarden/HeroWardenReady1.wav"
+dest_files=["res://.godot/imported/HeroWardenReady1.wav-23605ead4bf2564da27cca6b96bd7a5f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

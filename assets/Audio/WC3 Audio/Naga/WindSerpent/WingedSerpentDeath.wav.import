@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3ef34hjniqe4"
+path="res://.godot/imported/WingedSerpentDeath.wav-c4a395941f4d9ab5f308815eccabb01c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/WindSerpent/WingedSerpentDeath.wav"
+dest_files=["res://.godot/imported/WingedSerpentDeath.wav-c4a395941f4d9ab5f308815eccabb01c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

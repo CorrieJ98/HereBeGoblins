@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wvogul24m4et"
+path="res://.godot/imported/DemonHunterMorphedYes5.wav-9d792c153207d7c42a1b260bae22e26e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroDemonHunter/DemonHunterMorphedYes5.wav"
+dest_files=["res://.godot/imported/DemonHunterMorphedYes5.wav-9d792c153207d7c42a1b260bae22e26e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

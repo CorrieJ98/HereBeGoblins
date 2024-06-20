@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bnaf0m6b3ilad"
+path="res://.godot/imported/VillagerF3.wav-a27a288c54def1da60a2f6c76d39611d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/VillagerWoman/VillagerF3.wav"
+dest_files=["res://.godot/imported/VillagerF3.wav-a27a288c54def1da60a2f6c76d39611d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

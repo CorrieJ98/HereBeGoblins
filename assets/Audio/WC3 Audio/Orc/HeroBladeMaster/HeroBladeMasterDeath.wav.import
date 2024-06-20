@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bp8joygbx0kda"
+path="res://.godot/imported/HeroBladeMasterDeath.wav-333992bd2a2f6d4df46b5c522020f8e8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroBladeMaster/HeroBladeMasterDeath.wav"
+dest_files=["res://.godot/imported/HeroBladeMasterDeath.wav-333992bd2a2f6d4df46b5c522020f8e8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

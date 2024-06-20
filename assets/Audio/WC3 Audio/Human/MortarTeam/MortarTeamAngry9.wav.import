@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnub1foxk0ta1"
+path="res://.godot/imported/MortarTeamAngry9.wav-732b26b1f1111060a6db4230428c4595.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/MortarTeam/MortarTeamAngry9.wav"
+dest_files=["res://.godot/imported/MortarTeamAngry9.wav-732b26b1f1111060a6db4230428c4595.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

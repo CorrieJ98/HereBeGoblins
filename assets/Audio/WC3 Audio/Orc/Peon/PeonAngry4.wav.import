@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ioqjm7gd3vgj"
+path="res://.godot/imported/PeonAngry4.wav-3953cbb5ba9839571538b44dcefc09fc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Peon/PeonAngry4.wav"
+dest_files=["res://.godot/imported/PeonAngry4.wav-3953cbb5ba9839571538b44dcefc09fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

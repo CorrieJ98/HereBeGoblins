@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://doovfnrjxbcd8"
+path="res://.godot/imported/HeroWardenYesAttack3.wav-18a5767a50ab6719a9f3d1278655b823.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroWarden/HeroWardenYesAttack3.wav"
+dest_files=["res://.godot/imported/HeroWardenYesAttack3.wav-18a5767a50ab6719a9f3d1278655b823.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

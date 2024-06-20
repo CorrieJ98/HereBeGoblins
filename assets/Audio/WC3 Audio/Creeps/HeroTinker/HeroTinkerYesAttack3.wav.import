@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdhwhbs1kyp5a"
+path="res://.godot/imported/HeroTinkerYesAttack3.wav-cbcd5da7c70f7e8c97d57d63a3a4f510.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/HeroTinker/HeroTinkerYesAttack3.wav"
+dest_files=["res://.godot/imported/HeroTinkerYesAttack3.wav-cbcd5da7c70f7e8c97d57d63a3a4f510.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

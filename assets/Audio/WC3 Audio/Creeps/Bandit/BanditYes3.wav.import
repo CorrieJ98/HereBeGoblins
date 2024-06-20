@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cx5uthxutsugg"
+path="res://.godot/imported/BanditYes3.wav-d3e11a52f49a3941b913e5c0ce3a8a6b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Bandit/BanditYes3.wav"
+dest_files=["res://.godot/imported/BanditYes3.wav-d3e11a52f49a3941b913e5c0ce3a8a6b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

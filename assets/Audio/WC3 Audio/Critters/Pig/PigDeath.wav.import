@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpf8fqy8jyixd"
+path="res://.godot/imported/PigDeath.wav-98a766f95b87509104453855c4179b75.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/Pig/PigDeath.wav"
+dest_files=["res://.godot/imported/PigDeath.wav-98a766f95b87509104453855c4179b75.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

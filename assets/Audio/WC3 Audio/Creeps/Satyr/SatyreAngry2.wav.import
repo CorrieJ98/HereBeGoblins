@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccs5o6cyjqwnj"
+path="res://.godot/imported/SatyreAngry2.wav-ca97e6770d83f5d13bdf556be0f8ae88.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Satyr/SatyreAngry2.wav"
+dest_files=["res://.godot/imported/SatyreAngry2.wav-ca97e6770d83f5d13bdf556be0f8ae88.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

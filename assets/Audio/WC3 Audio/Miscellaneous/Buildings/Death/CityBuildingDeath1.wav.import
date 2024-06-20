@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcoysrn3qtxst"
+path="res://.godot/imported/CityBuildingDeath1.wav-fe20ace950999b7b64a64b463b0848f6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Death/CityBuildingDeath1.wav"
+dest_files=["res://.godot/imported/CityBuildingDeath1.wav-fe20ace950999b7b64a64b463b0848f6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

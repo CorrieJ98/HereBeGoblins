@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://6m5muech66x1"
+path="res://.godot/imported/RockGolemYesAttack2.wav-7c6b6f1dc3965bfe7cdf4af6cfb42b9c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/RockGolem/RockGolemYesAttack2.wav"
+dest_files=["res://.godot/imported/RockGolemYesAttack2.wav-7c6b6f1dc3965bfe7cdf4af6cfb42b9c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

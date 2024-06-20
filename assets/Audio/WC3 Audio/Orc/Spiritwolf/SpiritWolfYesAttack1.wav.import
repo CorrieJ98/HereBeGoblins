@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqet5ilum0u7b"
+path="res://.godot/imported/SpiritWolfYesAttack1.wav-41ade6141902815837df7b02c9d0602a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Spiritwolf/SpiritWolfYesAttack1.wav"
+dest_files=["res://.godot/imported/SpiritWolfYesAttack1.wav-41ade6141902815837df7b02c9d0602a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dl4on1q7aa8r5"
+path="res://.godot/imported/ShadeWarcry1.wav-291fe6f1bd04ffa5f532474f38a12162.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Shade/ShadeWarcry1.wav"
+dest_files=["res://.godot/imported/ShadeWarcry1.wav-291fe6f1bd04ffa5f532474f38a12162.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

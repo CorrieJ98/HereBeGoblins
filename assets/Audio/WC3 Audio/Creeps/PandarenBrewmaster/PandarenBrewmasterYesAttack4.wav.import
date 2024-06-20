@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dubg7a4rwrr0h"
+path="res://.godot/imported/PandarenBrewmasterYesAttack4.wav-7b56e66717a43fb74fd0e02479aeccb6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/PandarenBrewmaster/PandarenBrewmasterYesAttack4.wav"
+dest_files=["res://.godot/imported/PandarenBrewmasterYesAttack4.wav-7b56e66717a43fb74fd0e02479aeccb6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

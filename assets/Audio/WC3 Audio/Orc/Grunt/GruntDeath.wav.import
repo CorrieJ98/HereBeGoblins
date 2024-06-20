@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3r1r5b1vm0pu"
+path="res://.godot/imported/GruntDeath.wav-d6e7fb0dbacd363cbc748d04cadcaa82.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Grunt/GruntDeath.wav"
+dest_files=["res://.godot/imported/GruntDeath.wav-d6e7fb0dbacd363cbc748d04cadcaa82.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

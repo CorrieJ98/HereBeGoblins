@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bj5j43swa0ufg"
+path="res://.godot/imported/SorceressDeath.wav-ca9e32ceb486d26f9c50679eb8cd2d00.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Sorceress/SorceressDeath.wav"
+dest_files=["res://.godot/imported/SorceressDeath.wav-ca9e32ceb486d26f9c50679eb8cd2d00.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

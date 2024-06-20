@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmltsxos6wsa2"
+path="res://.godot/imported/UtherAngry4.wav-3d2a47a5c09a567b521cb8d9a58d5365.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Uther/UtherAngry4.wav"
+dest_files=["res://.godot/imported/UtherAngry4.wav-3d2a47a5c09a567b521cb8d9a58d5365.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

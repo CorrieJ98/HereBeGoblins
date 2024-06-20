@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 TextureProgressBar
 SubViewport
@@ -19,3 +20,19 @@ Node
 BoneAttachment3D
 StaticBody3D
 CollisionShape3D
+=======
+Label
+Button
+VBoxContainer
+HBoxContainer
+Control
+CenterContainer
+MarginContainer
+AudioStreamPlayer3D
+Timer
+CollisionShape3D
+Area3D
+Node
+StaticBody3D
+Node3D
+>>>>>>> Stashed changes

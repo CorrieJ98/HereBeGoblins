@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bu1u8iq8svy6v"
+path="res://.godot/imported/OgreBeastMasterYes2.wav-ff31df57ea82aa254e63ec059fc9d3bc.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Beastmaster/OgreBeastMasterYes2.wav"
+dest_files=["res://.godot/imported/OgreBeastMasterYes2.wav-ff31df57ea82aa254e63ec059fc9d3bc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

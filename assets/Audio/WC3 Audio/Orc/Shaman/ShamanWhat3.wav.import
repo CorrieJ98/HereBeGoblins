@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnxk2vg8wodl7"
+path="res://.godot/imported/ShamanWhat3.wav-06d0a3408d1fe2af8ee2f02b0fbb1afd.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Shaman/ShamanWhat3.wav"
+dest_files=["res://.godot/imported/ShamanWhat3.wav-06d0a3408d1fe2af8ee2f02b0fbb1afd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

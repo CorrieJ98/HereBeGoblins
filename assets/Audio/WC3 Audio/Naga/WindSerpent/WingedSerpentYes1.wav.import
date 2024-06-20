@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfp8b7jb07ug4"
+path="res://.godot/imported/WingedSerpentYes1.wav-07e1e5b84b985b58edb5f7ab4c4508b9.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/WindSerpent/WingedSerpentYes1.wav"
+dest_files=["res://.godot/imported/WingedSerpentYes1.wav-07e1e5b84b985b58edb5f7ab4c4508b9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

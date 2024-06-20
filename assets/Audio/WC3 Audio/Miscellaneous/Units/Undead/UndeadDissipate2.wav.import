@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://l3f53gofrskn"
+path="res://.godot/imported/UndeadDissipate2.wav-714a05a74d0d58ba91d6ea78c87ec42a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Undead/UndeadDissipate2.wav"
+dest_files=["res://.godot/imported/UndeadDissipate2.wav-714a05a74d0d58ba91d6ea78c87ec42a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

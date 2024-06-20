@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://tk6nrn0ty00o"
+path="res://.godot/imported/AncestralGuardianAttack1.wav-d37b1a133ef626689f5b9060bcfaf4c3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/AncestralGuardian/AncestralGuardianAttack1.wav"
+dest_files=["res://.godot/imported/AncestralGuardianAttack1.wav-d37b1a133ef626689f5b9060bcfaf4c3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

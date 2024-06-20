@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cf01oxn861xsx"
+path="res://.godot/imported/PriestWhat1.wav-22c30bacae2393115dcc8efda861e684.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Priest/PriestWhat1.wav"
+dest_files=["res://.godot/imported/PriestWhat1.wav-22c30bacae2393115dcc8efda861e684.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

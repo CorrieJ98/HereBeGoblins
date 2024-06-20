@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpys2102ypkgs"
+path="res://.godot/imported/FelHoundDeath1.wav-23a0fb6b8b09d6c414c5c506717972ab.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/felhound/FelHoundDeath1.wav"
+dest_files=["res://.godot/imported/FelHoundDeath1.wav-23a0fb6b8b09d6c414c5c506717972ab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

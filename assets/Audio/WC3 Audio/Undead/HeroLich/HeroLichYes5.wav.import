@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bx6xnydpnr381"
+path="res://.godot/imported/HeroLichYes5.wav-1049d5b0a1b00232f44b4e7885d0c3b1.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroLich/HeroLichYes5.wav"
+dest_files=["res://.godot/imported/HeroLichYes5.wav-1049d5b0a1b00232f44b4e7885d0c3b1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

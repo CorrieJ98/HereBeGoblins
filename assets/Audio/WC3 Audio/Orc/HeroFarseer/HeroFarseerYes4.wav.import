@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbwpf6s16avpd"
+path="res://.godot/imported/HeroFarseerYes4.wav-4187f81c920a0e436f522bde3ca25348.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroFarseer/HeroFarseerYes4.wav"
+dest_files=["res://.godot/imported/HeroFarseerYes4.wav-4187f81c920a0e436f522bde3ca25348.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

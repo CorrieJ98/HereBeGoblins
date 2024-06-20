@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbss4u0mv8jye"
+path="res://.godot/imported/HeroFirelordYesAttack1.wav-0bc1fbba304d42195a2f9d91b6cd6300.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/HeroFlameLord/HeroFirelordYesAttack1.wav"
+dest_files=["res://.godot/imported/HeroFirelordYesAttack1.wav-0bc1fbba304d42195a2f9d91b6cd6300.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

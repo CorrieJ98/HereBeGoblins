@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://baqsd42ixe6d"
+path="res://.godot/imported/DryadDeath1.wav-42936e42c7826fcca096a869003cf609.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Dryad/DryadDeath1.wav"
+dest_files=["res://.godot/imported/DryadDeath1.wav-42936e42c7826fcca096a869003cf609.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

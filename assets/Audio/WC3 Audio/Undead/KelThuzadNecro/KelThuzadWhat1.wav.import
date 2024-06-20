@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xvuygx4srue3"
+path="res://.godot/imported/KelThuzadWhat1.wav-4418c4a7c7745c521cf841d935ce3766.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/KelThuzadNecro/KelThuzadWhat1.wav"
+dest_files=["res://.godot/imported/KelThuzadWhat1.wav-4418c4a7c7745c521cf841d935ce3766.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

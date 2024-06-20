@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dctlk5auir0ic"
+path="res://.godot/imported/ChimaeraAngry3.wav-a022b9ee1c7ca9c79fc0db504e159c56.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Chimaera/ChimaeraAngry3.wav"
+dest_files=["res://.godot/imported/ChimaeraAngry3.wav-a022b9ee1c7ca9c79fc0db504e159c56.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

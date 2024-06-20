@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://do3fhixb13dgk"
+path="res://.godot/imported/PhoenixBirth.wav-06ef19c82595d45e9ea3187dd470c6f8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Phoenix/PhoenixBirth.wav"
+dest_files=["res://.godot/imported/PhoenixBirth.wav-06ef19c82595d45e9ea3187dd470c6f8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

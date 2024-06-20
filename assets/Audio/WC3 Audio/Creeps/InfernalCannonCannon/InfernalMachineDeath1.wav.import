@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1jsg86x6nxlh"
+path="res://.godot/imported/InfernalMachineDeath1.wav-9102054b2e177aee93d5b9facb6c9cec.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/InfernalCannonCannon/InfernalMachineDeath1.wav"
+dest_files=["res://.godot/imported/InfernalMachineDeath1.wav-9102054b2e177aee93d5b9facb6c9cec.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

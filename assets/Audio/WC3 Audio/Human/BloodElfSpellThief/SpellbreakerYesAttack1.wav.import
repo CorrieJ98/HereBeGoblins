@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5ftdfll0s6ip"
+path="res://.godot/imported/SpellbreakerYesAttack1.wav-a93b9bec2255c2432eb08f81ae0bf5ad.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/BloodElfSpellThief/SpellbreakerYesAttack1.wav"
+dest_files=["res://.godot/imported/SpellbreakerYesAttack1.wav-a93b9bec2255c2432eb08f81ae0bf5ad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

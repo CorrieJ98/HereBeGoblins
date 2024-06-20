@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dvoisi3fkp02e"
+path="res://.godot/imported/MetalMediumSliceWood2.wav-ee4b8d6b96b2d2e4bc7ad7e414cb817f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalMediumSliceWood2.wav"
+dest_files=["res://.godot/imported/MetalMediumSliceWood2.wav-ee4b8d6b96b2d2e4bc7ad7e414cb817f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

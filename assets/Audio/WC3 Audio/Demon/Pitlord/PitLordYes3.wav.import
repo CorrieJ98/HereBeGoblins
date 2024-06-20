@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqb18q5rkpnar"
+path="res://.godot/imported/PitLordYes3.wav-6f2579a2ddcca1a349a5c315af3aae1d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Pitlord/PitLordYes3.wav"
+dest_files=["res://.godot/imported/PitLordYes3.wav-6f2579a2ddcca1a349a5c315af3aae1d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

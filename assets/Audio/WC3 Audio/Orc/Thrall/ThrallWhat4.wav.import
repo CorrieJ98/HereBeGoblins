@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwonwmdjof6sw"
+path="res://.godot/imported/ThrallWhat4.wav-1f2aab6151725cb73697e7cb614a93b3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Thrall/ThrallWhat4.wav"
+dest_files=["res://.godot/imported/ThrallWhat4.wav-1f2aab6151725cb73697e7cb614a93b3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

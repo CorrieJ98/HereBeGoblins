@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ch6litev4o3j4"
+path="res://.godot/imported/GnollArcherDeath.wav-82fe58c7067cad1b0b0bb1dc74e88047.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GnollArcher/GnollArcherDeath.wav"
+dest_files=["res://.godot/imported/GnollArcherDeath.wav-82fe58c7067cad1b0b0bb1dc74e88047.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

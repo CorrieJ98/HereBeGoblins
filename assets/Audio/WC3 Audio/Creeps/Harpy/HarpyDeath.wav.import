@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://btua0hjstjksp"
+path="res://.godot/imported/HarpyDeath.wav-d8c00c572fe190455b2dbdbc68bbcb0d.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Harpy/HarpyDeath.wav"
+dest_files=["res://.godot/imported/HarpyDeath.wav-d8c00c572fe190455b2dbdbc68bbcb0d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

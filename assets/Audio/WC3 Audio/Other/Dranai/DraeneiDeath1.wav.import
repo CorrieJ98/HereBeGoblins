@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dwdelof38opk"
+path="res://.godot/imported/DraeneiDeath1.wav-b33e64e803affd2ab0482255f4ac97a1.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/Dranai/DraeneiDeath1.wav"
+dest_files=["res://.godot/imported/DraeneiDeath1.wav-b33e64e803affd2ab0482255f4ac97a1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

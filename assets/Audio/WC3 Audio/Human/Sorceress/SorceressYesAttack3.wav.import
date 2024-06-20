@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cpxoiu2aj16i1"
+path="res://.godot/imported/SorceressYesAttack3.wav-e19fdf52a40121bc76d7d158d9b2328c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Sorceress/SorceressYesAttack3.wav"
+dest_files=["res://.godot/imported/SorceressYesAttack3.wav-e19fdf52a40121bc76d7d158d9b2328c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

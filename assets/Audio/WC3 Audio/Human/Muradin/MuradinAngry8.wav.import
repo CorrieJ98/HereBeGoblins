@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://duskk0v2iplbs"
+path="res://.godot/imported/MuradinAngry8.wav-b93cc43e32ab6b0d0e9b3fb102d26aad.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Muradin/MuradinAngry8.wav"
+dest_files=["res://.godot/imported/MuradinAngry8.wav-b93cc43e32ab6b0d0e9b3fb102d26aad.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

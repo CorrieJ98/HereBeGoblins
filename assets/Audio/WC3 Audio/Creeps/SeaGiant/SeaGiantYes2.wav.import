@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clmp4u2cjsn2r"
+path="res://.godot/imported/SeaGiantYes2.wav-6e736d3c48234aa58c4cf4e3e94afa98.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/SeaGiant/SeaGiantYes2.wav"
+dest_files=["res://.godot/imported/SeaGiantYes2.wav-6e736d3c48234aa58c4cf4e3e94afa98.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

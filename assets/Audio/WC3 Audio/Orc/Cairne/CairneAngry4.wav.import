@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b14cw5itprm5y"
+path="res://.godot/imported/CairneAngry4.wav-40405ad004e3be704316e58ad68b5e53.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Cairne/CairneAngry4.wav"
+dest_files=["res://.godot/imported/CairneAngry4.wav-40405ad004e3be704316e58ad68b5e53.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

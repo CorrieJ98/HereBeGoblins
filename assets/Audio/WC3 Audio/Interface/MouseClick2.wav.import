@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwt1xcrff47o4"
+path="res://.godot/imported/MouseClick2.wav-6c44f62837ce28de799f1af11796d01b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/MouseClick2.wav"
+dest_files=["res://.godot/imported/MouseClick2.wav-6c44f62837ce28de799f1af11796d01b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

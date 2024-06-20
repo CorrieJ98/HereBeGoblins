@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d4bcty4nhbmlo"
+path="res://.godot/imported/GoblinZeppelinAngry2.wav-5f6763d2585b9d5d85bcf6a440bae9c9.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GoblinZeppelin/GoblinZeppelinAngry2.wav"
+dest_files=["res://.godot/imported/GoblinZeppelinAngry2.wav-5f6763d2585b9d5d85bcf6a440bae9c9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

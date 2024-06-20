@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dr3gjirufr6p4"
+path="res://.godot/imported/HPitLordReady1.wav-fbc9fd81a34957c4da2fc1552b339217.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/HeroPitLord/HPitLordReady1.wav"
+dest_files=["res://.godot/imported/HPitLordReady1.wav-fbc9fd81a34957c4da2fc1552b339217.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

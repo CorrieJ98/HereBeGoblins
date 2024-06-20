@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://4i1an5k1o8c6"
+path="res://.godot/imported/EntDeath1.wav-be5e3c5bf507b8f9e118ab01851c8e21.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/CorruptedEnt/EntDeath1.wav"
+dest_files=["res://.godot/imported/EntDeath1.wav-be5e3c5bf507b8f9e118ab01851c8e21.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

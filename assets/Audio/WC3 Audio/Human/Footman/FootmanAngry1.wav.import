@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqhqdqqlroyll"
+path="res://.godot/imported/FootmanAngry1.wav-a2e784012fbb7012912aff7f54e0cef4.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Footman/FootmanAngry1.wav"
+dest_files=["res://.godot/imported/FootmanAngry1.wav-a2e784012fbb7012912aff7f54e0cef4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

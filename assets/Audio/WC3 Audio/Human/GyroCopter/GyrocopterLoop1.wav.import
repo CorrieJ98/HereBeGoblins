@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://hsm0cvqa5mta"
+path="res://.godot/imported/GyrocopterLoop1.wav-ac5f9aad2232247ab19c08b419a0ec17.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/GyroCopter/GyrocopterLoop1.wav"
+dest_files=["res://.godot/imported/GyrocopterLoop1.wav-ac5f9aad2232247ab19c08b419a0ec17.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

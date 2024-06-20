@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://di487wk0f2vio"
+path="res://.godot/imported/TaurenYes1.wav-a1516dab04de725c878714e46f19b361.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Tauren/TaurenYes1.wav"
+dest_files=["res://.godot/imported/TaurenYes1.wav-a1516dab04de725c878714e46f19b361.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

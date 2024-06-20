@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bncol87ijt17b"
+path="res://.godot/imported/InfernalDeath.wav-fab6fff4776de1d78eff4f2ee94a872e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Infernal/InfernalDeath.wav"
+dest_files=["res://.godot/imported/InfernalDeath.wav-fab6fff4776de1d78eff4f2ee94a872e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cp15bjqb0ojs5"
+path="res://.godot/imported/KnightAngry3.wav-17b2b4438c065d7758fe6a9cd1bc137f.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Knight/KnightAngry3.wav"
+dest_files=["res://.godot/imported/KnightAngry3.wav-17b2b4438c065d7758fe6a9cd1bc137f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

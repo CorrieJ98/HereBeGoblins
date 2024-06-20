@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmt6hgsjlof87"
+path="res://.godot/imported/ShandrisWarcry1.wav-4aaa85604ea0667d9873ec5696acf002.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Shandris/ShandrisWarcry1.wav"
+dest_files=["res://.godot/imported/ShandrisWarcry1.wav-4aaa85604ea0667d9873ec5696acf002.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

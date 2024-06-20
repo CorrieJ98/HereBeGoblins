@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://doixlgoinookp"
+path="res://.godot/imported/DraeneiAngry7.wav-c9a41c0c86f70f26019d86208dd1b885.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/Dranai/DraeneiAngry7.wav"
+dest_files=["res://.godot/imported/DraeneiAngry7.wav-c9a41c0c86f70f26019d86208dd1b885.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

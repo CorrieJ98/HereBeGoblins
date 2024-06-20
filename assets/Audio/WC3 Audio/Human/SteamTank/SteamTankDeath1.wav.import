@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://byib87hdtc0pb"
+path="res://.godot/imported/SteamTankDeath1.wav-6e391e70ca3ebef679f67c748ff3d0c3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/SteamTank/SteamTankDeath1.wav"
+dest_files=["res://.godot/imported/SteamTankDeath1.wav-6e391e70ca3ebef679f67c748ff3d0c3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

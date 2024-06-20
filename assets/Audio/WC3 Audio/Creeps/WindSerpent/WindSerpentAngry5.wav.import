@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b62o4fj1he7x6"
+path="res://.godot/imported/WindSerpentAngry5.wav-c40e5e744d19787b1070468f962e3388.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/WindSerpent/WindSerpentAngry5.wav"
+dest_files=["res://.godot/imported/WindSerpentAngry5.wav-c40e5e744d19787b1070468f962e3388.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

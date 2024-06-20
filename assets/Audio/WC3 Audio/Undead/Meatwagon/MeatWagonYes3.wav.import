@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://r4heint3tvw8"
+path="res://.godot/imported/MeatWagonYes3.wav-5f32f1a3a97b8f102a8d19d4c01bfc5b.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Meatwagon/MeatWagonYes3.wav"
+dest_files=["res://.godot/imported/MeatWagonYes3.wav-5f32f1a3a97b8f102a8d19d4c01bfc5b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

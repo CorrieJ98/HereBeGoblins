@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ychntvnh0rlx"
+path="res://.godot/imported/SuccubusAngry2.wav-7161e12c9a626a662eced194f7d8c67c.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Demoness/SuccubusAngry2.wav"
+dest_files=["res://.godot/imported/SuccubusAngry2.wav-7161e12c9a626a662eced194f7d8c67c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dg3n3nuj7ijjc"
+path="res://.godot/imported/AlbatrossWhat1.wav-91265825873445f60099c1514fa78334.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/Albatross/AlbatrossWhat1.wav"
+dest_files=["res://.godot/imported/AlbatrossWhat1.wav-91265825873445f60099c1514fa78334.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

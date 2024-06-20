@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cig1bn815flx4"
+path="res://.godot/imported/PriestYes3.wav-b8c3b74fb9b69409b5f7af7e9e2a9d77.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Priest/PriestYes3.wav"
+dest_files=["res://.godot/imported/PriestYes3.wav-b8c3b74fb9b69409b5f7af7e9e2a9d77.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ie0gsn23nq58"
+path="res://.godot/imported/HeroDreadLordDeath.wav-7d48e151c5869cd049bd36caba6c8f97.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroDreadLord/HeroDreadLordDeath.wav"
+dest_files=["res://.godot/imported/HeroDreadLordDeath.wav-7d48e151c5869cd049bd36caba6c8f97.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

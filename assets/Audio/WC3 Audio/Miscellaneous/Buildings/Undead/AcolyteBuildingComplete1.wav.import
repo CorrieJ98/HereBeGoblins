@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bqr2ot3d2ti0k"
+path="res://.godot/imported/AcolyteBuildingComplete1.wav-bf996a0bc9a5695fee70eeda4cb507c8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Undead/AcolyteBuildingComplete1.wav"
+dest_files=["res://.godot/imported/AcolyteBuildingComplete1.wav-bf996a0bc9a5695fee70eeda4cb507c8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

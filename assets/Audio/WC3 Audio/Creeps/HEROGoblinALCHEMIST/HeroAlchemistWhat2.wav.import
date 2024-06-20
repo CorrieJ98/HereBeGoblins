@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://byavck8jklymr"
+path="res://.godot/imported/HeroAlchemistWhat2.wav-3bb89c39b3e817e10e2383b782589051.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/HEROGoblinALCHEMIST/HeroAlchemistWhat2.wav"
+dest_files=["res://.godot/imported/HeroAlchemistWhat2.wav-3bb89c39b3e817e10e2383b782589051.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

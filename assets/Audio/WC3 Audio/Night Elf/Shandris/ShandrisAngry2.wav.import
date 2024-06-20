@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dav6r0xg2gygd"
+path="res://.godot/imported/ShandrisAngry2.wav-85b1a05f47779e0ed9699637d54e509a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Shandris/ShandrisAngry2.wav"
+dest_files=["res://.godot/imported/ShandrisAngry2.wav-85b1a05f47779e0ed9699637d54e509a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

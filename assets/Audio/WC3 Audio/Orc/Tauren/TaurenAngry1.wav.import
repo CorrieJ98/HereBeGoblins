@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://l4djtwmyspx1"
+path="res://.godot/imported/TaurenAngry1.wav-74c14056e46f9c52715f4cf1b574e8cf.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Tauren/TaurenAngry1.wav"
+dest_files=["res://.godot/imported/TaurenAngry1.wav-74c14056e46f9c52715f4cf1b574e8cf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

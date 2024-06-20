@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cfe4jrrh06t75"
+path="res://.godot/imported/GruntWhat2.wav-80da52596c5395844c378f2107ef2959.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Grunt/GruntWhat2.wav"
+dest_files=["res://.godot/imported/GruntWhat2.wav-80da52596c5395844c378f2107ef2959.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

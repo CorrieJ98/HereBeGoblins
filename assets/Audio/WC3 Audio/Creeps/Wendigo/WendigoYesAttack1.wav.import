@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://blijum5cngqnp"
+path="res://.godot/imported/WendigoYesAttack1.wav-8ca2dfefd54cfde7f242110df6202412.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Wendigo/WendigoYesAttack1.wav"
+dest_files=["res://.godot/imported/WendigoYesAttack1.wav-8ca2dfefd54cfde7f242110df6202412.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

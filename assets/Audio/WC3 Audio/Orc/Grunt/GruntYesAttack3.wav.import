@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c7n45qlybjrdm"
+path="res://.godot/imported/GruntYesAttack3.wav-acad4fe01ead2aef8bf787498226a050.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Grunt/GruntYesAttack3.wav"
+dest_files=["res://.godot/imported/GruntYesAttack3.wav-acad4fe01ead2aef8bf787498226a050.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

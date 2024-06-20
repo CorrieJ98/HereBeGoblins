@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://debll8bn4e318"
+path="res://.godot/imported/Hint.wav-7bb07506cb6fed52fa326eaef8d91216.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Interface/Hint.wav"
+dest_files=["res://.godot/imported/Hint.wav-7bb07506cb6fed52fa326eaef8d91216.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

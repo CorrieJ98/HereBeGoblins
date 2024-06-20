@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cyryeqs31kbcn"
+path="res://.godot/imported/SeaGiantDeath1.wav-d0be2f145232465b7c611d4fd808a78e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/SeaGiant/SeaGiantDeath1.wav"
+dest_files=["res://.godot/imported/SeaGiantDeath1.wav-d0be2f145232465b7c611d4fd808a78e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

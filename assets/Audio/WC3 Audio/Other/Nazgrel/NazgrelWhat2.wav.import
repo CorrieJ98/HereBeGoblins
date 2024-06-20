@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c65x3npenu86b"
+path="res://.godot/imported/NazgrelWhat2.wav-b4d7b1cf5e157885332c5d086536a1eb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/Nazgrel/NazgrelWhat2.wav"
+dest_files=["res://.godot/imported/NazgrelWhat2.wav-b4d7b1cf5e157885332c5d086536a1eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

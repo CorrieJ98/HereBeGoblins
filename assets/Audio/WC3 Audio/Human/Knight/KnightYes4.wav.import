@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://clovsduwd0dhy"
+path="res://.godot/imported/KnightYes4.wav-c0a120037063a1b33dc699e240a23a65.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Knight/KnightYes4.wav"
+dest_files=["res://.godot/imported/KnightYes4.wav-c0a120037063a1b33dc699e240a23a65.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

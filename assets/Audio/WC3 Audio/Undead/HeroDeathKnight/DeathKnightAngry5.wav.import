@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dsm8g5qoef4r8"
+path="res://.godot/imported/DeathKnightAngry5.wav-399112f579729ddfac5926bb49bc83e9.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroDeathKnight/DeathKnightAngry5.wav"
+dest_files=["res://.godot/imported/DeathKnightAngry5.wav-399112f579729ddfac5926bb49bc83e9.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

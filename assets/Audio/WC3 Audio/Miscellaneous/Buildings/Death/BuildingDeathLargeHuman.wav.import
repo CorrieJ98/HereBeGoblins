@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://i61tiaha2yjs"
+path="res://.godot/imported/BuildingDeathLargeHuman.wav-6e0bc91f8b59520cbd15ff0cd312efcd.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Death/BuildingDeathLargeHuman.wav"
+dest_files=["res://.godot/imported/BuildingDeathLargeHuman.wav-6e0bc91f8b59520cbd15ff0cd312efcd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

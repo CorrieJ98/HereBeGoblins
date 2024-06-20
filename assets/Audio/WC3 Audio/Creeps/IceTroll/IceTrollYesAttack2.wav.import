@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://31uy61vnd7jx"
+path="res://.godot/imported/IceTrollYesAttack2.wav-049c5b909fa36e2840cceff652d47a68.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/IceTroll/IceTrollYesAttack2.wav"
+dest_files=["res://.godot/imported/IceTrollYesAttack2.wav-049c5b909fa36e2840cceff652d47a68.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

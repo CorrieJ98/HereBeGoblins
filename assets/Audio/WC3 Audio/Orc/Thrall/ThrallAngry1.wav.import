@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bek21kw3ok3o3"
+path="res://.godot/imported/ThrallAngry1.wav-7a0680564a371698e716e55c38378c15.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Thrall/ThrallAngry1.wav"
+dest_files=["res://.godot/imported/ThrallAngry1.wav-7a0680564a371698e716e55c38378c15.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

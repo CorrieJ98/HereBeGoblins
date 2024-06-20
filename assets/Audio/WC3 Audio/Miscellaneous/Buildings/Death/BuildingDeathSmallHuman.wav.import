@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3gmp38ouhhue"
+path="res://.godot/imported/BuildingDeathSmallHuman.wav-538963ac48919af9a93e43d7098921b6.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Buildings/Death/BuildingDeathSmallHuman.wav"
+dest_files=["res://.godot/imported/BuildingDeathSmallHuman.wav-538963ac48919af9a93e43d7098921b6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

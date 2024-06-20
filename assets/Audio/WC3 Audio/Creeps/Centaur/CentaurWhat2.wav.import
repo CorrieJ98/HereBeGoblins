@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bpmksenhk1bm1"
+path="res://.godot/imported/CentaurWhat2.wav-f9a9105954055cd5ed8d87fd5c5d0fe3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Centaur/CentaurWhat2.wav"
+dest_files=["res://.godot/imported/CentaurWhat2.wav-f9a9105954055cd5ed8d87fd5c5d0fe3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

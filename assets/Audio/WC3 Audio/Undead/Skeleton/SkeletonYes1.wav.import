@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdvhpabpfsd3a"
+path="res://.godot/imported/SkeletonYes1.wav-341cc0a851e3cd20ad9390e84382db10.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Skeleton/SkeletonYes1.wav"
+dest_files=["res://.godot/imported/SkeletonYes1.wav-341cc0a851e3cd20ad9390e84382db10.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

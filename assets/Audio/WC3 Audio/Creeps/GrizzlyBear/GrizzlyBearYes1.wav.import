@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c5gp6g6s0jwee"
+path="res://.godot/imported/GrizzlyBearYes1.wav-7e190ecc2a71f2e2db9c639eb527f5b5.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/GrizzlyBear/GrizzlyBearYes1.wav"
+dest_files=["res://.godot/imported/GrizzlyBearYes1.wav-7e190ecc2a71f2e2db9c639eb527f5b5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

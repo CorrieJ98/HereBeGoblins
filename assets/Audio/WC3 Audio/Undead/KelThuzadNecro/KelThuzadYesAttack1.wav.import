@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://br8x2w2notrgg"
+path="res://.godot/imported/KelThuzadYesAttack1.wav-1ed4d0368ac25b64ff7781bbd5a40ee7.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/KelThuzadNecro/KelThuzadYesAttack1.wav"
+dest_files=["res://.godot/imported/KelThuzadYesAttack1.wav-1ed4d0368ac25b64ff7781bbd5a40ee7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

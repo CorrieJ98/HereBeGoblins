@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pl1368pni31h"
+path="res://.godot/imported/DemonHunterDeathAlternate1.wav-0631309b60b9e4ec026a00c7f900242a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroDemonHunter/DemonHunterDeathAlternate1.wav"
+dest_files=["res://.godot/imported/DemonHunterDeathAlternate1.wav-0631309b60b9e4ec026a00c7f900242a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

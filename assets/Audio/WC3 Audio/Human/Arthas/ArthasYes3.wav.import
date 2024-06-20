@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5yiygrf4pccc"
+path="res://.godot/imported/ArthasYes3.wav-7c3c846a0f8dcfc403ff5a3550af6539.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/Arthas/ArthasYes3.wav"
+dest_files=["res://.godot/imported/ArthasYes3.wav-7c3c846a0f8dcfc403ff5a3550af6539.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

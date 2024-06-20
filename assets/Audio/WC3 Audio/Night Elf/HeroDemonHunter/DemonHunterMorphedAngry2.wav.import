@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://doq8tgu7yyi51"
+path="res://.godot/imported/DemonHunterMorphedAngry2.wav-ce93467e61412d2f3aec4c15b69799ab.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroDemonHunter/DemonHunterMorphedAngry2.wav"
+dest_files=["res://.godot/imported/DemonHunterMorphedAngry2.wav-ce93467e61412d2f3aec4c15b69799ab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

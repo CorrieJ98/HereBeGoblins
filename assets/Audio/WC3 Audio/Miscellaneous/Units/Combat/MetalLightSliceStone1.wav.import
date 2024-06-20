@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://rshnsg1jkhwu"
+path="res://.godot/imported/MetalLightSliceStone1.wav-f3c8187e6ddaa01263dbf2fbb977c5f8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalLightSliceStone1.wav"
+dest_files=["res://.godot/imported/MetalLightSliceStone1.wav-f3c8187e6ddaa01263dbf2fbb977c5f8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

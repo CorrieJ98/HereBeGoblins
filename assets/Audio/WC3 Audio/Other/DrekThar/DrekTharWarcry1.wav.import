@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnfff3u2aaejk"
+path="res://.godot/imported/DrekTharWarcry1.wav-42caf0d11bb01b2eff6b4ebf5f0b3412.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Other/DrekThar/DrekTharWarcry1.wav"
+dest_files=["res://.godot/imported/DrekTharWarcry1.wav-42caf0d11bb01b2eff6b4ebf5f0b3412.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

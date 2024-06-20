@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmky8xf8oqr4p"
+path="res://.godot/imported/LichAttackEffort1.wav-2401c74b14f30e6242cf54fec53ede74.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/HeroLich/LichAttackEffort1.wav"
+dest_files=["res://.godot/imported/LichAttackEffort1.wav-2401c74b14f30e6242cf54fec53ede74.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

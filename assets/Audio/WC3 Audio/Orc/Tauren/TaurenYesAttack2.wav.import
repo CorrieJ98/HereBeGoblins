@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5vr80nab7exe"
+path="res://.godot/imported/TaurenYesAttack2.wav-1e4858480f5c30e26b65f41cfb6017b0.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Tauren/TaurenYesAttack2.wav"
+dest_files=["res://.godot/imported/TaurenYesAttack2.wav-1e4858480f5c30e26b65f41cfb6017b0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

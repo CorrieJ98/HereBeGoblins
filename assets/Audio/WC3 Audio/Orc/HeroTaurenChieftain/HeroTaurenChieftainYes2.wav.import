@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1f6f38iwrn74"
+path="res://.godot/imported/HeroTaurenChieftainYes2.wav-700c8ed6b9cdd06ba4d389bfe60c93bb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroTaurenChieftain/HeroTaurenChieftainYes2.wav"
+dest_files=["res://.godot/imported/HeroTaurenChieftainYes2.wav-700c8ed6b9cdd06ba4d389bfe60c93bb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

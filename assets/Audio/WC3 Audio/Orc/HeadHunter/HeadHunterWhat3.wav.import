@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ckxiv3ipmqr6v"
+path="res://.godot/imported/HeadHunterWhat3.wav-bfc1b6d4777240d638d17dc8eb59a5a1.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeadHunter/HeadHunterWhat3.wav"
+dest_files=["res://.godot/imported/HeadHunterWhat3.wav-bfc1b6d4777240d638d17dc8eb59a5a1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

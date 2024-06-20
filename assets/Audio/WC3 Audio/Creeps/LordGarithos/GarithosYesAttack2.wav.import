@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://fyub5b8mpew8"
+path="res://.godot/imported/GarithosYesAttack2.wav-42c1aedb7ca1d220b854ab302d326e14.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/LordGarithos/GarithosYesAttack2.wav"
+dest_files=["res://.godot/imported/GarithosYesAttack2.wav-42c1aedb7ca1d220b854ab302d326e14.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

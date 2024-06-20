@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ci6c464hgxloa"
+path="res://.godot/imported/SnapDragonWhat2.wav-3239231811bf99062467a8942feaa87e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Naga/SnapDragon/SnapDragonWhat2.wav"
+dest_files=["res://.godot/imported/SnapDragonWhat2.wav-3239231811bf99062467a8942feaa87e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwdmkrj3mwga8"
+path="res://.godot/imported/SylvanasWhat3.wav-f5ead7d7aa6b4984ec02e5d6ff53d4d8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/SylvanusWindrunner/SylvanasWhat3.wav"
+dest_files=["res://.godot/imported/SylvanasWhat3.wav-f5ead7d7aa6b4984ec02e5d6ff53d4d8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

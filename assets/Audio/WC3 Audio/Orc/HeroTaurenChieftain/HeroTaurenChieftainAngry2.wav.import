@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxe3kmovent6u"
+path="res://.godot/imported/HeroTaurenChieftainAngry2.wav-7c9c0a2df570f7ff1c202d9dcce251f1.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/HeroTaurenChieftain/HeroTaurenChieftainAngry2.wav"
+dest_files=["res://.godot/imported/HeroTaurenChieftainAngry2.wav-7c9c0a2df570f7ff1c202d9dcce251f1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

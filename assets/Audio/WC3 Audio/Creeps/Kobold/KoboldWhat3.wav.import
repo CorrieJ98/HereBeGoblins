@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cp5222occf81s"
+path="res://.godot/imported/KoboldWhat3.wav-bac01e976e8257c89ea766bae2f4a739.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Kobold/KoboldWhat3.wav"
+dest_files=["res://.godot/imported/KoboldWhat3.wav-bac01e976e8257c89ea766bae2f4a739.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

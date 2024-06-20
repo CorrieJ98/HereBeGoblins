@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cgujeojtwg4il"
+path="res://.godot/imported/MurlocAngry2.wav-865b997376eebe4d35aaa8bdb929f435.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/Murloc/MurlocAngry2.wav"
+dest_files=["res://.godot/imported/MurlocAngry2.wav-865b997376eebe4d35aaa8bdb929f435.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

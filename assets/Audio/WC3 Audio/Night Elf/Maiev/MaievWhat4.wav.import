@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dllcblstlp31k"
+path="res://.godot/imported/MaievWhat4.wav-25d793e2fd1d0501b9f1bbdbc0f8f0f8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Maiev/MaievWhat4.wav"
+dest_files=["res://.godot/imported/MaievWhat4.wav-25d793e2fd1d0501b9f1bbdbc0f8f0f8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

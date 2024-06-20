@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 res://scene/buildings/townhall.tscn
 =======
 res://scene/global/UI/health_bar.tscn
@@ -23,4 +24,12 @@ res://resources/mats/hex_tile.tres
 res://scene/buildings/Townhall.tscn
 res://scene/buildings/barracks.gd
 res://scene/buildings/building.gd
+>>>>>>> Stashed changes
+=======
+res://scenes/mainmenu.tscn
+res://scenes/mainmenu.gd
+res://scenes/health_bar.tscn
+res://scenes/world.tscn
+res://scenes/worker_ai.tscn
+res://scenes/main_building.tscn
 >>>>>>> Stashed changes

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://6t2857v4jje7"
+path="res://.godot/imported/PandarenBrewmasterStormAngry1.wav-a25052f55e36f45cc1bf26ae37b19cfa.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/StormPandarenBrewmaster/PandarenBrewmasterStormAngry1.wav"
+dest_files=["res://.godot/imported/PandarenBrewmasterStormAngry1.wav-a25052f55e36f45cc1bf26ae37b19cfa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

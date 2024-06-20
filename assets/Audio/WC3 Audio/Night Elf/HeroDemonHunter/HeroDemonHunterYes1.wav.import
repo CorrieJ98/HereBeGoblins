@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dcwwa8dyw8q74"
+path="res://.godot/imported/HeroDemonHunterYes1.wav-65ef3747c47eea48902a74a3f3db5d02.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/HeroDemonHunter/HeroDemonHunterYes1.wav"
+dest_files=["res://.godot/imported/HeroDemonHunterYes1.wav-65ef3747c47eea48902a74a3f3db5d02.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

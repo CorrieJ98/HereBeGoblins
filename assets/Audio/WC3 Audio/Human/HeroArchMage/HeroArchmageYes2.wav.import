@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://daub43w0eu1ux"
+path="res://.godot/imported/HeroArchmageYes2.wav-45869399b8503c11a980b720e83e631a.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroArchMage/HeroArchmageYes2.wav"
+dest_files=["res://.godot/imported/HeroArchmageYes2.wav-45869399b8503c11a980b720e83e631a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

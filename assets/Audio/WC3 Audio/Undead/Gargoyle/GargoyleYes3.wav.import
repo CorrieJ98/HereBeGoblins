@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c220331ct6sf2"
+path="res://.godot/imported/GargoyleYes3.wav-baebea09e0c26acf825edbce1be17358.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Gargoyle/GargoyleYes3.wav"
+dest_files=["res://.godot/imported/GargoyleYes3.wav-baebea09e0c26acf825edbce1be17358.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

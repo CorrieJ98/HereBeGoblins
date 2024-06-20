@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bgsb5pfvx6eh0"
+path="res://.godot/imported/HeroAlchemistAngry5.wav-a49784470f42bf45ae86da6b01c64342.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/HEROGoblinALCHEMIST/HeroAlchemistAngry5.wav"
+dest_files=["res://.godot/imported/HeroAlchemistAngry5.wav-a49784470f42bf45ae86da6b01c64342.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

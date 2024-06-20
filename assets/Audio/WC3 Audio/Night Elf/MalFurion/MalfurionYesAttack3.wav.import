@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dj6i0d0wdhwd5"
+path="res://.godot/imported/MalfurionYesAttack3.wav-2c969c3fdd0158a0a620b1580545db92.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/MalFurion/MalfurionYesAttack3.wav"
+dest_files=["res://.godot/imported/MalfurionYesAttack3.wav-2c969c3fdd0158a0a620b1580545db92.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

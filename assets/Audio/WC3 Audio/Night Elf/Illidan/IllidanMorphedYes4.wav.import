@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dadlefrfpn6rt"
+path="res://.godot/imported/IllidanMorphedYes4.wav-8f84e644b40386a9ddbe768e362481b0.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/Illidan/IllidanMorphedYes4.wav"
+dest_files=["res://.godot/imported/IllidanMorphedYes4.wav-8f84e644b40386a9ddbe768e362481b0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

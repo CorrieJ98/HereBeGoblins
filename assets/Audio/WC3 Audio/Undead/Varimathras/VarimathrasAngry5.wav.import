@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctiqbpg60w7dp"
+path="res://.godot/imported/VarimathrasAngry5.wav-73c7d42f7ff5cbd82deabfb0c18a34da.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Varimathras/VarimathrasAngry5.wav"
+dest_files=["res://.godot/imported/VarimathrasAngry5.wav-73c7d42f7ff5cbd82deabfb0c18a34da.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cclqniw4tnwlr"
+path="res://.godot/imported/GryphonRiderYesAttack2.wav-7e01e6dde261577cde49cbd16f5a3171.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/GryphonRider/GryphonRiderYesAttack2.wav"
+dest_files=["res://.godot/imported/GryphonRiderYesAttack2.wav-7e01e6dde261577cde49cbd16f5a3171.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

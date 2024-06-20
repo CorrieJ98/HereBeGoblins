@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://kyuoop6ihqed"
+path="res://.godot/imported/PitLordYesAttack1.wav-63385a320dcc54a2897fedc8687dd7ba.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Demon/Pitlord/PitLordYesAttack1.wav"
+dest_files=["res://.godot/imported/PitLordYesAttack1.wav-63385a320dcc54a2897fedc8687dd7ba.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

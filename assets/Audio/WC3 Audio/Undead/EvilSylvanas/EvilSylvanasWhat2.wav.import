@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://2p0ytf5o4mt0"
+path="res://.godot/imported/EvilSylvanasWhat2.wav-5909ef1430c1fff10e735717b0e59a3e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/EvilSylvanas/EvilSylvanasWhat2.wav"
+dest_files=["res://.godot/imported/EvilSylvanasWhat2.wav-5909ef1430c1fff10e735717b0e59a3e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bruw3o4ii3kqu"
+path="res://.godot/imported/VultureDeath1.wav-3544c363cb0a8e34f0f0252f4f95a641.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Critters/Vulture/VultureDeath1.wav"
+dest_files=["res://.godot/imported/VultureDeath1.wav-3544c363cb0a8e34f0f0252f4f95a641.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

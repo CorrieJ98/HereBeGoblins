@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dc0bmlpysnk4w"
+path="res://.godot/imported/TrollbatriderAngry1.wav-d696b47d3dd72d9a055f793a4f420f95.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/BatTroll/TrollbatriderAngry1.wav"
+dest_files=["res://.godot/imported/TrollbatriderAngry1.wav-d696b47d3dd72d9a055f793a4f420f95.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

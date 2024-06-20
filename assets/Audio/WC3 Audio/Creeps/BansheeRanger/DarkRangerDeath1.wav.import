@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bn3dioexb0bt4"
+path="res://.godot/imported/DarkRangerDeath1.wav-8377a0d1275107ddf5bc030019d913e8.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Creeps/BansheeRanger/DarkRangerDeath1.wav"
+dest_files=["res://.godot/imported/DarkRangerDeath1.wav-8377a0d1275107ddf5bc030019d913e8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

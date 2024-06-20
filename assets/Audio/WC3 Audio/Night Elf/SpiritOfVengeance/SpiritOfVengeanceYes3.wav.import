@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dikt0i30xn662"
+path="res://.godot/imported/SpiritOfVengeanceYes3.wav-8a6cc2f9b78f8210ab4554bdee0abbb3.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Night Elf/SpiritOfVengeance/SpiritOfVengeanceYes3.wav"
+dest_files=["res://.godot/imported/SpiritOfVengeanceYes3.wav-8a6cc2f9b78f8210ab4554bdee0abbb3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

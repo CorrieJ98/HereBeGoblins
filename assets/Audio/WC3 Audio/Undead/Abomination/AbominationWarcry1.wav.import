@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://8rk68t2hk54q"
+path="res://.godot/imported/AbominationWarcry1.wav-6ded6afb9ee387f44162c97efff6bf61.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Abomination/AbominationWarcry1.wav"
+dest_files=["res://.godot/imported/AbominationWarcry1.wav-6ded6afb9ee387f44162c97efff6bf61.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

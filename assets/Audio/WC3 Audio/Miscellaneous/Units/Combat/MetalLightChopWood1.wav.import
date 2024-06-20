@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnu2q51p4ck4g"
+path="res://.godot/imported/MetalLightChopWood1.wav-8b0f9d9e29cbca1995316697cd438875.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/MetalLightChopWood1.wav"
+dest_files=["res://.godot/imported/MetalLightChopWood1.wav-8b0f9d9e29cbca1995316697cd438875.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

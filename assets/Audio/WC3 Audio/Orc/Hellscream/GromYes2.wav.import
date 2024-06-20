@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxt0fct8gnn7q"
+path="res://.godot/imported/GromYes2.wav-dc8e6ab813f82c59ecf14f1446a5f71e.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Orc/Hellscream/GromYes2.wav"
+dest_files=["res://.godot/imported/GromYes2.wav-dc8e6ab813f82c59ecf14f1446a5f71e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

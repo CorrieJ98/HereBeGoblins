@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://do6llh6d0jxbu"
+path="res://.godot/imported/BloodElfMageWhat5.wav-7e608e181f9cd06065941249f1e03b62.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Human/HeroBloodElf/BloodElfMageWhat5.wav"
+dest_files=["res://.godot/imported/BloodElfMageWhat5.wav-7e608e181f9cd06065941249f1e03b62.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

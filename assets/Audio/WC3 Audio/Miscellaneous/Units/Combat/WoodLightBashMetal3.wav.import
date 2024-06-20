@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cuokatxeowsxl"
+path="res://.godot/imported/WoodLightBashMetal3.wav-e6501d997d0a002e9d2b361d760c1acb.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Miscellaneous/Units/Combat/WoodLightBashMetal3.wav"
+dest_files=["res://.godot/imported/WoodLightBashMetal3.wav-e6501d997d0a002e9d2b361d760c1acb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

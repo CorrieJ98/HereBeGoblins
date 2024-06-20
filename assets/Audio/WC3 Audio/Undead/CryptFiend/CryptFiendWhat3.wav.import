@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b6ym2awa3pqi3"
+path="res://.godot/imported/CryptFiendWhat3.wav-8d0f5b212b92909827a6691c6efa37da.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/CryptFiend/CryptFiendWhat3.wav"
+dest_files=["res://.godot/imported/CryptFiendWhat3.wav-8d0f5b212b92909827a6691c6efa37da.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

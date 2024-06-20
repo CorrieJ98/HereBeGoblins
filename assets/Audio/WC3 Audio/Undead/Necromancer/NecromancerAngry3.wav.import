@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfltloxvixmj5"
+path="res://.godot/imported/NecromancerAngry3.wav-9cd6c6978d7066f03a7d47096d7e1f59.sample"
+
+[deps]
+
+source_file="res://assets/Audio/WC3 Audio/Undead/Necromancer/NecromancerAngry3.wav"
+dest_files=["res://.godot/imported/NecromancerAngry3.wav-9cd6c6978d7066f03a7d47096d7e1f59.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
