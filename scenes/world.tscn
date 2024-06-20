@@ -1,0 +1,286 @@
+[gd_scene load_steps=23 format=3 uid="uid://be1l5kspsh8b6"]
+
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_dqeb6"]
+[ext_resource type="Material" uid="uid://d0i3q6j44jwns" path="res://assets/Materials/FloorMat.tres" id="1_fvg1o"]
+[ext_resource type="Script" path="res://scripts/RTSController.gd" id="1_rpve7"]
+[ext_resource type="PackedScene" uid="uid://dy5pmuvdioedi" path="res://scenes/main_building.tscn" id="2_tya4q"]
+[ext_resource type="Script" path="res://scripts/UnitSelector.gd" id="3_fk3c1"]
+[ext_resource type="PackedScene" uid="uid://cg46pq7rbx04l" path="res://scenes/minerals.tscn" id="4_3iryc"]
+[ext_resource type="Texture2D" uid="uid://k7fnbofhk0c2" path="res://assets/GUI/DetailBar.png" id="5_55qjs"]
+[ext_resource type="Script" path="res://scripts/GUIController.gd" id="5_ruh28"]
+[ext_resource type="Texture2D" uid="uid://d2p1j6ypo4vf5" path="res://assets/GUI/MiniMap_Portrait.png" id="6_iwjt3"]
+[ext_resource type="PackedScene" uid="uid://vxo3p35ylaew" path="res://scenes/worker_ai.tscn" id="7_87kuv"]
+[ext_resource type="Texture2D" uid="uid://cligqukgffx0t" path="res://assets/GUI/SelectionBar.png" id="7_u8vom"]
+[ext_resource type="Texture2D" uid="uid://bb8sf1tl1kjka" path="res://assets/GUI/WorkerImg.jpg" id="9_fmaq7"]
+[ext_resource type="Texture2D" uid="uid://djhyxgkv3fwth" path="res://assets/GUI/MainBuildingImg.jpg" id="12_3mtlv"]
+[ext_resource type="Texture2D" uid="uid://chdqssq55t7ta" path="res://assets/GUI/rock.png" id="14_d3v41"]
+[ext_resource type="AudioStream" uid="uid://djlmht05hc81t" path="res://assets/Music/fatalechoes.mp3" id="15_evh0f"]
+[ext_resource type="Script" path="res://scenes/BGMusicPlayer.gd" id="16_tyidh"]
+
+[sub_resource type="NavigationMesh" id="NavigationMesh_5iopb"]
+vertices = PackedVector3Array(-8.5, 0.5, -30.25, -7.5, 0.75, -30.5, -7.5, 0.5, -31.25, -7.5, 0.5, -31.25, -7, 0.5, -31.5, -7, 0.5, -149.5, -8.5, 0.5, -30.25, -7.5, 0.5, -31.25, -7, 0.5, -149.5, -9, 0.5, -28.5, -8.5, 0.5, -30.25, -7, 0.5, -149.5, -149.5, 0.5, -149.5, -149.5, 0.5, -28.5, -4.25, 0.5, -31.5, -4, 1, -31, -3.75, 0.5, -31.5, -5.25, 0.5, -31.75, -5.25, 1, -31.25, -4.25, 0.5, -31.5, -5.25, 0.5, -31.75, -4.25, 0.5, -31.5, -3.75, 0.5, -31.5, -5.25, 0.5, -31.75, -3.75, 0.5, -31.5, -3, 0.5, -31.5, -3, 0.5, -149.5, -7, 0.5, -149.5, -7, 0.5, -149.5, -7, 0.5, -31.5, -5.25, 0.5, -31.75, 4, 0.5, -24.25, 4.25, 1, -23.5, 4.25, 0.5, -24.5, 7.25, 0.5, -23.25, 7.25, 0.5, -22.5, 7.5, 0.5, -22.25, -1.75, 0.5, -29.5, -2.75, 1, -29.5, -2.75, 0.5, -28.75, 2.5, 0.5, -24, 2.5, 0.5, -24, 4, 0.5, -24.25, 4.25, 0.5, -24.5, -1.75, 0.5, -30.25, -1.75, 0.5, -29.5, -3, 0.5, -149.5, 7.25, 0.5, -23.25, 7.5, 0.5, -22.25, -3, 0.5, -149.5, 7.5, 0.5, -22.25, 7.75, 0.5, -20.75, 149.5, 0.5, -20.75, 149.5, 0.5, -149.5, -3, 0.5, -149.5, 6, 0.5, -24.5, 7.25, 0.5, -23.25, -1.75, 0.5, -30.25, 4.25, 0.5, -24.5, 6, 0.5, -24.5, -3, 0.5, -149.5, -3, 0.5, -31.5, -7.75, 1.25, -29.25, -7.25, 1.25, -29, -7.25, 1.25, -29.5, -7.5, 1, -30, -7.25, 1.25, -29.5, -6.5, 0.75, -29.5, -6.75, 1, -30.25, -7.5, 1, -30, -5.5, 0.5, -25.5, -6.25, 0.5, -25, -6.25, 0.5, -24.75, 1.5, 0.5, -23, -5, 0.5, -29.5, -5, 1, -30.25, -6.25, 0.5, -29.5, -6.5, 0.5, -28, -5.75, 0.5, -27.75, -5.75, 0.5, -27.75, -6, 0.75, -26.5, -5.5, 0.5, -26.5, -3.75, 0.5, -28.5, -5, 0.5, -29.5, -3.75, 0.5, -28.5, -5.5, 0.5, -26.5, -5.5, 0.5, -25.5, 1.5, 0.5, -23, 2.5, 0.5, -24, -2.75, 0.5, -28.75, -7.5, 1.25, -27.5, -8, 1.25, -28.75, -8, 1, -27.5, -7.25, 1.5, -27.25, -7, 1.5, -26.5, -6.75, 1, -27.5, -7.25, 1.5, -27.25, -6.75, 1, -27.5, -7.5, 1.25, -27.5, -8.25, 0.75, -27.25, -7.25, 1.5, -27.25, -7.5, 1.25, -27.5, -8, 1, -27.5, -9, 0.5, -27.5, -9, 0.5, -28.5, -149.5, 0.5, -28.5, -8.25, 0.75, -27.25, -8, 1, -27.5, -9, 0.5, -27.5, -6.25, 0.5, -24.75, -6.25, 0.5, -25, -7.5, 0.5, -25.25, -8.25, 0.5, -26, -8.25, 0.75, -27.25, -9, 0.5, -27.5, -7.75, 0.5, -12, -6.75, 0.75, -12, -6, 0.5, -14.25, -8.25, 0.5, -26, -9, 0.5, -27.5, -6, 0.5, -14.25, -6.25, 0.5, -24.75, -7.5, 0.5, -25.25, -6, 0.5, -14.25, -7.5, 0.5, -25.25, -8.25, 0.5, -26, -7.75, 0.75, -11.5, -7.75, 0.5, -12, -9, 0.5, -27.5, -149.5, 0.5, -28.5, -149.5, 0.5, -11.5, 4.75, 0.5, -19.75, 6.25, 1, -20, 5.25, 0.5, -20.25, 6.5, 1, -22.25, 7.5, 0.5, -22.25, 7.25, 0.5, -22.5, 6.25, 1.25, -22.5, -2.5, 0.5, -14.25, -2, 0.5, -13.5, 4, 0.5, -17.5, 6.5, 1, -21.75, 6.5, 1, -22.25, 6.25, 1.25, -22.5, 5.5, 1, -22, 5.5, 0.5, -21.5, 6.25, 1.25, -22.5, 5.5, 1.25, -23.25, 5.5, 1, -22, 4.75, 0.5, -19.75, 5.5, 0.5, -21.5, 3.5, 0.5, -21.75, 2.25, 0.5, -21.75, 4, 0.5, -19, 1.5, 0.5, -22.5, 1.5, 0.5, -23, -6.25, 0.5, -24.75, 2.25, 0.5, -21.75, 2.25, 1, -22.5, 1.5, 0.5, -22.5, 5.5, 0.5, -21.5, 5.5, 1, -22, 4.5, 0.5, -22, 3.5, 0.5, -21.75, 4.5, 0.5, -22, 4.25, 1, -22.75, 3.5, 1.5, -22.75, 3.5, 0.5, -21.75, 4, 0.5, -17.5, 4, 0.5, -19, 1.5, 0.5, -22.5, -6.25, 0.5, -24.75, -6, 0.5, -14.25, -2.5, 0.5, -14.25, 4.75, 0.5, -19.75, 5.25, 0.5, -20.25, 5.5, 0.5, -21.5, 4, 0.5, -19, 2.25, 0.5, -21.75, 1.5, 0.5, -22.5, 2.75, 1.25, -23, 3.5, 1.5, -22.75, 3.5, 1.5, -23.25, 5, 1, -17.5, 4.75, 1, -18, 4.75, 1, -17.5, -0.25, 0.5, -10.5, -1.25, 0.5, -10.25, -1.5, 0.5, -9.25, 149.5, 0.5, -20.75, -1.5, 0.5, -9.25, -3, 0.5, -9.25, -3.5, 0.5, -7.75, -2, 0.5, -13.5, -1.25, 0.5, -12, -0.25, 0.5, -11.5, 4.75, 1, -17.5, 4, 0.5, -17.5, 149.5, 0.5, -20.75, -3.5, 0.5, -7.75, -4.25, 0.5, -7.5, -4.25, 0.5, 149.5, 149.5, 0.5, 149.5, 149.5, 0.5, -20.75, 7.75, 0.5, -20.75, 6.75, 0.5, -17.75, 5, 1, -17.5, 4.75, 1, -17.5, -0.25, 0.5, -11.5, 5, 1, -17.5, -0.25, 0.5, -11.5, -0.25, 0.5, -10.5, 149.5, 0.5, -20.75, 6.75, 0.5, -17.75, 149.5, 0.5, -20.75, -1.5, 0.5, -9.25, -3.5, 0.5, -7.75, -3.75, 1.75, -12.5, -3, 1.75, -12.25, -3.25, 1.5, -13.25, -5.25, 1.5, -13, -5.25, 1.75, -12.25, -4.75, 1.75, -12.25, -6.25, 0.5, -9.25, -6.5, 1, -10.25, -7.25, 0.5, -10.25, -5, 0.5, -7.75, -5.25, 0.5, -9.25, -6.25, 0.5, -9.25, -5, 0.5, -7.75, -6.25, 0.5, -9.25, -7.25, 0.5, -10.25, -149.5, 0.5, -11.5, -7.25, 0.5, -10.25, -7.75, 0.75, -11.5, -149.5, 0.5, -11.5, -4.25, 0.5, -7.5, -5, 0.5, -7.75, -149.5, 0.5, -11.5, -149.5, 0.5, 149.5, -4.25, 0.5, 149.5)
+polygons = [PackedInt32Array(0, 2, 1), PackedInt32Array(3, 5, 4), PackedInt32Array(8, 7, 6), PackedInt32Array(10, 9, 11), PackedInt32Array(11, 9, 13), PackedInt32Array(11, 13, 12), PackedInt32Array(16, 15, 14), PackedInt32Array(19, 18, 17), PackedInt32Array(22, 21, 20), PackedInt32Array(24, 23, 25), PackedInt32Array(25, 23, 26), PackedInt32Array(26, 23, 27), PackedInt32Array(30, 29, 28), PackedInt32Array(33, 32, 31), PackedInt32Array(36, 35, 34), PackedInt32Array(38, 37, 39), PackedInt32Array(39, 37, 40), PackedInt32Array(42, 41, 43), PackedInt32Array(43, 41, 45), PackedInt32Array(43, 45, 44), PackedInt32Array(48, 47, 46), PackedInt32Array(50, 49, 51), PackedInt32Array(51, 49, 52), PackedInt32Array(52, 49, 53), PackedInt32Array(56, 55, 54), PackedInt32Array(58, 57, 59), PackedInt32Array(59, 57, 61), PackedInt32Array(59, 61, 60), PackedInt32Array(63, 62, 64), PackedInt32Array(64, 62, 65), PackedInt32Array(69, 68, 66), PackedInt32Array(66, 68, 67), PackedInt32Array(71, 70, 72), PackedInt32Array(72, 70, 73), PackedInt32Array(75, 74, 76), PackedInt32Array(76, 74, 77), PackedInt32Array(77, 74, 78), PackedInt32Array(80, 79, 81), PackedInt32Array(81, 79, 82), PackedInt32Array(82, 79, 83), PackedInt32Array(85, 84, 86), PackedInt32Array(86, 84, 89), PackedInt32Array(86, 89, 87), PackedInt32Array(87, 89, 88), PackedInt32Array(92, 91, 90), PackedInt32Array(94, 93, 95), PackedInt32Array(96, 98, 97), PackedInt32Array(102, 101, 99), PackedInt32Array(99, 101, 100), PackedInt32Array(105, 104, 103), PackedInt32Array(108, 107, 106), PackedInt32Array(111, 110, 109), PackedInt32Array(114, 113, 112), PackedInt32Array(116, 115, 117), PackedInt32Array(117, 115, 118), PackedInt32Array(118, 115, 119), PackedInt32Array(122, 121, 120), PackedInt32Array(125, 124, 123), PackedInt32Array(127, 126, 128), PackedInt32Array(128, 126, 130), PackedInt32Array(128, 130, 129), PackedInt32Array(133, 132, 131), PackedInt32Array(137, 136, 134), PackedInt32Array(134, 136, 135), PackedInt32Array(140, 139, 138), PackedInt32Array(142, 141, 143), PackedInt32Array(143, 141, 144), PackedInt32Array(144, 141, 145), PackedInt32Array(148, 147, 146), PackedInt32Array(149, 153, 150), PackedInt32Array(150, 153, 151), PackedInt32Array(151, 153, 152), PackedInt32Array(155, 154, 156), PackedInt32Array(159, 158, 157), PackedInt32Array(161, 160, 162), PackedInt32Array(162, 160, 163), PackedInt32Array(165, 164, 166), PackedInt32Array(166, 164, 167), PackedInt32Array(169, 168, 170), PackedInt32Array(170, 168, 173), PackedInt32Array(170, 173, 172), PackedInt32Array(170, 172, 171), PackedInt32Array(176, 175, 174), PackedInt32Array(179, 178, 177), PackedInt32Array(182, 181, 180), PackedInt32Array(185, 184, 183), PackedInt32Array(187, 186, 188), PackedInt32Array(188, 186, 189), PackedInt32Array(192, 191, 190), PackedInt32Array(194, 193, 195), PackedInt32Array(195, 193, 197), PackedInt32Array(195, 197, 196), PackedInt32Array(199, 198, 200), PackedInt32Array(200, 198, 201), PackedInt32Array(201, 198, 202), PackedInt32Array(205, 204, 203), PackedInt32Array(208, 207, 206), PackedInt32Array(210, 209, 211), PackedInt32Array(211, 209, 213), PackedInt32Array(211, 213, 212), PackedInt32Array(216, 215, 214), PackedInt32Array(219, 218, 217), PackedInt32Array(222, 221, 220), PackedInt32Array(223, 225, 224), PackedInt32Array(228, 227, 226), PackedInt32Array(230, 229, 231), PackedInt32Array(231, 229, 232), PackedInt32Array(235, 234, 233), PackedInt32Array(237, 236, 238), PackedInt32Array(238, 236, 240), PackedInt32Array(238, 240, 239)]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_d1mbo"]
+material = ExtResource("1_fvg1o")
+size = Vector2(300, 300)
+
+[sub_resource type="ConcavePolygonShape3D" id="ConcavePolygonShape3D_ehit1"]
+data = PackedVector3Array(150, 0, 150, -150, 0, 150, 150, 0, -150, -150, 0, 150, -150, 0, -150, 150, 0, -150)
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_7iwm3"]
+
+[sub_resource type="Sky" id="Sky_4race"]
+sky_material = SubResource("ProceduralSkyMaterial_7iwm3")
+
+[sub_resource type="Environment" id="Environment_boo4a"]
+background_mode = 2
+sky = SubResource("Sky_4race")
+sdfgi_enabled = true
+glow_enabled = true
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.025
+volumetric_fog_detail_spread = 4.28709
+volumetric_fog_temporal_reprojection_amount = 0.99
+
+[node name="World" type="Node3D"]
+script = ExtResource("1_dqeb6")
+
+[node name="NavigationRegion3D" type="NavigationRegion3D" parent="."]
+navigation_mesh = SubResource("NavigationMesh_5iopb")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="NavigationRegion3D"]
+mesh = SubResource("PlaneMesh_d1mbo")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/MeshInstance3D" groups=["surface"]]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/MeshInstance3D/StaticBody3D"]
+shape = SubResource("ConcavePolygonShape3D_ehit1")
+
+[node name="Buildings" type="Node" parent="NavigationRegion3D"]
+
+[node name="MainBuilding" parent="NavigationRegion3D/Buildings" instance=ExtResource("2_tya4q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.23789, 0, -11.186)
+
+[node name="Minerals" type="Node" parent="NavigationRegion3D"]
+
+[node name="Minerals" parent="NavigationRegion3D/Minerals" instance=ExtResource("4_3iryc")]
+transform = Transform3D(0.406609, 0, -0.913602, 0, 1, 0, 0.913602, 0, 0.406609, 4.84908, 0, -21.155)
+
+[node name="Minerals2" parent="NavigationRegion3D/Minerals" instance=ExtResource("4_3iryc")]
+transform = Transform3D(0.767702, 0, 0.640807, 0, 1, 0, -0.640807, 0, 0.767702, -5.69882, 0, -28.7378)
+
+[node name="RTSController" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.573576, 0.819152, 0, -0.819152, 0.573576, 0, 0, 0)
+script = ExtResource("1_rpve7")
+
+[node name="Camera3D" type="Camera3D" parent="RTSController"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 17)
+
+[node name="UnitSelector" type="Control" parent="RTSController"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("3_fk3c1")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.341594, 0.939848, 0, -0.939848, -0.341594, 0, 0, 0)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_boo4a")
+
+[node name="Units" type="Node" parent="."]
+
+[node name="WorkerAI" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.6438, 0, 0.416365)
+
+[node name="WorkerAI2" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -20.3793, 0, 0.531744)
+
+[node name="WorkerAI3" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -17.3793, 0, 0.531744)
+
+[node name="WorkerAI4" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18.4518, 0, 3.66449)
+
+[node name="WorkerAI5" parent="Units" instance=ExtResource("7_87kuv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.6327, -0.254375, 3.89796)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="GUIController" type="Control" parent="CanvasLayer"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("5_ruh28")
+
+[node name="InfoBar" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -545.0
+offset_top = -261.0
+offset_right = 545.0
+offset_bottom = -20.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("5_55qjs")
+expand_mode = 1
+
+[node name="MiniMapContainer" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = -400.0
+offset_right = 400.0
+offset_bottom = -20.0
+grow_vertical = 0
+texture = ExtResource("6_iwjt3")
+expand_mode = 1
+
+[node name="SelectionBar" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -408.0
+offset_top = -266.0
+offset_right = -18.0
+offset_bottom = -16.0
+grow_horizontal = 0
+grow_vertical = 0
+texture = ExtResource("7_u8vom")
+expand_mode = 1
+
+[node name="BuildingsGrid" type="GridContainer" parent="CanvasLayer/GUIController/SelectionBar"]
+layout_mode = 0
+anchor_left = 0.0615385
+anchor_top = 0.1
+anchor_right = 0.948718
+anchor_bottom = 0.92
+theme_override_constants/h_separation = 19
+theme_override_constants/v_separation = 28
+columns = 4
+metadata/_edit_use_anchors_ = true
+
+[node name="OptionButton1" type="TextureButton" parent="CanvasLayer/GUIController/SelectionBar/BuildingsGrid"]
+custom_minimum_size = Vector2(72.5, 54.3)
+layout_mode = 2
+texture_normal = ExtResource("12_3mtlv")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="OptionButton2" type="TextureButton" parent="CanvasLayer/GUIController/SelectionBar/BuildingsGrid"]
+custom_minimum_size = Vector2(72.5, 54.3)
+layout_mode = 2
+texture_normal = ExtResource("12_3mtlv")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="MainUnitImgContainer" type="TextureRect" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 440.0
+offset_top = -227.0
+offset_right = 640.0
+offset_bottom = -53.0
+grow_vertical = 0
+expand_mode = 1
+
+[node name="MainUnitImg" type="TextureRect" parent="CanvasLayer/GUIController/MainUnitImgContainer"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 5.0
+offset_top = 5.0
+offset_right = -5.0
+offset_bottom = -5.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("9_fmaq7")
+expand_mode = 1
+
+[node name="UnitsGrid" type="GridContainer" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -180.0
+offset_top = -230.0
+offset_right = 524.0
+offset_bottom = -49.0004
+grow_horizontal = 2
+grow_vertical = 0
+columns = 8
+
+[node name="Minerals" type="VBoxContainer" parent="CanvasLayer/GUIController"]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -270.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = 189.0
+grow_horizontal = 0
+theme_override_constants/separation = 10
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer/GUIController/Minerals"]
+layout_mode = 2
+size_flags_vertical = 3
+texture = ExtResource("14_d3v41")
+expand_mode = 1
+stretch_mode = 4
+
+[node name="Label" type="Label" parent="CanvasLayer/GUIController/Minerals"]
+layout_mode = 2
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TestButtonContainer" type="HBoxContainer" parent="CanvasLayer/GUIController/Minerals"]
+visible = false
+layout_mode = 2
+
+[node name="PlusButton" type="Button" parent="CanvasLayer/GUIController/Minerals/TestButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 24
+text = "+"
+
+[node name="MinusButton" type="Button" parent="CanvasLayer/GUIController/Minerals/TestButtonContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 24
+text = "-"
+
+[node name="Misc" type="Node" parent="."]
+
+[node name="BGMusicPlayer" type="AudioStreamPlayer" parent="Misc"]
+stream = ExtResource("15_evh0f")
+volume_db = -15.0
+autoplay = true
+script = ExtResource("16_tyidh")
+
+[connection signal="units_selected" from="RTSController" to="CanvasLayer/GUIController" method="_on_rts_controller_units_selected"]
+[connection signal="pressed" from="CanvasLayer/GUIController/SelectionBar/BuildingsGrid/OptionButton1" to="CanvasLayer/GUIController" method="_on_option_button_1_pressed"]
+[connection signal="pressed" from="CanvasLayer/GUIController/SelectionBar/BuildingsGrid/OptionButton2" to="CanvasLayer/GUIController" method="_on_option_button_2_pressed"]
+[connection signal="pressed" from="CanvasLayer/GUIController/Minerals/TestButtonContainer/PlusButton" to="CanvasLayer/GUIController" method="_on_plus_button_pressed"]
+[connection signal="pressed" from="CanvasLayer/GUIController/Minerals/TestButtonContainer/MinusButton" to="CanvasLayer/GUIController" method="_on_minus_button_pressed"]
+[connection signal="finished" from="Misc/BGMusicPlayer" to="Misc/BGMusicPlayer" method="_on_finished"]
