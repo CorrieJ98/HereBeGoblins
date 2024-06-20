@@ -11,3 +11,5 @@ res://scripts/main_building.gd
 res://scripts/unit.gd
 res://scripts/worker.gd
 res://scripts/worker_ai.gd
+res://scenes/BGMusicPlayer.gd
+res://scripts/RTSController.gd

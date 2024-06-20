@@ -1,7 +1,8 @@
+AudioStreamPlayer
+Node
 Timer
 CollisionShape3D
 Area3D
-Node
 StaticBody3D
 Node3D
 TextureProgressBar
